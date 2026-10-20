@@ -26,8 +26,8 @@ home screen; it works offline.
   `bio-` Biology. For a new deck, pick a short prefix and add the deck to `decks/index.json`
   (`id`, `name`, `code`, `color` from yellow, green, pink, blue, orange, lavender, `file`).
 - Never reuse a deleted card's id. Retired so far (starter cards Umar asked to remove on 2026-10-20):
-  `phy-0001`–`phy-0012`, `che-0001`–`che-0012`, `bio-0001`–`bio-0010`. So the next new ids are
-  `phy-0013`, `che-0013` and `bio-0011`.
+  `phy-0001`–`phy-0012`, `che-0001`–`che-0012`, `bio-0001`–`bio-0010`. Always number from the
+  highest id currently in the deck file (as of 2026-10-20 Biology runs `bio-0011`–`bio-0117`).
 - Umar wants to make his own cards or ask for specific ones: don't add cards he hasn't asked for.
 - Text supports `**key words**` (shown highlighted, like mark-scheme key words), line breaks (`\n`),
   maths with KaTeX between `$...$` (inline) or `$$...$$` (own line), and chemistry with mhchem
@@ -39,7 +39,12 @@ home screen; it works offline.
 - Syllabuses: Physics 9702, Chemistry 9701, Biology 9700 (Cambridge International A Level).
 - Accuracy matters a lot: use Cambridge syllabus/mark-scheme wording for definitions, double-check
   every fact, unit and equation, and flag exam traps or common misconceptions on the back.
-- Keep each card to one idea. Answers should read like a short mark-scheme answer with key words bolded.
+- Keep each card to one question/idea. Answers should read like a mark-scheme answer with key words bolded.
+- Umar asked for dense cards that get the most out of each one (2026-10-20): one card per syllabus
+  question, with every mark point numbered on the back, plus worked examples, a short memory hook
+  and "Trap:" lines where useful. The Biology Ch 1–5 cards (from his notes PDF) follow this pattern.
+- Long formulas: put fractions in `$$...$$` on their own line and keep them narrow enough for a
+  360px-wide phone screen; two inline `\dfrac`s on consecutive lines overlap.
 - Use simple notation; avoid unnecessary Greek letters.
 
 ## Cards Umar made on his phone

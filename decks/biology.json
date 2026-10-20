@@ -1,4 +1,647 @@
 {
   "deck": "biology",
-  "cards": []
+  "cards": [
+    {
+      "id": "bio-0011",
+      "topic": "Cell structure",
+      "front": "How do you make a temporary slide of cells to view with a light microscope?\n\n5 steps · 1.1.1",
+      "back": "1. Use a **thin layer** of tissue, ideally **one cell thick** (e.g. onion epidermis peeled off with **forceps**), so light passes through.\n2. Place it flat in a **drop of water or stain** on a clean slide: **iodine solution** for plant cells, **methylene blue** for animal cells (stain gives **contrast**).\n3. Lower a **coverslip at an angle** using a **mounted needle** to **avoid trapping air bubbles**.\n4. **Blot off excess liquid** with paper towel.\n5. View under **low power first**, then **high power**.\n\nWhy the coverslip: flattens the cells, stops them drying out, protects the lens. Air bubbles look like circles with thick black edges."
+    },
+    {
+      "id": "bio-0012",
+      "topic": "Cell structure",
+      "front": "What are the rules for a biological drawing of cells from a slide or photomicrograph?\n\n7 rules · 1.1.2",
+      "back": "1. **Sharp pencil**, **clear continuous (unbroken) lines**, **no shading**.\n2. Drawing uses **most of the space** given.\n3. Correct **shapes** and **relative sizes / proportions** of cells.\n4. Cell walls drawn with **two lines** (**three lines** where two cells touch).\n5. Draw **only what you can actually see**.\n6. **Label lines** drawn with a **ruler**, **touching** the structure, **not crossing**; labels go **outside** the drawing.\n7. A **plan diagram** shows **tissue outlines only, no individual cells**, with layers in the **correct proportions**.\n\nHook: a biology drawing is a map, not a painting."
+    },
+    {
+      "id": "bio-0013",
+      "topic": "Cell structure",
+      "front": "How do you calculate magnification and actual size, including from a scale bar?\n\n7 points · 1.1.3",
+      "back": "1. Magnification:\n$$\\text{magnification} = \\frac{\\text{image size}}{\\text{actual size}}$$\n2. Rearranged (I AM triangle):\n$$\\text{actual size} = \\frac{\\text{image size}}{\\text{magnification}}$$\n3. **Convert both to the same units first** (usually µm): 1 mm = 1000 µm.\n4. Magnification has **no units**: write it with **×**, e.g. **×20 000**.\n5. **Scale bar**: magnification = **measured length of the scale bar ÷ the length it represents**.\n6. Same method for **drawings, photomicrographs and electron micrographs** (TEM and SEM).\n7. Show **all working**; give the answer to the **same number of significant figures as the data, or one more**.\n\nExample: a mitochondrion is 30 mm long on a ×15 000 micrograph. 30 mm = 30 000 µm, so 30 000 ÷ 15 000 = **2 µm**.\nExample: a 1 µm scale bar measures 20 mm. 20 000 µm ÷ 1 µm = **×20 000**.\n\nTrap: writing \"20 000 µm\" as a magnification loses the mark."
+    },
+    {
+      "id": "bio-0014",
+      "topic": "Cell structure",
+      "front": "How do you calibrate an eyepiece graticule with a stage micrometer and use it to measure a cell? What are the units?\n\n7 points · 1.1.4",
+      "back": "1. The **eyepiece graticule** is a scale in the eyepiece with **no units**; it must be **calibrated** before use.\n2. Put a **stage micrometer** on the stage: a slide with a scale of **known length** (e.g. 1 division = 0.01 mm = **10 µm**).\n3. **Line up the two scales**; count how many **eyepiece units** match a known number of **stage micrometer divisions**.\n4. **1 eyepiece unit = length on stage micrometer ÷ number of eyepiece units**.\n5. **Remove the micrometer**, measure the specimen in **eyepiece units**, then **multiply by the calibration value** to get the actual size.\n6. **Recalibrate for each objective lens**: one eyepiece unit is worth a different length at each magnification.\n7. Units: **1 mm = 1000 µm**, **1 µm = 1000 nm**.\n\nExample: 40 eyepiece units line up with 10 stage divisions (10 × 10 µm = 100 µm), so 1 eyepiece unit = 100 ÷ 40 = **2.5 µm**. A cell 16 eyepiece units long = 16 × 2.5 = **40 µm**."
+    },
+    {
+      "id": "bio-0015",
+      "topic": "Cell structure",
+      "front": "Define magnification and resolution. Why does an electron microscope show more detail than a light microscope?\n\n6 points · 1.1.5",
+      "back": "1. **Magnification**: how many times **larger the image** is than the **actual size** of the object.\n2. **Resolution**: the ability to **distinguish between two points that are close together** as **separate points**.\n3. Increasing magnification **without** increasing resolution gives a **bigger but blurred image** with **no more detail**.\n4. Resolution is **limited by the wavelength** of the radiation. Visible light ≈ **400–700 nm**, so the light microscope's resolution is about **200 nm (0.2 µm)**.\n5. **Electrons have a much shorter wavelength**, so the EM has a **higher resolution** (about **0.5 nm** for TEM).\n6. So the EM shows **ultrastructure**: small organelles such as **ribosomes** (about 25 nm) and the **internal detail** of mitochondria, ER and Golgi.\n\nHook: magnification = zoom, resolution = sharpness.\nTrap: resolution is not \"clarity\" or \"zoom\". Use the definition."
+    },
+    {
+      "id": "bio-0016",
+      "topic": "Cell structure",
+      "front": "Compare the light microscope, TEM and SEM: radiation, resolution, image and specimen.\n\n1.1.5",
+      "back": "**Light**: light · about **200 nm** · **colour, 2D** · specimen **can be living**.\n**TEM**: electrons **pass through a thin section** · about **0.5 nm (highest)** · **black and white, 2D** · **dead (in a vacuum)**.\n**SEM**: electrons **bounce off the surface** · **lower than TEM** · **black and white, 3D surface** · **dead (in a vacuum)**.\n\nNote: colour on EM images is **false colour**, added by computer."
+    },
+    {
+      "id": "bio-0017",
+      "topic": "Cell structure",
+      "front": "Cell surface membrane: structure and function.\n\n1.2.1",
+      "back": "Structure: **phospholipid bilayer** with **proteins** in it (**fluid mosaic**), about **7 nm** thick.\nFunction: **partially permeable**; **controls what enters and leaves** the cell.\nAlso involved in **cell signalling** (**receptors**) and **cell recognition** (**antigens**).\n\nHook: border control. Receptors are doorbells for hormones; antigens are the cell's ID card."
+    },
+    {
+      "id": "bio-0018",
+      "topic": "Cell structure",
+      "front": "Nucleus, nuclear envelope, nuclear pores and nucleolus: structure and function.\n\n5 points · 1.2.1",
+      "back": "1. Nucleus: usually the **largest organelle**; contains **chromatin** (**DNA wound around histone proteins**) and a nucleolus.\n2. Function: contains the **genetic information (DNA)** that **controls the cell's activities** by **coding for proteins**; site of **DNA replication** and **transcription** (making mRNA).\n3. Nuclear envelope: **two membranes (double membrane)**; the **outer membrane is continuous with the RER**; has **nuclear pores**.\n4. Nuclear pores allow exchange between nucleus and cytoplasm: **mRNA and ribosome subunits out**; **nucleotides and proteins (e.g. enzymes) in**.\n5. Nucleolus: a **dense, darkly stained region** in the nucleus (**no membrane**); **makes ribosomes** (**makes rRNA** and **assembles ribosome subunits**).\n\nTrap: say \"nuclear **envelope**\", not \"nuclear membrane\"."
+    },
+    {
+      "id": "bio-0019",
+      "topic": "Cell structure",
+      "front": "Rough endoplasmic reticulum (RER): structure and function.\n\n3 points · 1.2.1",
+      "back": "1. Structure: a network of **flattened membrane-bound sacs (cisternae)** with **ribosomes attached** to the outer surface; **continuous with the outer membrane of the nuclear envelope**.\n2. Function: proteins made by its ribosomes **enter the cisternae**, where they are **folded** and **transported**, then sent to the **Golgi body in vesicles**.\n3. These are mainly proteins **for secretion**, **for membranes** and **for lysosomes**.\n\nContrast: proteins made on **free ribosomes** in the cytoplasm stay inside the cell."
+    },
+    {
+      "id": "bio-0020",
+      "topic": "Cell structure",
+      "front": "Smooth endoplasmic reticulum (SER): structure and function.\n\n3 points · 1.2.1",
+      "back": "1. Structure: a network of **membrane-bound tubules/sacs** with **no ribosomes**.\n2. Function: **makes lipids and steroids** (e.g. **cholesterol**, **steroid hormones**).\n3. Extra roles: **detoxification** in **liver cells**; **stores calcium ions** in **muscle cells**.\n\nHook: RER = protein factory, SER = lipid factory."
+    },
+    {
+      "id": "bio-0021",
+      "topic": "Cell structure",
+      "front": "Golgi body (Golgi apparatus / Golgi complex): structure and function.\n\n3 points · 1.2.1",
+      "back": "1. Structure: a **stack of flattened, curved membrane-bound sacs (cisternae)**, with **vesicles budding off** the edges.\n2. **Receives proteins (and lipids) from the RER in vesicles** and **modifies** them, e.g. **adds carbohydrate** to make **glycoproteins**.\n3. **Packages** them into **vesicles** for **secretion (exocytosis)**, for the **cell surface membrane**, or to **form lysosomes**.\n\nHook: the post office. It receives parcels, adds the address label (sugar group), then sends them out in vans (vesicles).\nTrap: the Golgi **modifies and packages** proteins; **ribosomes make** them."
+    },
+    {
+      "id": "bio-0022",
+      "topic": "Cell structure",
+      "front": "Describe how a protein is made and secreted from a cell (the secretory pathway).\n\n8 steps · classic 4–5 marker · 1.2.1",
+      "back": "1. **Transcription** in the **nucleus** makes **mRNA**.\n2. mRNA leaves through a **nuclear pore**.\n3. **Translated** on **ribosomes on the RER**.\n4. The protein **enters the RER cisternae** (and is folded).\n5. Carried in a **vesicle** to the **Golgi body**.\n6. **Modified** and **packaged** into a **secretory vesicle**.\n7. The vesicle moves to the **cell surface membrane** (along **microtubules**) and **fuses** with it.\n8. The protein is released by **exocytosis**.\n\nHook: head office → factory → post office → delivery van → out the door."
+    },
+    {
+      "id": "bio-0023",
+      "topic": "Cell structure",
+      "front": "Mitochondria: structure and function.\n\n3 points · 1.2.1",
+      "back": "1. Structure: **double membrane (envelope)**; the **inner membrane is folded into cristae** (**larger surface area**); the **matrix** contains **70S ribosomes** and **small circular DNA**. About **1 µm** wide.\n2. Function: site of **aerobic respiration**, which **produces ATP**.\n3. The circular DNA and 70S ribosomes let mitochondria **make some of their own proteins**.\n\nTrap: say \"**produces ATP**\" or \"**releases energy**\", never \"produces energy\"."
+    },
+    {
+      "id": "bio-0024",
+      "topic": "Cell structure",
+      "front": "Ribosomes: structure, the two types, and function.\n\n4 points · 1.2.1",
+      "back": "1. **Two subunits** (large and small) made of **rRNA and protein**; **no membrane**; about **25 nm** across (EM only).\n2. **80S** ribosomes are in the **cytoplasm** (**free** or **attached to the RER**).\n3. **70S** ribosomes (smaller) are in **mitochondria and chloroplasts** (and in **prokaryotes**).\n4. Function: site of **protein synthesis** (**translation**: mRNA code → polypeptide).\n\nNote: S (Svedberg unit) = how fast it sinks in a centrifuge. Bigger sinks faster, so 80S is bigger than 70S.\nTrap: 70S ribosomes are **not only** in prokaryotes."
+    },
+    {
+      "id": "bio-0025",
+      "topic": "Cell structure",
+      "front": "Lysosomes: structure and function.\n\n3 points · 1.2.1",
+      "back": "1. Structure: **small spherical sacs** surrounded by a **single membrane**, containing **hydrolytic (digestive) enzymes**.\n2. Function: break down **unwanted material**: **worn-out organelles**, and material taken in by **endocytosis / phagocytosis** (e.g. **bacteria engulfed by white blood cells**). They **fuse with the vesicle** holding it.\n3. Can also **release their enzymes outside the cell (exocytosis)** or **digest the whole cell (autolysis)**.\n\nWhy the membrane: it keeps the enzymes away from the rest of the cell, so the cell doesn't digest itself."
+    },
+    {
+      "id": "bio-0026",
+      "topic": "Cell structure",
+      "front": "Microtubules and centrioles: structure and function.\n\n4 points · 1.2.1",
+      "back": "1. Microtubules: **long, rigid, hollow tubes** made of the protein **tubulin**, about **25 nm** in diameter.\n2. Microtubule functions: part of the **cytoskeleton** (**support and shape**), **tracks for moving organelles and vesicles**, and form the **spindle** in nuclear division.\n3. Centrioles: a **pair of hollow cylinders at right angles** to each other, each made of **9 triplets of microtubules**, found in the **centrosome**. **Absent in most plant cells**.\n4. Centrosome / centrioles: **organise microtubules**, e.g. to **form the spindle** in cell division. Centrioles also form the **basal bodies of cilia**."
+    },
+    {
+      "id": "bio-0027",
+      "topic": "Cell structure",
+      "front": "Cilia: structure and function.\n\n2 points · 1.2.1",
+      "back": "1. Structure: **hair-like extensions of the cell surface membrane** containing **microtubules in a 9 + 2 arrangement** (9 pairs around the outside, 2 single ones in the centre), anchored by a **basal body**.\n2. Function: **beat in coordinated waves (using ATP)** to **move fluid or mucus** over the cell surface (e.g. **ciliated epithelium in the trachea** sweeps mucus up), or to **move the whole cell**.\n\nHook: a Mexican wave passing the mucus along like a beach ball.\nTrap: cilia ≠ microvilli."
+    },
+    {
+      "id": "bio-0028",
+      "topic": "Cell structure",
+      "front": "Microvilli: structure and function. How are they different from cilia?\n\n2 points · 1.2.1",
+      "back": "1. Structure: **finger-like extensions (folds) of the cell surface membrane**, **much smaller than cilia**, with **no 9 + 2 microtubules**.\n2. Function: **increase the surface area for absorption** (e.g. epithelial cells of the **small intestine** and **kidney tubules**).\n\nTrap: microvilli **don't move**. Cilia **beat** and have the **9 + 2** structure."
+    },
+    {
+      "id": "bio-0029",
+      "topic": "Cell structure",
+      "front": "Chloroplasts: structure and function.\n\n3 points · 1.2.1",
+      "back": "1. Structure: **double membrane (envelope)**; internal **thylakoid membranes stacked into grana**; fluid **stroma** containing **70S ribosomes**, **small circular DNA** and **starch grains**. **Larger than mitochondria**.\n2. Function: site of **photosynthesis**: **absorbs light energy** to **make sugars** (stored as **starch**).\n3. The circular DNA and 70S ribosomes let it **make some of its own proteins**.\n\nTrap: plant cells have **mitochondria as well as chloroplasts**."
+    },
+    {
+      "id": "bio-0030",
+      "topic": "Cell structure",
+      "front": "Plant cell wall: structure and function. What are fungal and bacterial cell walls made of?\n\n3 points · 1.2.1",
+      "back": "1. Structure (plants): made of **cellulose (microfibrils)**; **freely (fully) permeable**.\n2. Function: gives **mechanical strength / support**; **prevents the cell bursting** when water enters by **osmosis**; lets **water and solutes pass through freely**.\n3. Other walls: fungi have **chitin**; bacteria have **peptidoglycan**.\n\nHook: a cardboard box around a balloon.\nTrap: the **wall is fully permeable**; the **membrane** is the partially permeable one."
+    },
+    {
+      "id": "bio-0031",
+      "topic": "Cell structure",
+      "front": "Plasmodesmata: structure and function.\n\n2 points · 1.2.1",
+      "back": "1. Structure: **narrow channels through the cell walls** of neighbouring plant cells, **lined with cell surface membrane**, so the **cytoplasm is continuous** between cells.\n2. Function: allow **transport of substances** (e.g. water and solutes) and **communication** between neighbouring cells.\n\nLink: the **symplast pathway** in Transport in plants."
+    },
+    {
+      "id": "bio-0032",
+      "topic": "Cell structure",
+      "front": "Large permanent vacuole and tonoplast: structure and function.\n\n3 points · 1.2.1",
+      "back": "1. Structure: a large sac filled with **cell sap** (water with dissolved **sugars, ions and pigments**), surrounded by a **partially permeable** membrane called the **tonoplast**.\n2. Vacuole function: **storage**; when full of water it **pushes the cytoplasm against the wall**, keeping the cell **turgid** for **support**.\n3. Tonoplast function: **controls the movement of substances into and out of the vacuole**.\n\nNote: animal cells only have **small, temporary vacuoles**."
+    },
+    {
+      "id": "bio-0033",
+      "topic": "Cell structure",
+      "front": "On a micrograph: what can a light microscope show, what needs an electron microscope, and how do you tell a plant cell from an animal cell?\n\n4 points · 1.2.2",
+      "back": "1. A **light microscope** shows: **nucleus**, **cell wall**, **cell surface membrane**, **large vacuole**, **chloroplasts** (and mitochondria only as **tiny dots**).\n2. **Only an EM** shows: **ribosomes**, **ER**, **Golgi**, **lysosomes**, **centrioles**, **nuclear pores**, and the **internal structure of mitochondria and chloroplasts**. This is **ultrastructure** (below the 200 nm limit).\n3. **Plant cell**: **cell wall**, **large permanent vacuole**, **chloroplasts**, **plasmodesmata**.\n4. **Animal cell**: **no cell wall**, **centrioles**, maybe **microvilli** or **cilia**."
+    },
+    {
+      "id": "bio-0034",
+      "topic": "Cell structure",
+      "front": "How do you identify each structure on an electron micrograph?\n\n13 structures · 1.2.2",
+      "back": "**Nucleus**: large and round; **double membrane with gaps (pores)**; dark patches of **chromatin**; a dark **nucleolus**.\n**Mitochondrion**: oval or sausage-shaped; **double membrane**; inner membrane folds (**cristae**) poking into the matrix.\n**Chloroplast**: larger and oval; **double membrane**; **stacks of parallel membranes (grana)**; pale **starch grains**.\n**RER**: parallel flattened membranes **covered in dots** (ribosomes), often near the nucleus.\n**SER**: membrane tubes or sacs with **no dots**.\n**Golgi body**: a **stack of curved, flattened sacs** with **small round vesicles** at the edges.\n**Lysosome**: small round body, **single membrane**, **dense dark contents**.\n**Ribosomes**: **tiny dark dots**, free or along the RER.\n**Centrioles**: **two short cylinders at right angles**, near the nucleus; cross-section = a **ring of 9 triplets**.\n**Cilia**: long projections from the surface; **9 + 2** pattern in cross-section.\n**Microvilli**: many short **finger-like folds** forming a fringe on one surface.\n**Cell wall**: a **thick, pale layer** outside the cell surface membrane.\n**Large vacuole**: a big, **pale, empty-looking** area with **one membrane (tonoplast)**.\n\nFastest check: **double membrane**? Then it's the nucleus (**pores**), a mitochondrion (**cristae**) or a chloroplast (**grana**)."
+    },
+    {
+      "id": "bio-0035",
+      "topic": "Cell structure",
+      "front": "Compare the structure of typical plant and animal cells: differences and similarities.\n\n8 differences · 1.2.3",
+      "back": "Plant vs animal:\n1. Cell wall: **present, cellulose** vs **absent**.\n2. Vacuole: **large permanent vacuole with a tonoplast** vs **small, temporary vacuoles**.\n3. Chloroplasts: **present** (in photosynthesising cells) vs **absent**.\n4. Plasmodesmata: **present** vs **absent**.\n5. Centrioles: **absent** (most plant cells) vs **present**.\n6. Cilia / microvilli: **absent** vs **may be present**.\n7. Carbohydrate store: **starch grains** vs **glycogen granules**.\n8. Shape: **regular, fixed by the wall** vs **variable**.\n\nBoth have: **cell surface membrane**, **nucleus** (nuclear envelope + nucleolus), **cytoplasm**, **mitochondria**, **RER**, **SER**, **Golgi body**, **80S ribosomes**, **microtubules**.\n\nExam tip: \"compare\" = **matched pairs** in one sentence, e.g. \"plant cells have a cellulose cell wall **but** animal cells do not\"."
+    },
+    {
+      "id": "bio-0036",
+      "topic": "Cell structure",
+      "front": "How do cells use ATP? Give examples of processes that need it.\n\n3 points · 1.2.4",
+      "back": "1. Cells use **ATP produced by respiration** (mainly **aerobic respiration in mitochondria**) as the **energy source** for **energy-requiring processes**.\n2. ATP is **hydrolysed** to **ADP + phosphate**, **releasing energy** for the process.\n3. Examples: **active transport**, **movement / muscle contraction** (e.g. cilia beating), **protein synthesis**, **DNA replication**, **cell division**, **endocytosis / exocytosis**.\n\nHook: glucose is money in the bank, ATP is cash in your pocket, respiration is the ATM.\nTrap: respiration **releases** energy; it does **not produce** energy."
+    },
+    {
+      "id": "bio-0037",
+      "topic": "Cell structure",
+      "front": "Outline the key structural features of a typical prokaryotic cell (bacterium).\n\n6 syllabus features · 1.2.5",
+      "back": "1. **Unicellular**.\n2. Generally **1–5 µm** in diameter.\n3. **Cell wall made of peptidoglycan** (not cellulose).\n4. **Circular DNA**, lying free in the cytoplasm (**no nucleus**, **no histones**).\n5. **70S ribosomes**.\n6. **No organelles surrounded by a double membrane**: no nucleus, mitochondria or chloroplasts (and no ER or Golgi either).\n\nExtras for \"compare\" answers: may have **plasmids**, a **capsule**, a **flagellum**.\nTrap: prokaryotes **do** have DNA and ribosomes."
+    },
+    {
+      "id": "bio-0038",
+      "topic": "Cell structure",
+      "front": "Compare a prokaryotic cell with typical eukaryotic (plant and animal) cells.\n\n9 matched pairs + similarities · 1.2.6",
+      "back": "Prokaryote vs eukaryote:\n1. Size: **1–5 µm** vs **larger, usually 10–100 µm**.\n2. DNA: **circular, free in the cytoplasm, no histones** vs **linear, in a nucleus, wound around histones** (chromosomes).\n3. Nucleus / nuclear envelope: **absent** vs **present**.\n4. Ribosomes: **70S only** vs **80S in the cytoplasm** (70S in mitochondria and chloroplasts).\n5. Cell wall: **always present, peptidoglycan** vs plant **cellulose**, animal **none**.\n6. Mitochondria and chloroplasts (double membrane): **absent** vs **present**.\n7. ER, Golgi, lysosomes: **absent** vs **present**.\n8. Plasmids: **often present** vs **usually absent**.\n9. **Unicellular** vs **often multicellular**.\n\nBoth have: **cell surface membrane**, **cytoplasm**, **ribosomes**, **DNA**.\n\nTrap (MCQ): eukaryotes also have **70S** ribosomes, inside mitochondria and chloroplasts."
+    },
+    {
+      "id": "bio-0039",
+      "topic": "Cell structure",
+      "front": "What are viruses made of?\n\n5 points · 1.2.7",
+      "back": "1. All viruses are **non-cellular** structures (no cytoplasm, no ribosomes, no membrane of their own, no metabolism).\n2. They have a **nucleic acid core**: **either DNA or RNA** (never both).\n3. The core is surrounded by a **capsid made of protein**.\n4. Some have an **outer envelope made of phospholipids** (e.g. **HIV**), taken from the host cell's membrane.\n5. Very small (about **20–300 nm**); can only **reproduce inside a host cell**.\n\nTrap: there is no virus \"cell\" or \"cell wall\"."
+    },
+    {
+      "id": "bio-0040",
+      "topic": "Biological molecules",
+      "front": "Describe the Benedict's test for reducing sugars, with positive and negative results.\n\n4 points · 2.1.1",
+      "back": "1. Add an **equal volume of Benedict's solution** (blue) to the sample **in solution**.\n2. **Heat in a boiling water bath** for a few minutes.\n3. Positive: **blue → green → yellow → orange → brick-red precipitate**.\n4. Negative: **stays blue**.\n\nWhy: reducing sugars **reduce** blue $\\ce{Cu^2+}$ to $\\ce{Cu+}$, forming a red **copper(I) oxide** precipitate. More sugar → more precipitate → further along the colour scale.\nTrap: **Benedict's needs heating**; biuret does not."
+    },
+    {
+      "id": "bio-0041",
+      "topic": "Biological molecules",
+      "front": "Describe the test for starch, with positive and negative results.\n\n3 points · 2.1.1",
+      "back": "1. Add a few drops of **iodine in potassium iodide solution** (**no heating**).\n2. Positive: **orange-brown → blue-black**.\n3. Negative: **stays orange-brown**.\n\nWhy: iodine slots inside the **amylose helix**, which gives the blue-black colour."
+    },
+    {
+      "id": "bio-0042",
+      "topic": "Biological molecules",
+      "front": "Describe the emulsion test for lipids, with positive and negative results.\n\n4 points · 2.1.1",
+      "back": "1. **Shake** the sample with **ethanol** to dissolve any lipid.\n2. **Pour the ethanol solution into water** and shake.\n3. Positive: a **white (milky) emulsion** forms.\n4. Negative: **stays clear**.\n\nWhy: lipid comes out of solution as tiny droplets that scatter light.\nTrap: **ethanol first, then water** (lipids dissolve in ethanol, not in water)."
+    },
+    {
+      "id": "bio-0043",
+      "topic": "Biological molecules",
+      "front": "Describe the biuret test for proteins, with positive and negative results.\n\n3 points · 2.1.1",
+      "back": "1. Add **biuret reagent** (or **sodium hydroxide solution**, then a few drops of **dilute copper(II) sulfate**). **No heating**.\n2. Positive: **blue → purple (lilac)**.\n3. Negative: **stays blue**.\n\nWhy: copper ions form a purple complex with **peptide bonds**. Free amino acids have no peptide bond, so they test negative."
+    },
+    {
+      "id": "bio-0044",
+      "topic": "Biological molecules",
+      "front": "How do you use the Benedict's test semi-quantitatively to estimate the concentration of a reducing sugar?\n\n4 points · 2.1.2",
+      "back": "1. Make a **range of known concentrations** of reducing sugar (e.g. glucose) by **serial dilution** (your **colour standards**).\n2. **Standardise**: same **volume of sample**, same **volume of Benedict's (in excess)**, same **temperature** (boiling water bath), same **heating time**.\n3. Either **compare the final colour** of the unknown **with the colour standards**, or record the **time to first colour change** for each.\n4. **Estimate** the unknown's concentration from the **closest matching standard** (or from a **graph of time against concentration**).\n\nHigher concentration → **changes colour sooner** and ends further towards brick-red.\nBenedict's in excess means the **sugar**, not the reagent, decides the colour.\nImprovement: colour judging is **subjective**, so use a **colorimeter**."
+    },
+    {
+      "id": "bio-0045",
+      "topic": "Biological molecules",
+      "front": "Describe the test for a non-reducing sugar.\n\n4 steps · 2.1.3",
+      "back": "1. Do a **Benedict's test first**: it **stays blue** (negative).\n2. Take a **fresh sample** and **heat it with dilute hydrochloric acid** (boiling water bath). The acid **hydrolyses the glycosidic bond**: sucrose → **glucose + fructose** (reducing sugars).\n3. **Cool**, then **neutralise** with **sodium hydrogencarbonate** (until fizzing stops / check with indicator paper), because Benedict's only works in **alkaline** conditions.\n4. **Repeat the Benedict's test**: **orange / brick-red precipitate** = non-reducing sugar present.\n\nNote: if the first test was already positive, a **deeper colour / more precipitate** after hydrolysis means a non-reducing sugar is **also** present."
+    },
+    {
+      "id": "bio-0046",
+      "topic": "Biological molecules",
+      "front": "Describe the ring forms of α-glucose and β-glucose. How do they differ?\n\n3 points · 2.2.1",
+      "back": "1. Glucose is a **hexose (6-carbon) monosaccharide**, $\\ce{C6H12O6}$, with a ring of **5 carbons and 1 oxygen**; **carbon 6 sticks out above the ring** as $\\ce{CH2OH}$.\n2. **α-glucose**: the **OH on carbon 1 is below the ring**.\n3. **β-glucose**: the **OH on carbon 1 is above the ring**.\n\nEvery other H and OH is in the same position. Number the carbons clockwise, starting from the one next to the ring oxygen.\nHook: **ABBA**: Alpha Below, Beta Above.\nLink: α makes **starch and glycogen**; β makes **cellulose**."
+    },
+    {
+      "id": "bio-0047",
+      "topic": "Biological molecules",
+      "front": "Define monomer, polymer, macromolecule, monosaccharide, disaccharide and polysaccharide.\n\n6 definitions · 2.2.2",
+      "back": "1. **Monomer**: a **small, simple molecule** used as a **basic building block**; many monomers join to make a **polymer** (e.g. glucose, amino acids, nucleotides).\n2. **Polymer**: a **giant molecule** made of **many similar repeating subunits (monomers)** joined in a chain.\n3. **Macromolecule**: a **large biological molecule**, e.g. a **protein**, **polysaccharide** or **nucleic acid**.\n4. **Monosaccharide**: a **single sugar unit**, the **monomer of carbohydrates**, general formula $(\\mathrm{CH_2O})_n$, e.g. **glucose, fructose**. Triose (3C), **pentose** (5C, e.g. ribose), **hexose** (6C, e.g. glucose).\n5. **Disaccharide**: **two monosaccharides** joined by a **glycosidic bond** (**condensation**). Maltose = glucose + glucose; sucrose = glucose + fructose; lactose = glucose + galactose.\n6. **Polysaccharide**: a **polymer of many monosaccharides** joined by **glycosidic bonds**, e.g. **starch, glycogen, cellulose**."
+    },
+    {
+      "id": "bio-0048",
+      "topic": "Biological molecules",
+      "front": "State the role of covalent bonds in joining monomers to form polymers.\n\n3 points · 2.2.3",
+      "back": "1. Monomers are joined together by **covalent bonds** (shared electrons; **strong**, so polymers are **stable**).\n2. These bonds are made by **condensation** (**water released**) and broken by **hydrolysis** (**water added**).\n3. Examples: **glycosidic bonds** (polysaccharides), **peptide bonds** (proteins), **phosphodiester bonds** (nucleic acids).\n\nTrap: **ester bonds** join glycerol to fatty acids, but **triglycerides are not polymers** (no repeating monomers)."
+    },
+    {
+      "id": "bio-0049",
+      "topic": "Biological molecules",
+      "front": "Which sugars are reducing sugars, and which is non-reducing? Why?\n\n2 points · 2.2.4",
+      "back": "1. **Glucose, fructose and maltose** are **reducing sugars** (all monosaccharides are): they **reduce** the $\\ce{Cu^2+}$ in Benedict's, giving a positive result.\n2. **Sucrose** is a **non-reducing sugar**: the groups that would reduce $\\ce{Cu^2+}$ are **used up in the glycosidic bond**. **Acid hydrolysis** frees them."
+    },
+    {
+      "id": "bio-0050",
+      "topic": "Biological molecules",
+      "front": "Describe the formation of a glycosidic bond by condensation.\n\n4 points · 2.2.5",
+      "back": "1. A **condensation reaction** between **two monosaccharides** forms a **glycosidic bond** and **releases one water molecule**.\n2. The **OH on carbon 1** of one glucose reacts with the **OH on carbon 4** of the other → a **1,4-glycosidic bond** (C–O–C). Two α-glucose → **maltose + water**.\n3. **Sucrose** forms by condensation between **α-glucose and fructose** (bond between C1 of glucose and C2 of fructose).\n4. **Polysaccharides** form by **many condensation reactions**, adding monosaccharides to the chain **one at a time** (each releases a water; enzymes catalyse each step).\n\nThe water is made from the OH of one glucose and the H of the other's OH."
+    },
+    {
+      "id": "bio-0051",
+      "topic": "Biological molecules",
+      "front": "Describe the breakage of a glycosidic bond by hydrolysis.\n\n3 points · 2.2.6",
+      "back": "1. **Hydrolysis**: **adding water breaks the glycosidic bond**, splitting a disaccharide or polysaccharide into **monosaccharides** (the reverse of condensation).\n2. In cells it is catalysed by **enzymes** (e.g. **amylase** breaks down starch). In the lab: **heating with dilute acid**.\n3. Link: acid hydrolyses **sucrose → glucose + fructose**, which are **reducing sugars**, so Benedict's then turns positive (non-reducing sugar test)."
+    },
+    {
+      "id": "bio-0052",
+      "topic": "Biological molecules",
+      "front": "Describe the structure of starch (amylose and amylopectin) and glycogen, and relate their structure to their function.\n\n7 points · 2.2.7",
+      "back": "1. **Starch**: **energy store in plants**; a mixture of **amylose and amylopectin**, both **polymers of α-glucose**.\n2. **Amylose**: α-glucose joined by **1,4-glycosidic bonds** only → an **unbranched** chain that **coils into a helix** (held by **hydrogen bonds**).\n3. **Amylopectin**: **1,4-glycosidic bonds** plus **1,6-glycosidic bonds** that form **branches**.\n4. **Glycogen**: **energy store in animals (and fungi)**, e.g. in **liver and muscle**; α-glucose with 1,4 and 1,6 bonds, **more branched than amylopectin**.\n5. **Compact** (coiled / branched) → **lots of glucose stored in a small space**.\n6. **Insoluble** → **no effect on water potential**, and **can't diffuse out** of the cell.\n7. **Branched** → **many ends** for enzymes to **hydrolyse glucose** from quickly → **rapid release of glucose for respiration** (glycogen is fastest).\n\nTrap: starch and glycogen are **α-glucose**; cellulose is **β-glucose**. Amylose is **unbranched**; amylopectin and glycogen have **1,6 branches**."
+    },
+    {
+      "id": "bio-0053",
+      "topic": "Biological molecules",
+      "front": "Describe the structure of cellulose and explain how it makes plant cell walls strong.\n\n5 points · 2.2.8",
+      "back": "1. Cellulose is a polymer of **β-glucose** joined by **1,4-glycosidic bonds**.\n2. **Every other β-glucose is rotated (flipped) 180°**, so the chain is **straight and unbranched**.\n3. Many **hydrogen bonds** form between **OH groups of neighbouring parallel chains** → chains group into **microfibrils** → **fibres**.\n4. The fibres have **high tensile strength**, so the cell wall **resists turgor pressure** and the cell **doesn't burst**.\n5. Fibres are laid in **layers at different angles** for extra strength; the gaps between fibres make the wall **fully permeable**.\n\nHook: one hydrogen bond is weak, millions together are strong, like Velcro."
+    },
+    {
+      "id": "bio-0054",
+      "topic": "Biological molecules",
+      "front": "Describe the structure of a triglyceride. What is the difference between saturated and unsaturated?\n\n5 points · 2.2.9",
+      "back": "1. Triglycerides are **non-polar** and **hydrophobic** (insoluble in water).\n2. Made of **one glycerol + three fatty acids**.\n3. Each fatty acid joins glycerol by an **ester bond**, formed by **condensation** between an **OH of glycerol** and the **COOH of a fatty acid** → **3 water molecules** released.\n4. A fatty acid = a **carboxyl group (COOH)** + a long **hydrocarbon chain**.\n5. **Saturated**: **no C=C double bonds** in the hydrocarbon chain. **Unsaturated**: **one or more C=C double bonds**, which put **kinks** in the chain, so chains can't pack tightly (oils, liquid at room temperature).\n\nTrap: don't say saturated = \"no double bonds\". The COOH has a C=O."
+    },
+    {
+      "id": "bio-0055",
+      "topic": "Biological molecules",
+      "front": "Relate the structure of triglycerides to their functions.\n\n6 functions · 2.2.10",
+      "back": "1. **Energy store**: **many C–H bonds** → release about **twice as much energy per gram** as carbohydrates when respired.\n2. **Insoluble / hydrophobic** → stored in large amounts **without affecting water potential**.\n3. **Thermal insulation** (e.g. fat under the skin, **blubber**): fat is a **poor conductor of heat**.\n4. **Buoyancy**: **less dense than water** (e.g. aquatic mammals).\n5. **Protection of organs**: cushioning (e.g. around the **kidneys**).\n6. **Metabolic water**: releases **water when oxidised** in respiration (e.g. **camels** and other desert animals)."
+    },
+    {
+      "id": "bio-0056",
+      "topic": "Biological molecules",
+      "front": "Describe the structure of a phospholipid and explain why phospholipids form a bilayer in water.\n\n4 points · 2.2.11",
+      "back": "1. **Glycerol + two fatty acids + a phosphate group** (the phosphate replaces the third fatty acid).\n2. The **phosphate head** is **polar** → **hydrophilic** (attracted to water).\n3. The **fatty acid tails** are **non-polar** → **hydrophobic** (repel water).\n4. In water they form a **bilayer**: **heads face the water**, **tails point inwards** away from the water.\n\nLink: the basis of every cell membrane (Cell membranes and transport)."
+    },
+    {
+      "id": "bio-0057",
+      "topic": "Biological molecules",
+      "front": "Describe the structure of an amino acid, and the formation and breakage of a peptide bond.\n\n5 points · 2.3.1",
+      "back": "1. An amino acid has a **central carbon** bonded to an **amine group** ($\\ce{NH2}$), a **carboxyl group** (COOH), a **hydrogen atom** and an **R group**.\n2. The **R group** is different in each of the **20 amino acids**.\n3. A **peptide bond** forms by **condensation** between the **COOH of one** amino acid and the **$\\ce{NH2}$ of another**, **releasing water**. It is a **C–N bond**.\n4. Two amino acids → a **dipeptide**; many → a **polypeptide**.\n5. **Breakage**: **hydrolysis** (water added), catalysed by **protease** enzymes.\n\nThe water = the OH from the carboxyl group + an H from the amine group."
+    },
+    {
+      "id": "bio-0058",
+      "topic": "Biological molecules",
+      "front": "Explain the primary, secondary, tertiary and quaternary structure of proteins.\n\n4 levels · 2.3.2",
+      "back": "1. **Primary**: the **sequence of amino acids** in a polypeptide chain, held by **peptide bonds**.\n2. **Secondary**: regular coiling or folding into an **α-helix** or **β-pleated sheet**, held by **hydrogen bonds** between the **C=O and N–H groups of the backbone**.\n3. **Tertiary**: further folding into a **precise 3D shape**, held by bonds **between R groups**: **hydrogen bonds**, **ionic bonds**, **disulfide bonds** and **hydrophobic interactions**.\n4. **Quaternary**: **two or more polypeptide chains** joined together (sometimes with a **prosthetic group**), e.g. **haemoglobin**. Held by the same bonds as tertiary.\n\nKey idea: the primary sequence decides where the bonds form → decides the shape → e.g. an enzyme's specific active site.\nTrap: secondary = **backbone** H bonds, not R groups. Tertiary = **R groups**."
+    },
+    {
+      "id": "bio-0059",
+      "topic": "Biological molecules",
+      "front": "Describe the four interactions that hold protein molecules in shape.\n\n4 bonds · 2.3.3",
+      "back": "1. **Hydrophobic interactions**: **non-polar R groups cluster together inside** the protein, **away from water**.\n2. **Hydrogen bonds**: between a **slightly positive H (δ+)** and a **slightly negative O or N (δ−)**. Individually **weak**, but **many**. Easily broken by **high temperature**.\n3. **Ionic bonds**: between **oppositely charged R groups** ($\\ce{NH3+}$ and $\\ce{COO-}$). Easily broken by **changes in pH**.\n4. **Disulfide bonds**: **covalent** bonds between the **sulfur atoms of two cysteine R groups** (S–S). The **strongest**; not broken by heat or pH changes.\n\nHeat or pH changes break the weaker bonds → the **3D shape is lost** = **denaturation**."
+    },
+    {
+      "id": "bio-0060",
+      "topic": "Biological molecules",
+      "front": "Compare globular and fibrous proteins, with examples.\n\n2 points · 2.3.4",
+      "back": "1. **Globular**: generally **soluble**; **physiological (metabolic) roles**, e.g. **enzymes, haemoglobin, antibodies, insulin**. They curl into a ball with **hydrophilic R groups outside** and **hydrophobic R groups inside**, so they dissolve.\n2. **Fibrous**: generally **insoluble**; **structural roles**, e.g. **collagen, keratin**. Long strands, not balls.\n\nHook: Globular does Good jobs; Fibrous = Framework."
+    },
+    {
+      "id": "bio-0061",
+      "topic": "Biological molecules",
+      "front": "Describe the structure of haemoglobin.\n\n3 points · 2.3.5",
+      "back": "1. A **globular protein** with **quaternary structure**: **four polypeptide chains**, **two α-globin and two β-globin**.\n2. Each chain has a **haem group** (a **prosthetic group**) containing an **iron ion** ($\\ce{Fe^2+}$), so there are **four haem groups** per molecule.\n3. **Hydrophobic R groups point inwards**, **hydrophilic R groups point outwards** → **soluble**."
+    },
+    {
+      "id": "bio-0062",
+      "topic": "Biological molecules",
+      "front": "Relate the structure of haemoglobin to its function.\n\n4 points · 2.3.6",
+      "back": "1. Function: **transports oxygen** in **red blood cells**, from the **lungs to respiring tissues**.\n2. Each $\\ce{Fe^2+}$ in a haem group **binds one** $\\ce{O2}$ molecule (**reversibly**), so each haemoglobin carries **four** $\\ce{O2}$.\n3. **Soluble** (hydrophilic R groups outside), so it **stays dissolved** in the cytoplasm of red blood cells.\n4. Its **precise shape** lets $\\ce{O2}$ **bind in the lungs** and be **released in respiring tissues**. **Changing one amino acid** (e.g. in **sickle cell anaemia**) changes the **shape and the function**."
+    },
+    {
+      "id": "bio-0063",
+      "topic": "Biological molecules",
+      "front": "Describe the structure of collagen molecules and collagen fibres.\n\n5 points · 2.3.7",
+      "back": "1. A **fibrous protein**: each molecule is **three polypeptide chains**, each a **helix**, wound around each other to form a **triple helix**.\n2. **Every third amino acid is glycine**, which has the **smallest R group**, so the chains can **pack closely** together.\n3. **Hydrogen bonds between the three chains** hold the triple helix together.\n4. Molecules lie **side by side**, joined by **covalent cross-links** between R groups, forming **fibrils** and then **fibres**.\n5. The **ends of neighbouring molecules are staggered**, so there are **no weak points** along the fibre.\n\nHook: a three-strand rope; staggered like bricks in a wall."
+    },
+    {
+      "id": "bio-0064",
+      "topic": "Biological molecules",
+      "front": "Relate the structure of collagen to its function.\n\n3 points · 2.3.8",
+      "back": "1. Collagen has **very high tensile strength**: it can **withstand pulling forces** without breaking.\n2. This strength comes from the **triple helix**, **many hydrogen bonds**, **covalent cross-links** and the **staggered molecules**.\n3. It is **insoluble** and **flexible**, and is found in **skin, tendons, bone, cartilage and artery walls**."
+    },
+    {
+      "id": "bio-0065",
+      "topic": "Biological molecules",
+      "front": "Explain how hydrogen bonds form between water molecules.\n\n3 points · 2.4.1",
+      "back": "1. Water is **polar**: the **oxygen is slightly negative (δ−)** and the **hydrogens are slightly positive (δ+)** (oxygen pulls the shared electrons towards itself).\n2. A **hydrogen bond** forms between the **δ+ H of one water molecule** and the **δ− O of another**.\n3. Each hydrogen bond is **weak**, but there are **millions**.\n\nTrap: **covalent bonds within** a molecule; **hydrogen bonds between** molecules."
+    },
+    {
+      "id": "bio-0066",
+      "topic": "Biological molecules",
+      "front": "Relate three properties of water to its roles in living organisms.\n\n3 properties, each with a role · 2.4.1",
+      "back": "1. **Solvent action**: polar water molecules **surround ions and polar molecules** (e.g. glucose), so they **dissolve**.\n2. → **Metabolic reactions** take place **in solution** (cytoplasm), and substances are **transported dissolved** (blood plasma, xylem, phloem).\n3. **High specific heat capacity**: **a lot of energy** is needed to raise the temperature of water, because **hydrogen bonds must be broken**.\n4. → Water **resists temperature changes**, so **body temperature** and **aquatic habitats** stay **stable** (enzymes keep working steadily).\n5. **High latent heat of vaporisation**: **a lot of energy** is needed to **evaporate** water, because **hydrogen bonds must be broken**.\n6. → **Evaporation of sweat** (or **transpiration** in plants) **removes a lot of heat**: **cooling with little water loss**."
+    },
+    {
+      "id": "bio-0067",
+      "topic": "Enzymes",
+      "front": "What are enzymes? (protein type, how they work, specificity)\n\n4 points · 3.1.1",
+      "back": "1. Enzymes are **globular proteins** that act as **biological catalysts**.\n2. They **speed up metabolic reactions** by **lowering the activation energy** and are **not used up** (unchanged at the end, so they're **reused**).\n3. Each enzyme is **specific**: it catalyses **one reaction**, because of the **shape of its active site**.\n4. Without enzymes, reactions in cells would be **too slow at body temperature**."
+    },
+    {
+      "id": "bio-0068",
+      "topic": "Enzymes",
+      "front": "Describe intracellular and extracellular enzymes, with examples.\n\n2 points · 3.1.1",
+      "back": "1. **Intracellular** enzymes are made and **work inside cells**, e.g. **catalase** (breaks down **hydrogen peroxide**, a toxic by-product of metabolism) and **DNA polymerase**.\n2. **Extracellular** enzymes are made in cells but **secreted to work outside the cell**, e.g. **amylase** (digests starch in the **mouth and small intestine**) and **trypsin** (digests protein in the **small intestine**)."
+    },
+    {
+      "id": "bio-0069",
+      "topic": "Enzymes",
+      "front": "Define active site, substrate, enzyme–substrate complex, product, activation energy and specificity.\n\n6 definitions · 3.1.2",
+      "back": "1. **Active site**: the region of an enzyme (a few amino acids) **where the substrate binds** and the **reaction takes place**. Its shape comes from the **tertiary structure**.\n2. **Substrate**: the molecule that **binds to the active site** and is **changed** by the enzyme.\n3. **Enzyme–substrate complex**: the **temporary structure** formed when the **substrate binds to the active site**.\n4. **Product**: the molecule(s) formed in the reaction, which **leave the active site**.\n5. **Activation energy**: the **minimum energy needed to start a reaction**.\n6. **Specificity**: an enzyme catalyses **only one reaction**, because only a substrate with a **complementary shape** fits its active site."
+    },
+    {
+      "id": "bio-0070",
+      "topic": "Enzymes",
+      "front": "Explain how enzymes lower the activation energy of a reaction.\n\n5 points · 3.1.2",
+      "back": "1. The substrate **binds to the active site**, forming an **enzyme–substrate complex**.\n2. The enzyme provides an **alternative pathway** for the reaction, so the **activation energy is lowered**.\n3. **Breakdown**: the enzyme **puts strain on the bonds** in the substrate, making them **easier to break**. **Synthesis**: it **holds the substrates close together in the correct orientation** so a bond forms.\n4. The **products leave** the active site and the enzyme is **unchanged**, free to catalyse the next reaction.\n5. So the reaction is **much faster at a lower temperature**.\n\nEnergy graph: the hump (Ea) is lower with the enzyme; the **energy of reactants and products stays the same**.\nTrap: enzymes **lower** the activation energy; they **don't give the reaction energy**."
+    },
+    {
+      "id": "bio-0071",
+      "topic": "Enzymes",
+      "front": "Explain the lock-and-key hypothesis of enzyme action.\n\n4 points · 3.1.2",
+      "back": "1. The active site has a **fixed shape** that is **complementary to the shape of the substrate**.\n2. The substrate **fits into the active site**, forming an **enzyme–substrate complex**.\n3. The reaction takes place, and the **products leave** the active site.\n4. Only substrates with the **correct shape** can fit, so each enzyme is **specific**.\n\nLimit: it treats the enzyme as **rigid**. Proposed by Fischer.\nTrap: the **substrate is the key** and the **enzyme is the lock**, never the reverse."
+    },
+    {
+      "id": "bio-0072",
+      "topic": "Enzymes",
+      "front": "Explain the induced-fit hypothesis. How does it differ from lock and key?\n\n4 points + comparison · 3.1.2",
+      "back": "1. The active site is **not exactly complementary** to the substrate at first.\n2. When the substrate **binds**, the active site **changes shape slightly** and **moulds around the substrate**, forming an **enzyme–substrate complex**.\n3. **R groups** of the active-site amino acids **interact with the substrate**, **putting strain on its bonds** and **lowering the activation energy**.\n4. The **products leave** and the active site **returns to its original shape**.\n\nvs lock and key: the active site is **not fixed** before binding, it **changes shape on binding**, and induced fit **explains the strain** on substrate bonds. Induced fit is the **more accurate** model (proteins are flexible). Proposed by Koshland.\nHook: a glove shaping to your hand."
+    },
+    {
+      "id": "bio-0073",
+      "topic": "Enzymes",
+      "front": "How do you follow the progress of an enzyme-catalysed reaction (catalase, amylase)? How is a colorimeter used?\n\n6 points · 3.1.3, 3.1.4",
+      "back": "1. Measure either the **rate of formation of a product** or the **rate of disappearance of a substrate**, at **regular time intervals**.\n2. **Catalase**: $\\ce{2H2O2 -> 2H2O + O2}$. Measure the **volume of oxygen collected** (**gas syringe**, or gas collected over water in an **inverted measuring cylinder**) at regular times.\n3. **Amylase**: **starch → maltose**. Take **samples at regular intervals** into **iodine in KI**; the starch has gone when the mixture **stays orange-brown**. Or use a **colorimeter** (blue-black fades, so **absorbance falls**).\n4. A graph of **amount of product (or substrate) against time** is **steepest at the start**, then **flattens** as substrate is **used up**.\n5. A **colorimeter** measures **how much light is absorbed by (or passes through) a coloured solution**, so it can follow reactions that **involve a colour change**.\n6. Method: choose a **filter** (a colour **complementary** to the solution, e.g. **red** for blue-black starch–iodine), **zero the colorimeter with a blank**, take **absorbance readings at regular time intervals**. A **calibration curve** (known concentrations) converts absorbance to **concentration**.\n\nCatalase sources: liver, potato, yeast."
+    },
+    {
+      "id": "bio-0074",
+      "topic": "Enzymes",
+      "front": "How do you calculate the rate of an enzyme-catalysed reaction, including the initial rate?\n\n5 points · 3.2.1",
+      "back": "1. Rate = **amount of product formed (or substrate used) ÷ time**:\n$$\\text{rate} = \\frac{\\text{amount}}{\\text{time}}$$\n2. Units: e.g. $\\text{cm}^3\\,\\text{s}^{-1}$ (volume of oxygen per second) or $\\text{g s}^{-1}$. Always write the unit.\n3. **Initial rate** = the **gradient of the tangent** to the curve **at time 0**.\n4. Use the initial rate because **substrate concentration is highest** and **no product has built up**. Later the rate falls as substrate is used up.\n5. If you measure the **time taken to reach an end point** (e.g. starch gone): rate = 1 ÷ time, in $\\text{s}^{-1}$.\n\nExample: 12 cm³ of oxygen in 20 s → rate = 12 ÷ 20 = **0.6 cm³ s⁻¹**."
+    },
+    {
+      "id": "bio-0075",
+      "topic": "Enzymes",
+      "front": "Explain the effect of temperature on enzyme activity.\n\n5 points · 3.2.1",
+      "back": "1. **Below the optimum**: as temperature rises, molecules gain **kinetic energy** and move faster → **more frequent collisions** between enzyme and substrate → **more enzyme–substrate complexes per second** → **rate increases**.\n2. **At the optimum**: the **rate is maximum**; the active site has its correct shape and collisions are frequent.\n3. **Above the optimum**: **hydrogen bonds and ionic bonds** that hold the **tertiary structure are broken**, so the **active site changes shape**.\n4. The substrate **no longer fits** (it is **no longer complementary**) → **fewer enzyme–substrate complexes** → **rate decreases**.\n5. The enzyme is **denatured**. This is **irreversible**.\n\nTraps: at low temperature the enzyme is **inactive, not denatured**. Enzymes are **denatured, not \"killed\"**. The rate falls after the optimum because of **denaturation**, not because the substrate runs out."
+    },
+    {
+      "id": "bio-0076",
+      "topic": "Enzymes",
+      "front": "Explain the effect of pH on enzyme activity.\n\n4 points · 3.2.1",
+      "back": "1. Each enzyme has an **optimum pH** at which the rate is **maximum**, e.g. **pepsin ≈ pH 2** (stomach), **amylase ≈ pH 7**.\n2. Away from the optimum, **excess** $\\ce{H+}$ **or** $\\ce{OH-}$ **ions** change the **charges on the R groups** of amino acids, including those in the **active site**.\n3. **Ionic bonds and hydrogen bonds** in the tertiary structure **break**, so the **active site changes shape**.\n4. The substrate **no longer fits** → **fewer enzyme–substrate complexes** → **rate decreases**. The enzyme is **denatured**.\n\nNote: a **small** change from the optimum may be **reversible**; **extreme** pH denatures the enzyme permanently."
+    },
+    {
+      "id": "bio-0077",
+      "topic": "Enzymes",
+      "front": "Explain the effect of enzyme concentration on the rate of an enzyme-catalysed reaction.\n\n3 points · 3.2.1",
+      "back": "1. The rate **increases** as enzyme concentration increases (**directly proportional** at first), **if substrate is in excess**.\n2. More enzyme means **more active sites**, so **more enzyme–substrate complexes form per second**.\n3. The rate **levels off** when **substrate concentration becomes the limiting factor**: not enough substrate to occupy the extra active sites.\n\nGraph: straight line through the origin, then a plateau.\nTrap: on a plateau, **name the limiting factor** (here, **substrate**)."
+    },
+    {
+      "id": "bio-0078",
+      "topic": "Enzymes",
+      "front": "Explain the effect of substrate concentration on the rate of an enzyme-catalysed reaction.\n\n3 points · 3.2.1",
+      "back": "1. At **low** substrate concentration, the rate **increases** as substrate increases: **more collisions with active sites** → **more enzyme–substrate complexes**.\n2. At **high** substrate concentration, the rate **levels off at** $V_{\\max}$: **all active sites are occupied (saturated)**.\n3. The **enzyme concentration** (number of active sites) is now the **limiting factor**, so adding more substrate doesn't increase the rate.\n\nHook: every taxi already has a passenger; only more taxis would help.\nTrap: on a plateau, **name the limiting factor** (here, **enzyme**)."
+    },
+    {
+      "id": "bio-0079",
+      "topic": "Enzymes",
+      "front": "Explain the effect of a competitive reversible inhibitor on enzyme activity.\n\n4 points · 3.2.3",
+      "back": "1. The inhibitor has a **similar shape to the substrate** (it is **complementary to the active site**).\n2. It **binds to the active site** (temporarily), so it **competes with the substrate** and **blocks the active site** → **fewer enzyme–substrate complexes** → **rate decreases**.\n3. **Increasing substrate concentration reduces the effect**: the substrate **outcompetes the inhibitor**, as substrate molecules are more likely to collide with and occupy the active sites.\n4. **Increasing inhibitor concentration** decreases the rate further. The inhibitor is **reversible**: when it leaves, the enzyme works normally again.\n\nHook: a fake key that fits the lock but can't turn it."
+    },
+    {
+      "id": "bio-0080",
+      "topic": "Enzymes",
+      "front": "Explain the effect of a non-competitive reversible inhibitor on enzyme activity.\n\n4 points · 3.2.3",
+      "back": "1. The inhibitor **binds to the enzyme at a site other than the active site** (reversibly).\n2. This **changes the tertiary structure**, so the **active site changes shape** and is **no longer complementary** to the substrate → **fewer enzyme–substrate complexes** → **rate decreases**.\n3. It **does not compete** with the substrate, so **increasing substrate concentration does not overcome** the inhibition.\n4. **Increasing inhibitor concentration** decreases the rate further, as more enzyme molecules are affected.\n\nHook: a dent in the lock, so no key fits."
+    },
+    {
+      "id": "bio-0081",
+      "topic": "Enzymes",
+      "front": "Compare competitive and non-competitive inhibitors.\n\n6 features · 3.2.3",
+      "back": "Competitive vs non-competitive:\n1. Binds to: **the active site** vs **a different site on the enzyme**.\n2. Shape of inhibitor: **similar to the substrate** vs **not similar**.\n3. Effect on active site: **blocked** vs **changes shape**.\n4. More substrate: **reduces the inhibition** vs **does not overcome it**.\n5. $V_{\\max}$: **unchanged** (reached at a higher substrate concentration) vs **decreased**.\n6. $K_m$: **increased** vs **unchanged**."
+    },
+    {
+      "id": "bio-0082",
+      "topic": "Enzymes",
+      "front": "Explain Vmax and Km, how Km compares enzymes, and how inhibitors change them.\n\n5 points · 3.2.2",
+      "back": "1. $V_{\\max}$: the **maximum rate** of the reaction, when **all active sites are saturated** with substrate.\n2. $K_m$ (**Michaelis–Menten constant**): the **substrate concentration at which the rate is half of** $V_{\\max}$. $V_{\\max}$ is found first, then halved, to **derive** $K_m$.\n3. $K_m$ is used to compare the **affinity** of different enzymes for their substrates: **low** $K_m$ = **high affinity** (half of $V_{\\max}$ reached at a low substrate concentration); **high** $K_m$ = **low affinity**.\n4. **Competitive** inhibitor: $V_{\\max}$ **unchanged**, $K_m$ **increases** (more substrate needed to reach half $V_{\\max}$).\n5. **Non-competitive** inhibitor: $V_{\\max}$ **decreases**, $K_m$ **unchanged**.\n\nReading $K_m$ off a graph: find $V_{\\max}$, halve it, go across to the curve, then down to the x-axis."
+    },
+    {
+      "id": "bio-0083",
+      "topic": "Enzymes",
+      "front": "Describe immobilised enzymes: how they're made, their advantages, and how to compare them with free enzymes.\n\n7 points · 3.2.4",
+      "back": "1. Immobilised enzymes are **attached to, or trapped in, an inert material**, e.g. **calcium alginate beads** (mix enzyme with **sodium alginate**, drip into **calcium chloride solution**).\n2. Enzymes can be **reused**, so it's **cheaper**.\n3. The **product isn't contaminated** with enzyme (**easy to separate**).\n4. Allows a **continuous process**: substrate flows past the beads and product flows out.\n5. Enzymes are often **more stable**: they tolerate a **wider range of temperature and pH**.\n6. Example: **lactase** immobilised in beads to make **lactose-free milk** (lactose → glucose + galactose).\n7. **Investigation**: compare the same enzyme **in alginate beads** and **free in solution**, keeping **enzyme amount, substrate concentration, temperature and pH the same**, and measure the **rate** of each.\n\nDownsides: **higher initial cost**; the reaction can be **slower**, as substrate has to **diffuse into the beads**."
+    },
+    {
+      "id": "bio-0084",
+      "topic": "Enzymes",
+      "front": "Plan an investigation into the effect of a factor on enzyme activity.\n\n7 points · 3.2.1",
+      "back": "1. **Independent variable**: e.g. temperature using **water baths** at **at least five values** (e.g. 10, 20, 30, 40, 50 °C), or pH using **buffer solutions**.\n2. **Dependent variable**: the **rate**, e.g. **volume of oxygen per second**, or **time for starch to disappear** (say how, with units).\n3. **Control variables**: **volume and concentration of enzyme and substrate**, **pH (buffer)**, **temperature (water bath)**, the **enzyme source**.\n4. **Equilibrate** the enzyme and substrate **separately** at the required temperature **before mixing**.\n5. **Control experiment**: repeat with **boiled (denatured) enzyme** or **water** in place of the enzyme, to show the change is **caused by the enzyme**.\n6. **Repeat at least 3 times**, calculate a **mean**, and identify **anomalous results**.\n7. Show results in a **table**; plot a **graph** with the **independent variable on the x-axis** and **rate on the y-axis**, axes labelled with **quantity and unit**."
+    },
+    {
+      "id": "bio-0085",
+      "topic": "Transport in plants",
+      "front": "What are the rules for drawing a plan diagram of a transverse section (TS) of a stem, root or leaf?\n\n5 points · 7.1.1",
+      "back": "1. A plan diagram shows **only the outlines of tissues** (tissue layers). **No individual cells** are drawn.\n2. Use **clear, continuous lines**, with **no shading**.\n3. Tissues drawn in their **correct proportions and positions**.\n4. Draw **only what you can see**, and use **most of the space** given.\n5. **Label tissues** (e.g. epidermis, cortex, xylem, phloem, endodermis, pith) with **ruled label lines** that **touch the tissue** and **don't cross**.\n\nTrap: plan diagrams **never** show individual cells."
+    },
+    {
+      "id": "bio-0086",
+      "topic": "Transport in plants",
+      "front": "Describe the distribution of xylem and phloem in a TS of a stem, a root and a leaf.\n\n3 organs · 7.1.2",
+      "back": "1. **Stem**: vascular bundles in a **ring near the outside**. In each bundle, **xylem on the inside**, **phloem on the outside** (with **cambium** between). **Pith** in the centre, **cortex** outside the ring.\n2. **Root**: vascular tissue **in the centre**. **Xylem forms an X (star) shape**, with **phloem in groups between the arms**. Surrounded by the **endodermis**.\n3. **Leaf**: vascular bundles in the **midrib and veins**, with **xylem on the upper side** and **phloem on the lower side**.\n\nWhy: a ring near the edge resists **bending** (stem); a central core resists **pulling** (root)."
+    },
+    {
+      "id": "bio-0087",
+      "topic": "Transport in plants",
+      "front": "What must you label on drawings of a xylem vessel element, a phloem sieve tube element and a companion cell?\n\n3 cells · 7.1.3",
+      "back": "1. **Xylem vessel element**: **lignified wall** (**rings or spirals of lignin**), **pits**, the **empty lumen**, **no end walls**.\n2. **Sieve tube element**: **sieve plate with sieve pores**, **thin layer of cytoplasm**, **cellulose cell wall**, **no nucleus**.\n3. **Companion cell**: **nucleus**, **dense cytoplasm**, **many mitochondria**, **plasmodesmata** linking it to the sieve tube element."
+    },
+    {
+      "id": "bio-0088",
+      "topic": "Transport in plants",
+      "front": "Relate the structure of xylem vessel elements to their functions.\n\n5 points · 7.1.4",
+      "back": "1. Function: transport **water and mineral ions** from the **roots to the leaves**, and **support** the plant.\n2. **Dead cells** with **no cytoplasm or organelles**, so the **lumen is empty** and nothing obstructs the water flow.\n3. **No end walls**, so vessel elements form a **continuous tube** and water moves as an **unbroken column** by **mass flow**.\n4. **Lignin** in the walls **strengthens them** so they **don't collapse under tension** (negative pressure), and makes them **waterproof**. (Rings/spirals let young stems still stretch.)\n5. **Pits** (unlignified areas) let water move **sideways** between vessels and into surrounding cells, and **bypass blockages** such as air bubbles."
+    },
+    {
+      "id": "bio-0089",
+      "topic": "Transport in plants",
+      "front": "Relate the structure of phloem sieve tube elements to their functions.\n\n5 points · 7.1.4",
+      "back": "1. Function: transport **assimilates** (e.g. **sucrose** and **amino acids**) from **sources to sinks**.\n2. **Living** cells, but with **little cytoplasm** and **no nucleus, vacuole or ribosomes**, so there is **more space for the mass flow** of phloem sap.\n3. **Joined end to end** to form **sieve tubes**, with **sieve plates** full of **sieve pores**, so sap flows from one element to the next. (Pores can be **sealed** if the tube is damaged.)\n4. **Cellulose walls** are strong enough to **withstand the high hydrostatic pressure** of the sap.\n5. Linked to a **companion cell** by **plasmodesmata**."
+    },
+    {
+      "id": "bio-0090",
+      "topic": "Transport in plants",
+      "front": "Relate the structure of companion cells to their functions.\n\n5 points · 7.1.4",
+      "back": "1. **Nucleus and dense cytoplasm**, so it carries out **metabolic processes for the sieve tube element**, which has **no nucleus**.\n2. **Many mitochondria** make **ATP** for the **active loading of sucrose** (**proton pumps**).\n3. **Many ribosomes** make **proteins**, e.g. **proton pumps** and **cotransporter proteins**.\n4. **Many plasmodesmata** connect it to the sieve tube element, so **sucrose can pass into the sieve tube**.\n5. In some companion cells the **cell surface membrane is folded inwards**, giving a **larger surface area for sucrose uptake**."
+    },
+    {
+      "id": "bio-0091",
+      "topic": "Transport in plants",
+      "front": "Compare xylem vessel elements with phloem sieve tube elements.\n\n6 features · 7.1.4",
+      "back": "Xylem vs phloem:\n1. Carries: **water and mineral ions** vs **assimilates (sucrose, amino acids) dissolved in water**.\n2. Direction: **up only** (roots → leaves) vs **up or down** (source → sink).\n3. Living? **Dead** vs **living** (but **no nucleus**).\n4. End walls: **none** vs **sieve plates**.\n5. Walls: **lignified** vs **cellulose (no lignin)**.\n6. Mechanism: **cohesion–tension (passive)** vs **mass flow down a hydrostatic pressure gradient** (**loading uses ATP**)."
+    },
+    {
+      "id": "bio-0092",
+      "topic": "Transport in plants",
+      "front": "What is transported dissolved in water in plants, and in which tissue?\n\n3 points · 7.2.1",
+      "back": "1. Some **mineral ions** (e.g. **nitrate**, **magnesium**) and **organic compounds** (e.g. **sucrose**, **amino acids**) are transported **dissolved in water**.\n2. Water is a good solvent because it is **polar**.\n3. **Xylem** carries **water and mineral ions**. **Phloem** carries **assimilates** such as **sucrose and amino acids** (in **phloem sap**)."
+    },
+    {
+      "id": "bio-0093",
+      "topic": "Transport in plants",
+      "front": "Describe how water enters a root from the soil.\n\n4 points · 7.2.2",
+      "back": "1. **Root hair cells** give a **large surface area** for absorbing water and mineral ions.\n2. **Mineral ions are absorbed** (often by **active transport**), so the root hair cell has a **lower water potential than the soil water**.\n3. Water enters the root hair cell by **osmosis**, **down the water potential gradient**, through the **partially permeable cell surface membrane**.\n4. Water then crosses the **cortex** to the xylem by two pathways: **apoplast** and **symplast**.\n\nTrap: say **water potential**, never \"water concentration\"."
+    },
+    {
+      "id": "bio-0094",
+      "topic": "Transport in plants",
+      "front": "Describe the apoplast pathway across the root, with reference to cellulose and lignin.\n\n5 points · 7.2.2",
+      "back": "1. Water moves **through the cell walls and spaces between cells**, **without entering the cytoplasm** (it crosses **no membranes**).\n2. **Cellulose cell walls are fully permeable**: water moves through the **spaces between the cellulose fibres**.\n3. Water is held by **adhesion to cellulose** and pulled along by **cohesion** as water moves up the xylem, so there is **little resistance** (usually the **faster** route, carrying more of the water).\n4. At the **endodermis**, the **Casparian strip blocks the apoplast**, so water must **enter the symplast**.\n5. **Lignin** makes **xylem vessel walls waterproof**, so water enters and leaves the xylem through the **pits**."
+    },
+    {
+      "id": "bio-0095",
+      "topic": "Transport in plants",
+      "front": "Describe the symplast pathway across the root, with reference to the endodermis, Casparian strip and suberin.\n\n5 points · 7.2.2",
+      "back": "1. Water moves **through the cytoplasm** of cells, entering by **osmosis** across the **partially permeable cell surface membrane**.\n2. It passes **from cell to cell through plasmodesmata**, **down a water potential gradient** towards the xylem.\n3. The **endodermis** is a layer of cells **surrounding the vascular tissue** (xylem and phloem) of the root.\n4. Endodermal cell walls contain the **Casparian strip**, a band of **suberin**, which is **waxy and waterproof**, so it **blocks the apoplast**.\n5. So water (and mineral ions) must **cross the cell surface membrane into the cytoplasm** of endodermal cells, letting the plant **control which mineral ions enter the xylem**.\n\nExtra: endodermal cells **actively pump ions into the xylem**, lowering its water potential, so water follows by osmosis.\nTrap: the Casparian strip blocks the **apoplast**, not the symplast."
+    },
+    {
+      "id": "bio-0096",
+      "topic": "Transport in plants",
+      "front": "Explain transpiration. What increases its rate?\n\n4 points · 7.2.3",
+      "back": "1. **Transpiration**: the **loss of water vapour** from the **leaves** (and stems) of a plant.\n2. Water **evaporates from the cell walls of mesophyll cells** (the internal surfaces) into the **air spaces** inside the leaf.\n3. **Water vapour diffuses out through open stomata** into the atmosphere, **down a water vapour potential gradient** (more water vapour inside the leaf than outside).\n4. Water lost from mesophyll cells is **replaced from the xylem**, which **pulls water up the xylem**.\n\nRate rises with **higher temperature**, **lower humidity**, **more wind** and **more light** (stomata open).\nTrap: say **both steps**: **evaporation**, then **diffusion** of water vapour out of the stomata."
+    },
+    {
+      "id": "bio-0097",
+      "topic": "Transport in plants",
+      "front": "Explain cohesion–tension, transpiration pull and adhesion in the xylem.\n\n5 points · 7.2.4",
+      "back": "1. Water molecules are **polar** and form **hydrogen bonds** with each other, giving **cohesion**.\n2. As water evaporates from the leaf, water is **pulled out of the xylem**, so the water in the xylem is under **tension** (**negative pressure**).\n3. Because of **cohesion**, water moves up the xylem as a **continuous column**: the **transpiration pull** (**cohesion–tension**). It is **mass flow** and **passive** (no ATP).\n4. Water also forms **hydrogen bonds with cellulose** in the cell walls: **adhesion**. This helps water move **up the xylem** and **through cell walls**.\n5. **Lignin** stops the xylem walls **collapsing inwards** under the tension.\n\nTrap: **cohesion = water to water**; **adhesion = water to cellulose** in the walls."
+    },
+    {
+      "id": "bio-0098",
+      "topic": "Transport in plants",
+      "front": "Xerophyte leaves (e.g. marram grass): what are the adaptations and how does each reduce water loss?\n\n7 adaptations · 7.2.5",
+      "back": "**Xerophytes** are plants **adapted to dry conditions** (e.g. **marram grass**, cacti). Every adaptation **traps humid air** (reducing the **water vapour potential gradient**), **increases the diffusion distance**, or **reduces the surface area** for transpiration.\n1. **Thick waxy cuticle**: **waterproof** layer → **less evaporation** through the epidermis.\n2. **Rolled leaves**: **trap humid air inside** → **reduces the gradient**.\n3. **Sunken stomata (in pits)**: **humid air trapped** in the pit → **reduces the gradient**; **longer diffusion path**.\n4. **Hairs**: **trap a layer of still, humid air** near the stomata → **reduces the gradient**.\n5. **Fewer / smaller stomata**: **fewer pores** for water vapour to diffuse out of.\n6. **Small leaves, needles or spines**: **smaller surface area** for transpiration.\n7. **Hinge cells** (marram): **lose water and shrink**, so the **leaf rolls up** in dry conditions.\n\nMarram: stomata **only on the inner surface**, **none on the outer surface**.\nAnnotated drawing: write the **feature + how it reduces water loss**, not just the label."
+    },
+    {
+      "id": "bio-0099",
+      "topic": "Transport in plants",
+      "front": "What are assimilates, sources, sinks and translocation?\n\n4 points · 7.2.6",
+      "back": "1. **Assimilates** (e.g. **sucrose and amino acids**) are transported **dissolved in water** in **phloem sieve tubes**, from **sources to sinks**. This is **translocation**.\n2. **Source**: where assimilates are **made or released**, e.g. **photosynthesising leaves**, or a **storage organ releasing its stores**.\n3. **Sink**: where assimilates are **used or stored**, e.g. **roots**, **growing shoot tips**, **flowers**, **fruits**, **seeds**, **storage organs**.\n4. Phloem can carry assimilates **up or down** the plant. Xylem carries water **up only**.\n\nSucrose is transported rather than glucose because it is **less reactive**.\nThe same organ can switch: a potato tuber is a **sink in summer** and a **source in spring**."
+    },
+    {
+      "id": "bio-0100",
+      "topic": "Transport in plants",
+      "front": "Explain how companion cells load sucrose into phloem sieve tubes (proton pumps and cotransporters).\n\n5 steps · 7.2.7",
+      "back": "1. **Proton pumps** in the companion cell's membrane use **ATP** to **actively transport** $\\ce{H+}$ **ions out** of the companion cell.\n2. This builds up a **high concentration of** $\\ce{H+}$ **outside** the cell: an $\\ce{H+}$ **concentration gradient**.\n3. $\\ce{H+}$ ions **diffuse back into** the companion cell through **cotransporter proteins**, which **carry sucrose in with them** (**cotransport**).\n4. This moves sucrose **against its concentration gradient** into the companion cell. It is **indirect (secondary) active transport**, since ATP was used to make the $\\ce{H+}$ gradient.\n5. Sucrose then **diffuses into the sieve tube element** through **plasmodesmata**.\n\nTrap: proton pumps push $\\ce{H+}$ **out**; $\\ce{H+}$ comes back **in** through the **cotransporter**, with sucrose."
+    },
+    {
+      "id": "bio-0101",
+      "topic": "Transport in plants",
+      "front": "Explain mass flow in the phloem down a hydrostatic pressure gradient.\n\n5 steps · 7.2.8",
+      "back": "1. At the **source**, **sucrose is loaded** into the sieve tube, **lowering the water potential** inside it.\n2. **Water enters the sieve tube by osmosis** (from nearby xylem and cells), **increasing the hydrostatic pressure** at the source end.\n3. At the **sink**, sucrose is **unloaded** and **used (respiration)** or **stored (e.g. as starch)**, so the water potential **rises** and **water leaves by osmosis**, giving **lower hydrostatic pressure** at the sink end.\n4. This creates a **hydrostatic pressure gradient**: **high at the source**, **low at the sink**.\n5. Phloem sap moves by **mass flow** **down the pressure gradient**, from **source to sink**, through the **sieve pores**.\n\nTrap: mass flow is down a **hydrostatic pressure** gradient, **not a concentration gradient**."
+    },
+    {
+      "id": "bio-0102",
+      "topic": "Cell membranes and transport",
+      "front": "Describe the fluid mosaic model of membrane structure.\n\n6 points · 4.1.1",
+      "back": "1. Membranes are a **phospholipid bilayer**: the **hydrophilic (polar) phosphate heads face outwards** towards the water on both sides (tissue fluid and cytoplasm).\n2. The **hydrophobic (non-polar) fatty acid tails face inwards**, away from water, forming a **hydrophobic core**.\n3. **Fluid**: phospholipids and many proteins can **move sideways (diffuse)** within their layer.\n4. **Mosaic**: **proteins are scattered** among the phospholipids.\n5. **Intrinsic (transmembrane) proteins** span the bilayer: their **hydrophobic R groups face the fatty acid tails**, and their **hydrophilic R groups face the water** on each side.\n6. **Extrinsic (peripheral) proteins** sit **on the surface** of the membrane (hydrophilic, facing the water).\n\nThe membrane is about **7 nm** thick."
+    },
+    {
+      "id": "bio-0103",
+      "topic": "Cell membranes and transport",
+      "front": "Describe the arrangement of cholesterol, glycolipids and glycoproteins in a cell membrane.\n\n3 points · 4.1.2",
+      "back": "1. **Cholesterol** molecules lie **between the phospholipids**, in **both layers** of the bilayer, among the fatty acid tails.\n2. **Glycolipids**: **lipids with a carbohydrate chain** attached, which **projects outwards from the outer surface** of the membrane.\n3. **Glycoproteins**: **proteins with carbohydrate chains** attached, which also **face outwards from the outer surface**.\n\nCarbohydrate chains are **only on the outer surface** (together they form the glycocalyx)."
+    },
+    {
+      "id": "bio-0104",
+      "topic": "Cell membranes and transport",
+      "front": "Roles of phospholipids and cholesterol in membranes: stability, fluidity and permeability.\n\n6 points · 4.1.3",
+      "back": "1. **Phospholipids** form the **bilayer**: the basic structure and a **barrier** between the cell and its surroundings.\n2. The **hydrophobic core** stops **polar and charged** substances (ions, glucose) passing through, so the membrane is **partially permeable**.\n3. **Small, non-polar (lipid-soluble)** molecules, e.g. $\\ce{O2}$ **and** $\\ce{CO2}$, can **diffuse directly through the bilayer**.\n4. **Cholesterol regulates fluidity**: at **high temperatures** it **restricts the movement of phospholipids** (less fluid); at **low temperatures** it **stops them packing too closely** (keeps the membrane fluid).\n5. Cholesterol gives **mechanical stability**, important in cells with **no cell wall**, e.g. **red blood cells**.\n6. Cholesterol **reduces permeability to water and ions** (fills gaps in the hydrophobic core).\n\nTrap: cholesterol regulates fluidity **in both directions**. Don't just say it \"makes the membrane less fluid\"."
+    },
+    {
+      "id": "bio-0105",
+      "topic": "Cell membranes and transport",
+      "front": "Roles of channel proteins, carrier proteins, receptors, glycoproteins and glycolipids: transport, signalling and recognition.\n\n5 points · 4.1.3",
+      "back": "1. **Channel proteins**: form **water-filled (hydrophilic) pores** that let **specific ions and polar molecules** pass by **facilitated diffusion**. Some are **gated**. (**Aquaporins** are channel proteins for water.)\n2. **Carrier proteins**: **bind a specific molecule** and **change shape** to move it across, in **facilitated diffusion** (passive) or **active transport** (using ATP).\n3. **Cell surface receptors** (proteins or glycoproteins): a **specific binding site** with a **complementary shape** to a **ligand** (e.g. a hormone), so they're used in **cell signalling**.\n4. **Glycoproteins and glycolipids** act as **cell surface antigens** for **cell recognition**, so the immune system can tell **self from non-self**.\n5. Glycoproteins and glycolipids also help **stability**: their carbohydrate chains form **hydrogen bonds with water**. They also help **cells stick together** in tissues."
+    },
+    {
+      "id": "bio-0106",
+      "topic": "Cell membranes and transport",
+      "front": "Outline the main stages of cell signalling.\n\n4 stages · 4.1.4",
+      "back": "1. **Secretion**: a cell **secretes a specific chemical**, a **ligand** (signalling molecule), e.g. a **hormone**, often by **exocytosis**.\n2. **Transport**: the ligand is **transported to target cells**, e.g. **in the blood**, or by **diffusion** to nearby cells.\n3. **Binding**: the ligand **binds to a cell surface receptor** on the **target cell**. The receptor has a **complementary shape** to the ligand, so **only target cells respond**.\n4. Binding **changes the shape of the receptor**, which starts a **chain of reactions inside the cell**, leading to a **specific response** (e.g. an enzyme is activated)."
+    },
+    {
+      "id": "bio-0107",
+      "topic": "Cell membranes and transport",
+      "front": "Define diffusion. What crosses a membrane by simple diffusion, and what affects the rate?\n\n4 points · 4.2.1",
+      "back": "1. **Diffusion**: the **net movement** of molecules or ions from a region of **higher concentration** to a region of **lower concentration**, **down a concentration gradient**, due to their **random movement**.\n2. It is **passive**: **no ATP** is used. The energy comes from the molecules' own **kinetic energy**.\n3. Simple diffusion across membranes: **small, non-polar** molecules (e.g. $\\ce{O2}$, $\\ce{CO2}$) pass **directly through the phospholipid bilayer**.\n4. Rate increases with a **steeper concentration gradient**, **larger surface area**, **shorter diffusion distance** and **higher temperature**. **Smaller** and **non-polar** molecules diffuse faster.\n\nTrap: say \"**down**\" a concentration gradient, not \"along\" or \"across\"."
+    },
+    {
+      "id": "bio-0108",
+      "topic": "Cell membranes and transport",
+      "front": "Describe facilitated diffusion, comparing channel and carrier proteins.\n\n5 points · 4.2.1",
+      "back": "1. **Facilitated diffusion**: the **net movement** of molecules or ions **down a concentration gradient** through **channel proteins or carrier proteins**. It is **passive** (**no ATP**).\n2. Used for **polar or charged** substances (e.g. **ions**, **glucose**) that **can't pass through the hydrophobic core** of the bilayer.\n3. **Channel proteins**: **water-filled pores**, **specific to certain ions**. Some are **gated**.\n4. **Carrier proteins**: the molecule **binds to a specific binding site**, the carrier **changes shape**, and the molecule is **released on the other side**. **Glucose uses a carrier protein**.\n5. The rate **levels off** at high concentration gradients, because **all the channel or carrier proteins are in use**.\n\nTraps: facilitated diffusion is **passive**. For glucose, say **carrier protein** (examiner report)."
+    },
+    {
+      "id": "bio-0109",
+      "topic": "Cell membranes and transport",
+      "front": "Define osmosis and water potential.\n\n4 points · 4.2.1",
+      "back": "1. **Osmosis**: the **net movement of water molecules** from a region of **higher water potential** to a region of **lower water potential**, through a **partially permeable membrane**.\n2. **Water potential** is the **tendency of water to move**. **Pure water** has the **highest** water potential: **0 kPa**.\n3. **Adding solutes lowers** the water potential (makes it **more negative**).\n4. Osmosis is **passive**. Water crosses the **bilayer** and passes through **aquaporins** (channel proteins for water).\n\nTrap: never say \"water concentration\". Use **higher / lower** (or **less negative / more negative**) water potential, not \"large / small\"."
+    },
+    {
+      "id": "bio-0110",
+      "topic": "Cell membranes and transport",
+      "front": "Describe active transport, with examples.\n\n4 points · 4.2.1",
+      "back": "1. **Active transport**: the movement of molecules or ions **against their concentration gradient** (from lower to higher concentration), **using energy from ATP** (from **respiration**).\n2. It uses **carrier proteins** (often called **pumps**), **never channel proteins**.\n3. The substance **binds to the carrier**, **ATP is hydrolysed**, and the carrier **changes shape**, releasing the substance on the other side.\n4. Examples: the **sodium–potassium pump** (**3** $\\ce{Na+}$ **out, 2** $\\ce{K+}$ **in** per ATP), **root hair cells taking up mineral ions**, and **companion cells loading sucrose**.\n\nCells doing lots of active transport have **many mitochondria**. Stop respiration and active transport stops."
+    },
+    {
+      "id": "bio-0111",
+      "topic": "Cell membranes and transport",
+      "front": "Describe endocytosis and exocytosis.\n\n4 points · 4.2.1",
+      "back": "1. **Bulk transport** of **large molecules, particles or large amounts** of material, too big to pass through transport proteins. It **needs ATP**.\n2. **Endocytosis**: the **cell surface membrane engulfs** the material, forming a **vesicle** (or vacuole) inside the cell. **Phagocytosis** = solids (e.g. **phagocytes engulfing bacteria**). **Pinocytosis** = liquids.\n3. **Exocytosis**: **vesicles** (e.g. from the **Golgi body**) move to and **fuse with the cell surface membrane**, **releasing their contents outside** the cell, e.g. **secretion of enzymes and hormones**.\n4. Both depend on the membrane being **fluid**, so it can **bend, pinch off and fuse**."
+    },
+    {
+      "id": "bio-0112",
+      "topic": "Cell membranes and transport",
+      "front": "Compare the six ways substances cross a cell membrane: gradient, ATP, route and an example of each.\n\n6 processes · 4.2.1",
+      "back": "1. **Simple diffusion**: **down** · **no ATP** · **through the bilayer** · $\\ce{O2}$, $\\ce{CO2}$.\n2. **Facilitated diffusion**: **down** · **no ATP** · **channel or carrier protein** · ions, glucose.\n3. **Osmosis**: **down a water potential gradient** · **no ATP** · **bilayer + aquaporins** · water.\n4. **Active transport**: **against** · **ATP** · **carrier protein (pump)** · sodium–potassium pump.\n5. **Endocytosis**: **bulk** · **ATP** · **membrane engulfs → vesicle** · bacteria into phagocytes.\n6. **Exocytosis**: **bulk** · **ATP** · **vesicle fuses with membrane** · enzymes, hormones.\n\nTrap: $\\ce{O2}$ and $\\ce{CO2}$ are small and **non-polar**, so they cross the **bilayer**; ions are **charged**, so they need **proteins**."
+    },
+    {
+      "id": "bio-0113",
+      "topic": "Cell membranes and transport",
+      "front": "How can you investigate diffusion and osmosis using Visking tubing, agar and plant tissue? How do you test membrane permeability?\n\n6 points · 4.2.2",
+      "back": "1. **Visking (dialysis) tubing** is **partially permeable**: **water and small molecules** (e.g. **glucose**) pass through, but **large molecules** (e.g. **starch**) do not.\n2. **Diffusion**: fill tubing with **starch + glucose**, place it in **water**. Later test the water: **Benedict's positive** (glucose diffused out), **iodine negative** (starch too large).\n3. **Osmosis**: fill tubing with **concentrated sugar solution** and place it in **water**. Water enters by **osmosis**, **down the water potential gradient**, so the tubing **gains mass** (or liquid **rises up an attached capillary tube**).\n4. **Agar**: agar containing an **indicator** (e.g. **phenolphthalein + alkali**, pink) is placed in **acid**. The acid **diffuses in** and the colour **disappears**. Measure the **time** or the **distance** the colour change has moved.\n5. **Plant tissue**: potato or beetroot pieces in solutions of different water potentials, measuring **change in mass or length**.\n6. **Membrane permeability**: **beetroot discs** in water at different **temperatures**: more **red pigment leaks out** at higher temperatures as **membranes are damaged** (proteins **denatured**, bilayer more fluid). Measure the colour with a **colorimeter**.\n\nEthanol also damages membranes (it dissolves lipids)."
+    },
+    {
+      "id": "bio-0114",
+      "topic": "Cell membranes and transport",
+      "front": "How do you calculate surface area, volume and SA : V ratio? Why does SA : V matter for organisms?\n\n3 points + formulas · 4.2.3",
+      "back": "1. As an object gets **larger**, its **surface area : volume ratio decreases**, because **volume increases faster** than surface area.\n2. Calculate **SA** and **V**, then **divide SA by V** and write the ratio as **x : 1** (keep units consistent, e.g. cm² and cm³).\n3. **Small organisms** have a **large SA : V**, so **diffusion** across their surface is enough. **Large organisms** have a **small SA : V**, so they need **specialised exchange surfaces** and **transport systems**.\n\nCube, side $L$: $\\text{SA} = 6L^2$, $\\;V = L^3$\nCuboid: $\\text{SA} = 2(lw + lh + wh)$, $\\;V = lwh$\nCylinder: $\\text{SA} = 2\\pi r^2 + 2\\pi r h$, $\\;V = \\pi r^2 h$\n\nCubes: side 1 cm → 6 : 1; side 2 → 24 ÷ 8 = **3 : 1**; side 3 → 54 ÷ 27 = **2 : 1**; side 4 → 96 ÷ 64 = **1.5 : 1**.\nCylinder, $r = 0.5$ cm, $h = 2$ cm: SA = $2.5\\pi$ = 7.85 cm², V = $0.5\\pi$ = 1.57 cm³, so SA : V = **5 : 1**."
+    },
+    {
+      "id": "bio-0115",
+      "topic": "Cell membranes and transport",
+      "front": "Describe how to investigate the effect of SA : V on diffusion using agar blocks.\n\n5 points · 4.2.4",
+      "back": "1. Cut **agar blocks containing an indicator** (e.g. **phenolphthalein + alkali**, pink) into **cubes of different sizes** (e.g. 1, 2 and 3 cm sides).\n2. Place them in **dilute hydrochloric acid**. The acid **diffuses in** and the indicator turns **colourless**.\n3. Measure the **time for each block to become completely colourless** (or the **distance** the acid has moved in a fixed time). Rate = 1 ÷ time.\n4. **Smaller blocks (larger SA : V)** become colourless **faster**: **more surface area per unit volume** for acid to diffuse in, and a **shorter distance to the centre**.\n5. Control: **same acid concentration and volume**, **same temperature**, blocks **fully covered**. **Repeat** and calculate a **mean**."
+    },
+    {
+      "id": "bio-0116",
+      "topic": "Cell membranes and transport",
+      "front": "How do you estimate the water potential of plant tissue using potato cylinders?\n\n5 points · 4.2.5",
+      "back": "1. Cut **potato cylinders** (cork borer) of the **same length and diameter**, from the **same potato**. **Blot dry** and record the **initial mass** (or length).\n2. Place them in a **range of sucrose solutions** (e.g. 0.0 to 1.0 $\\text{mol dm}^{-3}$, made by **dilution**), with the **same volume**, at the **same temperature**, for the **same time**.\n3. Remove, **blot dry**, and record the **final mass**. Calculate the **percentage change in mass**:\n$$\\%\\text{ change} = \\frac{\\text{final} - \\text{initial}}{\\text{initial}} \\times 100$$\n4. Plot **% change in mass (y-axis)** against **sucrose concentration (x-axis)** and draw a **line or curve of best fit**.\n5. Where the line **crosses the x-axis (0 % change)**, there is **no net movement of water**, so the **water potential of the tissue = the water potential of that solution**.\n\nWhy %: compares cylinders with **different starting masses**. Blotting removes surface water that would add false mass. Above the axis: tissue **gained** water."
+    },
+    {
+      "id": "bio-0117",
+      "topic": "Cell membranes and transport",
+      "front": "Explain what happens to animal and plant cells in solutions of higher, lower and equal water potential.\n\n7 points · 4.2.6",
+      "back": "1. Water moves by **osmosis** from **higher to lower water potential**, across the **partially permeable cell surface membrane**.\n2. **Animal cell** (e.g. **red blood cell**) in a solution of **higher water potential** (e.g. **pure water**): water **enters**, the cell **swells and bursts** (**lysis**), because there is **no cell wall**.\n3. **Animal cell** in a solution of **lower water potential**: water **leaves**, the cell **shrinks** (**crenated**).\n4. **Plant cell** in **higher water potential**: water **enters**, the vacuole and cytoplasm swell and **push against the cell wall**, so the cell becomes **turgid**. The **cell wall stops it bursting**.\n5. **Plant cell** in **lower water potential**: water **leaves**, the vacuole and cytoplasm **shrink**, and the **cell surface membrane pulls away from the cell wall**: **plasmolysis** (just starting = **incipient plasmolysis**).\n6. In a plasmolysed cell, the space between wall and membrane **fills with the external solution**, because the **cell wall is fully permeable**.\n7. **Equal water potential**: **no net movement** of water; the cell stays the same size.\n\nSyllabus: **solute potential and pressure potential are not expected**. Explain everything with water potential only."
+    }
+  ]
 }
