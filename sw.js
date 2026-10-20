@@ -1,6 +1,6 @@
 /* Offline support for A Level Recall.
    Bump VERSION whenever app files (not decks) change so phones pick up the new version. */
-const VERSION = '1.0.1';
+const VERSION = '1.0.2';
 const SHELL = 'recall-shell-' + VERSION;
 const DECKS = 'recall-decks';
 const FONTS = 'recall-fonts';

@@ -429,6 +429,9 @@ textarea.input { min-height: 96px; resize: vertical; line-height: 1.45; }
   gap: 16px;
   animation: up 0.2s ease-out;
 }
+/* The panel scrolls; its children must keep their full height instead of shrinking to fit,
+   or long card text spills over the details and buttons below. */
+.sheet-panel > * { flex-shrink: 0; }
 .grabber { width: 40px; height: 4px; border-radius: 4px; background: var(--line); margin: 2px auto 4px; }
 @keyframes up { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }

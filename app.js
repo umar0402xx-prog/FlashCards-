@@ -3,7 +3,7 @@
    Progress, settings and device-made cards live in this browser's localStorage. */
 'use strict';
 
-const APP_VERSION = '1.0.1';
+const APP_VERSION = '1.0.2';
 const IV = [0, 1, 3, 7, 16, 35, 75, 150]; // days for each box; box 0 = learning (due again today)
 const MAX_BOX = IV.length - 1;
 const COLORS = ['yellow', 'green', 'pink', 'blue', 'orange', 'lavender'];
