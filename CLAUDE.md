@@ -25,7 +25,10 @@ home screen; it works offline.
   Number new cards after the highest existing id in that deck: `phy-` Physics, `che-` Chemistry,
   `bio-` Biology. For a new deck, pick a short prefix and add the deck to `decks/index.json`
   (`id`, `name`, `code`, `color` from yellow, green, pink, blue, orange, lavender, `file`).
-- Never reuse a deleted card's id.
+- Never reuse a deleted card's id. Retired so far (starter cards Umar asked to remove on 2026-10-20):
+  `phy-0001`–`phy-0012`, `che-0001`–`che-0012`, `bio-0001`–`bio-0010`. So the next new ids are
+  `phy-0013`, `che-0013` and `bio-0011`.
+- Umar wants to make his own cards or ask for specific ones: don't add cards he hasn't asked for.
 - Text supports `**key words**` (shown highlighted, like mark-scheme key words), line breaks (`\n`),
   maths with KaTeX between `$...$` (inline) or `$$...$$` (own line), and chemistry with mhchem
   (`$\ce{H2SO4}$`, `$\ce{N2 + 3H2 <=> 2NH3}$`). Remember to escape backslashes in JSON (`\\dfrac`).

@@ -3,7 +3,7 @@
    Progress, settings and device-made cards live in this browser's localStorage. */
 'use strict';
 
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.0.1';
 const IV = [0, 1, 3, 7, 16, 35, 75, 150]; // days for each box; box 0 = learning (due again today)
 const MAX_BOX = IV.length - 1;
 const COLORS = ['yellow', 'green', 'pink', 'blue', 'orange', 'lavender'];
@@ -469,7 +469,10 @@ function viewToday() {
         <div class="days" aria-label="Reviews over the last 14 days">${days.join('')}</div>
         <div class="spread"><span class="eyebrow">14 days ago</span><span class="eyebrow">Today</span></div>
       </div>
-      ${toDo > 0
+      ${all.total === 0
+        ? `<p class="muted">No cards yet. Add your first one, or ask Claude to make cards for a topic.</p>
+           <button type="button" class="btn" data-action="go" data-view="add">Add your first card</button>`
+        : toDo > 0
         ? `<button type="button" class="btn" data-action="study" data-mode="review">Start review</button>`
         : `<p class="muted">All done for today. Nice work.</p>
            <button type="button" class="btn ghost" data-action="study" data-mode="cram">Practise all cards anyway</button>`}
