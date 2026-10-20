@@ -1,0 +1,7 @@
+{
+  "decks": [
+    { "id": "physics", "name": "Physics", "code": "9702", "color": "yellow", "file": "physics.json" },
+    { "id": "chemistry", "name": "Chemistry", "code": "9701", "color": "green", "file": "chemistry.json" },
+    { "id": "biology", "name": "Biology", "code": "9700", "color": "pink", "file": "biology.json" }
+  ]
+}

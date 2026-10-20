@@ -1,0 +1,77 @@
+{
+  "deck": "physics",
+  "cards": [
+    {
+      "id": "phy-0001",
+      "topic": "Physical quantities",
+      "front": "What is the difference between a scalar and a vector quantity?",
+      "back": "A **scalar** has **magnitude only** (e.g. mass, speed, energy).\nA **vector** has **magnitude and direction** (e.g. displacement, velocity, force)."
+    },
+    {
+      "id": "phy-0002",
+      "topic": "Kinematics",
+      "front": "Define displacement.",
+      "back": "The **distance** moved **in a specified direction**."
+    },
+    {
+      "id": "phy-0003",
+      "topic": "Kinematics",
+      "front": "Which SUVAT equation has no time $t$ in it? When can you use it?",
+      "back": "$$v^2 = u^2 + 2as$$\nOnly for **uniform (constant) acceleration**."
+    },
+    {
+      "id": "phy-0004",
+      "topic": "Dynamics",
+      "front": "Define momentum.",
+      "back": "The product of **mass and velocity**:\n$$p = mv$$\nIt is a **vector**. Unit: $\\text{kg m s}^{-1}$ (or $\\text{N s}$)."
+    },
+    {
+      "id": "phy-0005",
+      "topic": "Dynamics",
+      "front": "State Newton's second law in terms of momentum.",
+      "back": "The **resultant force** on a body is **proportional to its rate of change of momentum**, and acts in the **same direction**:\n$$F = \\dfrac{\\Delta p}{\\Delta t}$$"
+    },
+    {
+      "id": "phy-0006",
+      "topic": "Forces, density and pressure",
+      "front": "Define the moment of a force.",
+      "back": "The product of the **force** and the **perpendicular distance** from the pivot to the **line of action** of the force."
+    },
+    {
+      "id": "phy-0007",
+      "topic": "Work, energy and power",
+      "front": "Define power. Give the equation for a force moving an object at speed $v$.",
+      "back": "Power is the **rate of doing work** (work done per unit time):\n$$P = \\dfrac{W}{t}$$\nFor a force $F$ moving an object at speed $v$ in its direction: $P = Fv$."
+    },
+    {
+      "id": "phy-0008",
+      "topic": "Deformation of solids",
+      "front": "Define the Young modulus.",
+      "back": "The ratio of **stress** to **strain**:\n$$E = \\dfrac{\\text{stress}}{\\text{strain}} = \\dfrac{F/A}{x/L}$$\nUse it only within the **limit of proportionality**."
+    },
+    {
+      "id": "phy-0009",
+      "topic": "Electricity",
+      "front": "Define the coulomb.",
+      "back": "The **charge** that passes a point when a current of **1 A** flows for **1 s**:\n$$Q = It$$"
+    },
+    {
+      "id": "phy-0010",
+      "topic": "Electricity",
+      "front": "Define potential difference (p.d.).",
+      "back": "The **energy transferred from electrical to other forms per unit charge**:\n$$V = \\dfrac{W}{Q}$$"
+    },
+    {
+      "id": "phy-0011",
+      "topic": "D.C. circuits",
+      "front": "Define electromotive force (e.m.f.).",
+      "back": "The **energy transferred from other forms to electrical energy per unit charge** by the source.\nCompare p.d., which is electrical **to other forms**."
+    },
+    {
+      "id": "phy-0012",
+      "topic": "D.C. circuits",
+      "front": "State Kirchhoff's first law. What is it a consequence of?",
+      "back": "The **sum of the currents into a junction** equals the **sum of the currents out**.\nIt is a consequence of **conservation of charge**."
+    }
+  ]
+}

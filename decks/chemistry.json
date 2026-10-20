@@ -1,0 +1,77 @@
+{
+  "deck": "chemistry",
+  "cards": [
+    {
+      "id": "che-0001",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "Define relative atomic mass, $A_\\text{r}$.",
+      "back": "The **weighted mean mass** of an atom of an element compared with $\\frac{1}{12}$ of the mass of an atom of **carbon-12**."
+    },
+    {
+      "id": "che-0002",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "How many particles are in one mole? What is this number called?",
+      "back": "$6.02 \\times 10^{23}$ particles. This is the **Avogadro constant**, $L$."
+    },
+    {
+      "id": "che-0003",
+      "topic": "Atomic structure",
+      "front": "Define first ionisation energy. Write the equation for sodium.",
+      "back": "The energy needed to remove **one electron** from **each atom** in **one mole of gaseous atoms** to form one mole of **gaseous 1+ ions**.\n$$\\ce{Na(g) -> Na+(g) + e-}$$\nExam tip: always include the **(g)** state symbols."
+    },
+    {
+      "id": "che-0004",
+      "topic": "Chemical bonding",
+      "front": "Define electronegativity.",
+      "back": "The **power of an atom to attract the bonding pair of electrons** in a **covalent bond** towards itself."
+    },
+    {
+      "id": "che-0005",
+      "topic": "States of matter",
+      "front": "Write the ideal gas equation with the units each quantity must be in.",
+      "back": "$$pV = nRT$$\n$p$ in **Pa**, $V$ in **m$^3$**, $T$ in **K**, and $R = 8.31\\ \\text{J K}^{-1}\\text{mol}^{-1}$.\nExam trap: cm$^3$ to m$^3$ is **$\\times 10^{-6}$**, and °C to K is **+ 273**."
+    },
+    {
+      "id": "che-0006",
+      "topic": "Chemical energetics",
+      "front": "Define standard enthalpy change of formation, $\\Delta H_\\text{f}^{\\ominus}$.",
+      "back": "The enthalpy change when **one mole of a compound** is formed from its **elements in their standard states** under **standard conditions** (298 K, 101 kPa)."
+    },
+    {
+      "id": "che-0007",
+      "topic": "Chemical energetics",
+      "front": "Define standard enthalpy change of combustion, $\\Delta H_\\text{c}^{\\ominus}$.",
+      "back": "The enthalpy change when **one mole of a substance** is **burned completely in excess oxygen** under **standard conditions** (298 K, 101 kPa)."
+    },
+    {
+      "id": "che-0008",
+      "topic": "Redox",
+      "front": "Define oxidation in terms of electrons and oxidation number.",
+      "back": "Oxidation is **loss of electrons**, or an **increase in oxidation number**."
+    },
+    {
+      "id": "che-0009",
+      "topic": "Equilibria",
+      "front": "State Le Chatelier's principle.",
+      "back": "If a **change** is made to a system in **dynamic equilibrium**, the **position of equilibrium shifts** to **minimise the change**."
+    },
+    {
+      "id": "che-0010",
+      "topic": "Equilibria",
+      "front": "Define a Brønsted–Lowry acid and a Brønsted–Lowry base.",
+      "back": "An **acid** is a **proton ($\\ce{H+}$) donor**.\nA **base** is a **proton ($\\ce{H+}$) acceptor**."
+    },
+    {
+      "id": "che-0011",
+      "topic": "Reaction kinetics",
+      "front": "Define activation energy, $E_\\text{a}$.",
+      "back": "The **minimum energy** that colliding particles must have for a **successful collision** (for the reaction to occur)."
+    },
+    {
+      "id": "che-0012",
+      "topic": "Reaction kinetics",
+      "front": "How does a catalyst increase the rate of a reaction?",
+      "back": "It provides an **alternative reaction pathway** with a **lower activation energy**.\nSo **more particles have energy $\\geq E_\\text{a}$**, and the **frequency of successful collisions** increases.\nThe catalyst is **chemically unchanged** at the end."
+    }
+  ]
+}
