@@ -1,4 +1,161 @@
 {
   "deck": "physics",
-  "cards": []
+  "cards": [
+    {
+      "id": "phy-0013",
+      "topic": "Magnetic fields",
+      "front": "What is a magnetic field, and how do you show one with field lines?\n\n6 points · 20.1.1–2",
+      "back": "1. A magnetic field is a **region** where a **magnetic pole**, a **moving charge** or a **current-carrying conductor** feels a **force**. It's a **field of force**.\n2. It's produced by **moving charges** (currents) or by **permanent magnets**.\n3. Field lines show the direction a free **north pole** would move: outside a magnet they go from **N to S**.\n4. **Closer lines = stronger field.** Lines **never cross**.\n5. A **uniform** field has **parallel, equally spaced** lines.\n6. Field **into** the page: $\\times$. Field **out of** the page: $\\bullet$.\n\nTrap: only **moving** charges feel a magnetic force. A charge **at rest** in a magnetic field feels **no** magnetic force."
+    },
+    {
+      "id": "phy-0014",
+      "topic": "Magnetic fields",
+      "front": "Formula for the force on a current-carrying conductor in a magnetic field? Say what each symbol means and how to find the direction.\n\n6 points · 20.2.1–2",
+      "back": "$$F = BIL\\sin\\theta$$\n1. $F$: **force** on the conductor (N)\n2. $B$: **magnetic flux density** (T)\n3. $I$: **current** (A)\n4. $L$: **length of conductor in the field** (m)\n5. $\\theta$: **angle between the current and the field**. **Biggest** force at **90°** $(F = BIL)$; **no force** when **parallel** $(\\theta = 0)$.\n6. Direction: **Fleming's left-hand rule**. **First finger: Field** (N to S), **seCond finger: Current** (+ to −), **thuMb: Motion** (force). The force is **perpendicular to both** the current and the field.\n\nExample: 0.20 m of wire carrying 3.0 A at 90° to a 0.050 T field: $F = 0.050 \\times 3.0 \\times 0.20 =$ **0.030 N**.\nHook: F-C-M from first finger to thumb: Field, Current, Motion.\nTrap: use your **left** hand. The right-hand **grip** rule is a different rule: it gives the field around a wire. Not on the formula sheet: learn it."
+    },
+    {
+      "id": "phy-0015",
+      "topic": "Magnetic fields",
+      "front": "Define magnetic flux density and the tesla.\n\n2 definitions · 20.2.3",
+      "back": "1. **Magnetic flux density** is the **force acting per unit current per unit length** on a wire placed **at right angles** to the magnetic field.\n$$B = \\frac{F}{IL}$$\n$F$: force (N) · $I$: current (A) · $L$: length of wire in the field (m)\n2. **1 tesla** is the flux density that gives a **force of 1 N** on a wire of **length 1 m** carrying a **current of 1 A** placed **at right angles** to the field.\n$$1\\ \\text{T} = 1\\ \\text{N A}^{-1}\\,\\text{m}^{-1}$$\nIn base units: $1\\ \\text{T} = 1\\ \\text{kg s}^{-2}\\,\\text{A}^{-1}$\n\nTrap: \"at right angles\" earns a mark. Leaving it out loses it.\nHook: $B$ is the **force you get per amp per metre**."
+    },
+    {
+      "id": "phy-0016",
+      "topic": "Magnetic fields",
+      "front": "Formula for the force on a charge moving in a magnetic field? Say what each symbol means and how to find the direction.\n\n6 points · 20.3.1–2",
+      "back": "$$F = BQv\\sin\\theta$$\n1. $F$: **force** on the charge (N)\n2. $B$: **magnetic flux density** (T)\n3. $Q$: **charge** (C)\n4. $v$: **speed** of the charge $(\\text{m s}^{-1})$\n5. $\\theta$: **angle between the velocity and the field**. **No force** if the charge moves **parallel** to the field.\n6. Direction: **Fleming's left-hand rule**, with the second finger along the **conventional current**: the way a **positive** charge moves.\n\nExample: an electron ($1.60 \\times 10^{-19}$ C) at $2.0 \\times 10^{6}\\ \\text{m s}^{-1}$ at 90° to a 0.10 T field: $F = 0.10 \\times 1.60 \\times 10^{-19} \\times 2.0 \\times 10^{6} =$ **$3.2 \\times 10^{-14}$ N**.\nTrap: for an **electron**, point your second finger **opposite** to the way it moves.\nTrap: the force is always **perpendicular to the velocity**, so it changes the **direction**, never the **speed**. Not on the formula sheet: learn it."
+    },
+    {
+      "id": "phy-0017",
+      "topic": "Magnetic fields",
+      "front": "Explain the origin of the Hall voltage.\n\n5 points · 20.3.3",
+      "back": "1. A **current** flows through a thin slice of conductor or semiconductor placed **at right angles** to a **magnetic field**.\n2. The moving **charge carriers** feel a **magnetic force** $(F = Bqv)$ **perpendicular** to their motion.\n3. They are pushed to **one side** of the slice, so **charge builds up** there, with the opposite charge on the other side.\n4. This gives a **p.d. across the slice**, the **Hall voltage**, which sets up an **electric field** across it.\n5. The Hall voltage stops increasing when the **electric force balances the magnetic force**:\n$$\\frac{qV_\\text{H}}{d} = Bqv$$\n$d$: width of the slice, across which $V_\\text{H}$ is measured (m)\n\nHook: the field shoves the carriers sideways until the pile-up of charge pushes back just as hard."
+    },
+    {
+      "id": "phy-0018",
+      "topic": "Magnetic fields",
+      "front": "Derive the formula for the Hall voltage, and say what each symbol means.\n\n3 steps · 20.3.3",
+      "back": "1. **Forces balance** (electric = magnetic), where $d$ = width of the slice:\n$$\\frac{qV_\\text{H}}{d} = Bqv$$\n$$V_\\text{H} = Bvd$$\n2. **Current**: $I = nAvq$ with cross-sectional area $A = dt$, so:\n$$v = \\frac{I}{ndtq}$$\n3. **Substitute** for $v$ ($d$ cancels):\n$$V_\\text{H} = \\frac{BI}{ntq}$$\n\n$V_\\text{H}$: **Hall voltage** (V)\n$B$: **magnetic flux density** (T)\n$I$: **current** (A)\n$n$: **number of charge carriers per unit volume** $(\\text{m}^{-3})$\n$t$: **thickness** of the slice, measured **along the field** (m)\n$q$: **charge on each carrier** (C)\n$v$: **drift speed** of the carriers $(\\text{m s}^{-1})$\n\nExample: $B = 0.050$ T, $I = 0.020$ A, $n = 1.0 \\times 10^{22}\\ \\text{m}^{-3}$, $t = 0.50$ mm. Then $ntq = 1.0 \\times 10^{22} \\times 5.0 \\times 10^{-4} \\times 1.60 \\times 10^{-19} = 0.80$, so $V_\\text{H} = (0.050 \\times 0.020) / 0.80 = 1.25 \\times 10^{-3}$ V $\\approx$ **1.3 mV**.\nTrap: $t$ is the thickness **along $B$**, not the width $d$ that $V_\\text{H}$ is measured across. Given on the formula sheet, but you must be able to **derive** it. $I = Anvq$ is on the sheet too."
+    },
+    {
+      "id": "phy-0019",
+      "topic": "Magnetic fields",
+      "front": "How is a Hall probe used to measure magnetic flux density?\n\n5 points · 20.3.4",
+      "back": "1. Pass a **constant current** through the probe.\n2. Hold the probe so the **field is at right angles** to its flat face.\n3. **Rotate** it until the Hall voltage is a **maximum**: then the face is exactly perpendicular to the field.\n4. $I$, $n$, $t$ and $q$ are constant, so $V_\\text{H} \\propto B$. Measure $V_\\text{H}$ and convert it to $B$ using a **calibration**.\n5. Probes use a **semiconductor**: it has a **much smaller $n$** than a metal, so $V_\\text{H}$ is **much larger** and easier to measure.\n\nTrap: a zero reading doesn't always mean zero field. The probe might be **parallel** to the field."
+    },
+    {
+      "id": "phy-0020",
+      "topic": "Magnetic fields",
+      "front": "Describe and explain the motion of a charged particle moving at right angles to a uniform magnetic field. Derive the radius of its path.\n\n5 points · 20.3.5",
+      "back": "1. The magnetic force is **always perpendicular to the velocity**.\n2. So it does **no work**: the **speed and kinetic energy stay constant**. Only the **direction** changes.\n3. The force has a **constant size** $(BQv)$ and is always at right angles to the motion, so it provides a **centripetal force**: the particle moves in a **circle**.\n4. Magnetic force = centripetal force:\n$$BQv = \\frac{mv^2}{r}$$\n$$r = \\frac{mv}{BQ}$$\n5. $r$: **radius** (m) · $m$: **mass** (kg) · $v$: **speed** $(\\text{m s}^{-1})$ · $B$: **flux density** (T) · $Q$: **charge** (C). **Faster or heavier**: **bigger** circle. **Stronger field or bigger charge**: **smaller** circle.\n\nExample: a proton ($m = 1.67 \\times 10^{-27}$ kg, $Q = 1.60 \\times 10^{-19}$ C) at $3.0 \\times 10^{6}\\ \\text{m s}^{-1}$ in a 0.50 T field: $r = (1.67 \\times 10^{-27} \\times 3.0 \\times 10^{6}) / (0.50 \\times 1.60 \\times 10^{-19}) =$ **0.063 m**.\nHook: the magnetic force is a steering wheel, not an accelerator.\nTrap: $r = \\frac{mv}{BQ}$ is not on the formula sheet, so derive it from $BQv = \\frac{mv^2}{r}$ every time."
+    },
+    {
+      "id": "phy-0021",
+      "topic": "Magnetic fields",
+      "front": "Explain how electric and magnetic fields can be used in velocity selection.\n\n5 points · 20.3.6",
+      "back": "1. The **electric field** and **magnetic field** are **perpendicular** to each other and to the particles' velocity.\n2. The **electric force** $(EQ)$ acts in **one direction**; the **magnetic force** $(BQv)$ acts in the **opposite direction**.\n3. Only particles where the forces **balance** pass through **undeflected**:\n$$EQ = BQv$$\n$$v = \\frac{E}{B}$$\n4. $v$: **selected speed** $(\\text{m s}^{-1})$ · $E$: **electric field strength** $(\\text{V m}^{-1})$ · $B$: **magnetic flux density** (T)\n5. **Faster** particles: the magnetic force is **bigger**, so they're deflected one way. **Slower** particles: the electric force is **bigger**, so they're deflected the other way.\n\nExample: $E = 3.0 \\times 10^{4}\\ \\text{V m}^{-1}$ and $B = 0.020$ T select $v = 3.0 \\times 10^{4} / 0.020 =$ **$1.5 \\times 10^{6}\\ \\text{m s}^{-1}$**.\nTrap: the selected speed **doesn't depend on charge or mass**, because $Q$ cancels and $m$ never appears. Not on the formula sheet."
+    },
+    {
+      "id": "phy-0022",
+      "topic": "Magnetic fields",
+      "front": "Describe the magnetic field patterns of a long straight wire, a flat circular coil and a long solenoid. How does a ferrous core change the solenoid's field?\n\n5 points · 20.4.1–2",
+      "back": "1. **Long straight wire**: **concentric circles** centred on the wire, in a plane **perpendicular** to it, getting **further apart** further out (field **weaker**).\n2. **Flat circular coil**: circles **around each side** of the wire. At the **centre** the lines are **almost straight**, passing **at right angles** through the plane of the coil.\n3. **Long solenoid**: **uniform** inside, with **parallel, equally spaced** lines along the axis. Outside it looks like a **bar magnet**'s field, with a **N** and a **S** pole at the ends.\n4. Direction: **right-hand grip rule**. Wire: thumb along the current, fingers curl with the field. Coil or solenoid: fingers curl with the current, thumb points to the **N pole**.\n5. A **ferrous (iron) core** inside the solenoid makes its field **much stronger**.\n\nTrap: in a sketch, draw the solenoid's inside lines **parallel and evenly spaced**, and put **arrows on every line**.\nHook: looking at one end of a solenoid, current flowing **anticlockwise** means that end is **N**; **clockwise** means **S**."
+    },
+    {
+      "id": "phy-0023",
+      "topic": "Magnetic fields",
+      "front": "Explain the origin of the forces between two parallel current-carrying conductors, and how to find their direction.\n\n5 points · 20.4.3",
+      "back": "1. The current in wire 1 produces a **magnetic field** at wire 2 (direction by the **right-hand grip rule**).\n2. Wire 2 carries a **current in that field**, so it feels a **force** $(F = BIL)$, direction by **Fleming's left-hand rule**.\n3. In the same way, wire 2's field exerts a force on wire 1.\n4. The two forces are **equal and opposite** (**Newton's third law**), even if the currents are different.\n5. **Currents in the same direction: attract. Opposite directions: repel.**\n\nTrap: this is the **opposite** of electric charges, where like charges repel.\nHook: same direction, same team: they pull together."
+    },
+    {
+      "id": "phy-0024",
+      "topic": "Electromagnetic induction",
+      "front": "Define magnetic flux. Give the formula and say what each symbol means.\n\n4 points · 20.5.1–2",
+      "back": "1. **Magnetic flux** is the **product of the magnetic flux density** and the **cross-sectional area perpendicular** to the direction of the magnetic flux density.\n$$\\Phi = BA$$\n2. $\\Phi$ (phi): **magnetic flux** (Wb, **weber**)\n3. $B$: **magnetic flux density** (T) · $A$: **area at right angles to the field** $(\\text{m}^2)$\n4. $1\\ \\text{Wb} = 1\\ \\text{T m}^2$\n\nExample: a 0.040 T field passes at right angles through a coil of area $25\\ \\text{cm}^2$: $\\Phi = 0.040 \\times 25 \\times 10^{-4} =$ **$1.0 \\times 10^{-4}$ Wb**.\nTrap: $\\text{cm}^2$ to $\\text{m}^2$ is $\\times 10^{-4}$. If the coil is **tilted**, use only the area **perpendicular** to $B$. Not on the formula sheet: learn it."
+    },
+    {
+      "id": "phy-0025",
+      "topic": "Electromagnetic induction",
+      "front": "What is magnetic flux linkage? Give the formula and say what each symbol means.\n\n3 points · 20.5.3",
+      "back": "1. **Magnetic flux linkage** is the **magnetic flux** through a coil **multiplied by the number of turns**.\n$$\\text{flux linkage} = N\\Phi = NBA$$\n2. $N$: **number of turns** (no unit) · $\\Phi$: flux through **one** turn (Wb) · $B$: **flux density** (T) · $A$: **area** of the coil at right angles to the field $(\\text{m}^2)$\n3. Unit: **Wb** (sometimes written Wb-turns).\n\nExample: a 200-turn coil with $1.0 \\times 10^{-4}$ Wb through each turn: $N\\Phi = 200 \\times 1.0 \\times 10^{-4} =$ **0.020 Wb**.\nTrap: Faraday's law uses the change in **flux linkage** $(N\\Phi)$, so don't forget to multiply by $N$."
+    },
+    {
+      "id": "phy-0026",
+      "topic": "Electromagnetic induction",
+      "front": "Describe an experiment showing that a changing magnetic flux induces an e.m.f., and that the e.m.f. opposes the change producing it.\n\n5 steps · 20.5.4",
+      "back": "1. Connect a **coil** to a **sensitive centre-zero ammeter (galvanometer)**.\n2. Push a **bar magnet into** the coil: the **flux linkage changes**, so an **e.m.f. is induced** and the meter **deflects**.\n3. Hold the magnet **still**: **no change in flux**, so **no e.m.f.** and no deflection.\n4. Pull it **out**: the meter deflects the **opposite way**.\n5. As a **N pole** approaches, the induced current makes the **near end of the coil a N pole**, which **repels** the magnet. When it's pulled out, that end becomes a **S pole** and **attracts** it. Either way, the induced current **opposes the change** (Lenz's law).\n\nTrap: it's the **change** in flux that matters. A strong magnet sitting still in a coil induces **nothing**."
+    },
+    {
+      "id": "phy-0027",
+      "topic": "Electromagnetic induction",
+      "front": "What factors affect the size of the induced e.m.f.?\n\n5 points · 20.5.4",
+      "back": "The e.m.f. is **bigger** with:\n1. **Faster** movement of the magnet or coil (flux changes **more quickly**)\n2. A **stronger** magnet (bigger $B$)\n3. **More turns** on the coil (bigger $N$)\n4. A **larger area** of coil (bigger $A$)\n5. All of these increase the **rate of change of magnetic flux linkage**, which sets the size of the e.m.f. (Faraday's law).\n\nTrap: moving the magnet **faster** gives a **bigger** e.m.f. for a **shorter** time. The area under the e.m.f.–time graph (the total change in flux linkage) stays the **same**.\nHook: speed, strength, turns, area."
+    },
+    {
+      "id": "phy-0028",
+      "topic": "Electromagnetic induction",
+      "front": "State Faraday's law of electromagnetic induction. Give the formula and say what each symbol means.\n\n4 points · 20.5.5",
+      "back": "1. The **magnitude of the induced e.m.f.** is **proportional to the rate of change of magnetic flux linkage**.\n$$E = -\\frac{\\Delta(N\\Phi)}{\\Delta t}$$\n2. $E$: **induced e.m.f.** (V) · $N\\Phi$: **flux linkage** (Wb) · $\\Delta t$: **time taken** for the change (s)\n3. The **minus sign** shows **Lenz's law**: the e.m.f. **opposes** the change. For the size, ignore it.\n4. On a **graph of flux linkage against time**, the e.m.f. is **minus the gradient**.\n\nExample: flux linkage falls from 0.020 Wb to zero in 0.050 s: $E = 0.020 / 0.050 =$ **0.40 V**.\nTrap: it's the **rate of change** of flux linkage, not just the change. Not on the formula sheet.\nTrap: for a **rotating coil**, the e.m.f. is **zero** when the flux linkage is **maximum** (the graph is flat there), and **maximum** when the flux linkage is **zero**."
+    },
+    {
+      "id": "phy-0029",
+      "topic": "Electromagnetic induction",
+      "front": "State Lenz's law and explain how it follows from conservation of energy.\n\n4 points · 20.5.5",
+      "back": "1. **Lenz's law**: the **direction** of the induced e.m.f. is such that it **opposes the change** producing it.\n2. If the induced current **helped** the change (e.g. pulled the magnet in faster), the magnet would speed up by itself and **electrical energy would appear from nothing**. That breaks **conservation of energy**.\n3. Because the induced current **opposes** the motion, **work must be done** against a force to keep the magnet moving.\n4. That **work done** is transferred to **electrical energy** in the circuit (then to thermal energy in its resistance).\n\nHook: induction is stubborn. It always resists whatever you're doing.\nTrap: the induced current opposes the **change** in flux, not the flux itself."
+    },
+    {
+      "id": "phy-0030",
+      "topic": "Electromagnetic induction",
+      "front": "Derive the e.m.f. induced in a straight wire moving through a magnetic field. Say what each symbol means.\n\n3 steps · 20.5.5",
+      "back": "1. In time $\\Delta t$ the wire moves $v\\Delta t$, sweeping out an area $Lv\\Delta t$.\n2. Flux cut: $\\Delta\\Phi = BLv\\Delta t$, so by **Faraday's law**:\n$$E = \\frac{\\Delta\\Phi}{\\Delta t} = BLv$$\n3. $E$: **induced e.m.f.** (V) · $B$: **flux density** (T) · $L$: **length of wire in the field** (m) · $v$: **speed** $(\\text{m s}^{-1})$\n\nExample: a 0.25 m rod moves at $4.0\\ \\text{m s}^{-1}$ through a 0.30 T field: $E = 0.30 \\times 0.25 \\times 4.0 =$ **0.30 V**.\nTrap: this only works when $B$, $L$ and $v$ are **all at right angles**. It isn't a formula you're told to recall, so show where it comes from."
+    },
+    {
+      "id": "phy-0031",
+      "topic": "Alternating currents",
+      "front": "Define period, frequency and peak value for an alternating current or voltage.\n\n3 definitions · 21.1.1",
+      "back": "1. **Period**, $T$: the **time for one complete cycle** (s).\n2. **Frequency**, $f$: the **number of complete cycles per unit time** (Hz).\n$$f = \\frac{1}{T}$$\n3. **Peak value**, $I_0$ or $V_0$: the **maximum** current or voltage, measured **from zero**.\n\nExample: one cycle on a graph takes 20 ms: $f = 1 / 0.020 =$ **50 Hz**.\nTrap: **peak-to-peak** value $= 2 \\times$ peak value. Read the peak from the **zero line**, not the bottom of the wave."
+    },
+    {
+      "id": "phy-0032",
+      "topic": "Alternating currents",
+      "front": "Equation for a sinusoidal alternating current or voltage? Say what each symbol means.\n\n4 points · 21.1.2",
+      "back": "$$x = x_0\\sin\\omega t$$\n1. $x$: **current or voltage at time $t$** (A or V)\n2. $x_0$: **peak value** (A or V)\n3. $\\omega$ (omega): **angular frequency** $(\\text{rad s}^{-1})$, where\n$$\\omega = 2\\pi f = \\frac{2\\pi}{T}$$\n4. $t$: **time** (s)\n\nExample: $V = 325\\sin(100\\pi t)$. Peak $V_0 =$ **325 V**. $\\omega = 100\\pi$, so $f = 100\\pi / 2\\pi =$ **50 Hz**. At $t = 2.5$ ms: $V = 325\\sin(0.25\\pi) =$ **230 V**.\nTrap: set your calculator to **radians**. Given on the formula sheet."
+    },
+    {
+      "id": "phy-0033",
+      "topic": "Alternating currents",
+      "front": "Explain why the mean power in a resistor is half the maximum power for a sinusoidal a.c. Give the mean power formulas.\n\n5 points · 21.1.3",
+      "back": "1. Power in a resistor is $P = I^2R$, and $I = I_0\\sin\\omega t$, so:\n$$P = I_0^2R\\sin^2\\omega t$$\n2. **Maximum power**: $P_0 = I_0^2R = I_0V_0$\n3. The **average of $\\sin^2\\omega t$ over a cycle is $\\tfrac{1}{2}$**, so **mean power** $= \\tfrac{1}{2}I_0^2R = \\tfrac{1}{2}P_0$.\n4. Mean power using **r.m.s.** values:\n$$P = I_\\text{r.m.s.}V_\\text{r.m.s.} = I_\\text{r.m.s.}^2R$$\n$$P = \\frac{V_\\text{r.m.s.}^2}{R} = \\tfrac{1}{2}I_0V_0$$\n5. $P$: **mean power** (W) · $R$: **resistance** $(\\Omega)$ · $I_0$, $V_0$: **peak** current (A) and voltage (V) · $I_\\text{r.m.s.}$, $V_\\text{r.m.s.}$: **r.m.s.** current (A) and voltage (V)\n\nExample: a 46 Ω heater on 230 V r.m.s. mains: mean power $= 230^2 / 46 =$ **1150 W**, maximum power $= 2 \\times 1150 =$ **2300 W**.\nTrap: $P = VI$ with **peak** values gives the **maximum** power, not the mean."
+    },
+    {
+      "id": "phy-0034",
+      "topic": "Alternating currents",
+      "front": "Define the r.m.s. value of an alternating current, and give its link to the peak value for a sinusoidal a.c.\n\n4 points · 21.1.4",
+      "back": "1. The **r.m.s. value** is the value of **direct current** that produces the **same mean power** (heating effect) in a **resistor** as the alternating current.\n2. For a **sinusoidal** a.c.:\n$$I_\\text{r.m.s.} = \\frac{I_0}{\\sqrt{2}}$$\n$$V_\\text{r.m.s.} = \\frac{V_0}{\\sqrt{2}}$$\n3. $I_\\text{r.m.s.}$, $V_\\text{r.m.s.}$: **r.m.s.** current (A) and voltage (V)\n4. $I_0$, $V_0$: **peak** current (A) and voltage (V)\n\nExample: mains is **230 V r.m.s.**, so its peak is $230 \\times \\sqrt{2} \\approx$ **325 V**.\nTrap: dividing by $\\sqrt{2}$ only works for **sinusoidal** a.c. Mains ratings and a.c. meter readings are **r.m.s.** Not on the formula sheet: learn it."
+    },
+    {
+      "id": "phy-0035",
+      "topic": "Rectification and smoothing",
+      "front": "How do half-wave and full-wave rectified outputs look different on a graph?\n\n3 points · 21.2.1",
+      "back": "1. **Half-wave**: **one** positive hump per cycle, with a **gap of zero** voltage for **every other half-cycle**.\n2. **Full-wave**: a positive hump in **every** half-cycle, with **no gaps**. The negative halves are **flipped** to positive.\n3. Both flow in **one direction only**, but are still **varying**, not steady.\n\nTrap: full-wave gives **twice as many** humps per second as half-wave from the same supply. With ideal diodes, draw the humps the **same height** as the input peak."
+    },
+    {
+      "id": "phy-0036",
+      "topic": "Rectification and smoothing",
+      "front": "Explain how a single diode gives half-wave rectification.\n\n4 points · 21.2.2",
+      "back": "1. A **diode** conducts only when **forward biased**, so current flows in **one direction only**.\n2. During **one half-cycle** the diode is **forward biased**: current flows and the voltage appears across the **load**.\n3. During the **other half-cycle** it is **reverse biased**: it **blocks** the current, so the output is **zero**.\n4. Result: a **varying d.c.** output with **half of each cycle missing**.\n\nTrap: the diode goes in **series** with the load; a smoothing capacitor goes in **parallel**."
+    },
+    {
+      "id": "phy-0037",
+      "topic": "Rectification and smoothing",
+      "front": "Explain how a bridge rectifier (four diodes) gives full-wave rectification.\n\n4 points · 21.2.3",
+      "back": "1. **Four diodes** are arranged in a **bridge**, with the a.c. supply across one diagonal and the **load** across the other.\n2. In one half-cycle, **two diodes** on **opposite** sides are **forward biased** and conduct; the other two are **reverse biased**.\n3. In the next half-cycle, the **other pair** conducts.\n4. Either way, current flows through the **load** in the **same direction** in **both** half-cycles, so **every half-cycle** is used.\n\nTrap: in an exam, trace the path for **each** half-cycle. The current passes through **two** diodes and the load each time.\nHook: two diodes on duty, two on a break, then they swap."
+    },
+    {
+      "id": "phy-0038",
+      "topic": "Rectification and smoothing",
+      "front": "Explain how a capacitor smooths a rectified output, and how the capacitance and load resistance affect the smoothing.\n\n6 points · 21.2.4",
+      "back": "1. The capacitor is connected **in parallel with the load**.\n2. As the input voltage **rises**, the capacitor **charges** up to the **peak** voltage.\n3. As the input **falls**, the diode stops conducting and the capacitor **discharges through the load**, keeping the output voltage up.\n4. The output only drops a little before the next peak: a small **ripple** instead of falling to zero.\n5. Smoothing is better (**smaller ripple**) when the **time constant $RC$** is **much bigger** than the **time between peaks**.\n6. So a **bigger capacitance $C$** gives better smoothing, and a **bigger load resistance $R$** gives better smoothing (the capacitor discharges **more slowly**).\n\nTrap: $R$ is the **load** resistance, not a resistor in series. $RC$ is in seconds.\nHook: the capacitor is a water tank that refills at each peak and drains through the load in between."
+    }
+  ]
 }

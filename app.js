@@ -3,7 +3,7 @@
    Progress, settings and device-made cards live in this browser's localStorage. */
 'use strict';
 
-const APP_VERSION = '1.0.2';
+const APP_VERSION = '1.0.3';
 const IV = [0, 1, 3, 7, 16, 35, 75, 150]; // days for each box; box 0 = learning (due again today)
 const MAX_BOX = IV.length - 1;
 const COLORS = ['yellow', 'green', 'pink', 'blue', 'orange', 'lavender'];
@@ -278,6 +278,8 @@ function esc(s) {
 function rich(text) {
   return esc(text)
     .replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')
+    // a $$ formula already sits on its own line, so drop the line break right after it
+    .replace(/(\$\$[\s\S]+?\$\$)\n/g, (m, eq) => eq)
     .replace(/\n/g, '<br>');
 }
 function renderMath(root) {
