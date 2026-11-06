@@ -156,6 +156,216 @@
       "topic": "Rectification and smoothing",
       "front": "Explain how a capacitor smooths a rectified output, and how the capacitance and load resistance affect the smoothing.\n\n6 points · 21.2.4",
       "back": "1. The capacitor is connected **in parallel with the load**.\n2. As the input voltage **rises**, the capacitor **charges** up to the **peak** voltage.\n3. As the input **falls**, the diode stops conducting and the capacitor **discharges through the load**, keeping the output voltage up.\n4. The output only drops a little before the next peak: a small **ripple** instead of falling to zero.\n5. Smoothing is better (**smaller ripple**) when the **time constant $RC$** is **much bigger** than the **time between peaks**.\n6. So a **bigger capacitance $C$** gives better smoothing, and a **bigger load resistance $R$** gives better smoothing (the capacitor discharges **more slowly**).\n\nTrap: $R$ is the **load** resistance, not a resistor in series. $RC$ is in seconds.\nHook: the capacitor is a water tank that refills at each peak and drains through the load in between."
+    },
+    {
+      "id": "phy-0039",
+      "topic": "Electric fields",
+      "front": "What is meant by an electric field?\n\n1 point · 18.1",
+      "back": "1. A **region of space** where a **charge** experiences a **force**.\n\nIt is an example of a **field of force** (like gravitational and magnetic fields).\nHook: gravity acts on **mass**, an electric field acts on **charge**."
+    },
+    {
+      "id": "phy-0040",
+      "topic": "Electric fields",
+      "front": "Define electric field strength at a point. Is it a vector or a scalar?\n\n3 points · 18.1",
+      "back": "1. **Force per unit positive charge**\n2. acting on a **small stationary (test) charge** placed at that point.\n3. It is a **vector**: its direction is the direction of the force on a **positive** charge (away from $+$, towards $-$).\n\n$$E=\\dfrac{F}{q}$$\nUnits: $\\text{N C}^{-1}$, which is the same as $\\text{V m}^{-1}$.\n\nTrap: the mark scheme needs \"per unit **charge**\"; say \"**positive**\" to be safe."
+    },
+    {
+      "id": "phy-0041",
+      "topic": "Electric fields",
+      "front": "State Coulomb's law.\n\n2 points · 18.3",
+      "back": "The force between two **point charges** is:\n1. **directly proportional to the product of the charges**, and\n2. **inversely proportional to the square of their separation**.\n\n$$F=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r^2}$$\n\nTrap: say \"**point** charges\" and \"**square** of the separation\". Leaving out \"square\" loses the mark."
+    },
+    {
+      "id": "phy-0042",
+      "topic": "Electric fields",
+      "front": "Define electric potential at a point.\n\n2 points · 18.5",
+      "back": "1. **Work done per unit positive charge**\n2. in bringing a **small test charge** from **infinity** to that point.\n\nUnits: $\\text{J C}^{-1}=\\text{V}$. It is a **scalar**.\nTrap: both \"**per unit charge**\" and \"**from infinity**\" are separate marks.\nHook: potential is \"energy per coulomb\", like height on a hill."
+    },
+    {
+      "id": "phy-0043",
+      "topic": "Electric fields",
+      "front": "Define electric potential energy of a charge at a point.\n\n2 points · 18.5",
+      "back": "1. The **work done** in bringing the charge\n2. from **infinity** to that point.\n\n$$E_p=qV=\\dfrac{Qq}{4\\pi\\varepsilon_0 r}$$\n$E_p=0$ at infinity.\n\nTrap: potential is **per unit charge** (V); potential **energy** is for the **actual charge** (J)."
+    },
+    {
+      "id": "phy-0044",
+      "topic": "Electric fields",
+      "front": "State the relationship between electric field strength and electric potential.\n\n1 point · 18.5",
+      "back": "1. The electric field strength at a point is equal to the **negative of the potential gradient** at that point.\n\n$$E=-\\dfrac{\\Delta V}{\\Delta x}$$\n\n- On a **$V$–$x$ graph**: draw a **tangent**, find the **gradient**, then $E=-\\text{gradient}$.\n- The minus sign: the field points **\"downhill\"**, from **high** to **low** potential.\n- Steeper $V$–$x$ graph means a **stronger** field."
+    },
+    {
+      "id": "phy-0045",
+      "topic": "Electric fields",
+      "front": "What is an equipotential? How is it related to the field lines?\n\n3 points · 18.5",
+      "back": "1. A line or surface where the **potential is the same** at every point.\n2. **No work** is done moving a charge **along** an equipotential.\n3. Equipotentials are always **perpendicular** to the field lines.\n\n- Point charge: **concentric circles**, spaced further apart further out.\n- Parallel plates: **equally spaced straight lines** parallel to the plates."
+    },
+    {
+      "id": "phy-0046",
+      "topic": "Electric fields",
+      "front": "Rules for drawing electric field lines. What gets the marks?\n\n6 points · 18.1",
+      "back": "1. Lines **start on $+$** and **end on $-$** (or go off to infinity).\n2. **Arrows** on every line, pointing from $+$ to $-$.\n3. Lines meet the surface of a conductor at **90°**.\n4. Lines **never cross**.\n5. **Closer** lines mean a **stronger** field.\n6. A **uniform** field (between plates) has **parallel, equally spaced** lines.\n\n- Point charge: **radial** lines (outwards for $+$, inwards for $-$).\n- Plates: lines **curve outwards at the edges** (weaker field there).\nTrap: arrows missing or lines not touching the charge are easy marks lost."
+    },
+    {
+      "id": "phy-0047",
+      "topic": "Electric fields",
+      "front": "Explain why, for a point outside it, a charged sphere can be treated as a point charge at its centre.\n\n1 point · 18.3",
+      "back": "1. Outside the sphere the field lines are **radial** (normal to the surface), so they look as if the charge were **concentrated at the centre**.\n\nSo use $r$ measured from the **centre**.\nTrap: if a distance is given from the **surface**, add the **radius**. If they give the **diameter**, halve it."
+    },
+    {
+      "id": "phy-0048",
+      "topic": "Electric fields",
+      "front": "For a charged conducting sphere, what are $E$ and $V$ inside it? Explain.\n\n3 points · 18.4–18.5",
+      "back": "1. **$E=0$ inside**: the free charges move until there is **no resultant force** on them, and the charge sits on the **outer surface**.\n2. **$V$ is constant inside**, equal to the potential at the **surface**.\n3. This is because $E=-\\text{gradient}$; zero field means **zero gradient**, so $V$ doesn't change.\n\nGraphs:\n- **$E$–$r$**: zero up to $R$, **maximum at the surface**, then falls as $1/r^2$.\n- **$V$–$r$**: flat up to $R$, then falls as $1/r$."
+    },
+    {
+      "id": "phy-0049",
+      "topic": "Electric fields",
+      "front": "Describe the electric field between two charged parallel plates.\n\n3 points · 18.2",
+      "back": "1. It is **uniform**: the **same strength and direction** at every point (except near the edges).\n2. Field lines are **parallel**, **equally spaced** and **perpendicular to the plates**.\n3. The field points from the **positive** plate to the **negative** plate.\n\n$$E=\\dfrac{V}{d}$$\nTrap: an **earthed** plate is at **0 V**. Only use $V/d$ for **plates**, never for a point charge."
+    },
+    {
+      "id": "phy-0050",
+      "topic": "Electric fields",
+      "front": "Show that the field between parallel plates is $E=V/d$.\n\n3 points · 18.2",
+      "back": "1. Move charge $q$ across the gap $d$: work done $W=Fd$.\n2. Also, by definition of p.d., $W=qV$.\n3. So $Fd=qV$, giving\n$$E=\\dfrac{F}{q}=\\dfrac{V}{d}$$\n\nExample: p.d. doubled means $E$ doubles. Separation doubled (same $V$) means $E$ **halves**, so the force $qE$ halves."
+    },
+    {
+      "id": "phy-0051",
+      "topic": "Electric fields",
+      "front": "A charged particle enters the uniform field between two plates at 90° to the field. Explain why its path is a parabola.\n\n4 points · 18.2",
+      "back": "1. The field is **uniform**, so the force on the particle is **constant**.\n2. The force is **perpendicular to the initial velocity**.\n3. So there is a **constant acceleration** towards one plate.\n4. **Parallel to the plates** there is **no force**, so the velocity that way **stays constant**.\n\nThis is just like a **projectile** (the field acts like \"sideways gravity\").\n- After leaving the plates: **straight line** (no field, so no force, so constant velocity).\n- $+$ curves towards the $-$ plate; $-$ curves towards the $+$ plate; neutral goes straight."
+    },
+    {
+      "id": "phy-0052",
+      "topic": "Electric fields",
+      "front": "In the field between two plates, how does the deflection depend on the particle's charge, mass and speed? Compare an electron with a proton.\n\n5 points · 18.2",
+      "back": "1. Acceleration across the field:\n$$a=\\dfrac{qE}{m}=\\dfrac{qV}{md}$$\n2. **Bigger charge**: bigger force, so **more** deflection.\n3. **Bigger mass**: smaller acceleration, so **less** deflection.\n4. **Faster particle**: less **time** between the plates, so **less** deflection.\n5. **Electron vs proton** (same speed): the electron deflects the **opposite way** (opposite charge) and **much more** (much smaller mass, so larger $a$).\n\nExample: a boron nucleus (5e, 11u) vs a proton: $a$ is $\\tfrac{5}{11}$ of the proton's, so it curves the same way but **less**.\nHook: it really depends on **$q/m$**."
+    },
+    {
+      "id": "phy-0053",
+      "topic": "Electric fields",
+      "front": "Why can the weight of a charged particle (e.g. an electron) be ignored in an electric field?\n\n1 point · 18.2",
+      "back": "1. Its **weight** ($mg$) is **negligible compared with** the **electric force** ($qE$).\n\nSimilar: the **electric force** between two protons is about $10^{36}$ times the **gravitational** force, so gravity is negligible at atomic scale."
+    },
+    {
+      "id": "phy-0054",
+      "topic": "Electric fields",
+      "front": "Explain why the potential near an isolated positive charge is positive, and near a negative charge is negative.\n\n3 points · 18.5",
+      "back": "1. The potential is **zero at infinity**.\n2. Near **$+Q$**: work must be done **on** a positive test charge (against **repulsion**) to bring it from infinity, so $V$ is **positive** and **increases** as you get closer.\n3. Near **$-Q$**: work is done **by** the field (**attraction**), so $V$ is **negative** and gets **more negative** as you get closer.\n\nRule: potential always **decreases** in the direction of the field lines.\nHook: a $+$ charge rolls \"downhill\" from high $V$ to low $V$."
+    },
+    {
+      "id": "phy-0055",
+      "topic": "Electric fields",
+      "front": "Explain why gravitational potential is always negative, but electric potential can be positive or negative.\n\n2 points · 18.5",
+      "back": "1. Gravitational forces are **only attractive**, so work is always done **by** the field bringing a mass from infinity, and the potential is always **negative**.\n2. Electric forces can be **attractive or repulsive**, so the potential can be **positive** (near $+Q$) or **negative** (near $-Q$)."
+    },
+    {
+      "id": "phy-0056",
+      "topic": "Electric fields",
+      "front": "State one similarity and one difference between electric fields (point charge) and gravitational fields (point mass).\n\n2 points · 18.1",
+      "back": "**Similarity** (any one):\n1. Both are **radial**.\n2. Both have an **inverse-square** variation ($F,\\,E\\propto 1/r^2$; $V\\propto 1/r$).\n3. Both **decrease with distance**; potential is **zero at infinity**.\n\n**Difference** (any one):\n1. A gravitational field is **always towards** the mass; an electric field can be **towards or away from** the charge.\n2. Gravity acts on **mass** and only **attracts**; an electric field acts on **charge** and can **attract or repel**.\n3. Gravitational potential is **always negative**; electric potential can be **$+$ or $-$**."
+    },
+    {
+      "id": "phy-0057",
+      "topic": "Electric fields",
+      "front": "An α-particle is fired head-on at a nucleus. Explain how to find the distance of closest approach.\n\n3 points · 18.5",
+      "back": "1. As it approaches, its **kinetic energy is converted into electric potential energy** (it slows down due to repulsion).\n2. At closest approach it is **momentarily at rest**, so **all** its initial KE has become $E_p$.\n3. Set them equal:\n$$E_k=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r}$$\n\nUse the **actual charges in coulombs**: α is $2e$, gold is $79e$, $e=1.60\\times10^{-19}$ C.\nExample: $E_k=7.7\\times10^{-13}$ J gives $r=4.7\\times10^{-14}$ m. It doesn't collide, so the **nuclear radius is less than** this.\nTrap: $r$ is **not squared** in $E_p$."
+    },
+    {
+      "id": "phy-0058",
+      "topic": "Electric fields",
+      "front": "In α-particle scattering, why must the gold foil be very thin?\n\n1 point · 18.5",
+      "back": "1. So that each α-particle is deflected by **only one nucleus** (**single interactions** can be studied). There are **no multiple deflections**.\n\nBonus: α-particles are easily **absorbed**, so a thick foil would stop many of them. Gold can be beaten to only a few atoms thick."
+    },
+    {
+      "id": "phy-0059",
+      "topic": "Electric fields",
+      "front": "An $E$–$x$ graph between two charged spheres crosses zero. Explain whether the charges have the same or opposite sign.\n\n2 points · 18.4",
+      "back": "1. The field strength is **zero at a point** between them: the field **changes direction**.\n2. So the charges have the **same sign**.\n\nWhy: between **like** charges the two fields point in **opposite directions** and cancel at a **neutral point**. Between **opposite** charges both fields point the **same way**, so they **add** and never cancel.\nHook: gravity behaves like **like** charges, which is why there is a zero-$g$ point between two planets."
+    },
+    {
+      "id": "phy-0060",
+      "topic": "Electric fields",
+      "front": "How do you find the point where the resultant field is zero between two like charges?\n\n3 points · 18.4",
+      "back": "1. Let the point be distance $x$ from $Q_1$, so it is $d-x$ from $Q_2$.\n2. Set the field strengths equal:\n$$\\dfrac{Q_1}{x^2}=\\dfrac{Q_2}{(d-x)^2}$$\n3. Solve for $x$. The point is **closer to the smaller charge**.\n\n- Equal charges: it is at the **midpoint**.\n- At this point $E=0$ but **$V\\neq 0$**: potentials are scalars and **add**.\nTrap: fields are **vectors**. Add them with direction; subtract when they point opposite ways."
+    },
+    {
+      "id": "phy-0061",
+      "topic": "Electric fields",
+      "front": "Sketch the potential $V$ against distance between two parallel plates (one at $+V_0$, the other earthed).\n\n3 points · 18.5",
+      "back": "1. A **straight line**, because the field is **uniform** (constant gradient).\n2. It goes from **$+V_0$ at the positive plate** to **0 at the earthed plate**.\n3. The change in $V$ is $V_0$ over the distance $d$.\n\nTrap: check **which plate $x$ is measured from**. If $x$ starts at the $+V_0$ plate, the line goes **down** from $(0,V_0)$ to $(d,0)$."
+    },
+    {
+      "id": "phy-0062",
+      "topic": "Electric fields",
+      "front": "Sketch the potential along the line between two identical spheres M and N (radius $R$, each $+Q$, centres $D$ apart), from the centre of M to the centre of N.\n\n4 points · 18.5",
+      "back": "1. **Constant** (flat) from $0$ to $R$ and from $D-R$ to $D$: inside a conductor $V$ is constant.\n2. Both flat parts are at the **same height**.\n3. Between them: a **curve dipping down** (U-shape), with $V$ **always positive**.\n4. The **minimum** is at the **midpoint** $D/2$.\n\nWhy: add the potentials,\n$$V=\\dfrac{Q}{4\\pi\\varepsilon_0 y}+\\dfrac{Q}{4\\pi\\varepsilon_0 (D-y)}$$\nAt the midpoint the gradient is zero, so $E=0$ there, but $V\\neq0$.\nTrap: the dip **never touches zero**; two positive potentials always add to a positive value."
+    },
+    {
+      "id": "phy-0063",
+      "topic": "Electric fields",
+      "front": "What do the gradient and the area give for $V$–$x$, $E$–$x$ and $F$–$x$ graphs?\n\n3 points · 18.5",
+      "back": "1. **$V$–$x$ graph**: **gradient** $=-E$ (draw a tangent).\n2. **$E$–$x$ graph**: **area** under the graph $=\\Delta V$. The **height** (reading) is the potential gradient. The gradient means nothing useful.\n3. **$F$–$x$ graph**: **area** $=$ work done $=\\Delta E_p$.\n\nTrap: on an $E$–$x$ graph, convert the axes to SI (e.g. cm to m, $\\times10^3$ V m$^{-1}$) before counting squares.\nHook: like a $v$–$t$ graph: gradient is one thing, area is the other."
+    },
+    {
+      "id": "phy-0064",
+      "topic": "Electric fields",
+      "front": "Explain why the electric potential energy of two unlike charges is negative, and of two like charges is positive.\n\n2 points · 18.5",
+      "back": "1. $E_p=0$ when the charges are **infinitely far apart**.\n2. **Unlike** charges attract, so the field **does work** as they come together and $E_p$ **decreases below zero**. **Like** charges repel, so work must be done **on** them to push them together and $E_p$ **increases above zero**.\n\n$$E_p=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r}$$\nPut the signs of the charges in and the sign of $E_p$ comes out automatically."
+    },
+    {
+      "id": "phy-0065",
+      "topic": "Electric fields",
+      "front": "Formula: electric field strength from force. Write it and name every variable with its unit.\n\nFormula · 18.1",
+      "back": "$$E=\\dfrac{F}{q}\\qquad F=qE$$\n- $E$: electric field strength ($\\text{N C}^{-1}$ or $\\text{V m}^{-1}$)\n- $F$: force on the charge (N)\n- $q$: charge (C)\n\nA $+q$ is pushed **along** $E$; a $-q$ is pushed **opposite** to $E$.\nExample: electron in $E=5000\\ \\text{N C}^{-1}$: $F=8.0\\times10^{-16}$ N, against the field lines."
+    },
+    {
+      "id": "phy-0066",
+      "topic": "Electric fields",
+      "front": "Formula: field strength between parallel plates. Write it, name every variable, and say when to use it.\n\nFormula · 18.2",
+      "back": "$$E=\\dfrac{\\Delta V}{\\Delta d}$$\n- $E$: field strength ($\\text{V m}^{-1}$)\n- $\\Delta V$: p.d. between the plates (V)\n- $\\Delta d$: separation of the plates (m)\n\nCombined with $F=qE$:\n$$F=\\dfrac{qV}{d}$$\nUse it **only for a uniform field** (parallel plates).\nExample: $V=7.9$ kV, $d=3.5$ cm, $q=2.6\\times10^{-15}$ C gives $F=5.9\\times10^{-10}$ N."
+    },
+    {
+      "id": "phy-0067",
+      "topic": "Electric fields",
+      "front": "Formula: Coulomb's law. Write it and name every variable and constant.\n\nFormula · 18.3",
+      "back": "$$F=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r^2}$$\n- $F$: force between the charges (N)\n- $Q_1,\\ Q_2$: the two charges (C)\n- $r$: separation, **centre to centre** (m)\n- $\\varepsilon_0$: permittivity of free space, $8.85\\times10^{-12}\\ \\text{F m}^{-1}$\n- $\\tfrac{1}{4\\pi\\varepsilon_0}=8.99\\times10^{9}\\ \\text{N m}^2\\text{C}^{-2}$\n\nPositive $F$: **repulsion** (like charges). Negative $F$: **attraction**.\nDouble $r$: force $\\div 4$."
+    },
+    {
+      "id": "phy-0068",
+      "topic": "Electric fields",
+      "front": "Formula: field strength of a point charge. Write it and name every variable.\n\nFormula · 18.4",
+      "back": "$$E=\\dfrac{Q}{4\\pi\\varepsilon_0 r^2}$$\n- $E$: field strength at the point ($\\text{N C}^{-1}$)\n- $Q$: the charge **creating** the field (C)\n- $r$: distance from the **centre** of the charge (m)\n- $\\varepsilon_0=8.85\\times10^{-12}\\ \\text{F m}^{-1}$\n\nInverse square: double $r$, $E\\div4$.\nExample: sphere diameter 15 cm, surface $E=1.5\\times10^5$ V m$^{-1}$: use $r=0.075$ m, $Q=9.4\\times10^{-8}$ C."
+    },
+    {
+      "id": "phy-0069",
+      "topic": "Electric fields",
+      "front": "Formula: electric potential of a point charge. Write it and name every variable.\n\nFormula · 18.5",
+      "back": "$$V=\\dfrac{Q}{4\\pi\\varepsilon_0 r}$$\n- $V$: potential at the point (V)\n- $Q$: the charge creating the field, **with its sign** (C)\n- $r$: distance from the centre of the charge (m)\n- $\\varepsilon_0=8.85\\times10^{-12}\\ \\text{F m}^{-1}$\n\n$V\\propto 1/r$, **not** $1/r^2$. Scalar: for several charges, just **add** (with signs).\nExample: dome $r=15$ cm at 240 kV. At $r=45$ cm (3 times further), $V=80$ kV."
+    },
+    {
+      "id": "phy-0070",
+      "topic": "Electric fields",
+      "front": "Formula: electric potential energy of two point charges. Write it and name every variable.\n\nFormula · 18.5",
+      "back": "$$E_p=\\dfrac{Qq}{4\\pi\\varepsilon_0 r}$$\n- $E_p$: electric potential energy (J)\n- $Q,\\ q$: the two charges, **with signs** (C)\n- $r$: separation, centre to centre (m)\n\nAlso: $E_p=qV$ and work done $W=q\\,\\Delta V$.\nChange in $E_p$ moving from $r_1$ to $r_2$:\n$$\\Delta E_p=\\dfrac{Qq}{4\\pi\\varepsilon_0}\\left(\\dfrac{1}{r_2}-\\dfrac{1}{r_1}\\right)$$\nHook: **one** charge on top gives $V$; **two** charges give $E_p$."
+    },
+    {
+      "id": "phy-0071",
+      "topic": "Electric fields",
+      "front": "Formula: field strength and potential gradient. Write it and name every variable.\n\nFormula · 18.5",
+      "back": "$$E=-\\dfrac{\\Delta V}{\\Delta x}$$\n- $E$: field strength ($\\text{V m}^{-1}$)\n- $\\Delta V$: change in potential (V)\n- $\\Delta x$: distance moved (m)\n\nThe minus sign: $E$ points from **high to low** potential.\nFor plates the gradient is constant, which gives $E=V/d$."
+    },
+    {
+      "id": "phy-0072",
+      "topic": "Electric fields",
+      "front": "Formulas for a charged particle moving through the field between parallel plates (entering at 90°). Name every variable.\n\nFormula · 18.2",
+      "back": "Along the plates (no force):\n$$t=\\dfrac{L}{v}$$\nAcross the plates (constant force):\n$$a=\\dfrac{qE}{m}=\\dfrac{qV}{md}$$\n$$y=\\tfrac{1}{2}at^2$$\nAccelerated from rest through p.d. $V$:\n$$\\tfrac{1}{2}mv^2=qV$$\n- $L$: length of the plates (m); $v$: speed along the plates ($\\text{m s}^{-1}$)\n- $t$: time between the plates (s); $a$: acceleration ($\\text{m s}^{-2}$)\n- $q,\\ m$: charge (C) and mass (kg); $V$: p.d. (V); $d$: plate separation (m)\n- $y$: sideways deflection (m)"
+    },
+    {
+      "id": "phy-0073",
+      "topic": "Electric fields",
+      "front": "Summary: the four point-charge formulas. How are they linked?\n\nFormula · 18.3–18.5",
+      "back": "**Two charges** (force and energy):\n$$F=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r^2}$$\n$$E_p=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r}$$\n**Point in space** (field and potential):\n$$E=\\dfrac{Q}{4\\pi\\varepsilon_0 r^2}$$\n$$V=\\dfrac{Q}{4\\pi\\varepsilon_0 r}$$\n1. Two charges to point in space: **divide by the test charge** $q$.\n2. Vector ($F$, $E$) to scalar ($E_p$, $V$): **area** under the graph.\n3. Scalar to vector: **minus the gradient**.\n\nHook: **$r^2$ for vectors** ($F$, $E$), **$r$ for scalars** ($E_p$, $V$)."
     }
   ]
 }
