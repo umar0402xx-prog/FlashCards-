@@ -1,4 +1,245 @@
 {
   "deck": "chemistry",
-  "cards": []
+  "cards": [
+    {
+      "id": "che-0013",
+      "topic": "Hydroxy compounds",
+      "front": "Alkene → alcohol: reagents, conditions, equation and type of reaction?\n\nConditions · 16.1.1(a)",
+      "back": "1. **Steam**, $\\ce{H2O(g)}$, with a **phosphoric acid catalyst**, $\\ce{H3PO4}$ (industrially about **300 °C** and **60–70 atm**).\n$$\\ce{CH2=CH2 + H2O <=> CH3CH2OH}$$\n2. Type: **electrophilic addition** (hydration). It is **reversible**.\n3. Unsymmetrical alkenes follow **Markovnikov**: propene gives mainly **propan-2-ol**, via the more stable **secondary carbocation**.\n\nTrap: **steam**, not liquid water, and the catalyst is $\\ce{H3PO4}$."
+    },
+    {
+      "id": "che-0014",
+      "topic": "Hydroxy compounds",
+      "front": "Alkene → diol: reagent, conditions and observation?\n\nConditions · 16.1.1(b)",
+      "back": "1. **Cold, dilute, acidified** $\\ce{KMnO4}$.\n$$\\begin{aligned}&\\ce{CH2=CH2 + [O] + H2O}\\\\&\\quad\\ce{-> HOCH2CH2OH}\\end{aligned}$$\n2. Product: **ethane-1,2-diol** (an OH on each carbon of the old C=C).\n3. Observation: **purple → colourless**.\n\nTrap: **hot, concentrated** acidified $\\ce{KMnO4}$ **breaks the C=C** instead."
+    },
+    {
+      "id": "che-0015",
+      "topic": "Hydroxy compounds",
+      "front": "Halogenoalkane → alcohol: reagent, conditions and type of reaction?\n\nConditions · 16.1.1(c)",
+      "back": "1. **NaOH(aq)**, **heat under reflux**.\n$$\\begin{aligned}&\\ce{CH3CH2Br + NaOH}\\\\&\\quad\\ce{-> CH3CH2OH + NaBr}\\end{aligned}$$\n2. Type: **nucleophilic substitution** ($\\ce{OH-}$ is the nucleophile).\n\nTrap: NaOH **in ethanol** gives **elimination** (an alkene).\nHook: **aqueous → alcohol, ethanolic → alkene**."
+    },
+    {
+      "id": "che-0016",
+      "topic": "Hydroxy compounds",
+      "front": "Aldehyde or ketone → alcohol: reagents, conditions and which alcohol forms?\n\nConditions · 16.1.1(d)",
+      "back": "1. $\\ce{NaBH4}$ (in water or alcohol, warm) **or** $\\ce{LiAlH4}$ (in **dry ether**).\n2. **Aldehyde → primary** alcohol; **ketone → secondary** alcohol.\n$$\\ce{CH3CHO + 2[H] -> CH3CH2OH}$$\n$$\\begin{aligned}&\\ce{CH3COCH3 + 2[H]}\\\\&\\quad\\ce{-> CH3CH(OH)CH3}\\end{aligned}$$\n3. Type: **reduction** ($\\ce{H-}$ acts as the nucleophile: nucleophilic addition).\n\nTrap: this can **never** make a tertiary alcohol."
+    },
+    {
+      "id": "che-0017",
+      "topic": "Hydroxy compounds",
+      "front": "Carboxylic acid → alcohol: reagent and conditions?\n\nConditions · 16.1.1(e)",
+      "back": "1. $\\ce{LiAlH4}$ in **dry ether**. Only $\\ce{LiAlH4}$ is strong enough.\n$$\\begin{aligned}&\\ce{CH3COOH + 4[H]}\\\\&\\quad\\ce{-> CH3CH2OH + H2O}\\end{aligned}$$\n2. Always gives a **primary** alcohol.\n\nTrap: $\\ce{NaBH4}$ does **not** reduce carboxylic acids. Ether must be **dry** because $\\ce{LiAlH4}$ reacts violently with water."
+    },
+    {
+      "id": "che-0018",
+      "topic": "Hydroxy compounds",
+      "front": "Ester → alcohol: the two methods and how they differ?\n\nConditions · 16.1.1(f)",
+      "back": "1. **Dilute acid**, heat under **reflux**: **reversible**, so incomplete.\n$$\\begin{aligned}&\\ce{CH3COOCH2CH3 + H2O}\\\\&\\quad\\ce{<=> CH3COOH + CH3CH2OH}\\end{aligned}$$\n2. **Dilute NaOH(aq)**, heat under **reflux**: goes to **completion** and gives the **carboxylate salt**.\n$$\\begin{aligned}&\\ce{CH3COOCH2CH3 + NaOH}\\\\&\\quad\\ce{-> CH3COONa + CH3CH2OH}\\end{aligned}$$\n\nHook: **alkali = complete** (the salt can't re-form the ester)."
+    },
+    {
+      "id": "che-0019",
+      "topic": "Hydroxy compounds",
+      "front": "Write the equation for the complete combustion of ethanol, and of propan-1-ol.\n\nEquation · 16.1.2(a)",
+      "back": "$$\\ce{C2H5OH + 3O2 -> 2CO2 + 3H2O}$$\n$$\\ce{2C3H7OH + 9O2 -> 6CO2 + 8H2O}$$\nTrap: count the **O already in the alcohol** when you balance the oxygen."
+    },
+    {
+      "id": "che-0020",
+      "topic": "Hydroxy compounds",
+      "front": "Alcohol → halogenoalkane: give every reagent (with conditions and equations).\n\nConditions · 16.1.2(b)",
+      "back": "1. **HX(g)**, or **KX + concentrated $\\ce{H2SO4}$ (or conc. $\\ce{H3PO4}$)**, which makes HX in the flask:\n$$\\begin{aligned}&\\ce{CH3CH2OH + HBr}\\\\&\\quad\\ce{-> CH3CH2Br + H2O}\\end{aligned}$$\n2. $\\ce{PCl5}$ at **room temperature** (**steamy white fumes** of HCl):\n$$\\ce{ROH + PCl5 -> RCl + POCl3 + HCl}$$\n3. $\\ce{PCl3}$ and **heat**:\n$$\\ce{3ROH + PCl3 -> 3RCl + H3PO3}$$\n4. $\\ce{SOCl2}$ (both by-products are **gases**):\n$$\\ce{ROH + SOCl2 -> RCl + SO2 + HCl}$$\nType: **substitution** (OH replaced by a halogen)."
+    },
+    {
+      "id": "che-0021",
+      "topic": "Hydroxy compounds",
+      "front": "Ethanol + sodium: equation and observations?\n\nObservation · 16.1.2(c)",
+      "back": "$$\\begin{aligned}&\\ce{2CH3CH2OH + 2Na}\\\\&\\quad\\ce{-> 2CH3CH2ONa + H2}\\end{aligned}$$\n1. **Fizzing / effervescence** ($\\ce{H2}$).\n2. The sodium **sinks** and slowly **disappears** (dissolves).\n3. **Less vigorous than with water**, because ethanol is a **weaker acid** than water.\n\nProduct: **sodium ethoxide**. Trap: not sodium ethanoate."
+    },
+    {
+      "id": "che-0022",
+      "topic": "Hydroxy compounds",
+      "front": "Primary alcohol → aldehyde, and secondary alcohol → ketone: reagents, conditions and why?\n\nConditions · 16.1.2(d)(i)",
+      "back": "1. Acidified $\\ce{K2Cr2O7}$ (or acidified $\\ce{KMnO4}$), **warm**, and **distil off the aldehyde as it forms**.\n$$\\begin{aligned}&\\ce{CH3CH2OH + [O]}\\\\&\\quad\\ce{-> CH3CHO + H2O}\\end{aligned}$$\n2. Why distil: the aldehyde has a **lower boiling point** (no hydrogen bonding between its molecules), so it **escapes before it is oxidised further** to the acid.\n3. Secondary alcohol, same reagents (distillation in the syllabus): ketone, **not oxidised further**.\n$$\\begin{aligned}&\\ce{CH3CH(OH)CH3 + [O]}\\\\&\\quad\\ce{-> CH3COCH3 + H2O}\\end{aligned}$$\nColour: **orange → green**."
+    },
+    {
+      "id": "che-0023",
+      "topic": "Hydroxy compounds",
+      "front": "Primary alcohol → carboxylic acid: reagents, conditions and why? What about tertiary alcohols?\n\nConditions · 16.1.2(d)(ii)",
+      "back": "1. **Excess** acidified $\\ce{K2Cr2O7}$ (or $\\ce{KMnO4}$), **heat under reflux**.\n$$\\begin{aligned}&\\ce{CH3CH2OH + 2[O]}\\\\&\\quad\\ce{-> CH3COOH + H2O}\\end{aligned}$$\n2. Reflux returns the volatile aldehyde to the flask, so it is **fully oxidised**.\n3. **Tertiary alcohols are not oxidised** (no H on the C bonded to OH): dichromate **stays orange**.\n\nHook: **distil for aldehyde, reflux for acid**."
+    },
+    {
+      "id": "che-0024",
+      "topic": "Hydroxy compounds",
+      "front": "Colour changes of the oxidising agents with alcohols?\n\nObservation · 16.1.3(b)",
+      "back": "1. Acidified $\\ce{K2Cr2O7}$: **orange → green** ($\\ce{Cr2O7^2-}$ → $\\ce{Cr^3+}$) with **primary and secondary** alcohols.\n2. Acidified $\\ce{KMnO4}$: **purple → colourless** ($\\ce{MnO4-}$ → $\\ce{Mn^2+}$).\n3. **Tertiary** alcohol: **no change** (stays orange or purple).\n\nUse: picks out a **tertiary** alcohol from primary and secondary ones."
+    },
+    {
+      "id": "che-0025",
+      "topic": "Hydroxy compounds",
+      "front": "Alcohol → alkene (dehydration): two methods, type of reaction, and how to test the product?\n\nConditions · 16.1.2(e)",
+      "back": "1. Pass the alcohol vapour over **heated $\\ce{Al2O3}$**, **or**\n2. Heat with **concentrated $\\ce{H2SO4}$** (about **170 °C** for ethanol) or **concentrated $\\ce{H3PO4}$**.\n$$\\ce{CH3CH2OH -> CH2=CH2 + H2O}$$\n3. Type: **elimination** (dehydration: $\\ce{H2O}$ removed).\n4. Can give a **mixture**: butan-2-ol → **but-1-ene, cis-but-2-ene and trans-but-2-ene**.\nTest: the alkene **decolourises bromine water** (orange → colourless)."
+    },
+    {
+      "id": "che-0026",
+      "topic": "Hydroxy compounds",
+      "front": "Alcohol + carboxylic acid → ester: conditions, equation and observation?\n\nConditions · 16.1.2(f)",
+      "back": "1. **Concentrated $\\ce{H2SO4}$** as catalyst, **heat** (reflux).\n$$\\begin{aligned}&\\ce{CH3COOH + CH3CH2OH}\\\\&\\quad\\ce{<=> CH3COOCH2CH3 + H2O}\\end{aligned}$$\n2. **Condensation** reaction, **reversible**.\n3. Observation: **sweet, fruity smell** (ethyl ethanoate).\n\nTrap: it must be **concentrated** acid, and include $\\ce{H2O}$ and $\\rightleftharpoons$."
+    },
+    {
+      "id": "che-0027",
+      "topic": "Hydroxy compounds",
+      "front": "Define primary, secondary and tertiary alcohols, with one example each.\n\nQuick Q · 16.1.3(a)",
+      "back": "1. **Primary**: the C bonded to OH is bonded to **one** other C (methanol: none). E.g. **propan-1-ol**.\n2. **Secondary**: bonded to **two** other C. E.g. **propan-2-ol**.\n3. **Tertiary**: bonded to **three** other C. E.g. **2-methylpropan-2-ol**.\n\nMore than one OH: classify **each OH separately**, e.g. propane-1,2-diol has one primary and one secondary OH."
+    },
+    {
+      "id": "che-0028",
+      "topic": "Hydroxy compounds",
+      "front": "How do you tell apart butan-1-ol, butan-2-ol and 2-methylpropan-2-ol?\n\nTest · 16.1.3(b)",
+      "back": "1. Warm each with acidified $\\ce{K2Cr2O7}$: 2-methylpropan-2-ol (**tertiary**) **stays orange**; the other two turn **green**.\n2. Distil off the oxidation product of the other two and add **Tollens' reagent**: from butan-1-ol, **butanal** gives a **silver mirror**; from butan-2-ol, **butanone** gives **no change**.\n3. Or use **alkaline $\\ce{I2}$**: only **butan-2-ol** gives a **pale yellow precipitate**."
+    },
+    {
+      "id": "che-0029",
+      "topic": "Hydroxy compounds",
+      "front": "Tri-iodomethane test on alcohols: reagent, observation, and what it shows?\n\nTest · 16.1.4",
+      "back": "1. Warm with **alkaline aqueous iodine** ($\\ce{I2}$ + $\\ce{NaOH(aq)}$).\n2. Positive: **pale yellow precipitate** of $\\ce{CHI3}$ (antiseptic smell).\n3. Shows a **$\\ce{CH3CH(OH)\\bond{-}}$ group**: the iodine first oxidises it to $\\ce{CH3CO\\bond{-}}$.\n4. Also forms the carboxylate ion $\\ce{RCO2-}$, with **one carbon fewer**.\n\nPositive: **ethanol**, propan-2-ol, butan-2-ol, pentan-2-ol.\nNegative: methanol, propan-1-ol, pentan-3-ol, 2-methylpropan-2-ol.\nTrap: ethanol is **primary** but still positive."
+    },
+    {
+      "id": "che-0030",
+      "topic": "Hydroxy compounds",
+      "front": "Explain why alcohols are weaker acids than water.\n\nExplain · 16.1.5",
+      "back": "1. Both lose $\\ce{H+}$ from the O–H: $\\ce{ROH <=> RO- + H+}$.\n2. The **alkyl group is electron-donating**.\n3. It **increases the negative charge density on the O** of the **alkoxide ion**, making it **less stable** (it accepts $\\ce{H+}$ back more readily).\n4. So alcohols **dissociate less** than water.\n\nEvidence: sodium reacts **less vigorously** with ethanol than with water."
+    },
+    {
+      "id": "che-0031",
+      "topic": "Hydroxy compounds",
+      "front": "Alcohol + acyl chloride: conditions, equation, observation, and why is it better than using a carboxylic acid?\n\nConditions · A Level 32.1.1",
+      "back": "$$\\begin{aligned}&\\ce{CH3COCl + CH3CH2OH}\\\\&\\quad\\ce{-> CH3COOCH2CH3 + HCl}\\end{aligned}$$\n1. **Room temperature**, no catalyst.\n2. **Steamy white fumes** of HCl.\n3. Better than a carboxylic acid: **faster** and **not reversible**, so a **higher yield**.\nType: **addition–elimination**."
+    },
+    {
+      "id": "che-0032",
+      "topic": "Hydroxy compounds",
+      "front": "Make phenol from phenylamine: both steps with conditions and equations.\n\nConditions · A Level 32.2.1",
+      "back": "1. **Step 1:** $\\ce{NaNO2}$ + **dilute HCl** (this makes $\\ce{HNO2}$), **below 10 °C** → **benzenediazonium chloride**.\n$$\\begin{aligned}&\\ce{C6H5NH2 + HNO2 + HCl}\\\\&\\quad\\ce{-> C6H5N2+Cl- + 2H2O}\\end{aligned}$$\n2. **Step 2:** **warm** the solution with **water**:\n$$\\begin{aligned}&\\ce{C6H5N2+Cl- + H2O}\\\\&\\quad\\ce{-> C6H5OH + N2 + HCl}\\end{aligned}$$\n3. Observation in step 2: **effervescence** ($\\ce{N2}$).\n\nTrap: step 1 must stay **below 10 °C**, or the diazonium salt **decomposes**."
+    },
+    {
+      "id": "che-0033",
+      "topic": "Hydroxy compounds",
+      "front": "Phenol + NaOH(aq): equation and observation?\n\nEquation · A Level 32.2.2(a)",
+      "back": "$$\\begin{aligned}&\\ce{C6H5OH + NaOH}\\\\&\\quad\\ce{-> C6H5O-Na+ + H2O}\\end{aligned}$$\n1. Product: **sodium phenoxide**.\n2. Phenol (only slightly soluble in water) **dissolves**, giving a **colourless solution**.\n3. Shows phenol is **acidic**: ethanol does **not** react with NaOH(aq)."
+    },
+    {
+      "id": "che-0034",
+      "topic": "Hydroxy compounds",
+      "front": "Phenol + sodium: equation and observation?\n\nEquation · A Level 32.2.2(b)",
+      "back": "$$\\begin{aligned}&\\ce{2C6H5OH + 2Na}\\\\&\\quad\\ce{-> 2C6H5O-Na+ + H2}\\end{aligned}$$\n1. **Effervescence** ($\\ce{H2}$); **sodium phenoxide** forms.\n\nTrap: sodium fizzes with **any** O–H (water, alcohols, phenols, acids), so it can't tell them apart."
+    },
+    {
+      "id": "che-0035",
+      "topic": "Hydroxy compounds",
+      "front": "Phenol + benzenediazonium chloride: conditions, product and observation?\n\nObservation · A Level 32.2.2(c)",
+      "back": "1. Phenol dissolved in **NaOH(aq)**, kept **cold** (below 10 °C).\n2. The diazonium ion **couples** at the **4-position** of phenol, giving an **azo compound** (–N=N– link):\n$$\\begin{aligned}&\\ce{C6H5N2+ + C6H5OH}\\\\&\\quad\\ce{-> C6H5N=NC6H4OH + H+}\\end{aligned}$$\n3. Observation: **yellow-orange precipitate** (an **azo dye**)."
+    },
+    {
+      "id": "che-0036",
+      "topic": "Hydroxy compounds",
+      "front": "Nitration of phenol: conditions and products. How does it compare with benzene?\n\nConditions · A Level 32.2.2(d)",
+      "back": "1. **Dilute $\\ce{HNO3}$**, **room temperature**.\n2. Products: a **mixture** of **2-nitrophenol** and **4-nitrophenol**, plus water.\n$$\\begin{aligned}&\\ce{C6H5OH + HNO3}\\\\&\\quad\\ce{-> HOC6H4NO2 + H2O}\\end{aligned}$$\n3. Benzene needs **concentrated $\\ce{HNO3}$ + concentrated $\\ce{H2SO4}$** at **25–60 °C**.\n\nHook: OH sends groups to **2 and 4**."
+    },
+    {
+      "id": "che-0037",
+      "topic": "Hydroxy compounds",
+      "front": "Phenol + bromine water: product, observations and equation? How does it compare with benzene?\n\nObservation · A Level 32.2.2(e)",
+      "back": "$$\\begin{aligned}&\\ce{C6H5OH + 3Br2}\\\\&\\quad\\ce{-> C6H2Br3OH + 3HBr}\\end{aligned}$$\n1. Product: **2,4,6-tribromophenol**.\n2. Bromine water is **decolourised** (orange/brown → colourless).\n3. A **white precipitate** forms.\n4. Room temperature, **no catalyst**. Benzene needs **liquid $\\ce{Br2}$ + $\\ce{AlBr3}$** and only gives **bromobenzene**."
+    },
+    {
+      "id": "che-0038",
+      "topic": "Hydroxy compounds",
+      "front": "Explain the order of acidity: phenol > water > ethanol.\n\nExplain · A Level 32.2.3–4",
+      "back": "1. Compare the anions: **phenoxide**, **hydroxide**, **ethoxide**.\n2. **Phenoxide**: a **lone pair on O overlaps with the delocalised π system** of the ring, so the **negative charge is spread into the ring**: most stable anion, **strongest acid**.\n3. **Hydroxide**: the charge stays on the O; no delocalisation.\n4. **Ethoxide**: the **ethyl group donates electrons**, so the charge is **more concentrated** on the O: least stable anion, **weakest acid**.\n\nTrap: phenol is still a **weak** acid. It does **not** give $\\ce{CO2}$ with carbonates (carboxylic acids do)."
+    },
+    {
+      "id": "che-0039",
+      "topic": "Hydroxy compounds",
+      "front": "Why do phenol's nitration and bromination need milder conditions than benzene's?\n\nExplain · A Level 32.2.5",
+      "back": "1. A **lone pair (p orbital) on the O** **overlaps with the ring's π system**, so it is partly delocalised into the ring.\n2. This **increases the electron density** of the ring, especially at **positions 2, 4 and 6**.\n3. The ring attracts **electrophiles** more strongly and can **polarise $\\ce{Br2}$** without a halogen carrier.\n4. So **no catalyst**, **dilute $\\ce{HNO3}$** and **room temperature** are enough, and bromine **substitutes three times**."
+    },
+    {
+      "id": "che-0040",
+      "topic": "Hydroxy compounds",
+      "front": "Which ring positions does the –OH group of phenol direct incoming groups to?\n\nQuick Q · A Level 32.2.6",
+      "back": "**2, 4 and 6** (counting the C bonded to OH as C1).\nE.g. bromination → **2,4,6-tribromophenol**; nitration → **2-nitrophenol + 4-nitrophenol**."
+    },
+    {
+      "id": "che-0041",
+      "topic": "Hydroxy compounds",
+      "front": "Predict how naphthol (a phenol with two fused benzene rings) reacts with NaOH(aq), Na and benzenediazonium chloride.\n\nApply · A Level 32.2.7",
+      "back": "1. **NaOH(aq)**: reacts like phenol, giving **sodium naphthoxide** + water.\n2. **Na**: **effervescence** ($\\ce{H2}$), sodium naphthoxide.\n3. **Benzenediazonium chloride** in **NaOH(aq)**, cold: couples to give an **azo dye** (2-naphthol gives an intense **orange-red precipitate**).\n\nHook: **same OH, same reactions** as phenol."
+    },
+    {
+      "id": "che-0042",
+      "topic": "Hydroxy compounds",
+      "front": "Memorise: every colour change and observation for alcohols and phenol.\n\nMemorise · Hydroxy compounds",
+      "back": "1. Acidified $\\ce{K2Cr2O7}$ + 1°/2° alcohol: **orange → green**. 3°: **stays orange**.\n2. Acidified $\\ce{KMnO4}$ + 1°/2° alcohol: **purple → colourless**.\n3. Na + alcohol: **fizzing**, sodium sinks and **disappears**, **slower than with water**.\n4. $\\ce{PCl5}$ + alcohol: **steamy white fumes** (HCl).\n5. Alkaline $\\ce{I2}$ + $\\ce{CH3CH(OH)\\bond{-}}$: **pale yellow precipitate**, antiseptic smell.\n6. Ester formed: **sweet, fruity smell**.\n7. Dehydration product (alkene) + bromine water: **orange → colourless**.\n8. Phenol + NaOH(aq): phenol **dissolves**, **colourless solution**.\n9. Phenol + $\\ce{Br2(aq)}$: **decolourised** + **white precipitate**.\n10. Diazonium salt warmed with water: **effervescence** ($\\ce{N2}$).\n11. Diazonium + phenol in NaOH(aq): **yellow-orange precipitate**.\n12. Acyl chloride + alcohol: **steamy white fumes** (HCl)."
+    },
+    {
+      "id": "che-0043",
+      "topic": "Hydroxy compounds",
+      "front": "Memorise: one line for every way to make an alcohol.\n\nMemorise · 16.1.1",
+      "back": "1. Alkene + **steam**, **$\\ce{H3PO4}$** catalyst → alcohol.\n2. Alkene + **cold, dilute, acidified $\\ce{KMnO4}$** → diol.\n3. Halogenoalkane + **NaOH(aq)**, **heat** → alcohol.\n4. Aldehyde / ketone + **$\\ce{NaBH4}$ or $\\ce{LiAlH4}$** → 1° / 2° alcohol.\n5. Carboxylic acid + **$\\ce{LiAlH4}$**, dry ether → 1° alcohol.\n6. Ester + **dilute acid or dilute NaOH**, **heat (reflux)** → alcohol.\n7. **A Level:** phenylamine → **$\\ce{NaNO2}$ + dilute HCl, below 10 °C** → diazonium salt → **warm with water** → phenol."
+    },
+    {
+      "id": "che-0044",
+      "topic": "Hydroxy compounds",
+      "front": "Memorise: one line for every reaction of alcohols (reagent → product).\n\nMemorise · 16.1.2",
+      "back": "1. $\\ce{O2}$ (burn) → $\\ce{CO2}$ + $\\ce{H2O}$.\n2. HX(g) / KX + conc. $\\ce{H2SO4}$ / $\\ce{PCl5}$ / $\\ce{PCl3}$ + heat / $\\ce{SOCl2}$ → **halogenoalkane**.\n3. **Na** → **alkoxide** + $\\ce{H2}$.\n4. Acidified $\\ce{K2Cr2O7}$, **distil** → aldehyde (1°) or ketone (2°).\n5. Acidified $\\ce{K2Cr2O7}$, **reflux** (excess) → carboxylic acid (1°).\n6. **Heated $\\ce{Al2O3}$** or **conc. $\\ce{H2SO4}$ / $\\ce{H3PO4}$** → alkene.\n7. Carboxylic acid + **conc. $\\ce{H2SO4}$**, heat → ester.\n8. Alkaline $\\ce{I2}$ → $\\ce{CHI3}$ (only $\\ce{CH3CH(OH)\\bond{-}}$).\n9. **A Level:** acyl chloride, room temp → ester + HCl."
+    },
+    {
+      "id": "che-0045",
+      "topic": "Hydroxy compounds",
+      "front": "Phenol vs ethanol: which reacts with each reagent?\n\nMemorise · A Level 32.2",
+      "back": "1. **Na**: **both** fizz ($\\ce{H2}$).\n2. **NaOH(aq)**: **phenol only** (phenoxide forms).\n3. **$\\ce{Na2CO3}$ / $\\ce{NaHCO3}$**: **neither** gives $\\ce{CO2}$ (both too weak).\n4. **Acidified $\\ce{K2Cr2O7}$**: **ethanol only** (orange → green).\n5. **$\\ce{Br2(aq)}$**: **phenol only** (white precipitate).\n6. **Acyl chloride**: **both** form esters.\n7. **Carboxylic acid + conc. $\\ce{H2SO4}$**: **ethanol only** (phenol needs an acyl chloride)."
+    },
+    {
+      "id": "che-0046",
+      "topic": "Hydroxy compounds",
+      "front": "1 mol of propane-1,2,3-triol reacts with excess sodium. How many moles of $\\ce{H2}$ form?\n\nQuick Q · 16.1.2(c)",
+      "back": "**1.5 mol**.\nEach OH gives **½ $\\ce{H2}$**, and there are **3 OH** groups."
+    },
+    {
+      "id": "che-0047",
+      "topic": "Hydroxy compounds",
+      "front": "How many alkenes (including stereoisomers) form when butan-2-ol is dehydrated? Name them.\n\nQuick Q · 16.1.2(e)",
+      "back": "**3**: **but-1-ene**, **cis-but-2-ene** and **trans-but-2-ene**.\nThe H can be lost from **C1 or C3**, and but-2-ene has cis/trans isomers."
+    },
+    {
+      "id": "che-0048",
+      "topic": "Hydroxy compounds",
+      "front": "Which of pentan-1-ol, pentan-2-ol and pentan-3-ol gives a yellow precipitate with alkaline $\\ce{I2}$? Give the organic ion formed.\n\nQuick Q · 16.1.4",
+      "back": "**Pentan-2-ol** only (it has $\\ce{CH3CH(OH)\\bond{-}}$).\nIon: **butanoate**, $\\ce{CH3CH2CH2CO2-}$ (one carbon fewer)."
+    },
+    {
+      "id": "che-0049",
+      "topic": "Hydroxy compounds",
+      "front": "Name the organic product when each is oxidised with acidified $\\ce{K2Cr2O7}$ (distilling): butan-2-ol, 2-methylpropan-1-ol, 2-methylpropan-2-ol.\n\nQuick Q · 16.1.2(d)",
+      "back": "1. Butan-2-ol → **butanone**.\n2. 2-methylpropan-1-ol → **2-methylpropanal**.\n3. 2-methylpropan-2-ol → **no reaction** (tertiary)."
+    },
+    {
+      "id": "che-0050",
+      "topic": "Hydroxy compounds",
+      "front": "4-methylphenol reacts with (a) excess $\\ce{Br2(aq)}$, (b) dilute $\\ce{HNO3}$. Name each product.\n\nQuick Q · A Level 32.2.7",
+      "back": "(a) **2,6-dibromo-4-methylphenol** (position 4 is already taken).\n(b) **4-methyl-2-nitrophenol**.\nTrick: OH directs to **2, 4, 6**, so just fill whichever of those are **free**."
+    },
+    {
+      "id": "che-0051",
+      "topic": "Hydroxy compounds",
+      "front": "Name the ester formed from: (a) propan-1-ol + ethanoic acid, (b) ethanol + propanoic acid.\n\nQuick Q · 16.1.2(f)",
+      "back": "(a) **propyl ethanoate**, $\\ce{CH3COOCH2CH2CH3}$.\n(b) **ethyl propanoate**, $\\ce{CH3CH2COOCH2CH3}$.\nHook: the **alcohol** part is named **first** (alkyl), the acid part second (-oate)."
+    },
+    {
+      "id": "che-0052",
+      "topic": "Hydroxy compounds",
+      "front": "Propene + steam with an $\\ce{H3PO4}$ catalyst. Which alcohol is the major product, and why?\n\nQuick Q · 16.1.1(a)",
+      "back": "**Propan-2-ol**.\nIt forms via the **secondary carbocation**, which is **more stable** than the primary one because **two alkyl groups donate electrons** (Markovnikov)."
+    }
+  ]
 }
