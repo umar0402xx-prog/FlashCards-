@@ -3,7 +3,7 @@
    Progress, settings and device-made cards live in this browser's localStorage. */
 'use strict';
 
-const APP_VERSION = '1.0.3';
+const APP_VERSION = '1.1.0';
 const IV = [0, 1, 3, 7, 16, 35, 75, 150]; // days for each box; box 0 = learning (due again today)
 const MAX_BOX = IV.length - 1;
 const COLORS = ['yellow', 'green', 'pink', 'blue', 'orange', 'lavender'];
@@ -68,6 +68,7 @@ const S = {
   view: 'today',
   session: null,
   browse: { q: '', deck: 'all' },
+  nav: { deck: null, topic: null },
   editing: null,
   addDeck: null,
   pendingConfirm: null,
@@ -109,7 +110,34 @@ function cardState(card) {
   return p.due <= todayStr() ? 'due' : 'later';
 }
 
-function deckStats(deckId) {
+const NO_TOPIC = 'Other';
+function topicOf(card) { return String(card.topic || '').trim() || NO_TOPIC; }
+// Syllabus chapter from the label on a card's last front line, e.g. "Formula · 18.2" or "Conditions · A Level 32.2.1".
+function chapterOf(card) {
+  const lines = String(card.front || '').split('\n');
+  const m = /·\s*(?:A Level\s*)?(\d+)\./.exec(lines[lines.length - 1]);
+  return m ? Number(m[1]) : Infinity;
+}
+// A subject's topics in syllabus order (lowest chapter number first), then in the order they first appear.
+function topicsOf(deckId) {
+  const order = [];
+  const chapter = new Map();
+  for (const c of allCards()) {
+    if (c.deck !== deckId) continue;
+    const t = topicOf(c);
+    if (!chapter.has(t)) { chapter.set(t, Infinity); order.push(t); }
+    chapter.set(t, Math.min(chapter.get(t), chapterOf(c)));
+  }
+  return order
+    .map((t, i) => ({ t, i, ch: chapter.get(t) }))
+    .sort((a, b) => (a.ch === b.ch ? a.i - b.i : a.ch < b.ch ? -1 : 1))
+    .map(x => x.t);
+}
+function inScope(card, deckId, topic) {
+  return (!deckId || card.deck === deckId) && (!topic || topicOf(card) === topic);
+}
+
+function deckStats(deckId, topic) {
   if (!deckId) {
     const ids = [...new Set(allCards().map(c => c.deck))];
     const sum = { total: 0, active: 0, due: 0, fresh: 0, newToday: 0, learned: 0 };
@@ -119,7 +147,7 @@ function deckStats(deckId) {
     }
     return sum;
   }
-  const cards = allCards().filter(c => c.deck === deckId);
+  const cards = allCards().filter(c => inScope(c, deckId, topic));
   let due = 0, fresh = 0, learned = 0, active = 0;
   for (const c of cards) {
     const st = cardState(c);
@@ -167,9 +195,9 @@ function shuffle(arr) {
   return a;
 }
 
-function buildQueue(deckId, mode) {
+function buildQueue(deckId, mode, topic) {
   const t = todayStr();
-  const cards = allCards().filter(c => (!deckId || c.deck === deckId) && !S.suspended.has(c.id));
+  const cards = allCards().filter(c => inScope(c, deckId, topic) && !S.suspended.has(c.id));
   if (mode === 'cram') return shuffle(cards.map(c => c.id));
   const due = cards.filter(c => S.progress[c.id] && S.progress[c.id].due <= t);
   const taken = {};
@@ -181,13 +209,14 @@ function buildQueue(deckId, mode) {
   return shuffle(due.map(c => c.id)).concat(fresh.map(c => c.id));
 }
 
-function startSession(deckId, mode) {
-  const queue = buildQueue(deckId, mode);
+function startSession(deckId, mode, topic) {
+  const queue = buildQueue(deckId, mode, topic);
   if (!queue.length) {
-    toast(mode === 'cram' ? 'No cards in this deck yet.' : 'Nothing due. Try "Practise all".');
+    toast(mode === 'cram' ? 'No cards here yet.' : 'Nothing due. Try "Practise all".');
     return;
   }
-  S.session = { deckId, mode, queue, total: queue.length, done: 0, again: 0, flipped: false, history: [] };
+  const returnTo = (S.view === 'deck' || S.view === 'topic') ? S.view : 'today';
+  S.session = { deckId, topic: topic || null, returnTo, mode, queue, total: queue.length, done: 0, again: 0, flipped: false, history: [] };
   closeSheet();
   S.view = 'study';
   render();
@@ -405,22 +434,26 @@ function deckChip(deck) {
 
 const ICON = {
   close: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>',
-  chevron: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>'
+  chevron: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>',
+  back: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>'
 };
 
 /* ---------------- views ---------------- */
 function render() {
   const v = S.view;
   $nav.hidden = v === 'study';
+  const navId = (v === 'deck' || v === 'topic') ? 'today' : v;
   for (const id of ['today', 'cards', 'add', 'settings']) {
     const b = document.getElementById('nav-' + id);
-    if (b) { if (id === v) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); }
+    if (b) { if (id === navId) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); }
   }
   $main.classList.toggle('studying', v === 'study');
   if (v === 'study') $main.innerHTML = viewStudy();
   else if (v === 'cards') { $main.innerHTML = viewCards(); renderList(); }
   else if (v === 'add') { $main.innerHTML = viewAdd(); updatePreview(); }
   else if (v === 'settings') $main.innerHTML = viewSettings();
+  else if (v === 'deck') $main.innerHTML = viewDeck();
+  else if (v === 'topic') $main.innerHTML = viewTopic();
   else $main.innerHTML = viewToday();
   renderMath($main);
 }
@@ -488,7 +521,7 @@ function viewToday() {
       <button type="button" class="deck" data-action="deck" data-id="${esc(d.id)}">
         <div style="min-width:0">
           <div class="deck-name">${esc(d.name)} ${d.code ? deckChip(d) : ''}</div>
-          <div class="deck-sub">${s.total} cards · ${s.learned} learned</div>
+          <div class="deck-sub">${s.total} cards · ${topicsOf(d.id).length} ${topicsOf(d.id).length === 1 ? 'topic' : 'topics'} · ${s.learned} learned</div>
         </div>
         <div class="deck-due"><div class="n ${n ? '' : 'zero'}">${n}</div><div class="l">TO DO</div></div>
       </button>`;
@@ -500,37 +533,92 @@ function viewToday() {
     </section>`;
 }
 
-function openDeckSheet(deckId) {
-  const d = deckById(deckId);
-  if (!d) return;
-  const s = deckStats(deckId);
-  const toDo = s.due + s.newToday;
-  openSheet(`
-    <div class="spread"><h2 id="sheet-title">${esc(d.name)}</h2>${deckChip(d)}</div>
+/* ----- Subject → topic → cards ----- */
+function subTop(eyebrow, title, deck) {
+  return `
+    <div class="sub-top">
+      <button type="button" class="icon-btn" data-action="back" aria-label="Back">${ICON.back}</button>
+      <div style="min-width:0"><div class="eyebrow">${esc(eyebrow)}</div><h1 class="sub-title">${esc(title)}</h1></div>
+      ${deck && deck.code ? deckChip(deck) : '<span></span>'}
+    </div>`;
+}
+function statsRow(s) {
+  return `
     <div class="stats">
       <div class="stat"><div class="n">${s.due}</div><div class="l">due</div></div>
       <div class="stat"><div class="n">${s.newToday}</div><div class="l">new today</div></div>
       <div class="stat"><div class="n">${s.learned}</div><div class="l">learned</div></div>
       <div class="stat"><div class="n">${s.total}</div><div class="l">total</div></div>
-    </div>
-    <button type="button" class="btn" data-action="study" data-mode="review" data-deck="${esc(d.id)}" ${toDo ? '' : 'disabled'}>
-      ${toDo ? `Review ${toDo} ${toDo === 1 ? 'card' : 'cards'}` : 'Nothing due today'}</button>
-    <button type="button" class="btn ghost" data-action="study" data-mode="cram" data-deck="${esc(d.id)}" ${s.active ? '' : 'disabled'}>Practise all cards</button>
-    <p class="muted small">Practise mode shuffles every card in the deck and doesn't change your review schedule.</p>
-    <button type="button" class="link" data-action="browse-deck" data-id="${esc(d.id)}">Browse these cards</button>`);
+    </div>`;
+}
+function studyButtons(deckId, topic, s) {
+  const toDo = s.due + s.newToday;
+  const attrs = `data-deck="${esc(deckId)}"${topic ? ` data-topic="${esc(topic)}"` : ''}`;
+  return `
+    <div class="stack" style="gap:10px">
+      <button type="button" class="btn" data-action="study" data-mode="review" ${attrs} ${toDo ? '' : 'disabled'}>
+        ${toDo ? `Review ${toDo} ${toDo === 1 ? 'card' : 'cards'}` : 'Nothing due today'}</button>
+      <button type="button" class="btn ghost" data-action="study" data-mode="cram" ${attrs} ${s.active ? '' : 'disabled'}>Practise all ${topic ? 'cards in this topic' : 'cards'}</button>
+      <p class="muted small">Practise shuffles every card and doesn't change your review schedule.</p>
+    </div>`;
+}
+
+function viewDeck() {
+  const d = deckById(S.nav.deck);
+  if (!d) { S.view = 'today'; return viewToday(); }
+  const s = deckStats(d.id);
+  const topics = topicsOf(d.id);
+  const rows = topics.map(t => {
+    const ts = deckStats(d.id, t);
+    const n = ts.due + ts.newToday;
+    return `
+      <button type="button" class="deck" data-action="topic" data-topic="${esc(t)}">
+        <div style="min-width:0">
+          <div class="deck-name topic-name">${esc(t)}</div>
+          <div class="deck-sub">${ts.total} ${ts.total === 1 ? 'card' : 'cards'} · ${ts.learned} learned</div>
+        </div>
+        <div class="deck-due"><div class="n ${n ? '' : 'zero'}">${n}</div><div class="l">TO DO</div></div>
+      </button>`;
+  }).join('');
+  return subTop('Subject', d.name, d) + statsRow(s) + studyButtons(d.id, null, s) + `
+    <section class="stack">
+      <div class="spread"><h2>Topics</h2><span class="eyebrow">${topics.length} ${topics.length === 1 ? 'topic' : 'topics'}</span></div>
+      <div class="decks">${rows || '<p class="muted" style="padding:16px 0">No cards in this subject yet.</p>'}</div>
+      ${topics.length ? `<button type="button" class="link" data-action="browse-deck" data-id="${esc(d.id)}">Search all ${esc(d.name)} cards</button>` : ''}
+    </section>`;
+}
+
+function viewTopic() {
+  const d = deckById(S.nav.deck);
+  if (!d) { S.view = 'today'; return viewToday(); }
+  const t = S.nav.topic;
+  const cards = allCards().filter(c => inScope(c, d.id, t));
+  if (!t || !cards.length) { S.view = 'deck'; S.nav.topic = null; return viewDeck(); }
+  const s = deckStats(d.id, t);
+  return subTop(d.name, t, d) + statsRow(s) + studyButtons(d.id, t, s) + `
+    <section class="stack">
+      <div class="spread"><h2>Cards</h2><span class="eyebrow">${cards.length} ${cards.length === 1 ? 'card' : 'cards'}</span></div>
+      <div class="list">${cards.map(c => cardItem(c, false)).join('')}</div>
+    </section>`;
+}
+
+// Re-draw whatever list sits behind the card sheet after a card changes.
+function refreshBehind() {
+  if (S.view === 'cards') renderList();
+  else if (S.view === 'deck' || S.view === 'topic') render();
 }
 
 function viewStudy() {
   const sess = S.session;
   if (!sess) { S.view = 'today'; return viewToday(); }
   const deck = sess.deckId ? deckById(sess.deckId) : null;
-  const title = deck ? deck.name : 'All decks';
+  const title = sess.topic || (deck ? deck.name : 'All decks');
   const pct = sess.total ? Math.round((sess.done / sess.total) * 100) : 100;
   const top = `
     <div class="study-top">
       <button type="button" class="icon-btn" data-action="end-study" aria-label="Stop studying">${ICON.close}</button>
       <div class="study-title">
-        <div class="eyebrow">${sess.mode === 'cram' ? 'Practise' : 'Review'}</div>
+        <div class="eyebrow">${sess.mode === 'cram' ? 'Practise' : 'Review'}${sess.topic && deck ? ' · ' + esc(deck.name) : ''}</div>
         <h2>${esc(title)}</h2>
       </div>
       <span class="count">${sess.done} / ${sess.total}</span>
@@ -538,15 +626,16 @@ function viewStudy() {
     <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${sess.total}" aria-valuenow="${sess.done}"><i style="width:${pct}%"></i></div>`;
 
   if (!sess.queue.length) {
-    const s = deckStats(sess.deckId);
-    const tomorrow = allCards().filter(c => (!sess.deckId || c.deck === sess.deckId) && !S.suspended.has(c.id) && S.progress[c.id] && S.progress[c.id].due === addDays(todayStr(), 1)).length;
+    const s = deckStats(sess.deckId, sess.topic);
+    const tomorrow = allCards().filter(c => inScope(c, sess.deckId, sess.topic) && !S.suspended.has(c.id) && S.progress[c.id] && S.progress[c.id].due === addDays(todayStr(), 1)).length;
+    const backLabel = sess.returnTo === 'topic' ? sess.topic : sess.returnTo === 'deck' && deck ? deck.name : 'Today';
     return top + `
       <section class="summary done">
         <span class="eyebrow">Session complete</span>
         <div class="big">${sess.total}</div>
         <p class="big-label">${sess.total === 1 ? 'card' : 'cards'} done${sess.again ? `, with ${sess.again} ${sess.again === 1 ? 'retry' : 'retries'}` : ''}.</p>
         ${sess.mode === 'cram' ? '' : `<p class="muted">${tomorrow} ${tomorrow === 1 ? 'card comes' : 'cards come'} back tomorrow. ${s.fresh - s.newToday > 0 ? 'More new cards unlock tomorrow.' : ''}</p>`}
-        <button type="button" class="btn" data-action="end-study">Back to Today</button>
+        <button type="button" class="btn" data-action="end-study">Back to ${esc(backLabel)}</button>
         ${sess.history.length ? `<button type="button" class="link" data-action="undo">Undo last answer</button>` : ''}
       </section>`;
   }
@@ -633,15 +722,41 @@ function renderList() {
     list.innerHTML = `<p class="muted" style="padding:16px 0">${S.browse.q ? 'No cards match your search.' : 'No cards here yet.'}</p>`;
     return;
   }
-  list.innerHTML = cards.slice(0, 300).map(c => {
-    const d = deckById(c.deck);
-    return `<button type="button" class="item" data-action="card" data-id="${esc(c.id)}">
-      <div class="item-meta">${d ? `<span class="dot c-${esc(d.color)}"></span>` : ''}<span class="t">${esc(c.topic || (d ? d.name : ''))}</span>
+  // Without a search, group the cards under subject and topic headings.
+  const f = S.browse.deck;
+  const oneDeck = f !== 'all' && f !== 'mine' && f !== 'off';
+  const grouped = !S.browse.q.trim();
+  let shown = cards;
+  if (grouped) {
+    const deckIdx = new Map(allDecks().map((d, i) => [d.id, i]));
+    const topicIdx = new Map();
+    for (const d of allDecks()) topicsOf(d.id).forEach((t, i) => topicIdx.set(d.id + '\u0000' + t, i));
+    const pos = new Map(cards.map((c, i) => [c.id, i]));
+    shown = cards.slice().sort((a, b) =>
+      ((deckIdx.get(a.deck) ?? 999) - (deckIdx.get(b.deck) ?? 999)) ||
+      ((topicIdx.get(a.deck + '\u0000' + topicOf(a)) ?? 999) - (topicIdx.get(b.deck + '\u0000' + topicOf(b)) ?? 999)) ||
+      (pos.get(a.id) - pos.get(b.id)));
+  }
+  let lastGroup = null;
+  list.innerHTML = shown.slice(0, 300).map(c => {
+    let head = '';
+    if (grouped) {
+      const d = deckById(c.deck);
+      const g = oneDeck ? topicOf(c) : `${d ? d.name : c.deck} · ${topicOf(c)}`;
+      if (g !== lastGroup) { lastGroup = g; head = `<h3 class="group-h">${esc(g)}</h3>`; }
+    }
+    return head + cardItem(c, !grouped);
+  }).join('') + (cards.length > 300 ? '<p class="muted small" style="padding:12px 0">Showing the first 300. Search to narrow it down.</p>' : '');
+  renderMath(list);
+}
+
+function cardItem(c, showTopic) {
+  const d = deckById(c.deck);
+  return `<button type="button" class="item" data-action="card" data-id="${esc(c.id)}">
+      <div class="item-meta">${d ? `<span class="dot c-${esc(d.color)}"></span>` : ''}<span class="t">${showTopic ? esc(c.topic || (d ? d.name : '')) : ''}</span>
         ${isMine(c) ? '<span class="pill mine">Mine</span>' : ''}${statusPill(c)}</div>
       <div class="rich">${rich(c.front)}</div>
     </button>`;
-  }).join('') + (cards.length > 300 ? '<p class="muted small" style="padding:12px 0">Showing the first 300. Search to narrow it down.</p>' : '');
-  renderMath(list);
 }
 
 function openCardSheet(id) {
@@ -932,8 +1047,14 @@ const actions = {
     window.scrollTo(0, 0);
   },
   retry() { S.loaded = false; render(); loadDecks(true); },
-  study(el) { startSession(el.dataset.deck || null, el.dataset.mode); },
-  deck(el) { openDeckSheet(el.dataset.id); },
+  study(el) { startSession(el.dataset.deck || null, el.dataset.mode, el.dataset.topic || null); },
+  deck(el) { S.nav = { deck: el.dataset.id, topic: null }; S.view = 'deck'; closeSheet(); render(); window.scrollTo(0, 0); },
+  topic(el) { S.nav.topic = el.dataset.topic; S.view = 'topic'; closeSheet(); render(); window.scrollTo(0, 0); },
+  back() {
+    if (S.view === 'topic') { S.view = 'deck'; S.nav.topic = null; } else { S.view = 'today'; }
+    render();
+    window.scrollTo(0, 0);
+  },
   'browse-deck'(el) { S.browse.deck = el.dataset.id; S.browse.q = ''; S.view = 'cards'; closeSheet(); render(); },
   'close-sheet'() { closeSheet(); },
   flip() {
@@ -943,7 +1064,13 @@ const actions = {
   },
   rate(el) { rate(el.dataset.r); },
   undo() { undo(); },
-  'end-study'() { S.session = null; S.view = 'today'; render(); window.scrollTo(0, 0); },
+  'end-study'() {
+    const back = S.session && S.session.returnTo;
+    S.session = null;
+    S.view = back === 'deck' || back === 'topic' ? back : 'today';
+    render();
+    window.scrollTo(0, 0);
+  },
   filter(el) { S.browse.deck = el.dataset.id; document.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(c.dataset.id === S.browse.deck))); renderList(); },
   card(el) { S.pendingConfirm = null; openCardSheet(el.dataset.id); },
   'toggle-suspend'(el) {
@@ -951,7 +1078,7 @@ const actions = {
     if (S.suspended.has(id)) S.suspended.delete(id); else S.suspended.add(id);
     saveSuspended();
     openCardSheet(id);
-    renderList();
+    refreshBehind();
   },
   reset(el) {
     const id = el.dataset.id;
@@ -961,7 +1088,7 @@ const actions = {
     saveProgress();
     toast('Progress reset. It’s a new card again.');
     openCardSheet(id);
-    renderList();
+    refreshBehind();
   },
   edit(el) { S.editing = el.dataset.id; S.view = 'add'; closeSheet(); render(); window.scrollTo(0, 0); },
   'cancel-edit'() { S.editing = null; S.view = 'cards'; render(); },
@@ -975,7 +1102,7 @@ const actions = {
     rebuildIndex();
     closeSheet();
     toast('Card deleted');
-    renderList();
+    refreshBehind();
   },
   newper(el) {
     const v = Math.max(0, Math.min(200, S.settings.newPerDay + Number(el.dataset.d)));

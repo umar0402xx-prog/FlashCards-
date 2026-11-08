@@ -27,12 +27,16 @@ home screen; it works offline.
   (`id`, `name`, `code`, `color` from yellow, green, pink, blue, orange, lavender, `file`).
 - Never reuse a deleted card's id. Retired so far (starter cards Umar asked to remove on 2026-10-20):
   `phy-0001`–`phy-0012`, `che-0001`–`che-0012`, `bio-0001`–`bio-0010`. Always number from the
-  highest id currently in the deck file (as of 2026-10-20 Biology runs `bio-0011`–`bio-0117`).
+  highest id currently in the deck file (as of 2026-10-20 Biology runs `bio-0011`–`bio-0117`;
+  as of 2026-11-08 Chemistry runs `che-0013`–`che-0052`).
 - Umar wants to make his own cards or ask for specific ones: don't add cards he hasn't asked for.
 - Text supports `**key words**` (shown highlighted, like mark-scheme key words), line breaks (`\n`),
   maths with KaTeX between `$...$` (inline) or `$$...$$` (own line), and chemistry with mhchem
   (`$\ce{H2SO4}$`, `$\ce{N2 + 3H2 <=> 2NH3}$`). Remember to escape backslashes in JSON (`\\dfrac`).
 - `topic` should use the Cambridge syllabus topic name.
+- The app groups each subject into topics (Subject → Topic → cards). Topics are ordered by the syllabus
+  number in the label on the last line of the front (e.g. `Formula · 18.2`, `Conditions · A Level 32.2.1`),
+  so always end the front with that label and keep `topic` spelled exactly the same across cards.
 
 ## Content rules
 

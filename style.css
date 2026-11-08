@@ -227,6 +227,10 @@ p { margin: 0; }
 .deck-name { font: 700 1.2rem/1.15 var(--f-display); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .deck-sub { font: 500 0.8rem/1.3 var(--f-mono); color: var(--ink-3); margin-top: 6px; }
 .deck-due { text-align: right; }
+.topic-name { font-size: 1.05rem; }
+.sub-top { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; }
+.sub-title { font-size: 1.5rem; line-height: 1.1; overflow-wrap: anywhere; }
+.group-h { font: 700 0.95rem/1.2 var(--f-display); color: var(--ink-2); padding: 18px 2px 8px; border-bottom: 1px solid var(--line); }
 .deck-due .n { font: 800 1.6rem/1 var(--f-display); font-variant-numeric: tabular-nums; }
 .deck-due .n.zero { color: var(--ink-3); }
 .deck-due .l { font: 500 0.72rem/1 var(--f-mono); color: var(--ink-3); letter-spacing: 0.04em; }
