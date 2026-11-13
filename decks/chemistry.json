@@ -240,6 +240,312 @@
       "topic": "Hydroxy compounds",
       "front": "Propene + steam with an $\\ce{H3PO4}$ catalyst. Which alcohol is the major product, and why?\n\nQuick Q · 16.1.1(a)",
       "back": "**Propan-2-ol**.\nIt forms via the **secondary carbocation**, which is **more stable** than the primary one because **two alkyl groups donate electrons** (Markovnikov)."
+    },
+    {
+      "id": "che-0053",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Primary alcohol or aldehyde → carboxylic acid: reagents, conditions, and what is added and removed?\n\nConditions · 18.1.1(a)",
+      "back": "1. **Acidified $\\ce{K2Cr2O7}$** (or **acidified $\\ce{KMnO4}$**), **excess**, heat under **reflux**.\n$$\\begin{aligned}&\\ce{CH3CH2OH + 2[O]}\\\\&\\quad\\ce{-> CH3COOH + H2O}\\end{aligned}$$\n2. Route: $\\ce{-CH2OH -> -CHO -> -COOH}$. An **aldehyde** is oxidised the same way: $\\ce{CH3CHO + [O] -> CH3COOH}$.\n3. What changes: the alcohol **loses 2 H** (becoming the aldehyde), then **gains 1 O** (becoming the acid). The carbon chain is **unchanged**.\n4. Observations: dichromate **orange → green**; permanganate **purple → colourless**.\n\nTrap: **reflux with excess** oxidant. Distilling the product out as it forms stops at the **aldehyde**. Tertiary alcohols and ketones are not oxidised this way."
+    },
+    {
+      "id": "che-0054",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Nitrile → carboxylic acid: reagents, conditions, and what is added and removed?\n\nConditions · 18.1.1(b)",
+      "back": "1. **Acid hydrolysis:** heat under **reflux** with **dilute acid** (e.g. dilute $\\ce{HCl}$ or $\\ce{H2SO4}$) → **carboxylic acid** + **ammonium salt**.\n$$\\begin{aligned}&\\ce{CH3CN + 2H2O + HCl}\\\\&\\quad\\ce{-> CH3COOH + NH4Cl}\\end{aligned}$$\n2. **Alkaline hydrolysis:** heat under **reflux** with **dilute NaOH(aq)** → **carboxylate salt** + **ammonia**, then **acidify** (dilute $\\ce{HCl}$ or $\\ce{H2SO4}$) to get the acid.\n$$\\begin{aligned}&\\ce{CH3CN + NaOH + H2O}\\\\&\\quad\\ce{-> CH3COONa + NH3}\\end{aligned}$$\n3. What changes: $\\ce{-C#N}$ becomes $\\ce{-COOH}$. **2 $\\ce{H2O}$ are added** and the N leaves as $\\ce{NH4+}$ (or $\\ce{NH3}$). The carbon count is **unchanged**.\n4. Chain-lengthening route: halogenoalkane → nitrile (KCN) → acid gives an acid with **one more carbon** than the halogenoalkane.\n\nTrap: after **alkaline** hydrolysis you must **acidify** to get the free acid."
+    },
+    {
+      "id": "che-0055",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Ester → carboxylic acid: the two hydrolysis methods, and why one is reversible and the other is not?\n\nConditions · 18.1.1(c)",
+      "back": "1. **Dilute acid** (e.g. dilute $\\ce{H2SO4}$ or $\\ce{HCl}$), heat under **reflux**: **reversible**, so you get an equilibrium mixture.\n$$\\begin{aligned}&\\ce{CH3COOCH2CH3 + H2O}\\\\&\\quad\\ce{<=> CH3COOH + CH3CH2OH}\\end{aligned}$$\n2. **Dilute NaOH(aq)**, heat under **reflux**: goes to **completion** and gives the **carboxylate salt** + alcohol.\n$$\\begin{aligned}&\\ce{CH3COOCH2CH3 + NaOH}\\\\&\\quad\\ce{-> CH3COONa + CH3CH2OH}\\end{aligned}$$\n3. **Acidify** the alkaline mixture (dilute $\\ce{HCl}$) to turn $\\ce{CH3COO-}$ into $\\ce{CH3COOH}$.\n4. Why alkali goes to completion: the **carboxylate ion** is negatively charged and stabilised by delocalisation, so the alcohol **cannot attack it** to re-form the ester, and the base **removes the acid** as it forms.\n5. What changes: **water is added across the ester link**: $\\ce{OH}$ goes onto the carbonyl carbon, $\\ce{H}$ onto the O of the alcohol part.\n\nTrap: acid hydrolysis is **incomplete** (use $\\rightleftharpoons$); alkaline hydrolysis is **complete** and needs a final **acidification**."
+    },
+    {
+      "id": "che-0056",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Methylbenzene → benzoic acid: reagents, conditions, and what happens to the side chain?\n\nConditions · A Level 33.1.1(a)",
+      "back": "1. **Hot alkaline $\\ce{KMnO4}$** ($\\ce{KMnO4}$ + $\\ce{NaOH(aq)}$), heat under **reflux**.\n2. Then add **dilute acid** (e.g. dilute $\\ce{H2SO4}$ or $\\ce{HCl}$) to turn the benzoate salt into **benzoic acid** (white solid).\n$$\\begin{aligned}&\\ce{C6H5CH3 + 3[O]}\\\\&\\quad\\ce{-> C6H5COOH + H2O}\\end{aligned}$$\n3. The **whole alkyl side chain** is oxidised down to a single $\\ce{-COOH}$ on the ring (e.g. ethylbenzene also gives benzoic acid; the extra carbons are lost). The **benzene ring** is **not** oxidised.\n4. Observation: the purple $\\ce{MnO4-}$ fades and a **brown precipitate** of $\\ce{MnO2}$ usually forms.\n\nTrap: it needs the **alkaline** step first, then **acid** at the end. The carbon joined to the ring must have **at least one H**."
+    },
+    {
+      "id": "che-0057",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Ethanoic acid + magnesium, + NaOH, + sodium carbonate: equation, type of reaction and observation for each?\n\nEquation · 18.1.2(a)–(c)",
+      "back": "1. **+ Mg** (reactive metal): **redox**.\n$$\\begin{aligned}&\\ce{2CH3COOH + Mg}\\\\&\\quad\\ce{-> (CH3COO)2Mg + H2}\\end{aligned}$$\nObservation: **effervescence**, the metal dissolves, $\\ce{H2}$ gives a **squeaky pop** with a lit splint.\n2. **+ NaOH**: **neutralisation**.\n$$\\ce{CH3COOH + NaOH -> CH3COONa + H2O}$$\nNo visible change (use an indicator to see the end-point).\n3. **+ $\\ce{Na2CO3}$ or $\\ce{NaHCO3}$**: **acid–base**.\n$$\\begin{aligned}&\\ce{2CH3COOH + Na2CO3}\\\\&\\quad\\ce{-> 2CH3COONa + H2O + CO2}\\end{aligned}$$\nObservation: **effervescence**; $\\ce{CO2}$ turns **limewater milky**.\n\nHook: acid + metal → salt + $\\ce{H2}$; acid + alkali → salt + $\\ce{H2O}$; acid + carbonate → salt + $\\ce{H2O}$ + $\\ce{CO2}$.\nTrap: carboxylic acids are **weak acids** but still strong enough to react with **carbonates**. Phenol and alcohols do **not**."
+    },
+    {
+      "id": "che-0058",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Carboxylic acid + alcohol → ester: conditions, equation, what is removed, and how to improve the yield?\n\nConditions · 18.2.1(a)",
+      "back": "1. Heat under **reflux** with a few drops of **concentrated $\\ce{H2SO4}$** (catalyst).\n$$\\begin{aligned}&\\ce{CH3COOH + CH3CH2OH}\\\\&\\quad\\ce{<=> CH3COOCH2CH3 + H2O}\\end{aligned}$$\n2. What is lost: the **–OH from the acid** and the **–H from the alcohol** leave as $\\ce{H2O}$, and the two molecules join through a new **–COO–** link. This is a **condensation** reaction.\n3. It is **reversible**, so the yield is limited. To improve it: use an **excess** of one reactant, and/or **remove the ester or water** as it forms (concentrated $\\ce{H2SO4}$ also absorbs water).\n4. Observation: a sweet, **fruity smell**.\n5. Naming: **alkyl alkanoate**. The **alcohol** gives the alkyl part (first word), the **acid** gives the \"-oate\" (second word).\n\nTrap: it must be **concentrated** $\\ce{H2SO4}$, and the equation needs $\\ce{H2O}$ and $\\rightleftharpoons$."
+    },
+    {
+      "id": "che-0059",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Carboxylic acid → primary alcohol: reagent, conditions, and what is added and removed?\n\nConditions · 18.1.2(e)",
+      "back": "1. **$\\ce{LiAlH4}$** (lithium tetrahydridoaluminate(III)) in **dry ether**, room temperature.\n$$\\ce{RCOOH + 4[H] -> RCH2OH + H2O}$$\n2. What changes: $\\ce{-COOH}$ becomes $\\ce{-CH2OH}$. **4[H] are added**, and one O leaves as $\\ce{H2O}$. The carbon chain is **unchanged**.\n3. The aldehyde forms on the way but **cannot be isolated**, because $\\ce{LiAlH4}$ reduces it faster than the acid.\n\nTrap: **$\\ce{NaBH4}$ is not strong enough** to reduce carboxylic acids. $\\ce{LiAlH4}$ reacts violently with water, so the solvent must be **dry** ether."
+    },
+    {
+      "id": "che-0060",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Carboxylic acid → acyl chloride: all three reagents, conditions, equations and observation?\n\nConditions · A Level 33.1.2",
+      "back": "The **–OH is replaced by –Cl** (use **dry** conditions).\n1. **$\\ce{PCl5}$** (room temperature):\n$$\\begin{aligned}&\\ce{CH3COOH + PCl5}\\\\&\\quad\\ce{-> CH3COCl + POCl3 + HCl}\\end{aligned}$$\n2. **$\\ce{PCl3}$** (with **heat**):\n$$\\begin{aligned}&\\ce{3CH3COOH + PCl3}\\\\&\\quad\\ce{-> 3CH3COCl + H3PO3}\\end{aligned}$$\n3. **$\\ce{SOCl2}$** (usually warmed):\n$$\\begin{aligned}&\\ce{CH3COOH + SOCl2}\\\\&\\quad\\ce{-> CH3COCl + SO2 + HCl}\\end{aligned}$$\n4. Observation: **steamy white fumes** of $\\ce{HCl}$ (with $\\ce{PCl5}$ and $\\ce{SOCl2}$).\n5. Best choice: **$\\ce{SOCl2}$**. Its by-products $\\ce{SO2}$ and $\\ce{HCl}$ are **gases**, so the acyl chloride is easy to separate. With $\\ce{PCl5}$ or $\\ce{PCl3}$ you must **fractionally distil** it away from $\\ce{POCl3}$ or $\\ce{H3PO3}$.\n\nTrap: **no water**. Acyl chlorides are hydrolysed by water, so it must be a dry reaction."
+    },
+    {
+      "id": "che-0061",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Why can methanoic acid be oxidised when other carboxylic acids cannot? Give the reagents, equation and observations.\n\nObservation · A Level 33.1.3(a)",
+      "back": "1. $\\ce{HCOOH}$ has an **H atom on the carbonyl carbon** (it is an acid and an aldehyde at the same time), so it can be oxidised **further**. Other carboxylic acids have no such H.\n2. Product: **carbonic acid**, which gives $\\ce{CO2}$ + $\\ce{H2O}$.\n$$\\ce{HCOOH + [O] -> CO2 + H2O}$$\n3. Observations with each reagent:\n**Fehling's**: blue solution → **brick-red precipitate** ($\\ce{Cu2O}$).\n**Tollens'**: **silver mirror**.\n**Acidified $\\ce{KMnO4}$**: **purple → colourless**.\n\nTrap: ethanoic acid and the other carboxylic acids give **no** reaction with these reagents. Only methanoic acid does."
+    },
+    {
+      "id": "che-0062",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Ethanedioic acid + warm acidified KMnO₄: products, equation and observations?\n\nObservation · A Level 33.1.3(b)",
+      "back": "1. $\\ce{HOOC-COOH}$ is oxidised to **$\\ce{CO2}$** by **warm acidified $\\ce{KMnO4}$**.\n$$\\ce{HOOCCOOH + [O] -> 2CO2 + H2O}$$\n2. Ionic equation:\n$$\\begin{aligned}&\\ce{5(COOH)2 + 2MnO4- + 6H+}\\\\&\\quad\\ce{-> 10CO2 + 2Mn^2+ + 8H2O}\\end{aligned}$$\n3. Observations: purple $\\ce{MnO4-}$ **decolourises** (→ $\\ce{Mn^2+}$, almost colourless) and **effervescence** of $\\ce{CO2}$.\n4. The mixture is **warmed** (about 60 °C). The reaction starts slowly, then speeds up because the $\\ce{Mn^2+}$ formed acts as a catalyst.\n\nTrap: the oxidation breaks the **C–C bond** between the two –COOH groups, so both carbons end up as $\\ce{CO2}$."
+    },
+    {
+      "id": "che-0063",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Acyl chloride + each nucleophile (water, alcohol, phenol, ammonia, primary amine, secondary amine): what forms?\n\nMemorise · A Level 33.3.2",
+      "back": "All at **room temperature** with $\\ce{RCOCl}$, and each gives **HCl** as the second product (steamy white fumes).\n1. $\\ce{H2O}$ → **carboxylic acid**, $\\ce{RCOOH}$\n2. Alcohol $\\ce{R'OH}$ → **ester**, $\\ce{RCOOR'}$\n3. Phenol $\\ce{C6H5OH}$ → **ester**, $\\ce{RCOOC6H5}$\n4. $\\ce{NH3}$ → **amide**, $\\ce{RCONH2}$\n5. Primary amine $\\ce{R'NH2}$ → **N-substituted amide**, $\\ce{RCONHR'}$\n6. Secondary amine $\\ce{R'2NH}$ → **N,N-disubstituted amide**, $\\ce{RCONR'2}$\n\nExample (4):\n$$\\begin{aligned}&\\ce{CH3COCl + 2NH3}\\\\&\\quad\\ce{-> CH3CONH2 + NH4Cl}\\end{aligned}$$\nPattern: the **H on O or N** is swapped for the **acyl group** $\\ce{RCO-}$, and Cl leaves as HCl.\nTrap: with $\\ce{NH3}$ and amines you need **2 mol**: the second mole removes the HCl as a salt."
+    },
+    {
+      "id": "che-0064",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Describe the addition–elimination mechanism of an acyl chloride with a nucleophile (e.g. NH₃).\n\nMechanism · A Level 33.3.3",
+      "back": "Example: $\\ce{CH3COCl + NH3}$ (water, alcohols and amines work the same way).\n1. **Addition:** the **lone pair on N** attacks the $\\delta^{+}$ **carbon** of $\\ce{C=O}$ (curly arrow from the lone pair to C).\n2. The $\\ce{C=O}$ **π bond breaks**: curly arrow from the C=O bond onto O. This gives a **tetrahedral intermediate** with $\\ce{O-}$ and $\\ce{N+H3}$.\n3. **Elimination:** a lone pair on $\\ce{O-}$ **re-forms C=O** (curly arrow from O⁻ to C) and $\\ce{Cl-}$ **leaves** (curly arrow from the C–Cl bond onto Cl).\n4. $\\ce{Cl-}$ (or a second $\\ce{NH3}$) **removes H⁺** from $\\ce{N+H3}$, giving $\\ce{HCl}$ (or $\\ce{NH4Cl}$) and the **amide**.\n5. Show the dipoles ($\\delta^{+}$ on C, $\\delta^{-}$ on O and Cl) and the **lone pair** on the nucleophile.\n\nWhy it works: the carbonyl carbon is bonded to **two electronegative atoms (O and Cl)**, so it is very $\\delta^{+}$, and $\\ce{Cl-}$ is a **good leaving group**.\nTrap: the name is **nucleophilic addition–elimination**, not SN1 or SN2."
+    },
+    {
+      "id": "che-0065",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Rank the ease of hydrolysis of acyl chlorides, chloroalkanes and chlorobenzene. Explain, and give a test for each.\n\nExplain · A Level 33.3.4",
+      "back": "Order: **acyl chloride > chloroalkane > chlorobenzene**.\n1. **Acyl chloride:** the carbon is bonded to **O and Cl**, so it is very $\\delta^{+}$, and the C=O gives an easy **addition–elimination** route. It is hydrolysed by **cold water** at room temperature, giving **steamy fumes of HCl**.\n2. **Chloroalkane:** the C–Cl carbon is only slightly $\\delta^{+}$. It needs **heating (reflux) with NaOH(aq)**.\n3. **Chlorobenzene:** a **lone pair on Cl overlaps with the ring π system**, so the C–Cl bond has **partial double-bond character** (stronger and shorter), and the ring's π electrons **repel** nucleophiles. It is **not hydrolysed** under normal conditions.\n4. Tests with $\\ce{AgNO3(aq)}$:\nAcyl chloride: **white precipitate immediately**.\nChloroalkane: white precipitate only after **warming with NaOH(aq)**, then **acidifying with $\\ce{HNO3}$**, then adding $\\ce{AgNO3}$.\nChlorobenzene: **no precipitate**.\n\nTrap: don't say chlorobenzene is unreactive because C–Cl is \"stronger\" and stop there. Give the **lone pair delocalisation** reason."
+    },
+    {
+      "id": "che-0066",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Make ethyl ethanoate and phenyl benzoate from acyl chlorides: reagents, conditions and equations?\n\nConditions · A Level 33.2.1(a)",
+      "back": "1. **Ethyl ethanoate:** ethanoyl chloride + ethanol, **room temperature**.\n$$\\begin{aligned}&\\ce{CH3COCl + CH3CH2OH}\\\\&\\quad\\ce{-> CH3COOCH2CH3 + HCl}\\end{aligned}$$\n2. **Phenyl benzoate:** benzoyl chloride + phenol, **room temperature**.\n$$\\begin{aligned}&\\ce{C6H5COCl + C6H5OH}\\\\&\\quad\\ce{-> C6H5COOC6H5 + HCl}\\end{aligned}$$\n3. What changes: the **H of the –OH** is replaced by the **acyl group** (RCO–) and Cl leaves as HCl.\n4. Why an acyl chloride: **fast**, **not reversible**, **room temperature**, so a **high yield**. It is also needed for **phenol**, which is a poorer nucleophile than an alcohol (its O lone pair is delocalised into the ring) and does not esterify well with a carboxylic acid.\n5. In practice, dissolving the phenol in $\\ce{NaOH(aq)}$ (making the more reactive phenoxide) speeds the reaction up.\n\nTrap: the by-product is **HCl**, not water."
+    },
+    {
+      "id": "che-0067",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Explain the order of acidity: carboxylic acid > phenol > alcohol.\n\nExplain · A Level 33.1.4",
+      "back": "1. Acid strength depends on how **stable the conjugate base** is. A more stable anion means a **stronger acid**.\n2. **Carboxylate** $\\ce{RCOO-}$: the negative charge is **delocalised over both O atoms** (the O p orbital overlaps with the C=O π bond). Both C–O bonds are the **same length**. The charge sits on **two electronegative atoms**, so it is **very stable**.\n3. **Phenoxide** $\\ce{C6H5O-}$: the O lone pair overlaps with the **ring π system**, so charge spreads **partly into the ring** (onto carbon, which is less electronegative). This gives **some** stabilisation, but less than carboxylate.\n4. **Alkoxide** $\\ce{RO-}$: the charge is **localised on O**, and the **electron-donating alkyl group** makes it worse. It is the **least stable**.\n5. Evidence from reactions:\nRCOOH reacts with **$\\ce{Na2CO3}$** (fizz), NaOH and Na.\nPhenol reacts with **NaOH** and Na, but **not** with carbonates.\nAlcohols react with **Na** only (not NaOH(aq), not carbonates).\n6. Rough pKa values (not required): about **4.8**, **10**, **16**.\n\nHook: **delocalisation = stable anion = stronger acid**."
+    },
+    {
+      "id": "che-0068",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Explain the order of acidity: CCl₃COOH > CHCl₂COOH > CH₂ClCOOH > CH₃COOH. How does distance and the type of group matter?\n\nExplain · A Level 33.1.5",
+      "back": "1. Chlorine is **more electronegative than carbon**, so it **withdraws electron density** along the bonds (**negative inductive effect**).\n2. This **disperses the negative charge** on the carboxylate ion, making it **more stable**. The equilibrium $\\ce{RCOOH <=> RCOO- + H+}$ moves to the right, so the acid is **stronger** (larger $K_a$, lower pKa).\n3. **More Cl atoms = bigger effect.** Approximate pKa: $\\ce{CCl3COOH}$ 0.7, $\\ce{CHCl2COOH}$ 1.3, $\\ce{CH2ClCOOH}$ 2.9, $\\ce{CH3COOH}$ 4.8.\n4. **Closer to the –COOH = stronger**, because the effect falls off quickly with distance: 2-chlorobutanoic > 3-chlorobutanoic > 4-chlorobutanoic.\n5. **F is stronger than Cl** (more electronegative): $\\ce{CF3COOH}$ is stronger than $\\ce{CCl3COOH}$.\n6. The opposite effect: **alkyl groups donate electrons**, which destabilises the anion and makes the acid **weaker**: methanoic (pKa 3.75) > ethanoic (4.76) > propanoic (4.87).\n\nTrap: say the electron-withdrawing group **stabilises the carboxylate anion**. Don't just say the H is \"easier to lose\"."
+    },
+    {
+      "id": "che-0069",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Why do carboxylic acids have much higher boiling points than alcohols and alkanes of similar Mr, and why are small ones soluble in water?\n\nExplain · 18.1",
+      "back": "1. The $\\ce{O-H}$ of one molecule (with $\\delta^{+}$ H) hydrogen-bonds to the $\\ce{C=O}$ oxygen (lone pair) of another. Two molecules make **two hydrogen bonds** between them (a **dimer**).\n2. So acids have **stronger and more extensive intermolecular forces** than alcohols (one O–H each) and alkanes (only instantaneous dipole–induced dipole forces). More energy is needed to separate the molecules.\nExamples (all about Mr 60): ethanoic acid **118 °C**, propan-1-ol **97 °C**; butane (Mr 58) **−1 °C**.\n3. Short-chain acids (about 4 C or fewer) are **soluble in water** because the –COOH group hydrogen-bonds with water. Solubility **falls as the non-polar chain lengthens**.\n\nTrap: boiling breaks **intermolecular forces (hydrogen bonds)**, not covalent bonds."
+    },
+    {
+      "id": "che-0070",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "How can you distinguish ethanoic acid, ethanol and phenol? Give reagents and observations.\n\nTest · 18.1.2",
+      "back": "1. Add **$\\ce{Na2CO3(aq)}$ or $\\ce{NaHCO3(aq)}$** to each:\n**Ethanoic acid:** **effervescence** ($\\ce{CO2}$, turns limewater milky).\nPhenol and ethanol: **no reaction**.\n2. Then test the other two:\n**Add $\\ce{Br2(aq)}$:** phenol **decolourises** it and gives a **white precipitate** of 2,4,6-tribromophenol. Ethanol gives no change.\n**Or add $\\ce{NaOH(aq)}$:** solid phenol **dissolves**; ethanol does not react.\n3. Another way: ethanoic acid reacts with **Mg**, giving $\\ce{H2}$.\n\nWhy: acid strength is carboxylic acid > phenol > alcohol. Carbonates only react with acids stronger than carbonic acid, and phenol is **weaker** than carbonic acid."
+    },
+    {
+      "id": "che-0071",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Memorise: one line for every way to make a carboxylic acid.\n\nMemorise · 18.1.1",
+      "back": "1. **Primary alcohol** → acid: acidified $\\ce{K2Cr2O7}$ or $\\ce{KMnO4}$, **excess**, **reflux**.\n2. **Aldehyde** → acid: same reagents, heat.\n3. **Nitrile** → acid: dilute $\\ce{HCl}$ or $\\ce{H2SO4}$, **reflux** (or $\\ce{NaOH(aq)}$, reflux, **then acidify**).\n4. **Ester** → acid: dilute acid, **reflux** (reversible), or $\\ce{NaOH(aq)}$, reflux, **then acidify**.\n5. **Acyl chloride** → acid: **water**, room temperature (+ HCl).\n6. **Amide** → acid: dilute acid, **reflux** (or $\\ce{NaOH(aq)}$, reflux, **then acidify**; $\\ce{NH3}$ is released).\n7. **Methylbenzene** → benzoic acid: **hot alkaline $\\ce{KMnO4}$**, then **dilute acid**.\n8. **Hydroxynitrile** → hydroxy acid: same as a nitrile (dilute acid, reflux).\n\nHook: **nitrile, ester and amide are all hydrolysed the same way**. Acid gives the acid; alkali gives the salt, and you acidify at the end."
+    },
+    {
+      "id": "che-0072",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Memorise: one line for every reaction of carboxylic acids (reagent → product).\n\nMemorise · 18.1.2",
+      "back": "1. **Mg** (reactive metal) → **salt + $\\ce{H2}$** (redox).\n2. **NaOH** → **salt + $\\ce{H2O}$** (neutralisation).\n3. **$\\ce{Na2CO3}$ or $\\ce{NaHCO3}$** → **salt + $\\ce{H2O}$ + $\\ce{CO2}$** (fizz).\n4. **Alcohol** + conc. $\\ce{H2SO4}$, heat → **ester + $\\ce{H2O}$** (reversible).\n5. **$\\ce{LiAlH4}$**, dry ether → **primary alcohol**.\n6. **$\\ce{PCl5}$ / $\\ce{PCl3}$ / $\\ce{SOCl2}$** → **acyl chloride**.\n7. **$\\ce{HCOOH}$** + Fehling's / Tollens' / acidified $\\ce{KMnO4}$ → **$\\ce{CO2}$ + $\\ce{H2O}$**.\n8. **$\\ce{HOOC-COOH}$** + warm acidified $\\ce{KMnO4}$ → **$\\ce{CO2}$**.\n\nTrap: a carboxylic acid does **not** give an amide directly with $\\ce{NH3}$ (it just forms the ammonium salt). Make amides through the **acyl chloride**."
+    },
+    {
+      "id": "che-0073",
+      "topic": "Carboxylic acids and derivatives",
+      "front": "Memorise: the map between acid, acyl chloride, ester, amide and nitrile (every arrow with its reagent).\n\nMemorise · A Level 33.3",
+      "back": "1. Acid → **acyl chloride**: $\\ce{PCl5}$, $\\ce{PCl3}$ or $\\ce{SOCl2}$.\n2. Acyl chloride → **acid**: $\\ce{H2O}$; → **ester**: alcohol or phenol; → **amide**: $\\ce{NH3}$, primary or secondary amine. All at room temperature.\n3. Acid → **ester**: alcohol + conc. $\\ce{H2SO4}$, heat (reversible).\n4. Ester → **acid + alcohol**: hydrolysis (dilute acid, or $\\ce{NaOH(aq)}$ then acidify).\n5. Amide → **acid**: hydrolysis (dilute acid, or $\\ce{NaOH(aq)}$ then acidify). Amide → **amine**: $\\ce{LiAlH4}$.\n6. Nitrile → **acid**: hydrolysis. Nitrile → **amine**: $\\ce{LiAlH4}$ or $\\ce{H2}$/Ni.\n7. Halogenoalkane → **nitrile**: KCN in ethanol, reflux.\n\nReactivity towards nucleophiles (general trend): **acyl chloride ≫ acid, ester ≫ amide**. That is why acyl chlorides are the starting point for esters and amides."
+    },
+    {
+      "id": "che-0074",
+      "topic": "Nitrogen compounds",
+      "front": "Halogenoalkane → nitrile: reagent, conditions, type of reaction, and what changes?\n\nConditions · 19.2.1(a)",
+      "back": "1. **KCN dissolved in ethanol**, heat under **reflux**.\n$$\\begin{aligned}&\\ce{CH3CH2Br + KCN}\\\\&\\quad\\ce{-> CH3CH2CN + KBr}\\end{aligned}$$\n2. Type: **nucleophilic substitution** ($\\ce{CN-}$ is the nucleophile).\n3. What changes: **–CN is added**, **–Br is removed** (as KBr). The product has **one more carbon** than the halogenoalkane, so this **lengthens the carbon chain**.\n4. The nitrile can then be **hydrolysed to an acid** or **reduced to an amine**.\n\nTrap: the solvent is **ethanol**, not water. In aqueous KCN, $\\ce{OH-}$ competes and gives some **alcohol**. KCN is **toxic**."
+    },
+    {
+      "id": "che-0075",
+      "topic": "Nitrogen compounds",
+      "front": "Aldehyde or ketone + HCN: reagents, product, mechanism, and why the product is racemic?\n\nConditions · 19.2.2(a)",
+      "back": "1. **HCN** with a little **KCN** as catalyst, **heat** (syllabus wording).\n$$\\begin{aligned}&\\ce{CH3CHO + HCN}\\\\&\\quad\\ce{-> CH3CH(OH)CN}\\end{aligned}$$\nProduct: **2-hydroxypropanenitrile**.\n2. Mechanism: **nucleophilic addition**.\n(a) $\\ce{CN-}$ attacks the $\\delta^{+}$ carbon of C=O (arrow from the lone pair on C to C). The C=O π bond breaks onto O, giving an $\\ce{O-}$ intermediate.\n(b) $\\ce{O-}$ takes $\\ce{H+}$ from HCN (or water) to form –OH, and $\\ce{CN-}$ is regenerated.\n3. KCN's role: HCN is a **weak acid**, so it supplies very little $\\ce{CN-}$ on its own. KCN supplies the **nucleophile**.\n4. What changes: **H and CN are added across C=O**, and the chain gains **one carbon**.\n5. The planar C=O is attacked **equally from both faces**, so the product (4 different groups on one carbon) is a **racemic mixture** with **no optical activity**.\n\nTrap: the attacking species is the **cyanide ion** $\\ce{CN-}$ (the nucleophile), not the HCN molecule. $\\ce{H+}$ is added **second**."
+    },
+    {
+      "id": "che-0076",
+      "topic": "Nitrogen compounds",
+      "front": "Halogenoalkane → primary amine: reagent, conditions, type of reaction, and why excess NH₃?\n\nConditions · 19.1.1(a)",
+      "back": "1. **Excess $\\ce{NH3}$ dissolved in ethanol**, heated under **pressure** (sealed tube).\n$$\\begin{aligned}&\\ce{CH3CH2Br + 2NH3}\\\\&\\quad\\ce{-> CH3CH2NH2 + NH4Br}\\end{aligned}$$\n2. Type: **nucleophilic substitution**. The N lone pair attacks the $\\delta^{+}$ carbon and $\\ce{Br-}$ leaves; a second $\\ce{NH3}$ then removes $\\ce{H+}$.\n3. What changes: **–NH₂ is added**, **–Br is removed**. The carbon chain is **unchanged**.\n4. Why **excess** $\\ce{NH3}$: the product amine is also a **nucleophile** and can react again with the halogenoalkane, giving **secondary amine, tertiary amine and quaternary ammonium salt**. Excess $\\ce{NH3}$ makes it more likely that each halogenoalkane meets $\\ce{NH3}$ and not the amine.\n\nTrap: use **ethanol** (not water, which would give an alcohol) and a **sealed tube** because $\\ce{NH3}$ is a gas and the mixture is heated."
+    },
+    {
+      "id": "che-0077",
+      "topic": "Nitrogen compounds",
+      "front": "Halogenoalkane → secondary amine: reagent, conditions, equation, and what goes wrong?\n\nConditions · A Level 34.1.1(b)",
+      "back": "1. A **primary amine** (here $\\ce{CH3NH2}$) in **ethanol**, heated in a **sealed tube** (under pressure).\n$$\\begin{aligned}&\\ce{CH3CH2Br + 2CH3NH2}\\\\&\\quad\\ce{-> CH3CH2NHCH3 + CH3NH3+Br-}\\end{aligned}$$\n2. Type: **nucleophilic substitution**. The product is **N-methylethanamine** (secondary amine).\n3. What changes: one **N–H** is replaced by an **N–R** (using the R–Br), and Br is removed.\n4. It can keep going: the secondary amine reacts again to give a **tertiary amine**, then a **quaternary ammonium salt**, so you get a **mixture**.\n\nHook: $\\ce{NH3}$ → primary → secondary → tertiary → quaternary. Each step **swaps an N–H for an N–R**."
+    },
+    {
+      "id": "che-0078",
+      "topic": "Nitrogen compounds",
+      "front": "Nitrile → primary amine: the two methods, conditions, and what is added?\n\nConditions · A Level 34.1.1(d)",
+      "back": "1. **$\\ce{LiAlH4}$ in dry ether**, or\n2. **$\\ce{H2}$ with a nickel catalyst** (heated).\n$$\\ce{CH3CH2CN + 4[H] -> CH3CH2CH2NH2}$$\n3. What changes: $\\ce{-C#N}$ becomes $\\ce{-CH2NH2}$. **4 H are added** (two $\\ce{H2}$), and no atoms are lost. The **carbon count is the same** as the nitrile.\n4. Two-step route: bromoethane → propanenitrile (KCN) → propylamine. The amine has **one more carbon** than the halogenoalkane. (Bromoethane + $\\ce{NH3}$ gives ethylamine, with no extra carbon.)\n\nTrap: use **dry** ether with $\\ce{LiAlH4}$. $\\ce{NaBH4}$ will **not** reduce a nitrile."
+    },
+    {
+      "id": "che-0079",
+      "topic": "Nitrogen compounds",
+      "front": "Amide → amine: reagent, conditions, and what changes? How is it different from hydrolysis?\n\nConditions · A Level 34.1.1(c)",
+      "back": "1. **$\\ce{LiAlH4}$ in dry ether**.\n$$\\ce{CH3CONH2 + 4[H] -> CH3CH2NH2 + H2O}$$\n2. What changes: $\\ce{-CONH2}$ becomes $\\ce{-CH2NH2}$. The **C=O oxygen is removed** (as $\\ce{H2O}$) and the carbon gains 2 H. The carbon chain is **unchanged**.\n3. An **N-substituted amide** gives a **secondary amine**:\n$$\\begin{aligned}&\\ce{CH3CONHCH3 + 4[H]}\\\\&\\quad\\ce{-> CH3CH2NHCH3 + H2O}\\end{aligned}$$\n\nTrap: **reduction → amine**, but **hydrolysis** (dilute acid or alkali) → **carboxylic acid** (or carboxylate) + $\\ce{NH3}$ or amine. Don't mix them up."
+    },
+    {
+      "id": "che-0080",
+      "topic": "Nitrogen compounds",
+      "front": "Make phenylamine from benzene: every step with reagents, conditions, equations and what is added and removed.\n\nConditions · A Level 34.2.1",
+      "back": "**Step 1: nitration** (benzene → nitrobenzene)\n**Concentrated $\\ce{HNO3}$ + concentrated $\\ce{H2SO4}$**, **25–60 °C**.\n$$\\ce{C6H6 + HNO3 -> C6H5NO2 + H2O}$$\n**Electrophilic substitution** by $\\ce{NO2+}$: $\\ce{NO2}$ replaces an H. Higher temperatures give dinitro products.\n\n**Step 2: reduction** (nitrobenzene → phenylammonium chloride)\n**Sn + concentrated HCl**, heat under **reflux**.\n$$\\ce{C6H5NO2 + 6[H] -> C6H5NH2 + 2H2O}$$\n$\\ce{NO2}$ becomes $\\ce{NH2}$: **2 O removed, 2 H added**. In HCl the product is the salt $\\ce{C6H5NH3+Cl-}$.\n\n**Step 3: free the amine**\nAdd excess **NaOH(aq)**:\n$$\\ce{C6H5NH3+ + OH- -> C6H5NH2 + H2O}$$\n\nHook: **N**itrate, **R**educe (Sn/HCl), **N**eutralise (NaOH).\nTrap: don't forget step 3. Tin and HCl give the **salt**, not the free amine."
+    },
+    {
+      "id": "che-0081",
+      "topic": "Nitrogen compounds",
+      "front": "Phenylamine + bromine water: equation, observation and why it is so easy?\n\nObservation · A Level 34.2.2(a)",
+      "back": "$$\\begin{aligned}&\\ce{C6H5NH2 + 3Br2}\\\\&\\quad\\ce{-> C6H2Br3NH2 + 3HBr}\\end{aligned}$$\n1. Product: **2,4,6-tribromophenylamine**.\n2. Bromine water is **decolourised** (orange-brown → colourless) and a **white precipitate** forms.\n3. **Room temperature**, no catalyst.\n4. Why: the N lone pair is **delocalised into the ring**, which **increases the ring's electron density**. $\\ce{NH2}$ is strongly **activating** and directs to the **2, 4, 6** positions, so all three H's are replaced.\n5. Benzene needs **$\\ce{Br2}$ + $\\ce{FeBr3}$ or $\\ce{AlBr3}$** and gives only bromobenzene.\n\nTrap: use **aqueous** bromine for the 2,4,6-product. Compare with the same reaction for phenol."
+    },
+    {
+      "id": "che-0082",
+      "topic": "Nitrogen compounds",
+      "front": "Phenylamine → benzenediazonium chloride: reagents, conditions, why so cold, and what if it warms up?\n\nConditions · A Level 34.2.2(b)",
+      "back": "1. **$\\ce{NaNO2}$ + dilute HCl(aq)**, **below 10 °C** (ice bath).\nHNO₂ is unstable, so it is made **in situ**: $\\ce{NaNO2 + HCl -> HNO2 + NaCl}$.\n$$\\begin{aligned}&\\ce{C6H5NH2 + HNO2 + HCl}\\\\&\\quad\\ce{-> C6H5N2+Cl- + 2H2O}\\end{aligned}$$\n2. What changes: $\\ce{-NH2}$ becomes the **diazonium group** $\\ce{-N2+}$.\n3. Why cold: above about 10 °C the diazonium salt **decomposes**:\n$$\\ce{C6H5N2+ + H2O -> C6H5OH + N2 + H+}$$\nYou see **bubbles of $\\ce{N2}$** and get **phenol**.\n4. Uses: warm with water → **phenol**; couple with phenol or naphthol → **azo dye**.\n\nTrap: the temperature must be **below 10 °C** and $\\ce{HNO2}$ is **made in situ**, not added as a stored reagent."
+    },
+    {
+      "id": "che-0083",
+      "topic": "Nitrogen compounds",
+      "front": "Benzenediazonium chloride + phenol and + naphthalen-2-ol: conditions, product, observation, and why alkaline?\n\nConditions · A Level 34.2.4",
+      "back": "1. Phenol (or naphthalen-2-ol) **dissolved in NaOH(aq)**, kept **cold** (below 10 °C).\n$$\\begin{aligned}&\\ce{C6H5N2+ + C6H5OH}\\\\&\\quad\\ce{-> C6H5N=NC6H4OH + H+}\\end{aligned}$$\n2. Type: **electrophilic substitution** (coupling). The diazonium ion attacks the **4-position** (para to OH).\n3. Observation: a **yellow-orange precipitate** with phenol; an **orange-red precipitate** with naphthalen-2-ol.\n4. Why **alkaline**: the diazonium ion is a **weak electrophile**, so it needs a **very activated ring**. In NaOH the phenol becomes **phenoxide** $\\ce{C6H5O-}$, whose O⁻ donates strongly into the ring.\n5. The **azo group** is $\\ce{-N=N-}$ joining two aromatic rings. The **delocalised π system** extends over both rings, so the compound absorbs **visible light** and is coloured: **azo dyes**.\n\nTrap: cold, **alkaline** phenol. If it warms up, the diazonium salt decomposes to phenol and $\\ce{N2}$ first."
+    },
+    {
+      "id": "che-0084",
+      "topic": "Nitrogen compounds",
+      "front": "Ammonia or an amine + acyl chloride → amide: conditions, equations and observation?\n\nConditions · A Level 34.3.1",
+      "back": "1. **Room temperature**, acyl chloride + **$\\ce{NH3}$** → **primary amide**:\n$$\\begin{aligned}&\\ce{CH3COCl + 2NH3}\\\\&\\quad\\ce{-> CH3CONH2 + NH4Cl}\\end{aligned}$$\n2. + **primary amine** → **N-substituted amide** (named **N-methylethanamide**):\n$$\\begin{aligned}&\\ce{CH3COCl + 2CH3NH2}\\\\&\\quad\\ce{-> CH3CONHCH3 + CH3NH3+Cl-}\\end{aligned}$$\n3. + **secondary amine** → **N,N-disubstituted amide**.\n4. Observation: **steamy white fumes** (HCl, or $\\ce{NH4Cl}$ smoke with excess $\\ce{NH3}$).\n5. What changes: an **H on N is replaced by the acyl group** $\\ce{RCO-}$, and Cl leaves.\n6. Why **2 mol**: the second mole of $\\ce{NH3}$ or amine **removes the HCl**.\n\nTrap: a carboxylic acid + $\\ce{NH3}$ just gives an **ammonium salt**. Use the **acyl chloride** to make the amide."
+    },
+    {
+      "id": "che-0085",
+      "topic": "Nitrogen compounds",
+      "front": "Amide hydrolysis: reagents, conditions, products, and the test for ammonia?\n\nConditions · A Level 34.3.2(a)",
+      "back": "1. **Dilute acid** (e.g. dilute HCl), heat under **reflux** → **carboxylic acid + ammonium salt**:\n$$\\begin{aligned}&\\ce{CH3CONH2 + H2O + HCl}\\\\&\\quad\\ce{-> CH3COOH + NH4Cl}\\end{aligned}$$\n2. **NaOH(aq)**, heat under **reflux** → **carboxylate salt + $\\ce{NH3}$**:\n$$\\begin{aligned}&\\ce{CH3CONH2 + NaOH}\\\\&\\quad\\ce{-> CH3COONa + NH3}\\end{aligned}$$\nTest: $\\ce{NH3}$ turns **damp red litmus paper blue**.\n3. An **N-substituted amide** gives an **amine** (or its salt in acid):\n$$\\begin{aligned}&\\ce{CH3CONHCH3 + NaOH}\\\\&\\quad\\ce{-> CH3COONa + CH3NH2}\\end{aligned}$$\n4. What changes: **water is added across the C–N bond**: OH goes onto the carbonyl carbon, H onto N.\n\nTrap: after **alkaline** hydrolysis, **acidify** to get the free acid. Hydrolysis gives an **acid**; **LiAlH₄** gives an **amine**."
+    },
+    {
+      "id": "che-0086",
+      "topic": "Nitrogen compounds",
+      "front": "Why are amines bases? Give equations with water and acid, and say how to get the amine back from its salt.\n\nExplain · A Level 34.1.3",
+      "back": "1. The N atom has a **lone pair** that can **accept H⁺** (proton acceptor).\n$$\\begin{aligned}&\\ce{CH3CH2NH2 + H2O}\\\\&\\quad\\ce{<=> CH3CH2NH3+ + OH-}\\end{aligned}$$\nThis is a **weak base**: it is only partly ionised, but it gives an **alkaline** solution (pH above 7; litmus turns blue).\n2. With acids it forms a **salt**:\n$$\\ce{CH3CH2NH2 + HCl -> CH3CH2NH3+Cl-}$$\nEthylammonium chloride is an **ionic**, **water-soluble** solid. (Phenylamine dissolves in dilute HCl the same way, as $\\ce{C6H5NH3+Cl-}$.)\n3. Adding **NaOH(aq)** to the salt **regenerates the amine**:\n$$\\begin{aligned}&\\ce{CH3CH2NH3+ + OH-}\\\\&\\quad\\ce{-> CH3CH2NH2 + H2O}\\end{aligned}$$\nYou can smell the amine (fishy).\n\nTrap: write **$\\rightleftharpoons$** with water, because it is a **weak** base. Amines are bases because of the **lone pair on N**."
+    },
+    {
+      "id": "che-0087",
+      "topic": "Nitrogen compounds",
+      "front": "Explain the order of basicity: ethylamine > ammonia > phenylamine.\n\nExplain · A Level 34.2.3",
+      "back": "Base strength depends on how **available the N lone pair** is to accept H⁺.\n1. **Ethylamine (strongest):** the **alkyl group is electron-donating**, which **increases the electron density on N**, so the lone pair is **more available**. It also stabilises the $\\ce{RNH3+}$ ion formed.\n2. **Ammonia (middle):** no alkyl or aryl group on N.\n3. **Phenylamine (weakest):** the N lone pair is **delocalised into the benzene ring** (it overlaps with the π system), so it is **less available** to accept H⁺.\n4. Rough pKb values (lower is stronger; not required): **3.3**, **4.8**, **9.4**.\n\nHook: **donate = stronger base; delocalise = weaker base**.\nTrap: always mention the **lone pair** and say whether it is **more or less available**."
+    },
+    {
+      "id": "che-0088",
+      "topic": "Nitrogen compounds",
+      "front": "Why are amides much weaker bases than amines?\n\nExplain · A Level 34.3.3",
+      "back": "1. In an amide the **N lone pair** overlaps with the π bond of the neighbouring **C=O** (it is **delocalised** over N–C–O).\n2. The **electronegative O** pulls electron density away, so the N lone pair is **much less available** to accept H⁺.\n3. So amides are **neutral** in water (no effect on litmus), while amines are alkaline.\n4. The delocalisation also gives the C–N bond **partial double-bond character**.\n5. Order of base strength: **alkylamine > ammonia > phenylamine > amide**.\n\nTrap: don't just say \"amides are less basic\". Say the lone pair is **delocalised onto the C=O**, so it is **not available** for protonation."
+    },
+    {
+      "id": "che-0089",
+      "topic": "Nitrogen compounds",
+      "front": "What is a zwitterion? Show glycine at low pH, as the zwitterion, and at high pH, and define isoelectric point.\n\nExplain · A Level 34.4.1",
+      "back": "1. A **zwitterion** has a **positive and a negative charge on different atoms** but **no overall charge**. In an amino acid the –COOH gives its H⁺ to the –NH₂ in the same molecule.\n$$\\ce{H3N+-CH2-COO-}$$\n2. **Low pH (acid):** both groups protonated → **cation** (net +1):\n$$\\ce{H3N+-CH2-COOH}$$\n3. **High pH (alkali):** both groups deprotonated → **anion** (net −1):\n$$\\ce{H2N-CH2-COO-}$$\n4. So amino acids are **amphoteric**: they react with both **acids** and **bases**.\n5. **Isoelectric point (pI):** the **pH at which the amino acid has no net charge** (mostly the zwitterion). It does **not move** in an electric field and is **least soluble** there.\n6. Amino acids have **high melting points** and dissolve in water because of their **ionic** zwitterion structure.\n\nTrap: the zwitterion is **neutral overall**, but not \"uncharged\". Both charges are present."
+    },
+    {
+      "id": "che-0090",
+      "topic": "Nitrogen compounds",
+      "front": "Form a dipeptide from glycine and alanine. What bond forms, what is lost, and how many dipeptides are possible?\n\nEquation · A Level 34.4.2",
+      "back": "1. A **condensation** reaction: the **–COOH** of one amino acid reacts with the **–NH₂** of another, and **$\\ce{H2O}$ is lost** (OH from the acid, H from the amine).\n$$\\begin{aligned}&\\ce{H2N-CH2-COOH}\\\\&\\ce{+ H2N-CH(CH3)-COOH}\\\\&\\quad\\ce{-> H2N-CH2-CO-NH-CH(CH3)-COOH}\\\\&\\quad\\ce{+ H2O}\\end{aligned}$$\n2. The new link is the **peptide (amide) bond**, $\\ce{-CO-NH-}$.\n3. Two different amino acids can make **two dipeptides** (Gly–Ala and Ala–Gly), because either acid group can react.\n4. **n amino acids lose (n − 1) $\\ce{H2O}$**: a tripeptide has **2 peptide bonds**. Three different amino acids can be joined in **6** orders.\n5. The chain keeps a free **–NH₂ end** and a free **–COOH end**.\n6. Hydrolysis (heating with aqueous acid or alkali) **reverses** this, breaking the peptide bonds.\n\nTrap: say the product is an **amide link** and that **water is lost**."
+    },
+    {
+      "id": "che-0091",
+      "topic": "Nitrogen compounds",
+      "front": "Electrophoresis of amino acids: which way does each move at a given pH? Give the rules and a worked example.\n\nQuick Q · A Level 34.4.3",
+      "back": "1. Electrophoresis separates by **charge** (and size) in an electric field, in a **buffer** of fixed pH.\n2. Compare the buffer pH with the amino acid's **pI**:\n**pH < pI** → **positive** → moves to the **cathode (−)**.\n**pH > pI** → **negative** → moves to the **anode (+)**.\n**pH = pI** → **no net charge** → **does not move**.\n3. For the **same charge**, a **larger** molecule moves **more slowly**.\n4. Worked example at **pH 6**:\n**Glycine** (pI about 6.0): barely moves.\n**Lysine** (extra –NH₂ in the side chain, pI about 9.7): **positive**, moves to the **cathode**.\n**Aspartic acid** (extra –COOH in the side chain, pI about 2.8): **negative**, moves to the **anode**.\n5. For a **dipeptide**, count the free –NH₂ and –COOH groups and any side-chain groups, then decide the charge at that pH.\n6. The spots are made visible with a **locating agent** such as **ninhydrin**.\n\nTrap: a **basic** side chain pushes the pI **up**; an **acidic** side chain pushes it **down**."
+    },
+    {
+      "id": "che-0092",
+      "topic": "Nitrogen compounds",
+      "front": "Name and classify: CH₃CH₂NH₂, CH₃CH₂NHCH₃, (CH₃)₃N, CH₃CH₂CN, CH₃CONH₂, CH₃CONHCH₃, C₆H₅NH₂.\n\nQuick Q · A Level 34.1",
+      "back": "1. $\\ce{CH3CH2NH2}$: **ethylamine** (ethanamine), **primary**.\n2. $\\ce{CH3CH2NHCH3}$: **N-methylethanamine**, **secondary**.\n3. $\\ce{(CH3)3N}$: **trimethylamine**, **tertiary**.\n4. $\\ce{CH3CH2CN}$: **propanenitrile** (the nitrile C counts in the chain, so 3 C).\n5. $\\ce{CH3CONH2}$: **ethanamide**, a primary amide.\n6. $\\ce{CH3CONHCH3}$: **N-methylethanamide**.\n7. $\\ce{C6H5NH2}$: **phenylamine**.\n\nTrap 1: an amine is classified by the **number of carbon groups on N**. (An alcohol is classified by the carbons on the **C–OH carbon**.)\nTrap 2: the **N-** in a name shows the group is on **nitrogen**."
+    },
+    {
+      "id": "che-0093",
+      "topic": "Nitrogen compounds",
+      "front": "Why do amines have lower boiling points than alcohols but higher than alkanes of similar Mr, and why are small amines soluble in water?\n\nExplain · 19.1",
+      "back": "1. Primary and secondary amines form **hydrogen bonds** (N–H···N) between molecules, so their boiling points are **higher than alkanes**, which only have instantaneous dipole–induced dipole forces.\n2. N is **less electronegative** than O, so N–H···N bonds are **weaker** than O–H···O. So the boiling points are **lower than alcohols**.\nExample (Mr about 59–60): butane **−1 °C**, propylamine **48 °C**, propan-1-ol **97 °C**.\n3. **Tertiary amines** have no N–H, so they cannot hydrogen-bond to each other. Their boiling points are lower than primary amines of similar Mr.\n4. Small amines **dissolve in water** because they hydrogen-bond with water (using the N lone pair and N–H). Solubility **falls as the chain gets longer**. Phenylamine is only slightly soluble.\n\nTrap: boiling a liquid overcomes **intermolecular** forces. It does not break covalent bonds."
+    },
+    {
+      "id": "che-0094",
+      "topic": "Nitrogen compounds",
+      "front": "Bromoethane → propylamine: give both steps with reagents, conditions and the intermediate.\n\nQuick Q · A Level 34.1.1(d)",
+      "back": "1. **Step 1:** **KCN in ethanol**, heat under **reflux** → **propanenitrile**, $\\ce{CH3CH2CN}$ (one carbon added).\n2. **Step 2:** **$\\ce{LiAlH4}$ in dry ether** (or **$\\ce{H2}$/Ni**) → **propylamine**, $\\ce{CH3CH2CH2NH2}$.\n\nCheck: bromoethane + $\\ce{NH3}$ would only give **ethylamine** (no extra carbon). The KCN route is how you **add a carbon**.\nHook: **Cyanide to lengthen, then reduce to amine.**"
+    },
+    {
+      "id": "che-0095",
+      "topic": "Nitrogen compounds",
+      "front": "Ethanol → propanoic acid: give every step with reagents and conditions.\n\nQuick Q · 18.1.1(b)",
+      "back": "1. **Ethanol → bromoethane:** $\\ce{NaBr}$ + concentrated $\\ce{H2SO4}$, heat (or $\\ce{PBr3}$, or red P + $\\ce{Br2}$).\n2. **Bromoethane → propanenitrile:** **KCN in ethanol**, heat under **reflux** (adds one carbon).\n3. **Propanenitrile → propanoic acid:** heat under **reflux** with **dilute $\\ce{HCl}$ or $\\ce{H2SO4}$** (or $\\ce{NaOH(aq)}$ reflux, then **acidify**).\n\nCheck: C count goes 2 → 2 → 3 → 3. The chain is lengthened in **step 2** only."
+    },
+    {
+      "id": "che-0096",
+      "topic": "Nitrogen compounds",
+      "front": "Ethanol → 2-hydroxypropanoic acid: give every step with reagents and conditions.\n\nQuick Q · 19.2.2(a)",
+      "back": "1. **Ethanol → ethanal:** warm with **acidified $\\ce{K2Cr2O7}$** and **distil off** the ethanal as it forms.\n2. **Ethanal → 2-hydroxypropanenitrile:** **HCN with a little KCN**, heat. $\\ce{CH3CHO + HCN -> CH3CH(OH)CN}$.\n3. **Hydroxynitrile → 2-hydroxypropanoic acid:** heat under **reflux** with **dilute acid** (or $\\ce{NaOH(aq)}$ reflux, then **acidify**).\n$$\\begin{aligned}&\\ce{CH3CH(OH)CN + 2H2O + H+}\\\\&\\quad\\ce{-> CH3CH(OH)COOH + NH4+}\\end{aligned}$$\n\nCheck: step 2 adds the carbon. The product has a **chiral centre** and forms as a **racemic mixture**, so it has **no optical activity**."
+    },
+    {
+      "id": "che-0097",
+      "topic": "Nitrogen compounds",
+      "front": "Methylbenzene → phenyl benzoate: give every step with reagents and conditions.\n\nQuick Q · A Level 33.2.1(a)",
+      "back": "1. **Methylbenzene → benzoic acid:** **hot alkaline $\\ce{KMnO4}$**, reflux, then **dilute acid**.\n2. **Benzoic acid → benzoyl chloride:** **$\\ce{SOCl2}$** (or $\\ce{PCl5}$, or $\\ce{PCl3}$ with heat).\n$$\\begin{aligned}&\\ce{C6H5COOH + SOCl2}\\\\&\\quad\\ce{-> C6H5COCl + SO2 + HCl}\\end{aligned}$$\n3. **Benzoyl chloride + phenol → phenyl benzoate:** room temperature (phenol in NaOH(aq) speeds it up).\n$$\\begin{aligned}&\\ce{C6H5COCl + C6H5OH}\\\\&\\quad\\ce{-> C6H5COOC6H5 + HCl}\\end{aligned}$$\n\nCheck: phenol does not esterify well with a carboxylic acid, so the **acyl chloride** step is needed."
+    },
+    {
+      "id": "che-0098",
+      "topic": "Nitrogen compounds",
+      "front": "Benzene → phenol (via phenylamine) and benzene → an azo dye: list every step with reagents and conditions.\n\nQuick Q · A Level 34.2.2",
+      "back": "1. **Benzene → nitrobenzene:** conc. $\\ce{HNO3}$ + conc. $\\ce{H2SO4}$, **25–60 °C**.\n2. **Nitrobenzene → phenylamine:** **Sn + conc. HCl**, reflux; then **excess NaOH(aq)**.\n3. **Phenylamine → benzenediazonium chloride:** $\\ce{NaNO2}$ + dilute HCl, **below 10 °C**.\n4a. **→ Phenol:** **warm with water** ($\\ce{N2}$ bubbles off).\n4b. **→ Azo dye:** add to **phenol in NaOH(aq)**, **cold** → **yellow-orange precipitate** (or naphthalen-2-ol → orange-red).\n\nHook: **Nitrate → Reduce → Diazotise → (warm = phenol) or (couple = dye)**."
+    },
+    {
+      "id": "che-0099",
+      "topic": "Nitrogen compounds",
+      "front": "Memorise: one line for every way to make an amine, nitrile, hydroxynitrile and amide.\n\nMemorise · A Level 34.1.1",
+      "back": "**Primary amine**\n1. Halogenoalkane + **excess $\\ce{NH3}$ in ethanol**, heat, sealed tube.\n2. Nitrile + **$\\ce{LiAlH4}$** (dry ether) or **$\\ce{H2}$/Ni**.\n3. Amide + **$\\ce{LiAlH4}$** (dry ether).\n4. Nitrobenzene + **Sn / conc. HCl**, reflux, then **NaOH(aq)** (gives phenylamine).\n**Secondary amine**\n5. Halogenoalkane + **primary amine in ethanol**, heat, sealed tube.\n6. N-substituted amide + **$\\ce{LiAlH4}$**.\n**Nitrile**\n7. Halogenoalkane + **KCN in ethanol**, reflux.\n**Hydroxynitrile**\n8. Aldehyde or ketone + **HCN, KCN catalyst**, heat.\n**Amide**\n9. Acyl chloride + **$\\ce{NH3}$ or amine**, room temperature.\n\nHook: **KCN adds a carbon; $\\ce{NH3}$ doesn't.**"
+    },
+    {
+      "id": "che-0100",
+      "topic": "Nitrogen compounds",
+      "front": "Memorise: one line for every reaction of amines, phenylamine and amides.\n\nMemorise · A Level 34.1",
+      "back": "**Amines**\n1. + **water** → weakly **alkaline** solution ($\\ce{RNH3+ + OH-}$).\n2. + **acid (HCl)** → **alkylammonium salt**; + **NaOH(aq)** regenerates the amine.\n3. + **acyl chloride** (room temp.) → **amide** + HCl.\n4. + **halogenoalkane** (ethanol, heat, sealed tube) → **higher amine** (mixture).\n**Phenylamine**\n5. + **$\\ce{Br2(aq)}$**, room temp. → **2,4,6-tribromophenylamine**, white precipitate.\n6. + **$\\ce{NaNO2}$ / HCl, below 10 °C** → **diazonium salt**.\n7. Diazonium + **phenol in NaOH(aq)**, cold → **azo dye**; diazonium + **warm water** → **phenol** + $\\ce{N2}$.\n**Amides**\n8. **Hydrolysis** (dilute acid or NaOH(aq), reflux) → **acid or carboxylate** + $\\ce{NH3}$ or amine.\n9. **$\\ce{LiAlH4}$** → **amine**.\n**Nitriles**\n10. **Hydrolysis** → **carboxylic acid**; **$\\ce{LiAlH4}$ or $\\ce{H2}$/Ni** → **amine**."
+    },
+    {
+      "id": "che-0101",
+      "topic": "Nitrogen compounds",
+      "front": "Memorise: acid strength and base strength orders, with the one-line reason for each.\n\nMemorise · A Level 33.1.4",
+      "back": "**Acids (strongest → weakest)**\n1. **Carboxylic acid > phenol > alcohol**: carboxylate charge is **delocalised over two O**; phenoxide only **into the ring**; alkoxide **not at all**.\n2. $\\ce{CCl3COOH}$ > $\\ce{CHCl2COOH}$ > $\\ce{CH2ClCOOH}$ > $\\ce{HCOOH}$ > $\\ce{CH3COOH}$: **electron-withdrawing Cl stabilises** the anion; **alkyl groups donate** and destabilise it.\n3. **Closer Cl = stronger acid**; **F > Cl**.\n**Bases (strongest → weakest)**\n4. **Alkylamine > ammonia > phenylamine > amide** (amide is **neutral**).\n5. Alkyl **donates** to N (more available lone pair). Phenyl **delocalises** the lone pair into the ring. Amide **delocalises** it onto C=O.\n**Hydrolysis ease**\n6. **Acyl chloride > chloroalkane > chlorobenzene.**\n\nHook: **anything that spreads or pulls charge away from the lone pair or anion changes strength.** Stabilised anion = stronger acid; available lone pair = stronger base."
+    },
+    {
+      "id": "che-0102",
+      "topic": "Nitrogen compounds",
+      "front": "Memorise: what does LiAlH₄ do to each functional group (and what does NaBH₄ not do)?\n\nMemorise · 18.1.2(e)",
+      "back": "**$\\ce{LiAlH4}$ in dry ether** reduces (strong reducing agent):\n1. Aldehyde → **primary alcohol**; ketone → **secondary alcohol**.\n2. Carboxylic acid → **primary alcohol**: $\\ce{-COOH -> -CH2OH}$.\n3. Nitrile → **primary amine**: $\\ce{-CN -> -CH2NH2}$.\n4. Amide → **amine**: $\\ce{-CONH2 -> -CH2NH2}$ (N-substituted amide → secondary amine).\n\n**$\\ce{NaBH4}$** is weaker: it reduces **aldehydes and ketones** but **not** carboxylic acids, nitriles or amides.\n**$\\ce{H2}$/Ni** reduces nitriles to amines, but **not** acids or amides.\n\nTrap: $\\ce{LiAlH4}$ reacts with water, so it must be used in **dry** ether."
+    },
+    {
+      "id": "che-0103",
+      "topic": "Nitrogen compounds",
+      "front": "Memorise: which steps change the number of carbon atoms, and which keep it the same?\n\nMemorise · 19.2",
+      "back": "**Adds one carbon (chain lengthening):**\n1. Halogenoalkane + **KCN** → nitrile.\n2. Aldehyde or ketone + **HCN** → hydroxynitrile.\nHydrolysis or reduction of that product keeps the extra carbon (nitrile → acid, nitrile → amine).\n\n**Keeps the same number of carbons:**\n3. Halogenoalkane + $\\ce{NH3}$ or amine → amine.\n4. Nitrile → acid (hydrolysis), nitrile → amine (reduction).\n5. Amide → acid (hydrolysis), amide → amine (reduction).\n6. Ester → acid + alcohol; acid → acyl chloride; acyl chloride → ester or amide.\n\n**Loses carbon:** only the side-chain oxidation of an alkylbenzene (the extra carbons are lost on the way to benzoic acid).\n\nUse this to plan routes: if the product has **one more C** than the start, you need a **cyanide** step."
     }
   ]
 }

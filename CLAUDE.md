@@ -28,7 +28,7 @@ home screen; it works offline.
 - Never reuse a deleted card's id. Retired so far (starter cards Umar asked to remove on 2026-10-20):
   `phy-0001`–`phy-0012`, `che-0001`–`che-0012`, `bio-0001`–`bio-0010`. Always number from the
   highest id currently in the deck file (as of 2026-10-20 Biology runs `bio-0011`–`bio-0117`;
-  as of 2026-11-08 Chemistry runs `che-0013`–`che-0052`).
+  as of 2026-11-13 Chemistry runs `che-0013`–`che-0103`).
 - Umar wants to make his own cards or ask for specific ones: don't add cards he hasn't asked for.
 - Text supports `**key words**` (shown highlighted, like mark-scheme key words), line breaks (`\n`),
   maths with KaTeX between `$...$` (inline) or `$$...$$` (own line), and chemistry with mhchem
