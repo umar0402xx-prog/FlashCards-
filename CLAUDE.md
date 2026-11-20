@@ -26,6 +26,9 @@ home screen; it works offline.
   describe, formulas, calculations, conditions). The app splits each topic into **Definitions** and
   **Standard answers & formulas** using it (Umar asked for this on 2026-11-20). Always set it on new
   cards. The Chem 9701 · All Definitions deck is kept as its own deck and isn't split.
+- When Umar asks for Chemistry topic cards (e.g. Equilibria), include that topic's definitions as
+  `"kind": "definition"` cards in `chemistry.json` too, even if they repeat cards in the All Definitions
+  deck. He wants them in both places (2026-11-20).
 
 - `id` must be unique and must never change once published, because progress is keyed on it.
   Number new cards after the highest existing id in that deck: `phy-` Physics, `che-` Chemistry,
