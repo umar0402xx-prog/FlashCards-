@@ -366,6 +366,240 @@
       "topic": "Electric fields",
       "front": "Summary: the four point-charge formulas. How are they linked?\n\nFormula · 18.3–18.5",
       "back": "**Two charges** (force and energy):\n$$F=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r^2}$$\n$$E_p=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r}$$\n**Point in space** (field and potential):\n$$E=\\dfrac{Q}{4\\pi\\varepsilon_0 r^2}$$\n$$V=\\dfrac{Q}{4\\pi\\varepsilon_0 r}$$\n1. Two charges to point in space: **divide by the test charge** $q$.\n2. Vector ($F$, $E$) to scalar ($E_p$, $V$): **area** under the graph.\n3. Scalar to vector: **minus the gradient**.\n\nHook: **$r^2$ for vectors** ($F$, $E$), **$r$ for scalars** ($E_p$, $V$)."
+    },
+    {
+      "id": "phy-0074",
+      "topic": "Gravitational fields",
+      "front": "What is meant by a gravitational field?\n\n1 point · 13.1",
+      "back": "1. A **region** (of space) where a **mass** experiences a **force**.\n\nIt's a **field of force**: you never touch the Earth's mass, yet you feel its pull.\nTrap: say \"**mass**\". Saying \"an object feels gravity\" doesn't name what the field acts on."
+    },
+    {
+      "id": "phy-0075",
+      "topic": "Gravitational fields",
+      "front": "Define gravitational field strength at a point. Is it a vector or a scalar?\n\n3 points · 13.1",
+      "back": "1. **Force per unit mass**\n2. acting on a **small (test) mass** placed at that point.\n3. It is a **vector**: it points in the direction of the force on a mass, i.e. **towards** the mass creating the field.\n\n$$g=\\dfrac{F}{m}$$\nUnits: $\\text{N kg}^{-1}$, which is the same as $\\text{m s}^{-2}$.\n\nTrap: \"acceleration of free fall\" is **not** the definition. The mark needs \"**force per unit mass**\"."
+    },
+    {
+      "id": "phy-0076",
+      "topic": "Gravitational fields",
+      "front": "Describe and draw gravitational field lines: around a planet, and close to its surface.\n\n4 points · 13.1",
+      "back": "1. Arrows show the direction of the **force on a mass**: always **towards** the planet (gravity only **attracts**).\n2. Around a planet (point mass): **radial** lines pointing **inwards** to the **centre**.\n3. **Closer lines = stronger field**: they spread out further away. Lines **never cross**.\n4. Close to the surface (small region): lines are **parallel, equally spaced** and vertical, so the field is **uniform**.\n\nHook: zoom in on a circle and its edge looks straight. Same with field lines near the surface.\nTrap: draw the arrows **on** the lines and pointing **in**, and touch the surface at **90°**."
+    },
+    {
+      "id": "phy-0077",
+      "topic": "Gravitational fields",
+      "front": "State Newton's law of gravitation.\n\n2 points · 13.2",
+      "back": "1. The (attractive) force between two **point masses** is **proportional to the product of their masses**\n2. and **inversely proportional to the square of their separation**.\n\n$$F=\\dfrac{Gm_1m_2}{r^2}$$\n\nTrap: \"**point** masses\" and \"**separation**\" (centre to centre) are the key words. \"Distance between them\" alone can lose the mark.\nExample: double $r$, $F\\div4$. Double one mass, $F\\times2$."
+    },
+    {
+      "id": "phy-0078",
+      "topic": "Gravitational fields",
+      "front": "Explain why, for a point outside it, a uniform sphere (e.g. a planet) can be treated as a point mass at its centre.\n\n2 points · 13.2",
+      "back": "1. The mass of the sphere is **uniformly / symmetrically distributed**,\n2. so outside it the field is the **same as if all the mass were concentrated at its centre** (radial field).\n\nSo $r$ is always measured from the **centre**: $r = R + h$ (radius + height above the surface).\nTrap: using the height $h$ instead of $R+h$ is the classic orbit-question mistake."
+    },
+    {
+      "id": "phy-0079",
+      "topic": "Gravitational fields",
+      "front": "Explain how a satellite stays in a circular orbit. Derive its orbital speed.\n\n4 points · 13.2",
+      "back": "1. The **gravitational force** on the satellite **provides the centripetal force**.\n2. This force is always **perpendicular to the velocity** (towards the centre), so **no work** is done: the **speed is constant** but the **direction changes**.\n3. $$\\dfrac{GMm}{r^2}=\\dfrac{mv^2}{r}$$\n4. so $$v=\\sqrt{\\dfrac{GM}{r}}$$ The satellite's mass $m$ **cancels**: speed doesn't depend on it.\n\nLower orbit ($r$ smaller) means **faster** satellite and **shorter** period.\nTrap: the satellite is **accelerating** (towards the centre) even at constant speed. It's **not** in equilibrium."
+    },
+    {
+      "id": "phy-0080",
+      "topic": "Gravitational fields",
+      "front": "Show that $T^2\\propto r^3$ for a circular orbit.\n\n4 points · 13.2",
+      "back": "1. Gravitational force = centripetal force:\n$$\\dfrac{GMm}{r^2}=mr\\omega^2$$\n2. Use $\\omega=\\dfrac{2\\pi}{T}$:\n$$\\dfrac{GM}{r^2}=\\dfrac{4\\pi^2 r}{T^2}$$\n3. Rearrange:\n$$T^2=\\dfrac{4\\pi^2}{GM}\\,r^3$$\n4. $4\\pi^2$, $G$ and $M$ are **constants**, so $T^2\\propto r^3$.\n\nExample: a $T^2$ against $r^3$ graph is a **straight line through the origin**, gradient $4\\pi^2/GM$. Use it to find the planet's mass $M$.\nTrap: $M$ is the mass being **orbited** (the planet), not the satellite."
+    },
+    {
+      "id": "phy-0081",
+      "topic": "Gravitational fields",
+      "front": "What is a geostationary orbit? State its properties.\n\n4 points · 13.2",
+      "back": "1. **Period = 24 hours** (same as the Earth's rotation).\n2. Orbits **directly above the Equator** (in the equatorial plane).\n3. Moves **west to east**, the **same direction** as the Earth rotates.\n4. So it **stays above the same point** on the Earth's surface.\n\nRadius $\\approx 4.2\\times10^7$ m from the Earth's **centre** (about $3.6\\times10^7$ m above the surface).\nUse: **communications**: a receiving dish can be **fixed**; it doesn't need to track the satellite.\nTrap: \"24 hours\" alone isn't enough. You need **Equator** + **same direction** too."
+    },
+    {
+      "id": "phy-0082",
+      "topic": "Gravitational fields",
+      "front": "Derive $g=\\dfrac{GM}{r^2}$ for a point mass.\n\n3 points · 13.3",
+      "back": "1. Definition: $g=\\dfrac{F}{m}$ (force per unit mass on a test mass $m$).\n2. Newton's law: force on $m$ is $F=\\dfrac{GMm}{r^2}$.\n3. Divide by $m$:\n$$g=\\dfrac{GM}{r^2}$$\n\n$g$ doesn't depend on the test mass. $M$ is the mass **creating** the field.\nExample: Earth, $M=6.0\\times10^{24}$ kg, $R=6.4\\times10^6$ m: $g=\\dfrac{6.67\\times10^{-11}\\times6.0\\times10^{24}}{(6.4\\times10^6)^2}=$ **9.8 N kg$^{-1}$**."
+    },
+    {
+      "id": "phy-0083",
+      "topic": "Gravitational fields",
+      "front": "Explain why $g$ is approximately constant for small changes in height near the Earth's surface.\n\n2 points · 13.3",
+      "back": "1. The change in height is **very small compared with the radius of the Earth** ($6.4\\times10^6$ m),\n2. so the distance $r$ from the centre **hardly changes**, and $g=\\dfrac{GM}{r^2}$ is almost the same.\n\nExample: going up 10 km, $r$ changes from 6400 km to 6410 km: $g$ falls by only about **0.3%**.\nThat's why $\\Delta E_p=mg\\Delta h$ works near the surface, but **not** for big height changes (orbits)."
+    },
+    {
+      "id": "phy-0084",
+      "topic": "Gravitational fields",
+      "front": "How do you find the point between the Earth and the Moon where the resultant gravitational field is zero?\n\n3 points · 13.3",
+      "back": "1. Let the point be $x$ from the Earth's centre, so it is $d-x$ from the Moon's centre.\n2. The two fields are **equal and opposite**:\n$$\\dfrac{GM_E}{x^2}=\\dfrac{GM_M}{(d-x)^2}$$\n3. $G$ cancels. Solve for $x$. The point is **much closer to the Moon** (the smaller mass).\n\nAt this point $g=0$, but the potential is **not** zero: potentials are **scalars** and **add** (both negative).\nTrap: square-root both sides first to make it easy: $\\dfrac{x}{d-x}=\\sqrt{\\dfrac{M_E}{M_M}}$."
+    },
+    {
+      "id": "phy-0085",
+      "topic": "Gravitational fields",
+      "front": "Define gravitational potential at a point.\n\n3 points · 13.4",
+      "back": "1. **Work done per unit mass**\n2. in bringing a **small test mass**\n3. **from infinity** to that point.\n\n$$\\phi=-\\dfrac{GM}{r}$$\nUnits: $\\text{J kg}^{-1}$. It is a **scalar**.\n\nTrap: all three bits score: \"per unit mass\", \"small test mass\", \"**from infinity**\". Saying \"to infinity\" is wrong."
+    },
+    {
+      "id": "phy-0086",
+      "topic": "Gravitational fields",
+      "front": "Define the gravitational potential energy of a mass at a point.\n\n2 points · 13.4",
+      "back": "1. The **work done** in bringing the mass\n2. **from infinity** to that point.\n\n$$E_p=m\\phi=-\\dfrac{GMm}{r}$$\nUnits: J. It is a **scalar**.\n\nHook: potential = energy **per kg**; potential energy = the energy for **this** mass.\nTrap: no \"per unit mass\" here. That's the difference from potential."
+    },
+    {
+      "id": "phy-0087",
+      "topic": "Gravitational fields",
+      "front": "Explain why gravitational potential is always negative.\n\n3 points · 13.4",
+      "back": "1. Potential is defined as **zero at infinity**.\n2. Gravitational forces are **always attractive**,\n3. so **work is done by the field** (energy is released) as a mass moves in from infinity. The potential ends up **below zero**: **negative**.\n\nSo the **maximum** potential is **zero** (at infinity). Moving **away** from a planet, $\\phi$ **increases** (gets less negative).\nHook: a planet is a **well**: you have to put energy in to climb out to zero."
+    },
+    {
+      "id": "phy-0088",
+      "topic": "Gravitational fields",
+      "front": "How do you find the change in gravitational potential energy when a mass moves between two distances from a planet? When can you use $mg\\Delta h$?\n\n3 points · 13.4",
+      "back": "1. $$\\Delta E_p=E_{p,\\text{final}}-E_{p,\\text{initial}}$$\n2. $$\\Delta E_p=GMm\\left(\\dfrac{1}{r_1}-\\dfrac{1}{r_2}\\right)$$ for moving **out** from $r_1$ to $r_2$ (positive: energy gained).\n3. $mg\\Delta h$ only works for **small** height changes near the surface, where $g$ is **constant**.\n\nExample: 1.0 kg from the Earth's surface ($R$) to $2R$: $\\Delta E_p=\\dfrac{GMm}{2R}\\approx$ **$3.1\\times10^7$ J**. Using $mgh$ gives $6.3\\times10^7$ J: **double**, because $g$ drops as you go up.\nTrap: keep the minus signs in $E_p=-GMm/r$; the change is the less negative minus the more negative."
+    },
+    {
+      "id": "phy-0089",
+      "topic": "Gravitational fields",
+      "front": "What do the gradient and the area give for $\\phi$–$r$ and $g$–$r$ graphs?\n\n3 points · 13.4",
+      "back": "1. **$\\phi$–$r$ graph**: **gradient** $=$ field strength $g$ (draw a tangent). Field strength $= -$(potential gradient).\n2. **$g$–$r$ graph**: **area** under the graph $=$ change in potential $\\Delta\\phi$.\n3. Shapes outside a planet: $g\\propto\\dfrac{1}{r^2}$ (falls fast); $\\phi\\propto-\\dfrac{1}{r}$ (negative, rising towards **zero**).\n\nTrap: the $\\phi$ curve is **below** the axis and gets **closer to zero** as $r$ increases. It never crosses it.\nHook: same rules as electric fields: gradient one way, area the other."
+    },
+    {
+      "id": "phy-0090",
+      "topic": "Gravitational fields",
+      "front": "Formula: gravitational field strength from force. Write it and name every variable with its unit.\n\nFormula · 13.1",
+      "back": "$$g=\\dfrac{F}{m}$$\n- $g$: gravitational field strength ($\\text{N kg}^{-1}$)\n- $F$: gravitational force on the mass (N)\n- $m$: the **test mass** placed in the field (kg)\n\nWorks in **any** gravitational field. Near the Earth's surface $g=9.81\\ \\text{N kg}^{-1}$.\nThis is just weight $W=mg$ rearranged."
+    },
+    {
+      "id": "phy-0091",
+      "topic": "Gravitational fields",
+      "front": "Formula: Newton's law of gravitation. Write it and name every variable and constant.\n\nFormula · 13.2",
+      "back": "$$F=\\dfrac{Gm_1m_2}{r^2}$$\n- $F$: attractive force on **each** mass (N): equal and opposite (Newton's 3rd law)\n- $m_1$, $m_2$: the two (point) masses (kg)\n- $r$: separation of their **centres** (m)\n- $G=6.67\\times10^{-11}\\ \\text{N m}^2\\,\\text{kg}^{-2}$\n\nNot on the formula sheet: **learn it** ($G$ is in the data list).\nTrap: $r$ is centre to centre: $R+h$ for something above a planet."
+    },
+    {
+      "id": "phy-0092",
+      "topic": "Gravitational fields",
+      "front": "Formula: gravitational field strength of a point mass. Write it and name every variable.\n\nFormula · 13.3",
+      "back": "$$g=\\dfrac{GM}{r^2}$$\n- $g$: field strength at the point ($\\text{N kg}^{-1}$)\n- $M$: the mass **creating** the field (kg)\n- $r$: distance from the **centre** of the mass (m)\n- $G=6.67\\times10^{-11}\\ \\text{N m}^2\\,\\text{kg}^{-2}$\n\nNot on the formula sheet: **learn it**.\nInverse square: double $r$, $g\\div4$.\nExample: at $r=2R$ above the Earth, $g=9.8\\div4\\approx$ **2.5 N kg$^{-1}$**."
+    },
+    {
+      "id": "phy-0093",
+      "topic": "Gravitational fields",
+      "front": "Formula: gravitational potential of a point mass. Write it and name every variable.\n\nFormula · 13.4",
+      "back": "$$\\phi=-\\dfrac{GM}{r}$$\n- $\\phi$: gravitational potential at the point ($\\text{J kg}^{-1}$)\n- $M$: the mass creating the field (kg)\n- $r$: distance from the **centre** (m)\n\nOn the formula sheet. $\\phi\\propto 1/r$, **not** $1/r^2$, and it's **always negative**.\nScalar: for two planets, just **add** the potentials.\nExample: Earth's surface: $\\phi=-\\dfrac{6.67\\times10^{-11}\\times6.0\\times10^{24}}{6.4\\times10^6}\\approx$ **$-6.3\\times10^7$ J kg$^{-1}$**."
+    },
+    {
+      "id": "phy-0094",
+      "topic": "Gravitational fields",
+      "front": "Formula: gravitational potential energy of two point masses. Write it and name every variable.\n\nFormula · 13.4",
+      "back": "$$E_p=-\\dfrac{GMm}{r}$$\n- $E_p$: gravitational potential energy (J)\n- $M$, $m$: the two masses (kg)\n- $r$: separation of their **centres** (m)\n\nOn the formula sheet. Also $E_p=m\\phi$.\nTrap: always **negative**; it gets **less negative** (increases) as the masses move apart."
+    },
+    {
+      "id": "phy-0095",
+      "topic": "Gravitational fields",
+      "front": "Formulas for a satellite in a circular orbit. Name every variable.\n\nFormula · 13.2",
+      "back": "Start every time from: **gravitational force = centripetal force**\n$$\\dfrac{GMm}{r^2}=\\dfrac{mv^2}{r}=mr\\omega^2$$\n$$v=\\sqrt{\\dfrac{GM}{r}}$$\n$$v=\\dfrac{2\\pi r}{T}$$\n$$T^2=\\dfrac{4\\pi^2r^3}{GM}$$\n- $M$: planet's mass (kg) · $m$: satellite's mass (cancels)\n- $r$: orbit radius from the planet's **centre** (m)\n- $v$: orbital speed ($\\text{m s}^{-1}$) · $T$: period (s) · $\\omega=2\\pi/T$ ($\\text{rad s}^{-1}$)\n\nTrap: convert $T$ to **seconds** (24 h $=86\\,400$ s) and $r$ to **metres**."
+    },
+    {
+      "id": "phy-0096",
+      "topic": "Gravitational fields",
+      "front": "Summary: the four point-mass formulas. How are they linked?\n\nFormula · 13.2–13.4",
+      "back": "**Two masses** (force and energy):\n$$F=\\dfrac{GMm}{r^2}$$\n$$E_p=-\\dfrac{GMm}{r}$$\n**Point in space** (field and potential):\n$$g=\\dfrac{GM}{r^2}$$\n$$\\phi=-\\dfrac{GM}{r}$$\n1. Two masses to point in space: **divide by the test mass** $m$.\n2. Vector ($F$, $g$) to scalar ($E_p$, $\\phi$): **area** under the graph.\n3. Scalar to vector: **minus the gradient**.\n\nHook: **$r^2$ for vectors** ($F$, $g$), **$r$ for scalars** ($E_p$, $\\phi$). The scalars have the **minus sign**."
+    },
+    {
+      "id": "phy-0097",
+      "topic": "Oscillations",
+      "front": "Define displacement, amplitude, period and frequency for an oscillation.\n\n4 definitions · 17.1",
+      "back": "1. **Displacement** $x$: the **distance** (in a given direction) from the **equilibrium position**.\n2. **Amplitude** $x_0$: the **maximum displacement** from the **equilibrium position**.\n3. **Period** $T$: the **time** taken for **one complete oscillation**.\n4. **Frequency** $f$: the **number of oscillations per unit time**.\n\n$$f=\\dfrac{1}{T}$$\nTrap: amplitude is measured from the **middle**, not from one extreme to the other (that's $2x_0$)."
+    },
+    {
+      "id": "phy-0098",
+      "topic": "Oscillations",
+      "front": "Define angular frequency and phase difference.\n\n2 definitions · 17.1",
+      "back": "1. **Angular frequency** $\\omega$: $2\\pi$ times the frequency, i.e. the **rate of change of phase angle**.\n$$\\omega=2\\pi f=\\dfrac{2\\pi}{T}$$\nUnits: $\\text{rad s}^{-1}$.\n2. **Phase difference**: how far one oscillation is **ahead of or behind** another, as a **fraction of a cycle**, given in **degrees or radians**.\n$$\\text{phase difference}=\\dfrac{\\Delta t}{T}\\times360^\\circ=\\dfrac{\\Delta t}{T}\\times2\\pi\\ \\text{rad}$$\n$\\Delta t$: time between matching points (e.g. two peaks).\n\nExample: peaks $T/4$ apart: phase difference $90^\\circ$ ($\\pi/2$ rad).\nTrap: $\\omega$ uses **radians**. Put your calculator in **rad** mode."
+    },
+    {
+      "id": "phy-0099",
+      "topic": "Oscillations",
+      "front": "Define simple harmonic motion (SHM).\n\n2 points · 17.1",
+      "back": "1. The **acceleration** is **(directly) proportional to the displacement** from a fixed point (equilibrium position)\n2. and is **directed towards** that fixed point (always **opposite** to the displacement).\n\n$$a=-\\omega^2x$$\n- $\\omega^2$: the constant of proportionality\n- **minus sign** = acceleration is **opposite** to displacement\n\nTrap: you need **both** \"proportional\" **and** \"opposite direction / towards the fixed point\". Each one is a mark.\nHook: further you pull it, harder it gets pulled back."
+    },
+    {
+      "id": "phy-0100",
+      "topic": "Oscillations",
+      "front": "In SHM, where are the speed and the acceleration maximum and zero? Give their maximum values.\n\n4 points · 17.1",
+      "back": "1. **Speed is maximum** at the **equilibrium position** ($x=0$): $v_0=\\omega x_0$\n2. **Speed is zero** at the **extremes** ($x=\\pm x_0$).\n3. **Acceleration is maximum** at the **extremes**: $a_{\\max}=\\omega^2x_0$\n4. **Acceleration is zero** at the **equilibrium position**.\n\nExample: $x_0=0.050$ m, $f=2.0$ Hz, so $\\omega=4\\pi=12.6\\ \\text{rad s}^{-1}$. $v_0=0.63\\ \\text{m s}^{-1}$, $a_{\\max}=7.9\\ \\text{m s}^{-2}$.\nHook: a swing: **fastest** at the bottom, **stops** and turns hardest at the ends.\nTrap: they are **out of step**: max speed comes with **zero** acceleration."
+    },
+    {
+      "id": "phy-0101",
+      "topic": "Oscillations",
+      "front": "Describe the displacement, velocity and acceleration against time graphs for SHM, and the phase differences between them.\n\n4 points · 17.1",
+      "back": "1. All three are **sine/cosine curves** with the **same period** $T$.\n2. **Velocity** is the **gradient** of the $x$–$t$ graph. It is $90^\\circ$ ($\\pi/2$ rad) **ahead of** displacement.\n3. **Acceleration** is the **gradient** of the $v$–$t$ graph. It is $180^\\circ$ ($\\pi$ rad) **out of phase** with displacement (**antiphase**).\n4. Starting at equilibrium: $x=x_0\\sin\\omega t$, $v=v_0\\cos\\omega t$, $a=-\\omega^2x_0\\sin\\omega t$.\n\nTrap: where $x$ is at a peak, $v=0$ (flat gradient) and $a$ is at its **most negative**.\nHook: $x$ peaks, then $v$ crosses zero, $a$ is the mirror image of $x$."
+    },
+    {
+      "id": "phy-0102",
+      "topic": "Oscillations",
+      "front": "What do the $a$–$x$ and $v$–$x$ graphs look like for SHM? How do you use the $a$–$x$ graph to show SHM?\n\n4 points · 17.1",
+      "back": "1. **$a$–$x$**: a **straight line through the origin** with a **negative gradient**.\n2. Straight line through origin = $a\\propto x$; negative gradient = **opposite direction**. So it's **SHM**.\n3. **Gradient** $=-\\omega^2$, so $\\omega=\\sqrt{|\\text{gradient}|}$, then $f=\\omega/2\\pi$.\n4. **$v$–$x$**: an **ellipse** (a circle if scaled), crossing $v=\\pm\\omega x_0$ at $x=0$ and $v=0$ at $x=\\pm x_0$.\n\nExample: gradient $=-160\\ \\text{s}^{-2}$ gives $\\omega=12.6\\ \\text{rad s}^{-1}$, $f=2.0$ Hz.\nTrap: the line stops at $x=\\pm x_0$. It doesn't go on forever."
+    },
+    {
+      "id": "phy-0103",
+      "topic": "Oscillations",
+      "front": "Formulas for displacement and velocity in SHM. Name every variable and say when to use each.\n\nFormula · 17.1",
+      "back": "$$a=-\\omega^2x$$\n$$x=x_0\\sin\\omega t$$\n$$v=v_0\\cos\\omega t$$\n$$v=\\pm\\,\\omega\\sqrt{x_0^2-x^2}$$\n- $x$: displacement (m) · $x_0$: amplitude (m)\n- $v$: velocity ($\\text{m s}^{-1}$) · $v_0=\\omega x_0$: maximum speed\n- $\\omega$: angular frequency ($\\text{rad s}^{-1}$) · $t$: time (s)\n\n1. $x=x_0\\sin\\omega t$: timing starts at **equilibrium**. Starts at an **extreme**? Use $x=x_0\\cos\\omega t$.\n2. $v=\\pm\\omega\\sqrt{x_0^2-x^2}$: speed at a **given displacement** (no time needed).\n\nExample: $x_0=0.050$ m, $\\omega=12.6\\ \\text{rad s}^{-1}$, at $x=0.030$ m: $v=12.6\\sqrt{0.050^2-0.030^2}=$ **0.50 m s$^{-1}$**.\n$x=x_0\\sin\\omega t$ is **not** on the formula sheet: learn it.\nTrap: calculator in **radians**."
+    },
+    {
+      "id": "phy-0104",
+      "topic": "Oscillations",
+      "front": "Describe the energy changes in SHM, and sketch how kinetic and potential energy vary with displacement and with time.\n\n5 points · 17.2",
+      "back": "1. Energy changes continuously between **kinetic** and **potential** energy.\n2. **Total energy** stays **constant** (if there's **no damping**).\n3. At **equilibrium**: KE **maximum**, PE **zero**. At the **extremes**: KE **zero**, PE **maximum**.\n4. **Against $x$**: PE is a **parabola** ($\\propto x^2$), KE an upside-down parabola; they add to a **flat line** (total).\n5. **Against $t$**: KE and PE oscillate at **twice the frequency** of the motion ($2f$) and never go negative.\n\nTrap: the energy-time graphs have **half** the period of the motion. KE peaks **twice** per oscillation (both directions through the middle).\nHook: a swing trades speed for height and back, twice per full swing."
+    },
+    {
+      "id": "phy-0105",
+      "topic": "Oscillations",
+      "front": "Formulas: energy in SHM. Name every variable.\n\nFormula · 17.2",
+      "back": "**Total energy** (constant):\n$$E=\\tfrac{1}{2}m\\omega^2x_0^2$$\n**Kinetic energy** at displacement $x$:\n$$E_k=\\tfrac{1}{2}m\\omega^2(x_0^2-x^2)$$\n**Potential energy** at displacement $x$:\n$$E_p=\\tfrac{1}{2}m\\omega^2x^2$$\n- $m$: mass (kg) · $\\omega$: angular frequency ($\\text{rad s}^{-1}$)\n- $x_0$: amplitude (m) · $x$: displacement (m)\n\nTotal energy is **not** on the formula sheet: **learn it**. It's just $\\tfrac{1}{2}mv_0^2$ with $v_0=\\omega x_0$.\nEnergy $\\propto x_0^2$: double the amplitude, **4 times** the energy.\nExample: $m=0.20$ kg, $\\omega=12.6\\ \\text{rad s}^{-1}$, $x_0=0.050$ m: $E=$ **0.039 J**."
+    },
+    {
+      "id": "phy-0106",
+      "topic": "Oscillations",
+      "front": "Show that a mass on a spring oscillates with SHM and find its period.\n\n4 points · 17.1",
+      "back": "1. Restoring force from the spring (Hooke's law): $F=-kx$ (opposite to displacement).\n2. Newton's 2nd law: $ma=-kx$, so\n$$a=-\\dfrac{k}{m}x$$\n3. This has the form $a=-\\omega^2x$: $a\\propto x$ and opposite, so it's **SHM**, with $\\omega^2=\\dfrac{k}{m}$.\n4. $$T=2\\pi\\sqrt{\\dfrac{m}{k}}$$\n\n$k$: spring constant ($\\text{N m}^{-1}$) · $m$: oscillating mass (kg).\nThe period does **not** depend on the amplitude.\nTrap: this formula isn't on the formula sheet. Exams usually give it or ask you to derive it, as above."
+    },
+    {
+      "id": "phy-0107",
+      "topic": "Oscillations",
+      "front": "What is damping? What causes it and what does it do to an oscillation?\n\n3 points · 17.3",
+      "back": "1. Damping is caused by a **resistive force** (friction, air resistance) that **opposes the motion**.\n2. **Energy is lost** from the oscillating system (to **thermal energy**/surroundings).\n3. So the **amplitude decreases** with time.\n\nFor **light** damping the **frequency stays (almost) the same**; only the amplitude shrinks.\nTrap: damping reduces **amplitude** and **energy**, not the period."
+    },
+    {
+      "id": "phy-0108",
+      "topic": "Oscillations",
+      "front": "Describe light, critical and heavy damping. Sketch the displacement–time graphs.\n\n3 points · 17.3",
+      "back": "1. **Light damping**: the system **oscillates**, with an amplitude that **decreases gradually** (exponentially). Same period throughout.\n2. **Critical damping**: returns to the equilibrium position in the **shortest possible time**, **without oscillating**.\n3. **Heavy damping**: returns to equilibrium **without oscillating**, but **slowly**: takes **longer** than critical damping.\n\nSketches (all from the same starting displacement): light = shrinking wave; critical = quick smooth fall to zero; heavy = slow creep to zero.\nExample: **car suspension** is close to **critical**, so the car settles quickly without bouncing.\nTrap: critical = **shortest time, no oscillation**. Both phrases are needed."
+    },
+    {
+      "id": "phy-0109",
+      "topic": "Oscillations",
+      "front": "Define natural frequency and forced oscillation.\n\n2 definitions · 17.3",
+      "back": "1. **Natural frequency**: the frequency at which a system oscillates when it is **displaced and left to oscillate freely** (no driving force).\n2. **Forced oscillation**: oscillation caused by an **external periodic (driving) force**. The system oscillates at the **driving frequency**, not its natural frequency.\n\nExample: pushing a child on a swing is forcing it; letting go after one push gives its natural frequency.\nTrap: once it settles, a forced system follows the **driver's** frequency."
+    },
+    {
+      "id": "phy-0110",
+      "topic": "Oscillations",
+      "front": "What is resonance? When does it happen?\n\n3 points · 17.3",
+      "back": "1. Resonance is when the **amplitude** of a forced oscillation is a **maximum**,\n2. which happens when the **driving frequency equals the natural frequency** of the system.\n3. Energy is transferred from the driver to the system **most efficiently**.\n\nHook: push a swing in time with its own rhythm and it goes higher and higher.\nTrap: say \"**maximum amplitude**\". \"It vibrates a lot\" won't score."
+    },
+    {
+      "id": "phy-0111",
+      "topic": "Oscillations",
+      "front": "How does increasing the damping change the resonance (amplitude–driving frequency) curve?\n\n3 points · 17.3",
+      "back": "1. The amplitude is **smaller at all frequencies**: the **peak is lower**.\n2. The peak is **flatter / broader** (less sharp).\n3. The peak (maximum amplitude) moves to a **slightly lower frequency**.\n\nAt very low and very high driving frequencies the curves come together (damping matters most near resonance).\nTrap: draw the more-damped curve **below** the other everywhere, with its peak slightly to the **left**. Curves never cross."
+    },
+    {
+      "id": "phy-0112",
+      "topic": "Oscillations",
+      "front": "Give examples of resonance being useful and being a problem.\n\n4 points · 17.3",
+      "back": "**Useful** (any two):\n1. **Tuning a radio**: the circuit resonates at the station's frequency.\n2. **Microwave oven**: microwaves make water molecules resonate, heating the food.\n3. **Musical instruments**: air columns or strings resonate to make loud notes.\n4. **MRI scanners**: nuclei resonate in a magnetic field.\n\n**A problem** (any two):\n1. **Bridges** and **buildings** can be shaken apart by wind, footsteps or earthquakes.\n2. **Vehicle parts** or **machinery** vibrate violently at certain engine speeds.\n\nFix for the problems: **increase the damping** (dampers, shock absorbers) or **change the natural frequency** (stiffness or mass)."
     }
   ]
 }
