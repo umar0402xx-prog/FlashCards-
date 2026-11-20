@@ -3,7 +3,7 @@
    Progress, settings and device-made cards live in this browser's localStorage. */
 'use strict';
 
-const APP_VERSION = '1.1.0';
+const APP_VERSION = '1.2.0';
 const IV = [0, 1, 3, 7, 16, 35, 75, 150]; // days for each box; box 0 = learning (due again today)
 const MAX_BOX = IV.length - 1;
 const COLORS = ['yellow', 'green', 'pink', 'blue', 'orange', 'lavender'];
@@ -68,7 +68,7 @@ const S = {
   view: 'today',
   session: null,
   browse: { q: '', deck: 'all' },
-  nav: { deck: null, topic: null },
+  nav: { deck: null, topic: null, part: null },
   editing: null,
   addDeck: null,
   pendingConfirm: null,
@@ -133,11 +133,24 @@ function topicsOf(deckId) {
     .sort((a, b) => (a.ch === b.ch ? a.i - b.i : a.ch < b.ch ? -1 : 1))
     .map(x => x.t);
 }
-function inScope(card, deckId, topic) {
-  return (!deckId || card.deck === deckId) && (!topic || topicOf(card) === topic);
+// Each topic splits into definition / "state" cards and everything else (standard answers, formulas).
+// Repo cards say which with "kind"; cards made on the phone are sorted by how the question starts.
+const PARTS = { def: 'Definitions', gen: 'Standard answers & formulas' };
+const PART_SUB = { def: 'Define, state, what is meant by', gen: 'Explain, describe, formulas, calculations' };
+function partOf(card) {
+  if (card.kind === 'definition') return 'def';
+  if (card.kind === 'general') return 'gen';
+  return /^\s*(define|state\b|what is meant by)/i.test(String(card.front || '')) ? 'def' : 'gen';
+}
+function partsOf(deckId, topic) {
+  const has = new Set(allCards().filter(c => inScope(c, deckId, topic)).map(partOf));
+  return ['def', 'gen'].filter(p => has.has(p));
+}
+function inScope(card, deckId, topic, part) {
+  return (!deckId || card.deck === deckId) && (!topic || topicOf(card) === topic) && (!part || partOf(card) === part);
 }
 
-function deckStats(deckId, topic) {
+function deckStats(deckId, topic, part) {
   if (!deckId) {
     const ids = [...new Set(allCards().map(c => c.deck))];
     const sum = { total: 0, active: 0, due: 0, fresh: 0, newToday: 0, learned: 0 };
@@ -147,7 +160,7 @@ function deckStats(deckId, topic) {
     }
     return sum;
   }
-  const cards = allCards().filter(c => inScope(c, deckId, topic));
+  const cards = allCards().filter(c => inScope(c, deckId, topic, part));
   let due = 0, fresh = 0, learned = 0, active = 0;
   for (const c of cards) {
     const st = cardState(c);
@@ -195,9 +208,9 @@ function shuffle(arr) {
   return a;
 }
 
-function buildQueue(deckId, mode, topic) {
+function buildQueue(deckId, mode, topic, part) {
   const t = todayStr();
-  const cards = allCards().filter(c => inScope(c, deckId, topic) && !S.suspended.has(c.id));
+  const cards = allCards().filter(c => inScope(c, deckId, topic, part) && !S.suspended.has(c.id));
   if (mode === 'cram') return shuffle(cards.map(c => c.id));
   const due = cards.filter(c => S.progress[c.id] && S.progress[c.id].due <= t);
   const taken = {};
@@ -209,14 +222,15 @@ function buildQueue(deckId, mode, topic) {
   return shuffle(due.map(c => c.id)).concat(fresh.map(c => c.id));
 }
 
-function startSession(deckId, mode, topic) {
-  const queue = buildQueue(deckId, mode, topic);
+function startSession(deckId, mode, topic, part) {
+  part = topic && part ? part : null;
+  const queue = buildQueue(deckId, mode, topic, part);
   if (!queue.length) {
     toast(mode === 'cram' ? 'No cards here yet.' : 'Nothing due. Try "Practise all".');
     return;
   }
-  const returnTo = (S.view === 'deck' || S.view === 'topic') ? S.view : 'today';
-  S.session = { deckId, topic: topic || null, returnTo, mode, queue, total: queue.length, done: 0, again: 0, flipped: false, history: [] };
+  const returnTo = (S.view === 'deck' || S.view === 'topic' || S.view === 'part') ? S.view : 'today';
+  S.session = { deckId, topic: topic || null, part, returnTo, mode, queue, total: queue.length, done: 0, again: 0, flipped: false, history: [] };
   closeSheet();
   S.view = 'study';
   render();
@@ -346,7 +360,7 @@ async function loadDecks(manual) {
     const cards = [];
     decks.forEach((d, i) => {
       for (const c of (files[i].cards || [])) {
-        if (c && c.id && c.front != null) cards.push({ id: String(c.id), deck: d.id, topic: c.topic || '', front: c.front, back: c.back || '' });
+        if (c && c.id && c.front != null) cards.push({ id: String(c.id), deck: d.id, topic: c.topic || '', kind: c.kind || '', front: c.front, back: c.back || '' });
       }
     });
     S.decks = decks.map(d => ({ id: d.id, name: d.name || d.id, code: d.code || '', color: COLORS.includes(d.color) ? d.color : 'lavender' }));
@@ -442,7 +456,7 @@ const ICON = {
 function render() {
   const v = S.view;
   $nav.hidden = v === 'study';
-  const navId = (v === 'deck' || v === 'topic') ? 'today' : v;
+  const navId = (v === 'deck' || v === 'topic' || v === 'part') ? 'today' : v;
   for (const id of ['today', 'cards', 'add', 'settings']) {
     const b = document.getElementById('nav-' + id);
     if (b) { if (id === navId) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); }
@@ -454,6 +468,7 @@ function render() {
   else if (v === 'settings') $main.innerHTML = viewSettings();
   else if (v === 'deck') $main.innerHTML = viewDeck();
   else if (v === 'topic') $main.innerHTML = viewTopic();
+  else if (v === 'part') $main.innerHTML = viewPart();
   else $main.innerHTML = viewToday();
   renderMath($main);
 }
@@ -551,14 +566,15 @@ function statsRow(s) {
       <div class="stat"><div class="n">${s.total}</div><div class="l">total</div></div>
     </div>`;
 }
-function studyButtons(deckId, topic, s) {
+function studyButtons(deckId, topic, s, part) {
   const toDo = s.due + s.newToday;
-  const attrs = `data-deck="${esc(deckId)}"${topic ? ` data-topic="${esc(topic)}"` : ''}`;
+  const attrs = `data-deck="${esc(deckId)}"${topic ? ` data-topic="${esc(topic)}"` : ''}${part ? ` data-part="${part}"` : ''}`;
+  const scope = part ? (part === 'def' ? 'definitions' : 'cards in this part') : topic ? 'cards in this topic' : 'cards';
   return `
     <div class="stack" style="gap:10px">
       <button type="button" class="btn" data-action="study" data-mode="review" ${attrs} ${toDo ? '' : 'disabled'}>
         ${toDo ? `Review ${toDo} ${toDo === 1 ? 'card' : 'cards'}` : 'Nothing due today'}</button>
-      <button type="button" class="btn ghost" data-action="study" data-mode="cram" ${attrs} ${s.active ? '' : 'disabled'}>Practise all ${topic ? 'cards in this topic' : 'cards'}</button>
+      <button type="button" class="btn ghost" data-action="study" data-mode="cram" ${attrs} ${s.active ? '' : 'disabled'}>Practise all ${scope}</button>
       <p class="muted small">Practise shuffles every card and doesn't change your review schedule.</p>
     </div>`;
 }
@@ -595,7 +611,45 @@ function viewTopic() {
   const cards = allCards().filter(c => inScope(c, d.id, t));
   if (!t || !cards.length) { S.view = 'deck'; S.nav.topic = null; return viewDeck(); }
   const s = deckStats(d.id, t);
-  return subTop(d.name, t, d) + statsRow(s) + studyButtons(d.id, t, s) + `
+  const parts = partsOf(d.id, t);
+  if (parts.length < 2) {
+    return subTop(d.name, t, d) + statsRow(s) + studyButtons(d.id, t, s) + cardList(cards);
+  }
+  const rows = parts.map(p => {
+    const ps = deckStats(d.id, t, p);
+    const n = ps.due + ps.newToday;
+    return `
+      <button type="button" class="deck" data-action="part" data-part="${p}">
+        <div style="min-width:0">
+          <div class="deck-name topic-name">${esc(PARTS[p])}</div>
+          <div class="deck-sub">${ps.total} ${ps.total === 1 ? 'card' : 'cards'} · ${ps.learned} learned · ${esc(PART_SUB[p])}</div>
+        </div>
+        <div class="deck-due"><div class="n ${n ? '' : 'zero'}">${n}</div><div class="l">TO DO</div></div>
+      </button>`;
+  }).join('');
+  return subTop(d.name, t, d) + statsRow(s) + `
+    <section class="stack">
+      <div class="spread"><h2>Choose a part</h2><span class="eyebrow">${cards.length} cards</span></div>
+      <div class="decks">${rows}</div>
+    </section>
+    <section class="stack">
+      <h2>Whole topic</h2>
+      ${studyButtons(d.id, t, s)}
+    </section>`;
+}
+
+function viewPart() {
+  const d = deckById(S.nav.deck);
+  if (!d) { S.view = 'today'; return viewToday(); }
+  const t = S.nav.topic, p = S.nav.part;
+  const cards = allCards().filter(c => inScope(c, d.id, t, p));
+  if (!t || !p || !cards.length) { S.view = 'topic'; S.nav.part = null; return viewTopic(); }
+  const s = deckStats(d.id, t, p);
+  return subTop(t, PARTS[p], d) + statsRow(s) + studyButtons(d.id, t, s, p) + cardList(cards);
+}
+
+function cardList(cards) {
+  return `
     <section class="stack">
       <div class="spread"><h2>Cards</h2><span class="eyebrow">${cards.length} ${cards.length === 1 ? 'card' : 'cards'}</span></div>
       <div class="list">${cards.map(c => cardItem(c, false)).join('')}</div>
@@ -605,14 +659,14 @@ function viewTopic() {
 // Re-draw whatever list sits behind the card sheet after a card changes.
 function refreshBehind() {
   if (S.view === 'cards') renderList();
-  else if (S.view === 'deck' || S.view === 'topic') render();
+  else if (S.view === 'deck' || S.view === 'topic' || S.view === 'part') render();
 }
 
 function viewStudy() {
   const sess = S.session;
   if (!sess) { S.view = 'today'; return viewToday(); }
   const deck = sess.deckId ? deckById(sess.deckId) : null;
-  const title = sess.topic || (deck ? deck.name : 'All decks');
+  const title = sess.topic ? sess.topic + (sess.part ? ' · ' + (sess.part === 'def' ? 'Definitions' : 'Standard answers') : '') : (deck ? deck.name : 'All decks');
   const pct = sess.total ? Math.round((sess.done / sess.total) * 100) : 100;
   const top = `
     <div class="study-top">
@@ -626,9 +680,9 @@ function viewStudy() {
     <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${sess.total}" aria-valuenow="${sess.done}"><i style="width:${pct}%"></i></div>`;
 
   if (!sess.queue.length) {
-    const s = deckStats(sess.deckId, sess.topic);
-    const tomorrow = allCards().filter(c => inScope(c, sess.deckId, sess.topic) && !S.suspended.has(c.id) && S.progress[c.id] && S.progress[c.id].due === addDays(todayStr(), 1)).length;
-    const backLabel = sess.returnTo === 'topic' ? sess.topic : sess.returnTo === 'deck' && deck ? deck.name : 'Today';
+    const s = deckStats(sess.deckId, sess.topic, sess.part);
+    const tomorrow = allCards().filter(c => inScope(c, sess.deckId, sess.topic, sess.part) && !S.suspended.has(c.id) && S.progress[c.id] && S.progress[c.id].due === addDays(todayStr(), 1)).length;
+    const backLabel = sess.returnTo === 'part' && sess.part ? PARTS[sess.part] : sess.returnTo === 'topic' ? sess.topic : sess.returnTo === 'deck' && deck ? deck.name : 'Today';
     return top + `
       <section class="summary done">
         <span class="eyebrow">Session complete</span>
@@ -1047,11 +1101,13 @@ const actions = {
     window.scrollTo(0, 0);
   },
   retry() { S.loaded = false; render(); loadDecks(true); },
-  study(el) { startSession(el.dataset.deck || null, el.dataset.mode, el.dataset.topic || null); },
-  deck(el) { S.nav = { deck: el.dataset.id, topic: null }; S.view = 'deck'; closeSheet(); render(); window.scrollTo(0, 0); },
-  topic(el) { S.nav.topic = el.dataset.topic; S.view = 'topic'; closeSheet(); render(); window.scrollTo(0, 0); },
+  study(el) { startSession(el.dataset.deck || null, el.dataset.mode, el.dataset.topic || null, el.dataset.part || null); },
+  deck(el) { S.nav = { deck: el.dataset.id, topic: null, part: null }; S.view = 'deck'; closeSheet(); render(); window.scrollTo(0, 0); },
+  topic(el) { S.nav.topic = el.dataset.topic; S.nav.part = null; S.view = 'topic'; closeSheet(); render(); window.scrollTo(0, 0); },
+  part(el) { S.nav.part = el.dataset.part; S.view = 'part'; closeSheet(); render(); window.scrollTo(0, 0); },
   back() {
-    if (S.view === 'topic') { S.view = 'deck'; S.nav.topic = null; } else { S.view = 'today'; }
+    if (S.view === 'part') { S.view = 'topic'; S.nav.part = null; }
+    else if (S.view === 'topic') { S.view = 'deck'; S.nav.topic = null; } else { S.view = 'today'; }
     render();
     window.scrollTo(0, 0);
   },
@@ -1067,7 +1123,7 @@ const actions = {
   'end-study'() {
     const back = S.session && S.session.returnTo;
     S.session = null;
-    S.view = back === 'deck' || back === 'topic' ? back : 'today';
+    S.view = back === 'deck' || back === 'topic' || back === 'part' ? back : 'today';
     render();
     window.scrollTo(0, 0);
   },

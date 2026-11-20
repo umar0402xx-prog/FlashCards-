@@ -18,8 +18,14 @@ home screen; it works offline.
 ## Card format
 
 ```json
-{ "id": "phy-0013", "topic": "Kinematics", "front": "Question", "back": "Answer" }
+{ "id": "phy-0013", "topic": "Kinematics", "kind": "general", "front": "Question", "back": "Answer" }
 ```
+
+- `kind` (Physics, Chemistry, Biology decks): `"definition"` for definitions and "state" questions
+  (Define…, State… law, What is meant by…, What is X?) or `"general"` for everything else (explain,
+  describe, formulas, calculations, conditions). The app splits each topic into **Definitions** and
+  **Standard answers & formulas** using it (Umar asked for this on 2026-11-20). Always set it on new
+  cards. The Chem 9701 · All Definitions deck is kept as its own deck and isn't split.
 
 - `id` must be unique and must never change once published, because progress is keyed on it.
   Number new cards after the highest existing id in that deck: `phy-` Physics, `che-` Chemistry,

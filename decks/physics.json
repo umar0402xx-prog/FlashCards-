@@ -4,600 +4,700 @@
     {
       "id": "phy-0013",
       "topic": "Magnetic fields",
+      "kind": "definition",
       "front": "What is a magnetic field, and how do you show one with field lines?\n\n6 points · 20.1.1–2",
       "back": "1. A magnetic field is a **region** where a **magnetic pole**, a **moving charge** or a **current-carrying conductor** feels a **force**. It's a **field of force**.\n2. It's produced by **moving charges** (currents) or by **permanent magnets**.\n3. Field lines show the direction a free **north pole** would move: outside a magnet they go from **N to S**.\n4. **Closer lines = stronger field.** Lines **never cross**.\n5. A **uniform** field has **parallel, equally spaced** lines.\n6. Field **into** the page: $\\times$. Field **out of** the page: $\\bullet$.\n\nTrap: only **moving** charges feel a magnetic force. A charge **at rest** in a magnetic field feels **no** magnetic force."
     },
     {
       "id": "phy-0014",
       "topic": "Magnetic fields",
+      "kind": "general",
       "front": "Formula for the force on a current-carrying conductor in a magnetic field? Say what each symbol means and how to find the direction.\n\n6 points · 20.2.1–2",
       "back": "$$F = BIL\\sin\\theta$$\n1. $F$: **force** on the conductor (N)\n2. $B$: **magnetic flux density** (T)\n3. $I$: **current** (A)\n4. $L$: **length of conductor in the field** (m)\n5. $\\theta$: **angle between the current and the field**. **Biggest** force at **90°** $(F = BIL)$; **no force** when **parallel** $(\\theta = 0)$.\n6. Direction: **Fleming's left-hand rule**. **First finger: Field** (N to S), **seCond finger: Current** (+ to −), **thuMb: Motion** (force). The force is **perpendicular to both** the current and the field.\n\nExample: 0.20 m of wire carrying 3.0 A at 90° to a 0.050 T field: $F = 0.050 \\times 3.0 \\times 0.20 =$ **0.030 N**.\nHook: F-C-M from first finger to thumb: Field, Current, Motion.\nTrap: use your **left** hand. The right-hand **grip** rule is a different rule: it gives the field around a wire. Not on the formula sheet: learn it."
     },
     {
       "id": "phy-0015",
       "topic": "Magnetic fields",
+      "kind": "definition",
       "front": "Define magnetic flux density and the tesla.\n\n2 definitions · 20.2.3",
       "back": "1. **Magnetic flux density** is the **force acting per unit current per unit length** on a wire placed **at right angles** to the magnetic field.\n$$B = \\frac{F}{IL}$$\n$F$: force (N) · $I$: current (A) · $L$: length of wire in the field (m)\n2. **1 tesla** is the flux density that gives a **force of 1 N** on a wire of **length 1 m** carrying a **current of 1 A** placed **at right angles** to the field.\n$$1\\ \\text{T} = 1\\ \\text{N A}^{-1}\\,\\text{m}^{-1}$$\nIn base units: $1\\ \\text{T} = 1\\ \\text{kg s}^{-2}\\,\\text{A}^{-1}$\n\nTrap: \"at right angles\" earns a mark. Leaving it out loses it.\nHook: $B$ is the **force you get per amp per metre**."
     },
     {
       "id": "phy-0016",
       "topic": "Magnetic fields",
+      "kind": "general",
       "front": "Formula for the force on a charge moving in a magnetic field? Say what each symbol means and how to find the direction.\n\n6 points · 20.3.1–2",
       "back": "$$F = BQv\\sin\\theta$$\n1. $F$: **force** on the charge (N)\n2. $B$: **magnetic flux density** (T)\n3. $Q$: **charge** (C)\n4. $v$: **speed** of the charge $(\\text{m s}^{-1})$\n5. $\\theta$: **angle between the velocity and the field**. **No force** if the charge moves **parallel** to the field.\n6. Direction: **Fleming's left-hand rule**, with the second finger along the **conventional current**: the way a **positive** charge moves.\n\nExample: an electron ($1.60 \\times 10^{-19}$ C) at $2.0 \\times 10^{6}\\ \\text{m s}^{-1}$ at 90° to a 0.10 T field: $F = 0.10 \\times 1.60 \\times 10^{-19} \\times 2.0 \\times 10^{6} =$ **$3.2 \\times 10^{-14}$ N**.\nTrap: for an **electron**, point your second finger **opposite** to the way it moves.\nTrap: the force is always **perpendicular to the velocity**, so it changes the **direction**, never the **speed**. Not on the formula sheet: learn it."
     },
     {
       "id": "phy-0017",
       "topic": "Magnetic fields",
+      "kind": "general",
       "front": "Explain the origin of the Hall voltage.\n\n5 points · 20.3.3",
       "back": "1. A **current** flows through a thin slice of conductor or semiconductor placed **at right angles** to a **magnetic field**.\n2. The moving **charge carriers** feel a **magnetic force** $(F = Bqv)$ **perpendicular** to their motion.\n3. They are pushed to **one side** of the slice, so **charge builds up** there, with the opposite charge on the other side.\n4. This gives a **p.d. across the slice**, the **Hall voltage**, which sets up an **electric field** across it.\n5. The Hall voltage stops increasing when the **electric force balances the magnetic force**:\n$$\\frac{qV_\\text{H}}{d} = Bqv$$\n$d$: width of the slice, across which $V_\\text{H}$ is measured (m)\n\nHook: the field shoves the carriers sideways until the pile-up of charge pushes back just as hard."
     },
     {
       "id": "phy-0018",
       "topic": "Magnetic fields",
+      "kind": "general",
       "front": "Derive the formula for the Hall voltage, and say what each symbol means.\n\n3 steps · 20.3.3",
       "back": "1. **Forces balance** (electric = magnetic), where $d$ = width of the slice:\n$$\\frac{qV_\\text{H}}{d} = Bqv$$\n$$V_\\text{H} = Bvd$$\n2. **Current**: $I = nAvq$ with cross-sectional area $A = dt$, so:\n$$v = \\frac{I}{ndtq}$$\n3. **Substitute** for $v$ ($d$ cancels):\n$$V_\\text{H} = \\frac{BI}{ntq}$$\n\n$V_\\text{H}$: **Hall voltage** (V)\n$B$: **magnetic flux density** (T)\n$I$: **current** (A)\n$n$: **number of charge carriers per unit volume** $(\\text{m}^{-3})$\n$t$: **thickness** of the slice, measured **along the field** (m)\n$q$: **charge on each carrier** (C)\n$v$: **drift speed** of the carriers $(\\text{m s}^{-1})$\n\nExample: $B = 0.050$ T, $I = 0.020$ A, $n = 1.0 \\times 10^{22}\\ \\text{m}^{-3}$, $t = 0.50$ mm. Then $ntq = 1.0 \\times 10^{22} \\times 5.0 \\times 10^{-4} \\times 1.60 \\times 10^{-19} = 0.80$, so $V_\\text{H} = (0.050 \\times 0.020) / 0.80 = 1.25 \\times 10^{-3}$ V $\\approx$ **1.3 mV**.\nTrap: $t$ is the thickness **along $B$**, not the width $d$ that $V_\\text{H}$ is measured across. Given on the formula sheet, but you must be able to **derive** it. $I = Anvq$ is on the sheet too."
     },
     {
       "id": "phy-0019",
       "topic": "Magnetic fields",
+      "kind": "general",
       "front": "How is a Hall probe used to measure magnetic flux density?\n\n5 points · 20.3.4",
       "back": "1. Pass a **constant current** through the probe.\n2. Hold the probe so the **field is at right angles** to its flat face.\n3. **Rotate** it until the Hall voltage is a **maximum**: then the face is exactly perpendicular to the field.\n4. $I$, $n$, $t$ and $q$ are constant, so $V_\\text{H} \\propto B$. Measure $V_\\text{H}$ and convert it to $B$ using a **calibration**.\n5. Probes use a **semiconductor**: it has a **much smaller $n$** than a metal, so $V_\\text{H}$ is **much larger** and easier to measure.\n\nTrap: a zero reading doesn't always mean zero field. The probe might be **parallel** to the field."
     },
     {
       "id": "phy-0020",
       "topic": "Magnetic fields",
+      "kind": "general",
       "front": "Describe and explain the motion of a charged particle moving at right angles to a uniform magnetic field. Derive the radius of its path.\n\n5 points · 20.3.5",
       "back": "1. The magnetic force is **always perpendicular to the velocity**.\n2. So it does **no work**: the **speed and kinetic energy stay constant**. Only the **direction** changes.\n3. The force has a **constant size** $(BQv)$ and is always at right angles to the motion, so it provides a **centripetal force**: the particle moves in a **circle**.\n4. Magnetic force = centripetal force:\n$$BQv = \\frac{mv^2}{r}$$\n$$r = \\frac{mv}{BQ}$$\n5. $r$: **radius** (m) · $m$: **mass** (kg) · $v$: **speed** $(\\text{m s}^{-1})$ · $B$: **flux density** (T) · $Q$: **charge** (C). **Faster or heavier**: **bigger** circle. **Stronger field or bigger charge**: **smaller** circle.\n\nExample: a proton ($m = 1.67 \\times 10^{-27}$ kg, $Q = 1.60 \\times 10^{-19}$ C) at $3.0 \\times 10^{6}\\ \\text{m s}^{-1}$ in a 0.50 T field: $r = (1.67 \\times 10^{-27} \\times 3.0 \\times 10^{6}) / (0.50 \\times 1.60 \\times 10^{-19}) =$ **0.063 m**.\nHook: the magnetic force is a steering wheel, not an accelerator.\nTrap: $r = \\frac{mv}{BQ}$ is not on the formula sheet, so derive it from $BQv = \\frac{mv^2}{r}$ every time."
     },
     {
       "id": "phy-0021",
       "topic": "Magnetic fields",
+      "kind": "general",
       "front": "Explain how electric and magnetic fields can be used in velocity selection.\n\n5 points · 20.3.6",
       "back": "1. The **electric field** and **magnetic field** are **perpendicular** to each other and to the particles' velocity.\n2. The **electric force** $(EQ)$ acts in **one direction**; the **magnetic force** $(BQv)$ acts in the **opposite direction**.\n3. Only particles where the forces **balance** pass through **undeflected**:\n$$EQ = BQv$$\n$$v = \\frac{E}{B}$$\n4. $v$: **selected speed** $(\\text{m s}^{-1})$ · $E$: **electric field strength** $(\\text{V m}^{-1})$ · $B$: **magnetic flux density** (T)\n5. **Faster** particles: the magnetic force is **bigger**, so they're deflected one way. **Slower** particles: the electric force is **bigger**, so they're deflected the other way.\n\nExample: $E = 3.0 \\times 10^{4}\\ \\text{V m}^{-1}$ and $B = 0.020$ T select $v = 3.0 \\times 10^{4} / 0.020 =$ **$1.5 \\times 10^{6}\\ \\text{m s}^{-1}$**.\nTrap: the selected speed **doesn't depend on charge or mass**, because $Q$ cancels and $m$ never appears. Not on the formula sheet."
     },
     {
       "id": "phy-0022",
       "topic": "Magnetic fields",
+      "kind": "general",
       "front": "Describe the magnetic field patterns of a long straight wire, a flat circular coil and a long solenoid. How does a ferrous core change the solenoid's field?\n\n5 points · 20.4.1–2",
       "back": "1. **Long straight wire**: **concentric circles** centred on the wire, in a plane **perpendicular** to it, getting **further apart** further out (field **weaker**).\n2. **Flat circular coil**: circles **around each side** of the wire. At the **centre** the lines are **almost straight**, passing **at right angles** through the plane of the coil.\n3. **Long solenoid**: **uniform** inside, with **parallel, equally spaced** lines along the axis. Outside it looks like a **bar magnet**'s field, with a **N** and a **S** pole at the ends.\n4. Direction: **right-hand grip rule**. Wire: thumb along the current, fingers curl with the field. Coil or solenoid: fingers curl with the current, thumb points to the **N pole**.\n5. A **ferrous (iron) core** inside the solenoid makes its field **much stronger**.\n\nTrap: in a sketch, draw the solenoid's inside lines **parallel and evenly spaced**, and put **arrows on every line**.\nHook: looking at one end of a solenoid, current flowing **anticlockwise** means that end is **N**; **clockwise** means **S**."
     },
     {
       "id": "phy-0023",
       "topic": "Magnetic fields",
+      "kind": "general",
       "front": "Explain the origin of the forces between two parallel current-carrying conductors, and how to find their direction.\n\n5 points · 20.4.3",
       "back": "1. The current in wire 1 produces a **magnetic field** at wire 2 (direction by the **right-hand grip rule**).\n2. Wire 2 carries a **current in that field**, so it feels a **force** $(F = BIL)$, direction by **Fleming's left-hand rule**.\n3. In the same way, wire 2's field exerts a force on wire 1.\n4. The two forces are **equal and opposite** (**Newton's third law**), even if the currents are different.\n5. **Currents in the same direction: attract. Opposite directions: repel.**\n\nTrap: this is the **opposite** of electric charges, where like charges repel.\nHook: same direction, same team: they pull together."
     },
     {
       "id": "phy-0024",
       "topic": "Electromagnetic induction",
+      "kind": "definition",
       "front": "Define magnetic flux. Give the formula and say what each symbol means.\n\n4 points · 20.5.1–2",
       "back": "1. **Magnetic flux** is the **product of the magnetic flux density** and the **cross-sectional area perpendicular** to the direction of the magnetic flux density.\n$$\\Phi = BA$$\n2. $\\Phi$ (phi): **magnetic flux** (Wb, **weber**)\n3. $B$: **magnetic flux density** (T) · $A$: **area at right angles to the field** $(\\text{m}^2)$\n4. $1\\ \\text{Wb} = 1\\ \\text{T m}^2$\n\nExample: a 0.040 T field passes at right angles through a coil of area $25\\ \\text{cm}^2$: $\\Phi = 0.040 \\times 25 \\times 10^{-4} =$ **$1.0 \\times 10^{-4}$ Wb**.\nTrap: $\\text{cm}^2$ to $\\text{m}^2$ is $\\times 10^{-4}$. If the coil is **tilted**, use only the area **perpendicular** to $B$. Not on the formula sheet: learn it."
     },
     {
       "id": "phy-0025",
       "topic": "Electromagnetic induction",
+      "kind": "definition",
       "front": "What is magnetic flux linkage? Give the formula and say what each symbol means.\n\n3 points · 20.5.3",
       "back": "1. **Magnetic flux linkage** is the **magnetic flux** through a coil **multiplied by the number of turns**.\n$$\\text{flux linkage} = N\\Phi = NBA$$\n2. $N$: **number of turns** (no unit) · $\\Phi$: flux through **one** turn (Wb) · $B$: **flux density** (T) · $A$: **area** of the coil at right angles to the field $(\\text{m}^2)$\n3. Unit: **Wb** (sometimes written Wb-turns).\n\nExample: a 200-turn coil with $1.0 \\times 10^{-4}$ Wb through each turn: $N\\Phi = 200 \\times 1.0 \\times 10^{-4} =$ **0.020 Wb**.\nTrap: Faraday's law uses the change in **flux linkage** $(N\\Phi)$, so don't forget to multiply by $N$."
     },
     {
       "id": "phy-0026",
       "topic": "Electromagnetic induction",
+      "kind": "general",
       "front": "Describe an experiment showing that a changing magnetic flux induces an e.m.f., and that the e.m.f. opposes the change producing it.\n\n5 steps · 20.5.4",
       "back": "1. Connect a **coil** to a **sensitive centre-zero ammeter (galvanometer)**.\n2. Push a **bar magnet into** the coil: the **flux linkage changes**, so an **e.m.f. is induced** and the meter **deflects**.\n3. Hold the magnet **still**: **no change in flux**, so **no e.m.f.** and no deflection.\n4. Pull it **out**: the meter deflects the **opposite way**.\n5. As a **N pole** approaches, the induced current makes the **near end of the coil a N pole**, which **repels** the magnet. When it's pulled out, that end becomes a **S pole** and **attracts** it. Either way, the induced current **opposes the change** (Lenz's law).\n\nTrap: it's the **change** in flux that matters. A strong magnet sitting still in a coil induces **nothing**."
     },
     {
       "id": "phy-0027",
       "topic": "Electromagnetic induction",
+      "kind": "general",
       "front": "What factors affect the size of the induced e.m.f.?\n\n5 points · 20.5.4",
       "back": "The e.m.f. is **bigger** with:\n1. **Faster** movement of the magnet or coil (flux changes **more quickly**)\n2. A **stronger** magnet (bigger $B$)\n3. **More turns** on the coil (bigger $N$)\n4. A **larger area** of coil (bigger $A$)\n5. All of these increase the **rate of change of magnetic flux linkage**, which sets the size of the e.m.f. (Faraday's law).\n\nTrap: moving the magnet **faster** gives a **bigger** e.m.f. for a **shorter** time. The area under the e.m.f.–time graph (the total change in flux linkage) stays the **same**.\nHook: speed, strength, turns, area."
     },
     {
       "id": "phy-0028",
       "topic": "Electromagnetic induction",
+      "kind": "definition",
       "front": "State Faraday's law of electromagnetic induction. Give the formula and say what each symbol means.\n\n4 points · 20.5.5",
       "back": "1. The **magnitude of the induced e.m.f.** is **proportional to the rate of change of magnetic flux linkage**.\n$$E = -\\frac{\\Delta(N\\Phi)}{\\Delta t}$$\n2. $E$: **induced e.m.f.** (V) · $N\\Phi$: **flux linkage** (Wb) · $\\Delta t$: **time taken** for the change (s)\n3. The **minus sign** shows **Lenz's law**: the e.m.f. **opposes** the change. For the size, ignore it.\n4. On a **graph of flux linkage against time**, the e.m.f. is **minus the gradient**.\n\nExample: flux linkage falls from 0.020 Wb to zero in 0.050 s: $E = 0.020 / 0.050 =$ **0.40 V**.\nTrap: it's the **rate of change** of flux linkage, not just the change. Not on the formula sheet.\nTrap: for a **rotating coil**, the e.m.f. is **zero** when the flux linkage is **maximum** (the graph is flat there), and **maximum** when the flux linkage is **zero**."
     },
     {
       "id": "phy-0029",
       "topic": "Electromagnetic induction",
+      "kind": "definition",
       "front": "State Lenz's law and explain how it follows from conservation of energy.\n\n4 points · 20.5.5",
       "back": "1. **Lenz's law**: the **direction** of the induced e.m.f. is such that it **opposes the change** producing it.\n2. If the induced current **helped** the change (e.g. pulled the magnet in faster), the magnet would speed up by itself and **electrical energy would appear from nothing**. That breaks **conservation of energy**.\n3. Because the induced current **opposes** the motion, **work must be done** against a force to keep the magnet moving.\n4. That **work done** is transferred to **electrical energy** in the circuit (then to thermal energy in its resistance).\n\nHook: induction is stubborn. It always resists whatever you're doing.\nTrap: the induced current opposes the **change** in flux, not the flux itself."
     },
     {
       "id": "phy-0030",
       "topic": "Electromagnetic induction",
+      "kind": "general",
       "front": "Derive the e.m.f. induced in a straight wire moving through a magnetic field. Say what each symbol means.\n\n3 steps · 20.5.5",
       "back": "1. In time $\\Delta t$ the wire moves $v\\Delta t$, sweeping out an area $Lv\\Delta t$.\n2. Flux cut: $\\Delta\\Phi = BLv\\Delta t$, so by **Faraday's law**:\n$$E = \\frac{\\Delta\\Phi}{\\Delta t} = BLv$$\n3. $E$: **induced e.m.f.** (V) · $B$: **flux density** (T) · $L$: **length of wire in the field** (m) · $v$: **speed** $(\\text{m s}^{-1})$\n\nExample: a 0.25 m rod moves at $4.0\\ \\text{m s}^{-1}$ through a 0.30 T field: $E = 0.30 \\times 0.25 \\times 4.0 =$ **0.30 V**.\nTrap: this only works when $B$, $L$ and $v$ are **all at right angles**. It isn't a formula you're told to recall, so show where it comes from."
     },
     {
       "id": "phy-0031",
       "topic": "Alternating currents",
+      "kind": "definition",
       "front": "Define period, frequency and peak value for an alternating current or voltage.\n\n3 definitions · 21.1.1",
       "back": "1. **Period**, $T$: the **time for one complete cycle** (s).\n2. **Frequency**, $f$: the **number of complete cycles per unit time** (Hz).\n$$f = \\frac{1}{T}$$\n3. **Peak value**, $I_0$ or $V_0$: the **maximum** current or voltage, measured **from zero**.\n\nExample: one cycle on a graph takes 20 ms: $f = 1 / 0.020 =$ **50 Hz**.\nTrap: **peak-to-peak** value $= 2 \\times$ peak value. Read the peak from the **zero line**, not the bottom of the wave."
     },
     {
       "id": "phy-0032",
       "topic": "Alternating currents",
+      "kind": "general",
       "front": "Equation for a sinusoidal alternating current or voltage? Say what each symbol means.\n\n4 points · 21.1.2",
       "back": "$$x = x_0\\sin\\omega t$$\n1. $x$: **current or voltage at time $t$** (A or V)\n2. $x_0$: **peak value** (A or V)\n3. $\\omega$ (omega): **angular frequency** $(\\text{rad s}^{-1})$, where\n$$\\omega = 2\\pi f = \\frac{2\\pi}{T}$$\n4. $t$: **time** (s)\n\nExample: $V = 325\\sin(100\\pi t)$. Peak $V_0 =$ **325 V**. $\\omega = 100\\pi$, so $f = 100\\pi / 2\\pi =$ **50 Hz**. At $t = 2.5$ ms: $V = 325\\sin(0.25\\pi) =$ **230 V**.\nTrap: set your calculator to **radians**. Given on the formula sheet."
     },
     {
       "id": "phy-0033",
       "topic": "Alternating currents",
+      "kind": "general",
       "front": "Explain why the mean power in a resistor is half the maximum power for a sinusoidal a.c. Give the mean power formulas.\n\n5 points · 21.1.3",
       "back": "1. Power in a resistor is $P = I^2R$, and $I = I_0\\sin\\omega t$, so:\n$$P = I_0^2R\\sin^2\\omega t$$\n2. **Maximum power**: $P_0 = I_0^2R = I_0V_0$\n3. The **average of $\\sin^2\\omega t$ over a cycle is $\\tfrac{1}{2}$**, so **mean power** $= \\tfrac{1}{2}I_0^2R = \\tfrac{1}{2}P_0$.\n4. Mean power using **r.m.s.** values:\n$$P = I_\\text{r.m.s.}V_\\text{r.m.s.} = I_\\text{r.m.s.}^2R$$\n$$P = \\frac{V_\\text{r.m.s.}^2}{R} = \\tfrac{1}{2}I_0V_0$$\n5. $P$: **mean power** (W) · $R$: **resistance** $(\\Omega)$ · $I_0$, $V_0$: **peak** current (A) and voltage (V) · $I_\\text{r.m.s.}$, $V_\\text{r.m.s.}$: **r.m.s.** current (A) and voltage (V)\n\nExample: a 46 Ω heater on 230 V r.m.s. mains: mean power $= 230^2 / 46 =$ **1150 W**, maximum power $= 2 \\times 1150 =$ **2300 W**.\nTrap: $P = VI$ with **peak** values gives the **maximum** power, not the mean."
     },
     {
       "id": "phy-0034",
       "topic": "Alternating currents",
+      "kind": "definition",
       "front": "Define the r.m.s. value of an alternating current, and give its link to the peak value for a sinusoidal a.c.\n\n4 points · 21.1.4",
       "back": "1. The **r.m.s. value** is the value of **direct current** that produces the **same mean power** (heating effect) in a **resistor** as the alternating current.\n2. For a **sinusoidal** a.c.:\n$$I_\\text{r.m.s.} = \\frac{I_0}{\\sqrt{2}}$$\n$$V_\\text{r.m.s.} = \\frac{V_0}{\\sqrt{2}}$$\n3. $I_\\text{r.m.s.}$, $V_\\text{r.m.s.}$: **r.m.s.** current (A) and voltage (V)\n4. $I_0$, $V_0$: **peak** current (A) and voltage (V)\n\nExample: mains is **230 V r.m.s.**, so its peak is $230 \\times \\sqrt{2} \\approx$ **325 V**.\nTrap: dividing by $\\sqrt{2}$ only works for **sinusoidal** a.c. Mains ratings and a.c. meter readings are **r.m.s.** Not on the formula sheet: learn it."
     },
     {
       "id": "phy-0035",
       "topic": "Rectification and smoothing",
+      "kind": "general",
       "front": "How do half-wave and full-wave rectified outputs look different on a graph?\n\n3 points · 21.2.1",
       "back": "1. **Half-wave**: **one** positive hump per cycle, with a **gap of zero** voltage for **every other half-cycle**.\n2. **Full-wave**: a positive hump in **every** half-cycle, with **no gaps**. The negative halves are **flipped** to positive.\n3. Both flow in **one direction only**, but are still **varying**, not steady.\n\nTrap: full-wave gives **twice as many** humps per second as half-wave from the same supply. With ideal diodes, draw the humps the **same height** as the input peak."
     },
     {
       "id": "phy-0036",
       "topic": "Rectification and smoothing",
+      "kind": "general",
       "front": "Explain how a single diode gives half-wave rectification.\n\n4 points · 21.2.2",
       "back": "1. A **diode** conducts only when **forward biased**, so current flows in **one direction only**.\n2. During **one half-cycle** the diode is **forward biased**: current flows and the voltage appears across the **load**.\n3. During the **other half-cycle** it is **reverse biased**: it **blocks** the current, so the output is **zero**.\n4. Result: a **varying d.c.** output with **half of each cycle missing**.\n\nTrap: the diode goes in **series** with the load; a smoothing capacitor goes in **parallel**."
     },
     {
       "id": "phy-0037",
       "topic": "Rectification and smoothing",
+      "kind": "general",
       "front": "Explain how a bridge rectifier (four diodes) gives full-wave rectification.\n\n4 points · 21.2.3",
       "back": "1. **Four diodes** are arranged in a **bridge**, with the a.c. supply across one diagonal and the **load** across the other.\n2. In one half-cycle, **two diodes** on **opposite** sides are **forward biased** and conduct; the other two are **reverse biased**.\n3. In the next half-cycle, the **other pair** conducts.\n4. Either way, current flows through the **load** in the **same direction** in **both** half-cycles, so **every half-cycle** is used.\n\nTrap: in an exam, trace the path for **each** half-cycle. The current passes through **two** diodes and the load each time.\nHook: two diodes on duty, two on a break, then they swap."
     },
     {
       "id": "phy-0038",
       "topic": "Rectification and smoothing",
+      "kind": "general",
       "front": "Explain how a capacitor smooths a rectified output, and how the capacitance and load resistance affect the smoothing.\n\n6 points · 21.2.4",
       "back": "1. The capacitor is connected **in parallel with the load**.\n2. As the input voltage **rises**, the capacitor **charges** up to the **peak** voltage.\n3. As the input **falls**, the diode stops conducting and the capacitor **discharges through the load**, keeping the output voltage up.\n4. The output only drops a little before the next peak: a small **ripple** instead of falling to zero.\n5. Smoothing is better (**smaller ripple**) when the **time constant $RC$** is **much bigger** than the **time between peaks**.\n6. So a **bigger capacitance $C$** gives better smoothing, and a **bigger load resistance $R$** gives better smoothing (the capacitor discharges **more slowly**).\n\nTrap: $R$ is the **load** resistance, not a resistor in series. $RC$ is in seconds.\nHook: the capacitor is a water tank that refills at each peak and drains through the load in between."
     },
     {
       "id": "phy-0039",
       "topic": "Electric fields",
+      "kind": "definition",
       "front": "What is meant by an electric field?\n\n1 point · 18.1",
       "back": "1. A **region of space** where a **charge** experiences a **force**.\n\nIt is an example of a **field of force** (like gravitational and magnetic fields).\nHook: gravity acts on **mass**, an electric field acts on **charge**."
     },
     {
       "id": "phy-0040",
       "topic": "Electric fields",
+      "kind": "definition",
       "front": "Define electric field strength at a point. Is it a vector or a scalar?\n\n3 points · 18.1",
       "back": "1. **Force per unit positive charge**\n2. acting on a **small stationary (test) charge** placed at that point.\n3. It is a **vector**: its direction is the direction of the force on a **positive** charge (away from $+$, towards $-$).\n\n$$E=\\dfrac{F}{q}$$\nUnits: $\\text{N C}^{-1}$, which is the same as $\\text{V m}^{-1}$.\n\nTrap: the mark scheme needs \"per unit **charge**\"; say \"**positive**\" to be safe."
     },
     {
       "id": "phy-0041",
       "topic": "Electric fields",
+      "kind": "definition",
       "front": "State Coulomb's law.\n\n2 points · 18.3",
       "back": "The force between two **point charges** is:\n1. **directly proportional to the product of the charges**, and\n2. **inversely proportional to the square of their separation**.\n\n$$F=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r^2}$$\n\nTrap: say \"**point** charges\" and \"**square** of the separation\". Leaving out \"square\" loses the mark."
     },
     {
       "id": "phy-0042",
       "topic": "Electric fields",
+      "kind": "definition",
       "front": "Define electric potential at a point.\n\n2 points · 18.5",
       "back": "1. **Work done per unit positive charge**\n2. in bringing a **small test charge** from **infinity** to that point.\n\nUnits: $\\text{J C}^{-1}=\\text{V}$. It is a **scalar**.\nTrap: both \"**per unit charge**\" and \"**from infinity**\" are separate marks.\nHook: potential is \"energy per coulomb\", like height on a hill."
     },
     {
       "id": "phy-0043",
       "topic": "Electric fields",
+      "kind": "definition",
       "front": "Define electric potential energy of a charge at a point.\n\n2 points · 18.5",
       "back": "1. The **work done** in bringing the charge\n2. from **infinity** to that point.\n\n$$E_p=qV=\\dfrac{Qq}{4\\pi\\varepsilon_0 r}$$\n$E_p=0$ at infinity.\n\nTrap: potential is **per unit charge** (V); potential **energy** is for the **actual charge** (J)."
     },
     {
       "id": "phy-0044",
       "topic": "Electric fields",
+      "kind": "definition",
       "front": "State the relationship between electric field strength and electric potential.\n\n1 point · 18.5",
       "back": "1. The electric field strength at a point is equal to the **negative of the potential gradient** at that point.\n\n$$E=-\\dfrac{\\Delta V}{\\Delta x}$$\n\n- On a **$V$–$x$ graph**: draw a **tangent**, find the **gradient**, then $E=-\\text{gradient}$.\n- The minus sign: the field points **\"downhill\"**, from **high** to **low** potential.\n- Steeper $V$–$x$ graph means a **stronger** field."
     },
     {
       "id": "phy-0045",
       "topic": "Electric fields",
+      "kind": "definition",
       "front": "What is an equipotential? How is it related to the field lines?\n\n3 points · 18.5",
       "back": "1. A line or surface where the **potential is the same** at every point.\n2. **No work** is done moving a charge **along** an equipotential.\n3. Equipotentials are always **perpendicular** to the field lines.\n\n- Point charge: **concentric circles**, spaced further apart further out.\n- Parallel plates: **equally spaced straight lines** parallel to the plates."
     },
     {
       "id": "phy-0046",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Rules for drawing electric field lines. What gets the marks?\n\n6 points · 18.1",
       "back": "1. Lines **start on $+$** and **end on $-$** (or go off to infinity).\n2. **Arrows** on every line, pointing from $+$ to $-$.\n3. Lines meet the surface of a conductor at **90°**.\n4. Lines **never cross**.\n5. **Closer** lines mean a **stronger** field.\n6. A **uniform** field (between plates) has **parallel, equally spaced** lines.\n\n- Point charge: **radial** lines (outwards for $+$, inwards for $-$).\n- Plates: lines **curve outwards at the edges** (weaker field there).\nTrap: arrows missing or lines not touching the charge are easy marks lost."
     },
     {
       "id": "phy-0047",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Explain why, for a point outside it, a charged sphere can be treated as a point charge at its centre.\n\n1 point · 18.3",
       "back": "1. Outside the sphere the field lines are **radial** (normal to the surface), so they look as if the charge were **concentrated at the centre**.\n\nSo use $r$ measured from the **centre**.\nTrap: if a distance is given from the **surface**, add the **radius**. If they give the **diameter**, halve it."
     },
     {
       "id": "phy-0048",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "For a charged conducting sphere, what are $E$ and $V$ inside it? Explain.\n\n3 points · 18.4–18.5",
       "back": "1. **$E=0$ inside**: the free charges move until there is **no resultant force** on them, and the charge sits on the **outer surface**.\n2. **$V$ is constant inside**, equal to the potential at the **surface**.\n3. This is because $E=-\\text{gradient}$; zero field means **zero gradient**, so $V$ doesn't change.\n\nGraphs:\n- **$E$–$r$**: zero up to $R$, **maximum at the surface**, then falls as $1/r^2$.\n- **$V$–$r$**: flat up to $R$, then falls as $1/r$."
     },
     {
       "id": "phy-0049",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Describe the electric field between two charged parallel plates.\n\n3 points · 18.2",
       "back": "1. It is **uniform**: the **same strength and direction** at every point (except near the edges).\n2. Field lines are **parallel**, **equally spaced** and **perpendicular to the plates**.\n3. The field points from the **positive** plate to the **negative** plate.\n\n$$E=\\dfrac{V}{d}$$\nTrap: an **earthed** plate is at **0 V**. Only use $V/d$ for **plates**, never for a point charge."
     },
     {
       "id": "phy-0050",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Show that the field between parallel plates is $E=V/d$.\n\n3 points · 18.2",
       "back": "1. Move charge $q$ across the gap $d$: work done $W=Fd$.\n2. Also, by definition of p.d., $W=qV$.\n3. So $Fd=qV$, giving\n$$E=\\dfrac{F}{q}=\\dfrac{V}{d}$$\n\nExample: p.d. doubled means $E$ doubles. Separation doubled (same $V$) means $E$ **halves**, so the force $qE$ halves."
     },
     {
       "id": "phy-0051",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "A charged particle enters the uniform field between two plates at 90° to the field. Explain why its path is a parabola.\n\n4 points · 18.2",
       "back": "1. The field is **uniform**, so the force on the particle is **constant**.\n2. The force is **perpendicular to the initial velocity**.\n3. So there is a **constant acceleration** towards one plate.\n4. **Parallel to the plates** there is **no force**, so the velocity that way **stays constant**.\n\nThis is just like a **projectile** (the field acts like \"sideways gravity\").\n- After leaving the plates: **straight line** (no field, so no force, so constant velocity).\n- $+$ curves towards the $-$ plate; $-$ curves towards the $+$ plate; neutral goes straight."
     },
     {
       "id": "phy-0052",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "In the field between two plates, how does the deflection depend on the particle's charge, mass and speed? Compare an electron with a proton.\n\n5 points · 18.2",
       "back": "1. Acceleration across the field:\n$$a=\\dfrac{qE}{m}=\\dfrac{qV}{md}$$\n2. **Bigger charge**: bigger force, so **more** deflection.\n3. **Bigger mass**: smaller acceleration, so **less** deflection.\n4. **Faster particle**: less **time** between the plates, so **less** deflection.\n5. **Electron vs proton** (same speed): the electron deflects the **opposite way** (opposite charge) and **much more** (much smaller mass, so larger $a$).\n\nExample: a boron nucleus (5e, 11u) vs a proton: $a$ is $\\tfrac{5}{11}$ of the proton's, so it curves the same way but **less**.\nHook: it really depends on **$q/m$**."
     },
     {
       "id": "phy-0053",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Why can the weight of a charged particle (e.g. an electron) be ignored in an electric field?\n\n1 point · 18.2",
       "back": "1. Its **weight** ($mg$) is **negligible compared with** the **electric force** ($qE$).\n\nSimilar: the **electric force** between two protons is about $10^{36}$ times the **gravitational** force, so gravity is negligible at atomic scale."
     },
     {
       "id": "phy-0054",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Explain why the potential near an isolated positive charge is positive, and near a negative charge is negative.\n\n3 points · 18.5",
       "back": "1. The potential is **zero at infinity**.\n2. Near **$+Q$**: work must be done **on** a positive test charge (against **repulsion**) to bring it from infinity, so $V$ is **positive** and **increases** as you get closer.\n3. Near **$-Q$**: work is done **by** the field (**attraction**), so $V$ is **negative** and gets **more negative** as you get closer.\n\nRule: potential always **decreases** in the direction of the field lines.\nHook: a $+$ charge rolls \"downhill\" from high $V$ to low $V$."
     },
     {
       "id": "phy-0055",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Explain why gravitational potential is always negative, but electric potential can be positive or negative.\n\n2 points · 18.5",
       "back": "1. Gravitational forces are **only attractive**, so work is always done **by** the field bringing a mass from infinity, and the potential is always **negative**.\n2. Electric forces can be **attractive or repulsive**, so the potential can be **positive** (near $+Q$) or **negative** (near $-Q$)."
     },
     {
       "id": "phy-0056",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "State one similarity and one difference between electric fields (point charge) and gravitational fields (point mass).\n\n2 points · 18.1",
       "back": "**Similarity** (any one):\n1. Both are **radial**.\n2. Both have an **inverse-square** variation ($F,\\,E\\propto 1/r^2$; $V\\propto 1/r$).\n3. Both **decrease with distance**; potential is **zero at infinity**.\n\n**Difference** (any one):\n1. A gravitational field is **always towards** the mass; an electric field can be **towards or away from** the charge.\n2. Gravity acts on **mass** and only **attracts**; an electric field acts on **charge** and can **attract or repel**.\n3. Gravitational potential is **always negative**; electric potential can be **$+$ or $-$**."
     },
     {
       "id": "phy-0057",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "An α-particle is fired head-on at a nucleus. Explain how to find the distance of closest approach.\n\n3 points · 18.5",
       "back": "1. As it approaches, its **kinetic energy is converted into electric potential energy** (it slows down due to repulsion).\n2. At closest approach it is **momentarily at rest**, so **all** its initial KE has become $E_p$.\n3. Set them equal:\n$$E_k=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r}$$\n\nUse the **actual charges in coulombs**: α is $2e$, gold is $79e$, $e=1.60\\times10^{-19}$ C.\nExample: $E_k=7.7\\times10^{-13}$ J gives $r=4.7\\times10^{-14}$ m. It doesn't collide, so the **nuclear radius is less than** this.\nTrap: $r$ is **not squared** in $E_p$."
     },
     {
       "id": "phy-0058",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "In α-particle scattering, why must the gold foil be very thin?\n\n1 point · 18.5",
       "back": "1. So that each α-particle is deflected by **only one nucleus** (**single interactions** can be studied). There are **no multiple deflections**.\n\nBonus: α-particles are easily **absorbed**, so a thick foil would stop many of them. Gold can be beaten to only a few atoms thick."
     },
     {
       "id": "phy-0059",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "An $E$–$x$ graph between two charged spheres crosses zero. Explain whether the charges have the same or opposite sign.\n\n2 points · 18.4",
       "back": "1. The field strength is **zero at a point** between them: the field **changes direction**.\n2. So the charges have the **same sign**.\n\nWhy: between **like** charges the two fields point in **opposite directions** and cancel at a **neutral point**. Between **opposite** charges both fields point the **same way**, so they **add** and never cancel.\nHook: gravity behaves like **like** charges, which is why there is a zero-$g$ point between two planets."
     },
     {
       "id": "phy-0060",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "How do you find the point where the resultant field is zero between two like charges?\n\n3 points · 18.4",
       "back": "1. Let the point be distance $x$ from $Q_1$, so it is $d-x$ from $Q_2$.\n2. Set the field strengths equal:\n$$\\dfrac{Q_1}{x^2}=\\dfrac{Q_2}{(d-x)^2}$$\n3. Solve for $x$. The point is **closer to the smaller charge**.\n\n- Equal charges: it is at the **midpoint**.\n- At this point $E=0$ but **$V\\neq 0$**: potentials are scalars and **add**.\nTrap: fields are **vectors**. Add them with direction; subtract when they point opposite ways."
     },
     {
       "id": "phy-0061",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Sketch the potential $V$ against distance between two parallel plates (one at $+V_0$, the other earthed).\n\n3 points · 18.5",
       "back": "1. A **straight line**, because the field is **uniform** (constant gradient).\n2. It goes from **$+V_0$ at the positive plate** to **0 at the earthed plate**.\n3. The change in $V$ is $V_0$ over the distance $d$.\n\nTrap: check **which plate $x$ is measured from**. If $x$ starts at the $+V_0$ plate, the line goes **down** from $(0,V_0)$ to $(d,0)$."
     },
     {
       "id": "phy-0062",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Sketch the potential along the line between two identical spheres M and N (radius $R$, each $+Q$, centres $D$ apart), from the centre of M to the centre of N.\n\n4 points · 18.5",
       "back": "1. **Constant** (flat) from $0$ to $R$ and from $D-R$ to $D$: inside a conductor $V$ is constant.\n2. Both flat parts are at the **same height**.\n3. Between them: a **curve dipping down** (U-shape), with $V$ **always positive**.\n4. The **minimum** is at the **midpoint** $D/2$.\n\nWhy: add the potentials,\n$$V=\\dfrac{Q}{4\\pi\\varepsilon_0 y}+\\dfrac{Q}{4\\pi\\varepsilon_0 (D-y)}$$\nAt the midpoint the gradient is zero, so $E=0$ there, but $V\\neq0$.\nTrap: the dip **never touches zero**; two positive potentials always add to a positive value."
     },
     {
       "id": "phy-0063",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "What do the gradient and the area give for $V$–$x$, $E$–$x$ and $F$–$x$ graphs?\n\n3 points · 18.5",
       "back": "1. **$V$–$x$ graph**: **gradient** $=-E$ (draw a tangent).\n2. **$E$–$x$ graph**: **area** under the graph $=\\Delta V$. The **height** (reading) is the potential gradient. The gradient means nothing useful.\n3. **$F$–$x$ graph**: **area** $=$ work done $=\\Delta E_p$.\n\nTrap: on an $E$–$x$ graph, convert the axes to SI (e.g. cm to m, $\\times10^3$ V m$^{-1}$) before counting squares.\nHook: like a $v$–$t$ graph: gradient is one thing, area is the other."
     },
     {
       "id": "phy-0064",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Explain why the electric potential energy of two unlike charges is negative, and of two like charges is positive.\n\n2 points · 18.5",
       "back": "1. $E_p=0$ when the charges are **infinitely far apart**.\n2. **Unlike** charges attract, so the field **does work** as they come together and $E_p$ **decreases below zero**. **Like** charges repel, so work must be done **on** them to push them together and $E_p$ **increases above zero**.\n\n$$E_p=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r}$$\nPut the signs of the charges in and the sign of $E_p$ comes out automatically."
     },
     {
       "id": "phy-0065",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Formula: electric field strength from force. Write it and name every variable with its unit.\n\nFormula · 18.1",
       "back": "$$E=\\dfrac{F}{q}\\qquad F=qE$$\n- $E$: electric field strength ($\\text{N C}^{-1}$ or $\\text{V m}^{-1}$)\n- $F$: force on the charge (N)\n- $q$: charge (C)\n\nA $+q$ is pushed **along** $E$; a $-q$ is pushed **opposite** to $E$.\nExample: electron in $E=5000\\ \\text{N C}^{-1}$: $F=8.0\\times10^{-16}$ N, against the field lines."
     },
     {
       "id": "phy-0066",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Formula: field strength between parallel plates. Write it, name every variable, and say when to use it.\n\nFormula · 18.2",
       "back": "$$E=\\dfrac{\\Delta V}{\\Delta d}$$\n- $E$: field strength ($\\text{V m}^{-1}$)\n- $\\Delta V$: p.d. between the plates (V)\n- $\\Delta d$: separation of the plates (m)\n\nCombined with $F=qE$:\n$$F=\\dfrac{qV}{d}$$\nUse it **only for a uniform field** (parallel plates).\nExample: $V=7.9$ kV, $d=3.5$ cm, $q=2.6\\times10^{-15}$ C gives $F=5.9\\times10^{-10}$ N."
     },
     {
       "id": "phy-0067",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Formula: Coulomb's law. Write it and name every variable and constant.\n\nFormula · 18.3",
       "back": "$$F=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r^2}$$\n- $F$: force between the charges (N)\n- $Q_1,\\ Q_2$: the two charges (C)\n- $r$: separation, **centre to centre** (m)\n- $\\varepsilon_0$: permittivity of free space, $8.85\\times10^{-12}\\ \\text{F m}^{-1}$\n- $\\tfrac{1}{4\\pi\\varepsilon_0}=8.99\\times10^{9}\\ \\text{N m}^2\\text{C}^{-2}$\n\nPositive $F$: **repulsion** (like charges). Negative $F$: **attraction**.\nDouble $r$: force $\\div 4$."
     },
     {
       "id": "phy-0068",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Formula: field strength of a point charge. Write it and name every variable.\n\nFormula · 18.4",
       "back": "$$E=\\dfrac{Q}{4\\pi\\varepsilon_0 r^2}$$\n- $E$: field strength at the point ($\\text{N C}^{-1}$)\n- $Q$: the charge **creating** the field (C)\n- $r$: distance from the **centre** of the charge (m)\n- $\\varepsilon_0=8.85\\times10^{-12}\\ \\text{F m}^{-1}$\n\nInverse square: double $r$, $E\\div4$.\nExample: sphere diameter 15 cm, surface $E=1.5\\times10^5$ V m$^{-1}$: use $r=0.075$ m, $Q=9.4\\times10^{-8}$ C."
     },
     {
       "id": "phy-0069",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Formula: electric potential of a point charge. Write it and name every variable.\n\nFormula · 18.5",
       "back": "$$V=\\dfrac{Q}{4\\pi\\varepsilon_0 r}$$\n- $V$: potential at the point (V)\n- $Q$: the charge creating the field, **with its sign** (C)\n- $r$: distance from the centre of the charge (m)\n- $\\varepsilon_0=8.85\\times10^{-12}\\ \\text{F m}^{-1}$\n\n$V\\propto 1/r$, **not** $1/r^2$. Scalar: for several charges, just **add** (with signs).\nExample: dome $r=15$ cm at 240 kV. At $r=45$ cm (3 times further), $V=80$ kV."
     },
     {
       "id": "phy-0070",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Formula: electric potential energy of two point charges. Write it and name every variable.\n\nFormula · 18.5",
       "back": "$$E_p=\\dfrac{Qq}{4\\pi\\varepsilon_0 r}$$\n- $E_p$: electric potential energy (J)\n- $Q,\\ q$: the two charges, **with signs** (C)\n- $r$: separation, centre to centre (m)\n\nAlso: $E_p=qV$ and work done $W=q\\,\\Delta V$.\nChange in $E_p$ moving from $r_1$ to $r_2$:\n$$\\Delta E_p=\\dfrac{Qq}{4\\pi\\varepsilon_0}\\left(\\dfrac{1}{r_2}-\\dfrac{1}{r_1}\\right)$$\nHook: **one** charge on top gives $V$; **two** charges give $E_p$."
     },
     {
       "id": "phy-0071",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Formula: field strength and potential gradient. Write it and name every variable.\n\nFormula · 18.5",
       "back": "$$E=-\\dfrac{\\Delta V}{\\Delta x}$$\n- $E$: field strength ($\\text{V m}^{-1}$)\n- $\\Delta V$: change in potential (V)\n- $\\Delta x$: distance moved (m)\n\nThe minus sign: $E$ points from **high to low** potential.\nFor plates the gradient is constant, which gives $E=V/d$."
     },
     {
       "id": "phy-0072",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Formulas for a charged particle moving through the field between parallel plates (entering at 90°). Name every variable.\n\nFormula · 18.2",
       "back": "Along the plates (no force):\n$$t=\\dfrac{L}{v}$$\nAcross the plates (constant force):\n$$a=\\dfrac{qE}{m}=\\dfrac{qV}{md}$$\n$$y=\\tfrac{1}{2}at^2$$\nAccelerated from rest through p.d. $V$:\n$$\\tfrac{1}{2}mv^2=qV$$\n- $L$: length of the plates (m); $v$: speed along the plates ($\\text{m s}^{-1}$)\n- $t$: time between the plates (s); $a$: acceleration ($\\text{m s}^{-2}$)\n- $q,\\ m$: charge (C) and mass (kg); $V$: p.d. (V); $d$: plate separation (m)\n- $y$: sideways deflection (m)"
     },
     {
       "id": "phy-0073",
       "topic": "Electric fields",
+      "kind": "general",
       "front": "Summary: the four point-charge formulas. How are they linked?\n\nFormula · 18.3–18.5",
       "back": "**Two charges** (force and energy):\n$$F=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r^2}$$\n$$E_p=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0 r}$$\n**Point in space** (field and potential):\n$$E=\\dfrac{Q}{4\\pi\\varepsilon_0 r^2}$$\n$$V=\\dfrac{Q}{4\\pi\\varepsilon_0 r}$$\n1. Two charges to point in space: **divide by the test charge** $q$.\n2. Vector ($F$, $E$) to scalar ($E_p$, $V$): **area** under the graph.\n3. Scalar to vector: **minus the gradient**.\n\nHook: **$r^2$ for vectors** ($F$, $E$), **$r$ for scalars** ($E_p$, $V$)."
     },
     {
       "id": "phy-0074",
       "topic": "Gravitational fields",
+      "kind": "definition",
       "front": "What is meant by a gravitational field?\n\n1 point · 13.1",
       "back": "1. A **region** (of space) where a **mass** experiences a **force**.\n\nIt's a **field of force**: you never touch the Earth's mass, yet you feel its pull.\nTrap: say \"**mass**\". Saying \"an object feels gravity\" doesn't name what the field acts on."
     },
     {
       "id": "phy-0075",
       "topic": "Gravitational fields",
+      "kind": "definition",
       "front": "Define gravitational field strength at a point. Is it a vector or a scalar?\n\n3 points · 13.1",
       "back": "1. **Force per unit mass**\n2. acting on a **small (test) mass** placed at that point.\n3. It is a **vector**: it points in the direction of the force on a mass, i.e. **towards** the mass creating the field.\n\n$$g=\\dfrac{F}{m}$$\nUnits: $\\text{N kg}^{-1}$, which is the same as $\\text{m s}^{-2}$.\n\nTrap: \"acceleration of free fall\" is **not** the definition. The mark needs \"**force per unit mass**\"."
     },
     {
       "id": "phy-0076",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Describe and draw gravitational field lines: around a planet, and close to its surface.\n\n4 points · 13.1",
       "back": "1. Arrows show the direction of the **force on a mass**: always **towards** the planet (gravity only **attracts**).\n2. Around a planet (point mass): **radial** lines pointing **inwards** to the **centre**.\n3. **Closer lines = stronger field**: they spread out further away. Lines **never cross**.\n4. Close to the surface (small region): lines are **parallel, equally spaced** and vertical, so the field is **uniform**.\n\nHook: zoom in on a circle and its edge looks straight. Same with field lines near the surface.\nTrap: draw the arrows **on** the lines and pointing **in**, and touch the surface at **90°**."
     },
     {
       "id": "phy-0077",
       "topic": "Gravitational fields",
+      "kind": "definition",
       "front": "State Newton's law of gravitation.\n\n2 points · 13.2",
       "back": "1. The (attractive) force between two **point masses** is **proportional to the product of their masses**\n2. and **inversely proportional to the square of their separation**.\n\n$$F=\\dfrac{Gm_1m_2}{r^2}$$\n\nTrap: \"**point** masses\" and \"**separation**\" (centre to centre) are the key words. \"Distance between them\" alone can lose the mark.\nExample: double $r$, $F\\div4$. Double one mass, $F\\times2$."
     },
     {
       "id": "phy-0078",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Explain why, for a point outside it, a uniform sphere (e.g. a planet) can be treated as a point mass at its centre.\n\n2 points · 13.2",
       "back": "1. The mass of the sphere is **uniformly / symmetrically distributed**,\n2. so outside it the field is the **same as if all the mass were concentrated at its centre** (radial field).\n\nSo $r$ is always measured from the **centre**: $r = R + h$ (radius + height above the surface).\nTrap: using the height $h$ instead of $R+h$ is the classic orbit-question mistake."
     },
     {
       "id": "phy-0079",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Explain how a satellite stays in a circular orbit. Derive its orbital speed.\n\n4 points · 13.2",
       "back": "1. The **gravitational force** on the satellite **provides the centripetal force**.\n2. This force is always **perpendicular to the velocity** (towards the centre), so **no work** is done: the **speed is constant** but the **direction changes**.\n3. $$\\dfrac{GMm}{r^2}=\\dfrac{mv^2}{r}$$\n4. so $$v=\\sqrt{\\dfrac{GM}{r}}$$ The satellite's mass $m$ **cancels**: speed doesn't depend on it.\n\nLower orbit ($r$ smaller) means **faster** satellite and **shorter** period.\nTrap: the satellite is **accelerating** (towards the centre) even at constant speed. It's **not** in equilibrium."
     },
     {
       "id": "phy-0080",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Show that $T^2\\propto r^3$ for a circular orbit.\n\n4 points · 13.2",
       "back": "1. Gravitational force = centripetal force:\n$$\\dfrac{GMm}{r^2}=mr\\omega^2$$\n2. Use $\\omega=\\dfrac{2\\pi}{T}$:\n$$\\dfrac{GM}{r^2}=\\dfrac{4\\pi^2 r}{T^2}$$\n3. Rearrange:\n$$T^2=\\dfrac{4\\pi^2}{GM}\\,r^3$$\n4. $4\\pi^2$, $G$ and $M$ are **constants**, so $T^2\\propto r^3$.\n\nExample: a $T^2$ against $r^3$ graph is a **straight line through the origin**, gradient $4\\pi^2/GM$. Use it to find the planet's mass $M$.\nTrap: $M$ is the mass being **orbited** (the planet), not the satellite."
     },
     {
       "id": "phy-0081",
       "topic": "Gravitational fields",
+      "kind": "definition",
       "front": "What is a geostationary orbit? State its properties.\n\n4 points · 13.2",
       "back": "1. **Period = 24 hours** (same as the Earth's rotation).\n2. Orbits **directly above the Equator** (in the equatorial plane).\n3. Moves **west to east**, the **same direction** as the Earth rotates.\n4. So it **stays above the same point** on the Earth's surface.\n\nRadius $\\approx 4.2\\times10^7$ m from the Earth's **centre** (about $3.6\\times10^7$ m above the surface).\nUse: **communications**: a receiving dish can be **fixed**; it doesn't need to track the satellite.\nTrap: \"24 hours\" alone isn't enough. You need **Equator** + **same direction** too."
     },
     {
       "id": "phy-0082",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Derive $g=\\dfrac{GM}{r^2}$ for a point mass.\n\n3 points · 13.3",
       "back": "1. Definition: $g=\\dfrac{F}{m}$ (force per unit mass on a test mass $m$).\n2. Newton's law: force on $m$ is $F=\\dfrac{GMm}{r^2}$.\n3. Divide by $m$:\n$$g=\\dfrac{GM}{r^2}$$\n\n$g$ doesn't depend on the test mass. $M$ is the mass **creating** the field.\nExample: Earth, $M=6.0\\times10^{24}$ kg, $R=6.4\\times10^6$ m: $g=\\dfrac{6.67\\times10^{-11}\\times6.0\\times10^{24}}{(6.4\\times10^6)^2}=$ **9.8 N kg$^{-1}$**."
     },
     {
       "id": "phy-0083",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Explain why $g$ is approximately constant for small changes in height near the Earth's surface.\n\n2 points · 13.3",
       "back": "1. The change in height is **very small compared with the radius of the Earth** ($6.4\\times10^6$ m),\n2. so the distance $r$ from the centre **hardly changes**, and $g=\\dfrac{GM}{r^2}$ is almost the same.\n\nExample: going up 10 km, $r$ changes from 6400 km to 6410 km: $g$ falls by only about **0.3%**.\nThat's why $\\Delta E_p=mg\\Delta h$ works near the surface, but **not** for big height changes (orbits)."
     },
     {
       "id": "phy-0084",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "How do you find the point between the Earth and the Moon where the resultant gravitational field is zero?\n\n3 points · 13.3",
       "back": "1. Let the point be $x$ from the Earth's centre, so it is $d-x$ from the Moon's centre.\n2. The two fields are **equal and opposite**:\n$$\\dfrac{GM_E}{x^2}=\\dfrac{GM_M}{(d-x)^2}$$\n3. $G$ cancels. Solve for $x$. The point is **much closer to the Moon** (the smaller mass).\n\nAt this point $g=0$, but the potential is **not** zero: potentials are **scalars** and **add** (both negative).\nTrap: square-root both sides first to make it easy: $\\dfrac{x}{d-x}=\\sqrt{\\dfrac{M_E}{M_M}}$."
     },
     {
       "id": "phy-0085",
       "topic": "Gravitational fields",
+      "kind": "definition",
       "front": "Define gravitational potential at a point.\n\n3 points · 13.4",
       "back": "1. **Work done per unit mass**\n2. in bringing a **small test mass**\n3. **from infinity** to that point.\n\n$$\\phi=-\\dfrac{GM}{r}$$\nUnits: $\\text{J kg}^{-1}$. It is a **scalar**.\n\nTrap: all three bits score: \"per unit mass\", \"small test mass\", \"**from infinity**\". Saying \"to infinity\" is wrong."
     },
     {
       "id": "phy-0086",
       "topic": "Gravitational fields",
+      "kind": "definition",
       "front": "Define the gravitational potential energy of a mass at a point.\n\n2 points · 13.4",
       "back": "1. The **work done** in bringing the mass\n2. **from infinity** to that point.\n\n$$E_p=m\\phi=-\\dfrac{GMm}{r}$$\nUnits: J. It is a **scalar**.\n\nHook: potential = energy **per kg**; potential energy = the energy for **this** mass.\nTrap: no \"per unit mass\" here. That's the difference from potential."
     },
     {
       "id": "phy-0087",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Explain why gravitational potential is always negative.\n\n3 points · 13.4",
       "back": "1. Potential is defined as **zero at infinity**.\n2. Gravitational forces are **always attractive**,\n3. so **work is done by the field** (energy is released) as a mass moves in from infinity. The potential ends up **below zero**: **negative**.\n\nSo the **maximum** potential is **zero** (at infinity). Moving **away** from a planet, $\\phi$ **increases** (gets less negative).\nHook: a planet is a **well**: you have to put energy in to climb out to zero."
     },
     {
       "id": "phy-0088",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "How do you find the change in gravitational potential energy when a mass moves between two distances from a planet? When can you use $mg\\Delta h$?\n\n3 points · 13.4",
       "back": "1. $$\\Delta E_p=E_{p,\\text{final}}-E_{p,\\text{initial}}$$\n2. $$\\Delta E_p=GMm\\left(\\dfrac{1}{r_1}-\\dfrac{1}{r_2}\\right)$$ for moving **out** from $r_1$ to $r_2$ (positive: energy gained).\n3. $mg\\Delta h$ only works for **small** height changes near the surface, where $g$ is **constant**.\n\nExample: 1.0 kg from the Earth's surface ($R$) to $2R$: $\\Delta E_p=\\dfrac{GMm}{2R}\\approx$ **$3.1\\times10^7$ J**. Using $mgh$ gives $6.3\\times10^7$ J: **double**, because $g$ drops as you go up.\nTrap: keep the minus signs in $E_p=-GMm/r$; the change is the less negative minus the more negative."
     },
     {
       "id": "phy-0089",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "What do the gradient and the area give for $\\phi$–$r$ and $g$–$r$ graphs?\n\n3 points · 13.4",
       "back": "1. **$\\phi$–$r$ graph**: **gradient** $=$ field strength $g$ (draw a tangent). Field strength $= -$(potential gradient).\n2. **$g$–$r$ graph**: **area** under the graph $=$ change in potential $\\Delta\\phi$.\n3. Shapes outside a planet: $g\\propto\\dfrac{1}{r^2}$ (falls fast); $\\phi\\propto-\\dfrac{1}{r}$ (negative, rising towards **zero**).\n\nTrap: the $\\phi$ curve is **below** the axis and gets **closer to zero** as $r$ increases. It never crosses it.\nHook: same rules as electric fields: gradient one way, area the other."
     },
     {
       "id": "phy-0090",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Formula: gravitational field strength from force. Write it and name every variable with its unit.\n\nFormula · 13.1",
       "back": "$$g=\\dfrac{F}{m}$$\n- $g$: gravitational field strength ($\\text{N kg}^{-1}$)\n- $F$: gravitational force on the mass (N)\n- $m$: the **test mass** placed in the field (kg)\n\nWorks in **any** gravitational field. Near the Earth's surface $g=9.81\\ \\text{N kg}^{-1}$.\nThis is just weight $W=mg$ rearranged."
     },
     {
       "id": "phy-0091",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Formula: Newton's law of gravitation. Write it and name every variable and constant.\n\nFormula · 13.2",
       "back": "$$F=\\dfrac{Gm_1m_2}{r^2}$$\n- $F$: attractive force on **each** mass (N): equal and opposite (Newton's 3rd law)\n- $m_1$, $m_2$: the two (point) masses (kg)\n- $r$: separation of their **centres** (m)\n- $G=6.67\\times10^{-11}\\ \\text{N m}^2\\,\\text{kg}^{-2}$\n\nNot on the formula sheet: **learn it** ($G$ is in the data list).\nTrap: $r$ is centre to centre: $R+h$ for something above a planet."
     },
     {
       "id": "phy-0092",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Formula: gravitational field strength of a point mass. Write it and name every variable.\n\nFormula · 13.3",
       "back": "$$g=\\dfrac{GM}{r^2}$$\n- $g$: field strength at the point ($\\text{N kg}^{-1}$)\n- $M$: the mass **creating** the field (kg)\n- $r$: distance from the **centre** of the mass (m)\n- $G=6.67\\times10^{-11}\\ \\text{N m}^2\\,\\text{kg}^{-2}$\n\nNot on the formula sheet: **learn it**.\nInverse square: double $r$, $g\\div4$.\nExample: at $r=2R$ above the Earth, $g=9.8\\div4\\approx$ **2.5 N kg$^{-1}$**."
     },
     {
       "id": "phy-0093",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Formula: gravitational potential of a point mass. Write it and name every variable.\n\nFormula · 13.4",
       "back": "$$\\phi=-\\dfrac{GM}{r}$$\n- $\\phi$: gravitational potential at the point ($\\text{J kg}^{-1}$)\n- $M$: the mass creating the field (kg)\n- $r$: distance from the **centre** (m)\n\nOn the formula sheet. $\\phi\\propto 1/r$, **not** $1/r^2$, and it's **always negative**.\nScalar: for two planets, just **add** the potentials.\nExample: Earth's surface: $\\phi=-\\dfrac{6.67\\times10^{-11}\\times6.0\\times10^{24}}{6.4\\times10^6}\\approx$ **$-6.3\\times10^7$ J kg$^{-1}$**."
     },
     {
       "id": "phy-0094",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Formula: gravitational potential energy of two point masses. Write it and name every variable.\n\nFormula · 13.4",
       "back": "$$E_p=-\\dfrac{GMm}{r}$$\n- $E_p$: gravitational potential energy (J)\n- $M$, $m$: the two masses (kg)\n- $r$: separation of their **centres** (m)\n\nOn the formula sheet. Also $E_p=m\\phi$.\nTrap: always **negative**; it gets **less negative** (increases) as the masses move apart."
     },
     {
       "id": "phy-0095",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Formulas for a satellite in a circular orbit. Name every variable.\n\nFormula · 13.2",
       "back": "Start every time from: **gravitational force = centripetal force**\n$$\\dfrac{GMm}{r^2}=\\dfrac{mv^2}{r}=mr\\omega^2$$\n$$v=\\sqrt{\\dfrac{GM}{r}}$$\n$$v=\\dfrac{2\\pi r}{T}$$\n$$T^2=\\dfrac{4\\pi^2r^3}{GM}$$\n- $M$: planet's mass (kg) · $m$: satellite's mass (cancels)\n- $r$: orbit radius from the planet's **centre** (m)\n- $v$: orbital speed ($\\text{m s}^{-1}$) · $T$: period (s) · $\\omega=2\\pi/T$ ($\\text{rad s}^{-1}$)\n\nTrap: convert $T$ to **seconds** (24 h $=86\\,400$ s) and $r$ to **metres**."
     },
     {
       "id": "phy-0096",
       "topic": "Gravitational fields",
+      "kind": "general",
       "front": "Summary: the four point-mass formulas. How are they linked?\n\nFormula · 13.2–13.4",
       "back": "**Two masses** (force and energy):\n$$F=\\dfrac{GMm}{r^2}$$\n$$E_p=-\\dfrac{GMm}{r}$$\n**Point in space** (field and potential):\n$$g=\\dfrac{GM}{r^2}$$\n$$\\phi=-\\dfrac{GM}{r}$$\n1. Two masses to point in space: **divide by the test mass** $m$.\n2. Vector ($F$, $g$) to scalar ($E_p$, $\\phi$): **area** under the graph.\n3. Scalar to vector: **minus the gradient**.\n\nHook: **$r^2$ for vectors** ($F$, $g$), **$r$ for scalars** ($E_p$, $\\phi$). The scalars have the **minus sign**."
     },
     {
       "id": "phy-0097",
       "topic": "Oscillations",
+      "kind": "definition",
       "front": "Define displacement, amplitude, period and frequency for an oscillation.\n\n4 definitions · 17.1",
       "back": "1. **Displacement** $x$: the **distance** (in a given direction) from the **equilibrium position**.\n2. **Amplitude** $x_0$: the **maximum displacement** from the **equilibrium position**.\n3. **Period** $T$: the **time** taken for **one complete oscillation**.\n4. **Frequency** $f$: the **number of oscillations per unit time**.\n\n$$f=\\dfrac{1}{T}$$\nTrap: amplitude is measured from the **middle**, not from one extreme to the other (that's $2x_0$)."
     },
     {
       "id": "phy-0098",
       "topic": "Oscillations",
+      "kind": "definition",
       "front": "Define angular frequency and phase difference.\n\n2 definitions · 17.1",
       "back": "1. **Angular frequency** $\\omega$: $2\\pi$ times the frequency, i.e. the **rate of change of phase angle**.\n$$\\omega=2\\pi f=\\dfrac{2\\pi}{T}$$\nUnits: $\\text{rad s}^{-1}$.\n2. **Phase difference**: how far one oscillation is **ahead of or behind** another, as a **fraction of a cycle**, given in **degrees or radians**.\n$$\\text{phase difference}=\\dfrac{\\Delta t}{T}\\times360^\\circ=\\dfrac{\\Delta t}{T}\\times2\\pi\\ \\text{rad}$$\n$\\Delta t$: time between matching points (e.g. two peaks).\n\nExample: peaks $T/4$ apart: phase difference $90^\\circ$ ($\\pi/2$ rad).\nTrap: $\\omega$ uses **radians**. Put your calculator in **rad** mode."
     },
     {
       "id": "phy-0099",
       "topic": "Oscillations",
+      "kind": "definition",
       "front": "Define simple harmonic motion (SHM).\n\n2 points · 17.1",
       "back": "1. The **acceleration** is **(directly) proportional to the displacement** from a fixed point (equilibrium position)\n2. and is **directed towards** that fixed point (always **opposite** to the displacement).\n\n$$a=-\\omega^2x$$\n- $\\omega^2$: the constant of proportionality\n- **minus sign** = acceleration is **opposite** to displacement\n\nTrap: you need **both** \"proportional\" **and** \"opposite direction / towards the fixed point\". Each one is a mark.\nHook: further you pull it, harder it gets pulled back."
     },
     {
       "id": "phy-0100",
       "topic": "Oscillations",
+      "kind": "general",
       "front": "In SHM, where are the speed and the acceleration maximum and zero? Give their maximum values.\n\n4 points · 17.1",
       "back": "1. **Speed is maximum** at the **equilibrium position** ($x=0$): $v_0=\\omega x_0$\n2. **Speed is zero** at the **extremes** ($x=\\pm x_0$).\n3. **Acceleration is maximum** at the **extremes**: $a_{\\max}=\\omega^2x_0$\n4. **Acceleration is zero** at the **equilibrium position**.\n\nExample: $x_0=0.050$ m, $f=2.0$ Hz, so $\\omega=4\\pi=12.6\\ \\text{rad s}^{-1}$. $v_0=0.63\\ \\text{m s}^{-1}$, $a_{\\max}=7.9\\ \\text{m s}^{-2}$.\nHook: a swing: **fastest** at the bottom, **stops** and turns hardest at the ends.\nTrap: they are **out of step**: max speed comes with **zero** acceleration."
     },
     {
       "id": "phy-0101",
       "topic": "Oscillations",
+      "kind": "general",
       "front": "Describe the displacement, velocity and acceleration against time graphs for SHM, and the phase differences between them.\n\n4 points · 17.1",
       "back": "1. All three are **sine/cosine curves** with the **same period** $T$.\n2. **Velocity** is the **gradient** of the $x$–$t$ graph. It is $90^\\circ$ ($\\pi/2$ rad) **ahead of** displacement.\n3. **Acceleration** is the **gradient** of the $v$–$t$ graph. It is $180^\\circ$ ($\\pi$ rad) **out of phase** with displacement (**antiphase**).\n4. Starting at equilibrium: $x=x_0\\sin\\omega t$, $v=v_0\\cos\\omega t$, $a=-\\omega^2x_0\\sin\\omega t$.\n\nTrap: where $x$ is at a peak, $v=0$ (flat gradient) and $a$ is at its **most negative**.\nHook: $x$ peaks, then $v$ crosses zero, $a$ is the mirror image of $x$."
     },
     {
       "id": "phy-0102",
       "topic": "Oscillations",
+      "kind": "general",
       "front": "What do the $a$–$x$ and $v$–$x$ graphs look like for SHM? How do you use the $a$–$x$ graph to show SHM?\n\n4 points · 17.1",
       "back": "1. **$a$–$x$**: a **straight line through the origin** with a **negative gradient**.\n2. Straight line through origin = $a\\propto x$; negative gradient = **opposite direction**. So it's **SHM**.\n3. **Gradient** $=-\\omega^2$, so $\\omega=\\sqrt{|\\text{gradient}|}$, then $f=\\omega/2\\pi$.\n4. **$v$–$x$**: an **ellipse** (a circle if scaled), crossing $v=\\pm\\omega x_0$ at $x=0$ and $v=0$ at $x=\\pm x_0$.\n\nExample: gradient $=-160\\ \\text{s}^{-2}$ gives $\\omega=12.6\\ \\text{rad s}^{-1}$, $f=2.0$ Hz.\nTrap: the line stops at $x=\\pm x_0$. It doesn't go on forever."
     },
     {
       "id": "phy-0103",
       "topic": "Oscillations",
+      "kind": "general",
       "front": "Formulas for displacement and velocity in SHM. Name every variable and say when to use each.\n\nFormula · 17.1",
       "back": "$$a=-\\omega^2x$$\n$$x=x_0\\sin\\omega t$$\n$$v=v_0\\cos\\omega t$$\n$$v=\\pm\\,\\omega\\sqrt{x_0^2-x^2}$$\n- $x$: displacement (m) · $x_0$: amplitude (m)\n- $v$: velocity ($\\text{m s}^{-1}$) · $v_0=\\omega x_0$: maximum speed\n- $\\omega$: angular frequency ($\\text{rad s}^{-1}$) · $t$: time (s)\n\n1. $x=x_0\\sin\\omega t$: timing starts at **equilibrium**. Starts at an **extreme**? Use $x=x_0\\cos\\omega t$.\n2. $v=\\pm\\omega\\sqrt{x_0^2-x^2}$: speed at a **given displacement** (no time needed).\n\nExample: $x_0=0.050$ m, $\\omega=12.6\\ \\text{rad s}^{-1}$, at $x=0.030$ m: $v=12.6\\sqrt{0.050^2-0.030^2}=$ **0.50 m s$^{-1}$**.\n$x=x_0\\sin\\omega t$ is **not** on the formula sheet: learn it.\nTrap: calculator in **radians**."
     },
     {
       "id": "phy-0104",
       "topic": "Oscillations",
+      "kind": "general",
       "front": "Describe the energy changes in SHM, and sketch how kinetic and potential energy vary with displacement and with time.\n\n5 points · 17.2",
       "back": "1. Energy changes continuously between **kinetic** and **potential** energy.\n2. **Total energy** stays **constant** (if there's **no damping**).\n3. At **equilibrium**: KE **maximum**, PE **zero**. At the **extremes**: KE **zero**, PE **maximum**.\n4. **Against $x$**: PE is a **parabola** ($\\propto x^2$), KE an upside-down parabola; they add to a **flat line** (total).\n5. **Against $t$**: KE and PE oscillate at **twice the frequency** of the motion ($2f$) and never go negative.\n\nTrap: the energy-time graphs have **half** the period of the motion. KE peaks **twice** per oscillation (both directions through the middle).\nHook: a swing trades speed for height and back, twice per full swing."
     },
     {
       "id": "phy-0105",
       "topic": "Oscillations",
+      "kind": "general",
       "front": "Formulas: energy in SHM. Name every variable.\n\nFormula · 17.2",
       "back": "**Total energy** (constant):\n$$E=\\tfrac{1}{2}m\\omega^2x_0^2$$\n**Kinetic energy** at displacement $x$:\n$$E_k=\\tfrac{1}{2}m\\omega^2(x_0^2-x^2)$$\n**Potential energy** at displacement $x$:\n$$E_p=\\tfrac{1}{2}m\\omega^2x^2$$\n- $m$: mass (kg) · $\\omega$: angular frequency ($\\text{rad s}^{-1}$)\n- $x_0$: amplitude (m) · $x$: displacement (m)\n\nTotal energy is **not** on the formula sheet: **learn it**. It's just $\\tfrac{1}{2}mv_0^2$ with $v_0=\\omega x_0$.\nEnergy $\\propto x_0^2$: double the amplitude, **4 times** the energy.\nExample: $m=0.20$ kg, $\\omega=12.6\\ \\text{rad s}^{-1}$, $x_0=0.050$ m: $E=$ **0.039 J**."
     },
     {
       "id": "phy-0106",
       "topic": "Oscillations",
+      "kind": "general",
       "front": "Show that a mass on a spring oscillates with SHM and find its period.\n\n4 points · 17.1",
       "back": "1. Restoring force from the spring (Hooke's law): $F=-kx$ (opposite to displacement).\n2. Newton's 2nd law: $ma=-kx$, so\n$$a=-\\dfrac{k}{m}x$$\n3. This has the form $a=-\\omega^2x$: $a\\propto x$ and opposite, so it's **SHM**, with $\\omega^2=\\dfrac{k}{m}$.\n4. $$T=2\\pi\\sqrt{\\dfrac{m}{k}}$$\n\n$k$: spring constant ($\\text{N m}^{-1}$) · $m$: oscillating mass (kg).\nThe period does **not** depend on the amplitude.\nTrap: this formula isn't on the formula sheet. Exams usually give it or ask you to derive it, as above."
     },
     {
       "id": "phy-0107",
       "topic": "Oscillations",
+      "kind": "definition",
       "front": "What is damping? What causes it and what does it do to an oscillation?\n\n3 points · 17.3",
       "back": "1. Damping is caused by a **resistive force** (friction, air resistance) that **opposes the motion**.\n2. **Energy is lost** from the oscillating system (to **thermal energy**/surroundings).\n3. So the **amplitude decreases** with time.\n\nFor **light** damping the **frequency stays (almost) the same**; only the amplitude shrinks.\nTrap: damping reduces **amplitude** and **energy**, not the period."
     },
     {
       "id": "phy-0108",
       "topic": "Oscillations",
+      "kind": "definition",
       "front": "Describe light, critical and heavy damping. Sketch the displacement–time graphs.\n\n3 points · 17.3",
       "back": "1. **Light damping**: the system **oscillates**, with an amplitude that **decreases gradually** (exponentially). Same period throughout.\n2. **Critical damping**: returns to the equilibrium position in the **shortest possible time**, **without oscillating**.\n3. **Heavy damping**: returns to equilibrium **without oscillating**, but **slowly**: takes **longer** than critical damping.\n\nSketches (all from the same starting displacement): light = shrinking wave; critical = quick smooth fall to zero; heavy = slow creep to zero.\nExample: **car suspension** is close to **critical**, so the car settles quickly without bouncing.\nTrap: critical = **shortest time, no oscillation**. Both phrases are needed."
     },
     {
       "id": "phy-0109",
       "topic": "Oscillations",
+      "kind": "definition",
       "front": "Define natural frequency and forced oscillation.\n\n2 definitions · 17.3",
       "back": "1. **Natural frequency**: the frequency at which a system oscillates when it is **displaced and left to oscillate freely** (no driving force).\n2. **Forced oscillation**: oscillation caused by an **external periodic (driving) force**. The system oscillates at the **driving frequency**, not its natural frequency.\n\nExample: pushing a child on a swing is forcing it; letting go after one push gives its natural frequency.\nTrap: once it settles, a forced system follows the **driver's** frequency."
     },
     {
       "id": "phy-0110",
       "topic": "Oscillations",
+      "kind": "definition",
       "front": "What is resonance? When does it happen?\n\n3 points · 17.3",
       "back": "1. Resonance is when the **amplitude** of a forced oscillation is a **maximum**,\n2. which happens when the **driving frequency equals the natural frequency** of the system.\n3. Energy is transferred from the driver to the system **most efficiently**.\n\nHook: push a swing in time with its own rhythm and it goes higher and higher.\nTrap: say \"**maximum amplitude**\". \"It vibrates a lot\" won't score."
     },
     {
       "id": "phy-0111",
       "topic": "Oscillations",
+      "kind": "general",
       "front": "How does increasing the damping change the resonance (amplitude–driving frequency) curve?\n\n3 points · 17.3",
       "back": "1. The amplitude is **smaller at all frequencies**: the **peak is lower**.\n2. The peak is **flatter / broader** (less sharp).\n3. The peak (maximum amplitude) moves to a **slightly lower frequency**.\n\nAt very low and very high driving frequencies the curves come together (damping matters most near resonance).\nTrap: draw the more-damped curve **below** the other everywhere, with its peak slightly to the **left**. Curves never cross."
     },
     {
       "id": "phy-0112",
       "topic": "Oscillations",
+      "kind": "general",
       "front": "Give examples of resonance being useful and being a problem.\n\n4 points · 17.3",
       "back": "**Useful** (any two):\n1. **Tuning a radio**: the circuit resonates at the station's frequency.\n2. **Microwave oven**: microwaves make water molecules resonate, heating the food.\n3. **Musical instruments**: air columns or strings resonate to make loud notes.\n4. **MRI scanners**: nuclei resonate in a magnetic field.\n\n**A problem** (any two):\n1. **Bridges** and **buildings** can be shaken apart by wind, footsteps or earthquakes.\n2. **Vehicle parts** or **machinery** vibrate violently at certain engine speeds.\n\nFix for the problems: **increase the damping** (dampers, shock absorbers) or **change the natural frequency** (stiffness or mass)."
     }
