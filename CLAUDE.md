@@ -32,7 +32,7 @@ home screen; it works offline.
 
 - `id` must be unique and must never change once published, because progress is keyed on it.
   Number new cards after the highest existing id in that deck: `phy-` Physics, `che-` Chemistry,
-  `bio-` Biology, `chd-` Chem 9701 · All Definitions (deck `chem-definitions`, every syllabus definition, `chd-0001`–`chd-0095` as of 2026-11-20). For a new deck, pick a short prefix and add the deck to `decks/index.json`
+  `bio-` Biology, `chd-` Chem 9701 · All Definitions (deck `chem-definitions`, every syllabus definition, `chd-0001`–`chd-0095` as of 2026-11-20). `phd-` Physics 9702 · All Definitions (deck `phy-definitions`, every AS + A Level define/state outcome, `phd-0001`–`phd-0145` as of 2026-11-20). For a new deck, pick a short prefix and add the deck to `decks/index.json`
   (`id`, `name`, `code`, `color` from yellow, green, pink, blue, orange, lavender, `file`).
 - Never reuse a deleted card's id. Retired so far (starter cards Umar asked to remove on 2026-10-20):
   `phy-0001`–`phy-0012`, `che-0001`–`che-0012`, `bio-0001`–`bio-0010`. Always number from the

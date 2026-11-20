@@ -27,6 +27,13 @@
       "code": "9701",
       "color": "blue",
       "file": "chem-definitions.json"
+    },
+    {
+      "id": "phy-definitions",
+      "name": "Physics 9702 · All Definitions",
+      "code": "9702",
+      "color": "orange",
+      "file": "phy-definitions.json"
     }
   ]
 }

@@ -1,0 +1,1020 @@
+{
+  "deck": "phy-definitions",
+  "cards": [
+    {
+      "id": "phd-0001",
+      "topic": "Physical quantities and units",
+      "kind": "definition",
+      "front": "What does every **physical quantity** consist of?\n\nState · 1.1.1",
+      "back": "A **numerical magnitude** and a **unit**.\n\nExample: 9.81 m s$^{-2}$: magnitude 9.81, unit m s$^{-2}$.\nTrap: a number with no unit (where one is needed) loses the mark."
+    },
+    {
+      "id": "phd-0002",
+      "topic": "Physical quantities and units",
+      "kind": "definition",
+      "front": "State the **SI base quantities** and their units.\n\nState · 1.2.1",
+      "back": "1. **Mass**: kilogram (**kg**)\n2. **Length**: metre (**m**)\n3. **Time**: second (**s**)\n4. **Current**: ampere (**A**)\n5. **Temperature**: kelvin (**K**)\n6. **Amount of substance**: mole (**mol**) (15.1.1)\n\nTrap: **charge** (C), **force** (N) and **voltage** (V) are **not** base quantities: they're derived."
+    },
+    {
+      "id": "phd-0003",
+      "topic": "Physical quantities and units",
+      "kind": "definition",
+      "front": "State the **prefixes** in the syllabus and their values.\n\nState · 1.2.4",
+      "back": "1. pico (p) $10^{-12}$\n2. nano (n) $10^{-9}$\n3. micro ($\\mu$) $10^{-6}$\n4. milli (m) $10^{-3}$\n5. centi (c) $10^{-2}$\n6. deci (d) $10^{-1}$\n7. kilo (k) $10^{3}$\n8. mega (M) $10^{6}$\n9. giga (G) $10^{9}$\n10. tera (T) $10^{12}$\n\nTrap: capital **M** = mega, small **m** = milli."
+    },
+    {
+      "id": "phd-0004",
+      "topic": "Physical quantities and units",
+      "kind": "definition",
+      "front": "Define **systematic error** and **random error**.\n\nDefine · 1.3.1",
+      "back": "1. **Systematic error**: an error of the **same size and sign** in every reading, so readings are **all too high or all too low**. It **cannot** be reduced by repeating and averaging. A **zero error** is a systematic error.\n2. **Random error**: an error that makes readings **scatter about the true value** (some above, some below). It is **reduced by repeating** readings and **averaging**.\n\nHook: systematic shifts everything **one way**; random **scatters** both ways."
+    },
+    {
+      "id": "phd-0005",
+      "topic": "Physical quantities and units",
+      "kind": "definition",
+      "front": "Distinguish between **precision** and **accuracy**.\n\nDefine · 1.3.2",
+      "back": "1. **Accuracy**: how **close** a measurement (or the mean) is to the **true value**.\n2. **Precision**: how **close repeated measurements are to each other** (small spread / range of readings).\n\nTrap: readings can be **precise but not accurate** (all close together, but all off because of a systematic error)."
+    },
+    {
+      "id": "phd-0006",
+      "topic": "Physical quantities and units",
+      "kind": "definition",
+      "front": "Distinguish between **scalar** and **vector** quantities, with examples.\n\nDefine · 1.4.1",
+      "back": "1. **Scalar**: has **magnitude only**. e.g. mass, distance, speed, time, energy, power, temperature, charge, potential.\n2. **Vector**: has **magnitude and direction**. e.g. displacement, velocity, acceleration, force, weight, momentum, electric field strength.\n\nTrap: **work/energy** is a **scalar** even though force and displacement are vectors."
+    },
+    {
+      "id": "phd-0007",
+      "topic": "Kinematics",
+      "kind": "definition",
+      "front": "Define **distance** and **displacement**.\n\nDefine · 2.1.1",
+      "back": "1. **Distance**: the **total length of the path** travelled. **Scalar**.\n2. **Displacement**: the **distance** from a **fixed point** in a **specified direction** (straight line). **Vector**.\n\nExample: one full lap of a 400 m track: distance 400 m, displacement **0**."
+    },
+    {
+      "id": "phd-0008",
+      "topic": "Kinematics",
+      "kind": "definition",
+      "front": "Define **speed** and **velocity**.\n\nDefine · 2.1.1",
+      "back": "1. **Speed**: **distance travelled per unit time** (rate of change of distance). **Scalar**.\n2. **Velocity**: **rate of change of displacement** (change in displacement per unit time). **Vector**.\n\nTrap: velocity needs \"**displacement**\". Saying \"speed in a direction\" can lose the mark."
+    },
+    {
+      "id": "phd-0009",
+      "topic": "Kinematics",
+      "kind": "definition",
+      "front": "Define **acceleration**.\n\nDefine · 2.1.1",
+      "back": "**Rate of change of velocity** (change in velocity per unit time).\n\n$$a=\\dfrac{\\Delta v}{\\Delta t}$$ Units: m s$^{-2}$. **Vector**.\nTrap: \"rate of change of **speed**\" is **wrong**. Circular motion at constant speed still has acceleration."
+    },
+    {
+      "id": "phd-0010",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "What is **mass**?\n\nDefine · 3.1.1",
+      "back": "The **property of an object** that **resists change in motion**.\n\nUnit: kg (base unit). **Scalar**.\nTrap: mass is **not** weight. Mass doesn't change from planet to planet; weight does."
+    },
+    {
+      "id": "phd-0011",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "Define **linear momentum**.\n\nDefine · 3.1.3",
+      "back": "The **product of mass and velocity**.\n\n$$p=mv$$ Units: kg m s$^{-1}$ (= N s). **Vector**: same direction as the velocity."
+    },
+    {
+      "id": "phd-0012",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "Define **force** and the **newton**.\n\nDefine · 3.1.4",
+      "back": "1. **Force**: the **rate of change of momentum**.\n$$F=\\dfrac{\\Delta p}{\\Delta t}$$\n2. **1 newton**: the force that gives a **mass of 1 kg** an **acceleration of 1 m s$^{-2}$**.\n\n$1\\ \\text{N}=1\\ \\text{kg m s}^{-2}$"
+    },
+    {
+      "id": "phd-0013",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "State **Newton's first law** of motion.\n\nState · 3.1.5",
+      "back": "A body **remains at rest** or continues to move with **constant velocity** (constant speed in a straight line)\n**unless acted on by a resultant (external) force**.\n\nTrap: \"constant **velocity**\", not just constant speed."
+    },
+    {
+      "id": "phd-0014",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "State **Newton's second law** of motion.\n\nState · 3.1.5",
+      "back": "The **resultant force** on a body is **(directly) proportional to the rate of change of its momentum**,\nand acts in the **direction of the change in momentum**.\n\n$$F=\\dfrac{\\Delta p}{\\Delta t}$$ which becomes $F=ma$ for **constant mass**.\nTrap: $F=ma$ is a special case. The law is about **momentum**."
+    },
+    {
+      "id": "phd-0015",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "State **Newton's third law** of motion.\n\nState · 3.1.5",
+      "back": "If body A exerts a force on body B, then body B exerts a force on body A that is\n**equal in magnitude** and **opposite in direction** (and of the **same type**).\n\nTrap: the two forces act on **different bodies**, so they **never cancel**. Weight and the normal reaction on a book are **not** a third-law pair."
+    },
+    {
+      "id": "phd-0016",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "What is **weight**?\n\nDefine · 3.1.6",
+      "back": "The **effect of a gravitational field on a mass**: the **force** on a mass due to the gravitational field.\n\n$$W=mg$$ Units: N. **Vector**, acting **downwards** (towards the centre of the Earth)."
+    },
+    {
+      "id": "phd-0017",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "What is **terminal velocity**? When is it reached?\n\nState · 3.2.3",
+      "back": "1. The **constant (maximum) velocity** reached by an object moving against a **resistive force**.\n2. It's reached when the **resistive force (drag) equals the driving force** (e.g. weight),\n3. so the **resultant force is zero** and the **acceleration is zero**.\n\nTrap: drag **increases with speed**. That's why it eventually balances the weight."
+    },
+    {
+      "id": "phd-0018",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "State the **principle of conservation of momentum**.\n\nState · 3.3.1",
+      "back": "The **total momentum** of a system **remains constant**,\nprovided **no resultant external force** acts on the system (an isolated system).\n\nTrap: \"**total**\" and \"**no external force**\" are the mark points."
+    },
+    {
+      "id": "phd-0019",
+      "topic": "Dynamics",
+      "kind": "definition",
+      "front": "Distinguish between **elastic** and **inelastic** collisions.\n\nDefine · 3.3.3",
+      "back": "1. **Elastic**: **total kinetic energy is conserved**. Also, **relative speed of approach = relative speed of separation**.\n2. **Inelastic**: **kinetic energy is not conserved** (some changes to other forms, e.g. thermal).\n3. In **both**: **momentum** and **total energy** are **always conserved**.\n\nTrap: never say \"energy is lost\" in an elastic collision. Say **kinetic** energy is conserved."
+    },
+    {
+      "id": "phd-0020",
+      "topic": "Forces, density and pressure",
+      "kind": "definition",
+      "front": "Define **centre of gravity**.\n\nDefine · 4.1.1",
+      "back": "The **point** through which the **(whole) weight** of an object **may be taken to act**.\n\nFor a uniform object it's at the **geometric centre**."
+    },
+    {
+      "id": "phd-0021",
+      "topic": "Forces, density and pressure",
+      "kind": "definition",
+      "front": "Define the **moment of a force**.\n\nDefine · 4.1.2",
+      "back": "The **product** of the **force** and the **perpendicular distance** from the **pivot (point)** to the **line of action** of the force.\n\n$$\\text{moment}=F\\times d_\\perp$$ Units: N m.\nTrap: the distance must be **perpendicular** to the force."
+    },
+    {
+      "id": "phd-0022",
+      "topic": "Forces, density and pressure",
+      "kind": "definition",
+      "front": "What is a **couple**?\n\nDefine · 4.1.3",
+      "back": "A **pair of forces** that are **equal in magnitude**, **opposite in direction** and **parallel** but **not in the same line**,\nwhich produce **rotation only** (no resultant force, so no translation)."
+    },
+    {
+      "id": "phd-0023",
+      "topic": "Forces, density and pressure",
+      "kind": "definition",
+      "front": "Define the **torque of a couple**.\n\nDefine · 4.1.4",
+      "back": "The **product** of **one of the forces** and the **perpendicular distance between the lines of action** of the two forces.\n\n$$\\text{torque}=F\\times d$$ Units: N m.\nTrap: use **one** force, not both added together."
+    },
+    {
+      "id": "phd-0024",
+      "topic": "Forces, density and pressure",
+      "kind": "definition",
+      "front": "State the **principle of moments**.\n\nState · 4.2.1",
+      "back": "For a body in **equilibrium**, the **sum of the clockwise moments** about **any point**\n**equals** the **sum of the anticlockwise moments** about **the same point**."
+    },
+    {
+      "id": "phd-0025",
+      "topic": "Forces, density and pressure",
+      "kind": "definition",
+      "front": "State the two **conditions for equilibrium**.\n\nState · 4.2.2",
+      "back": "1. **No resultant force** (forces balance in every direction).\n2. **No resultant torque / moment** (about any point).\n\nHook: no **sliding** and no **spinning**."
+    },
+    {
+      "id": "phd-0026",
+      "topic": "Forces, density and pressure",
+      "kind": "definition",
+      "front": "Define **density**.\n\nDefine · 4.3.1",
+      "back": "**Mass per unit volume**.\n\n$$\\rho=\\dfrac{m}{V}$$ Units: kg m$^{-3}$."
+    },
+    {
+      "id": "phd-0027",
+      "topic": "Forces, density and pressure",
+      "kind": "definition",
+      "front": "Define **pressure**.\n\nDefine · 4.3.2",
+      "back": "**(Normal) force per unit area** (force acting **perpendicular** to the area).\n\n$$p=\\dfrac{F}{A}$$ Units: Pa (= N m$^{-2}$). **Scalar**."
+    },
+    {
+      "id": "phd-0028",
+      "topic": "Forces, density and pressure",
+      "kind": "definition",
+      "front": "What is **upthrust**, and what causes it?\n\nDefine · 4.3.5",
+      "back": "1. The **upward force** on an object in a **fluid**.\n2. It is caused by the **difference in hydrostatic pressure** between the **top and bottom** of the object (pressure is greater lower down).\n3. Upthrust = **weight of fluid displaced**: $F=\\rho gV$.\n\n$\\rho$: density of the **fluid** · $V$: volume **displaced**."
+    },
+    {
+      "id": "phd-0029",
+      "topic": "Work, energy and power",
+      "kind": "definition",
+      "front": "Define **work done** and the **joule**.\n\nDefine · 5.1.1",
+      "back": "1. **Work done**: the **product** of the **force** and the **displacement in the direction of the force**.\n$$W=Fs\\cos\\theta$$\n2. **1 joule**: the work done when a **force of 1 N** moves its point of application **1 m** in the **direction of the force**."
+    },
+    {
+      "id": "phd-0030",
+      "topic": "Work, energy and power",
+      "kind": "definition",
+      "front": "State the **principle of conservation of energy**.\n\nState · 5.1.2",
+      "back": "Energy **cannot be created or destroyed**;\nit can only be **transferred** from one form to another.\n(The **total energy** of an **isolated** system is **constant**.)"
+    },
+    {
+      "id": "phd-0031",
+      "topic": "Work, energy and power",
+      "kind": "definition",
+      "front": "Define **efficiency**.\n\nDefine · 5.1.3",
+      "back": "The **ratio** of the **useful energy (or power) output** to the **total energy (or power) input**.\n\n$$\\text{efficiency}=\\dfrac{\\text{useful output}}{\\text{total input}}\\ (\\times100\\%)$$\nNo units. Always **less than 1** (100%)."
+    },
+    {
+      "id": "phd-0032",
+      "topic": "Work, energy and power",
+      "kind": "definition",
+      "front": "Define **power** and the **watt**.\n\nDefine · 5.1.5",
+      "back": "1. **Power**: **work done per unit time** (rate of doing work / energy transferred per unit time).\n$$P=\\dfrac{W}{t}$$\n2. **1 watt** = **1 joule per second**."
+    },
+    {
+      "id": "phd-0033",
+      "topic": "Work, energy and power",
+      "kind": "definition",
+      "front": "What is **gravitational potential energy** and **kinetic energy**?\n\nDefine · 5.2.1",
+      "back": "1. **Gravitational potential energy**: energy a mass has because of its **position in a gravitational field**. $\\Delta E_p=mg\\Delta h$ (uniform field).\n2. **Kinetic energy**: energy an object has because of its **motion**. $E_k=\\tfrac{1}{2}mv^2$"
+    },
+    {
+      "id": "phd-0034",
+      "topic": "Deformation of solids",
+      "kind": "definition",
+      "front": "Distinguish between **tensile** and **compressive** forces.\n\nDefine · 6.1.1",
+      "back": "1. **Tensile** forces **stretch** an object: they cause **extension** (positive).\n2. **Compressive** forces **squash** an object: they cause **compression** (negative)."
+    },
+    {
+      "id": "phd-0035",
+      "topic": "Deformation of solids",
+      "kind": "definition",
+      "front": "Define **load**, **extension**, **compression** and **limit of proportionality**.\n\nDefine · 6.1.2",
+      "back": "1. **Load**: the **force** applied that causes deformation.\n2. **Extension**: the **increase in length**.\n3. **Compression**: the **decrease in length**.\n4. **Limit of proportionality**: the point beyond which the **extension is no longer proportional to the load** (Hooke's law no longer obeyed)."
+    },
+    {
+      "id": "phd-0036",
+      "topic": "Deformation of solids",
+      "kind": "definition",
+      "front": "State **Hooke's law** and define the **spring constant**.\n\nState · 6.1.3",
+      "back": "1. **Hooke's law**: the **extension** is **(directly) proportional to the force (load)** applied,\n2. provided the **limit of proportionality** is **not exceeded**.\n3. **Spring constant**: **force per unit extension**.\n$$k=\\dfrac{F}{x}$$ Units: N m$^{-1}$."
+    },
+    {
+      "id": "phd-0037",
+      "topic": "Deformation of solids",
+      "kind": "definition",
+      "front": "Define **stress**, **strain** and the **Young modulus**.\n\nDefine · 6.1.5",
+      "back": "1. **Stress**: **force per unit cross-sectional area**. $\\sigma=\\dfrac{F}{A}$ (Pa)\n2. **Strain**: **extension per unit original length**. $\\varepsilon=\\dfrac{x}{L}$ (**no units**)\n3. **Young modulus**: **stress ÷ strain** (within the **limit of proportionality**). $E=\\dfrac{\\sigma}{\\varepsilon}$ (Pa)\n\nTrap: strain uses the **original** length."
+    },
+    {
+      "id": "phd-0038",
+      "topic": "Deformation of solids",
+      "kind": "definition",
+      "front": "Define **elastic deformation**, **plastic deformation** and **elastic limit**.\n\nDefine · 6.2.1",
+      "back": "1. **Elastic deformation**: the material **returns to its original shape/length** when the **load is removed**.\n2. **Plastic deformation**: **permanent** deformation: the material **does not return** to its original shape when the load is removed.\n3. **Elastic limit**: the **maximum load** (point) beyond which the material **will not return to its original length** when the load is removed.\n\nTrap: the elastic limit is **not** the same as the limit of proportionality (it comes at or after it)."
+    },
+    {
+      "id": "phd-0039",
+      "topic": "Deformation of solids",
+      "kind": "definition",
+      "front": "What is **elastic potential (strain) energy**, and what does the area under a force–extension graph represent?\n\nState · 6.2.2",
+      "back": "1. **Elastic potential energy**: energy **stored** in a body because it is **deformed**.\n2. **Area under the force–extension graph** = **work done** (energy stored).\n3. Within the limit of proportionality: $E_p=\\tfrac{1}{2}Fx=\\tfrac{1}{2}kx^2$"
+    },
+    {
+      "id": "phd-0040",
+      "topic": "Waves",
+      "kind": "definition",
+      "front": "What does a **progressive wave** do?\n\nDefine · 7.1.6",
+      "back": "It **transfers energy** from one place to another\n**without transferring matter**, by **oscillations** (of particles or of fields)."
+    },
+    {
+      "id": "phd-0041",
+      "topic": "Waves",
+      "kind": "definition",
+      "front": "Define **displacement**, **amplitude** and **wavelength** for a wave.\n\nDefine · 7.1.2",
+      "back": "1. **Displacement**: the **distance** of a point (particle) from its **equilibrium position** (in a given direction).\n2. **Amplitude**: the **maximum displacement** from the **equilibrium position**.\n3. **Wavelength**: the **distance between two adjacent points** on the wave that are **in phase** (e.g. crest to adjacent crest)."
+    },
+    {
+      "id": "phd-0042",
+      "topic": "Waves",
+      "kind": "definition",
+      "front": "Define **period**, **frequency**, **wave speed** and **phase difference** for a wave.\n\nDefine · 7.1.2",
+      "back": "1. **Period**: the **time for one complete oscillation** (of a point on the wave).\n2. **Frequency**: the **number of oscillations per unit time**.\n3. **Wave speed**: the **distance travelled by the wave (energy) per unit time**.\n4. **Phase difference**: the **fraction of a cycle** between the oscillations of two points (or two waves), given in **degrees or radians**.\n\n$v=f\\lambda$, $f=\\dfrac{1}{T}$"
+    },
+    {
+      "id": "phd-0043",
+      "topic": "Waves",
+      "kind": "definition",
+      "front": "Define **intensity** of a wave.\n\nDefine · 7.1.7",
+      "back": "**Power per unit area** (area **perpendicular** to the direction of the wave).\n\n$$I=\\dfrac{P}{A}$$ Units: W m$^{-2}$.\nAlso: **intensity ∝ (amplitude)$^2$**. Double the amplitude, **4×** the intensity."
+    },
+    {
+      "id": "phd-0044",
+      "topic": "Waves",
+      "kind": "definition",
+      "front": "Distinguish between **transverse** and **longitudinal** waves.\n\nDefine · 7.2.1",
+      "back": "1. **Transverse**: particles oscillate **perpendicular (at 90°)** to the **direction of energy transfer** (wave travel). e.g. EM waves, waves on a string.\n2. **Longitudinal**: particles oscillate **parallel** to the **direction of energy transfer**. e.g. sound. They have **compressions** and **rarefactions**.\n\nOnly **transverse** waves can be **polarised**."
+    },
+    {
+      "id": "phd-0045",
+      "topic": "Waves",
+      "kind": "definition",
+      "front": "What is the **Doppler effect** for sound?\n\nState · 7.3.1",
+      "back": "When a **source** of sound **moves relative to a (stationary) observer**, the **observed frequency is different** from the **source frequency**.\n1. Source moving **towards** the observer: observed frequency **higher**.\n2. Source moving **away**: observed frequency **lower**.\n\n$$f_o=\\dfrac{f_sv}{v\\pm v_s}$$ ($-$ approaching, $+$ receding)\nTrap: the **source** frequency doesn't change; only the **observed** one does."
+    },
+    {
+      "id": "phd-0046",
+      "topic": "Waves",
+      "kind": "definition",
+      "front": "State two properties shared by **all electromagnetic waves**.\n\nState · 7.4.1",
+      "back": "1. They are all **transverse** waves.\n2. They all travel at the **same speed** $c$ in **free space (a vacuum)**: $c=3.00\\times10^8$ m s$^{-1}$."
+    },
+    {
+      "id": "phd-0047",
+      "topic": "Waves",
+      "kind": "definition",
+      "front": "State the regions of the **electromagnetic spectrum** in order, with approximate wavelengths.\n\nState · 7.4.2",
+      "back": "Shortest to longest wavelength (approx., the ranges overlap):\n1. **γ-rays**: $<10^{-11}$ m\n2. **X-rays**: $10^{-13}$ to $10^{-8}$ m\n3. **Ultraviolet**: $10^{-8}$ to $4\\times10^{-7}$ m\n4. **Visible**: **400–700 nm** ($4\\times10^{-7}$ to $7\\times10^{-7}$ m) (7.4.3)\n5. **Infrared**: $7\\times10^{-7}$ to $10^{-3}$ m\n6. **Microwaves**: $10^{-3}$ to $10^{-1}$ m\n7. **Radio waves**: $>10^{-1}$ m\n\nHook: **G**reat e**X**plorers **U**se **V**ery **I**nteresting **M**aps and **R**adios."
+    },
+    {
+      "id": "phd-0048",
+      "topic": "Waves",
+      "kind": "definition",
+      "front": "What is meant by a **plane-polarised** wave? State **Malus's law**.\n\nDefine · 7.5.1",
+      "back": "1. A **plane-polarised** wave has **oscillations in one plane only** (that contains the direction of travel).\n2. Polarisation only happens with **transverse** waves.\n3. **Malus's law**: the transmitted intensity is $I=I_0\\cos^2\\theta$, where $\\theta$ is the angle between the **plane of polarisation** of the wave and the **transmission axis** of the polariser.\n\nTrap: Malus's law uses $\\cos^{\\mathbf 2}$, because intensity ∝ amplitude$^2$."
+    },
+    {
+      "id": "phd-0049",
+      "topic": "Superposition",
+      "kind": "definition",
+      "front": "State the **principle of superposition**.\n\nState · 8.1.1",
+      "back": "When **two (or more) waves meet** at a point, the **resultant displacement** is the **(vector) sum** of the **individual displacements**."
+    },
+    {
+      "id": "phd-0050",
+      "topic": "Superposition",
+      "kind": "definition",
+      "front": "What is a **stationary wave**? Define **node** and **antinode**.\n\nDefine · 8.1.3",
+      "back": "1. A **stationary wave** is formed by the **superposition** of **two waves** of the **same frequency** (and speed) travelling in **opposite directions** (often a wave and its reflection).\n2. **Node**: a point of **zero amplitude**.\n3. **Antinode**: a point of **maximum amplitude**.\n\nDistance between **adjacent nodes** = $\\lambda/2$.\nTrap: a stationary wave **does not transfer energy**."
+    },
+    {
+      "id": "phd-0051",
+      "topic": "Superposition",
+      "kind": "definition",
+      "front": "Explain the meaning of the term **diffraction**.\n\nDefine · 8.2.1",
+      "back": "The **spreading** of a wave as it passes **through a gap** or **around an edge (obstacle)**.\n\nMost noticeable when the **gap width ≈ wavelength**.\nTrap: the wavelength and speed **don't change**: only the direction spreads."
+    },
+    {
+      "id": "phd-0052",
+      "topic": "Superposition",
+      "kind": "definition",
+      "front": "Define **interference** and **coherence**.\n\nDefine · 8.3.1",
+      "back": "1. **Interference**: the **superposition** of two (or more) **coherent** waves where they **overlap**, giving **regions of maximum and minimum** intensity (constructive and destructive).\n2. **Coherence**: waves (sources) with a **constant phase difference** (so also the **same frequency**)."
+    },
+    {
+      "id": "phd-0053",
+      "topic": "Superposition",
+      "kind": "definition",
+      "front": "State the **conditions** needed to observe two-source **interference fringes**.\n\nState · 8.3.3",
+      "back": "1. The sources must be **coherent** (**constant phase difference**).\n2. Same **frequency / wavelength** (follows from coherence).\n3. Similar **amplitudes** (for clear, dark minima).\n4. For transverse waves: same **plane of polarisation** (or unpolarised).\n\nConstructive (sources in phase): path difference $=n\\lambda$. Destructive: $(n+\\tfrac{1}{2})\\lambda$."
+    },
+    {
+      "id": "phd-0054",
+      "topic": "Electricity",
+      "kind": "definition",
+      "front": "Define **electric current** and the **coulomb**.\n\nDefine · 9.1.1",
+      "back": "1. **Electric current**: a **flow of charge carriers**; the **rate of flow of charge**.\n$$I=\\dfrac{Q}{t}$$\n2. **1 coulomb**: the charge that passes a point when a **current of 1 A** flows for **1 s**. ($1\\ \\text{C}=1\\ \\text{A s}$)"
+    },
+    {
+      "id": "phd-0055",
+      "topic": "Electricity",
+      "kind": "definition",
+      "front": "What does it mean that **charge is quantised**?\n\nState · 9.1.2",
+      "back": "Charge only exists in **whole-number multiples** of the **elementary charge** $e$.\n\n$e=1.60\\times10^{-19}$ C (the charge on a proton; an electron is $-e$).\nExample: a charge of $2.4\\times10^{-19}$ C is **impossible** ($1.5e$)."
+    },
+    {
+      "id": "phd-0056",
+      "topic": "Electricity",
+      "kind": "definition",
+      "front": "Define **potential difference** and the **volt**.\n\nDefine · 9.2.1",
+      "back": "1. **Potential difference** across a component: the **energy transferred** (from electrical to other forms) **per unit charge**.\n$$V=\\dfrac{W}{Q}$$\n2. **1 volt** = **1 joule per coulomb**."
+    },
+    {
+      "id": "phd-0057",
+      "topic": "Electricity",
+      "kind": "definition",
+      "front": "Define **resistance** and the **ohm**.\n\nDefine · 9.3.1",
+      "back": "1. **Resistance**: the **ratio** of the **potential difference across** a component to the **current in** it.\n$$R=\\dfrac{V}{I}$$\n2. **1 ohm** = **1 volt per ampere**.\n\nTrap: resistance is $V/I$ at a point, **not** the gradient of an $I$–$V$ graph."
+    },
+    {
+      "id": "phd-0058",
+      "topic": "Electricity",
+      "kind": "definition",
+      "front": "State **Ohm's law**.\n\nState · 9.3.5",
+      "back": "The **current** in a (metallic) conductor is **(directly) proportional** to the **potential difference** across it,\nprovided the **temperature** (and other physical conditions) **remains constant**."
+    },
+    {
+      "id": "phd-0059",
+      "topic": "Electricity",
+      "kind": "definition",
+      "front": "Define **resistivity**.\n\nDefine · 9.3.6",
+      "back": "From $R=\\dfrac{\\rho L}{A}$:\n$$\\rho=\\dfrac{RA}{L}$$\nThe resistivity is the **resistance × cross-sectional area ÷ length** of a sample of the material. Units: **Ω m**.\n\nIt's a property of the **material**, not of the particular wire (depends on temperature)."
+    },
+    {
+      "id": "phd-0060",
+      "topic": "Electricity",
+      "kind": "definition",
+      "front": "State how the resistance of an **LDR** and of an (NTC) **thermistor** changes.\n\nState · 9.3.7",
+      "back": "1. **LDR**: resistance **decreases** as **light intensity increases**.\n2. **Thermistor**: resistance **decreases** as **temperature increases**."
+    },
+    {
+      "id": "phd-0061",
+      "topic": "D.C. circuits",
+      "kind": "definition",
+      "front": "Define the **electromotive force (e.m.f.)** of a source.\n\nDefine · 10.1.3",
+      "back": "The **energy transferred** (from other forms to **electrical**) **per unit charge**\nin **driving charge around a complete circuit**.\n\nUnits: V (= J C$^{-1}$)."
+    },
+    {
+      "id": "phd-0062",
+      "topic": "D.C. circuits",
+      "kind": "definition",
+      "front": "Distinguish between **e.m.f.** and **potential difference**.\n\nDefine · 10.1.4",
+      "back": "1. **E.m.f.**: energy transferred from **other forms to electrical** energy **per unit charge** (in a **source**).\n2. **P.d.**: energy transferred from **electrical** energy **to other forms per unit charge** (in a **component**).\n\nHook: e.m.f. **gives** energy to the charge; p.d. is where the charge **gives it away**."
+    },
+    {
+      "id": "phd-0063",
+      "topic": "D.C. circuits",
+      "kind": "definition",
+      "front": "What is **internal resistance**, and what does it do to the terminal p.d.?\n\nDefine · 10.1.5",
+      "back": "1. The **resistance inside** a source of e.m.f.\n2. When current flows, energy is lost in it (**lost volts** $=Ir$),\n3. so the **terminal p.d. is less than the e.m.f.**:\n$$V=E-Ir$$"
+    },
+    {
+      "id": "phd-0064",
+      "topic": "D.C. circuits",
+      "kind": "definition",
+      "front": "State **Kirchhoff's first law**. What is it a consequence of?\n\nState · 10.2.1",
+      "back": "1. The **sum of the currents entering a junction** equals the **sum of the currents leaving** it.\n2. It's a consequence of **conservation of charge**."
+    },
+    {
+      "id": "phd-0065",
+      "topic": "D.C. circuits",
+      "kind": "definition",
+      "front": "State **Kirchhoff's second law**. What is it a consequence of?\n\nState · 10.2.2",
+      "back": "1. In any **closed loop** of a circuit, the **sum of the e.m.f.s** equals the **sum of the p.d.s**.\n2. It's a consequence of **conservation of energy**."
+    },
+    {
+      "id": "phd-0066",
+      "topic": "D.C. circuits",
+      "kind": "definition",
+      "front": "State the **principle of the potentiometer**.\n\nState · 10.3.2",
+      "back": "1. The p.d. across a **uniform** resistance wire is **proportional to its length**.\n2. At the **balance point** the **galvanometer reads zero** (no current in it),\n3. so the unknown p.d. **equals** the p.d. across that **length** of wire.\n\nUsed to **compare** p.d.s (or e.m.f.s): $\\dfrac{V_1}{V_2}=\\dfrac{L_1}{L_2}$"
+    },
+    {
+      "id": "phd-0067",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "Define **proton number** and **nucleon number**. Define the **unified atomic mass unit**.\n\nDefine · 11.1.3",
+      "back": "1. **Proton number** $Z$: the **number of protons** in the nucleus.\n2. **Nucleon number** $A$: the **total number of protons and neutrons** in the nucleus.\n3. **Unified atomic mass unit** (u): $\\tfrac{1}{12}$ of the **mass of a carbon-12 atom**. $1\\ \\text{u}=1.66\\times10^{-27}$ kg (11.1.12)"
+    },
+    {
+      "id": "phd-0068",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "Define **isotopes**.\n\nDefine · 11.1.4",
+      "back": "Forms of the **same element** with the **same number of protons**\nbut **different numbers of neutrons** in their nuclei.\n\nSame **proton number**, different **nucleon number**."
+    },
+    {
+      "id": "phd-0069",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "What is **conserved** in nuclear processes?\n\nState · 11.1.6",
+      "back": "1. **Nucleon number**\n2. **Charge** (proton number, counting electrons/positrons too)\n\nSo the top numbers and the bottom numbers both **balance** in a nuclear equation."
+    },
+    {
+      "id": "phd-0070",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "State the **composition, mass and charge** of α, β$^-$, β$^+$ and γ radiation.\n\nState · 11.1.7",
+      "back": "1. **α**: a **helium nucleus** (2 protons + 2 neutrons). Mass **4u**, charge **+2e**.\n2. **β$^-$**: a fast **electron**. Mass $\\approx\\tfrac{1}{2000}$u, charge **−e**.\n3. **β$^+$**: a fast **positron**. Mass $\\approx\\tfrac{1}{2000}$u, charge **+e**.\n4. **γ**: **electromagnetic radiation** (photons). **No mass, no charge**.\n\nSpeeds: α slowest, β up to $\\approx0.99c$, γ at $c$."
+    },
+    {
+      "id": "phd-0071",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "What is an **antiparticle**?\n\nDefine · 11.1.8",
+      "back": "A particle with the **same mass** but **opposite charge** to the corresponding particle.\n\nExample: the **positron** is the antiparticle of the **electron**."
+    },
+    {
+      "id": "phd-0072",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "Which (anti)neutrino is produced in β$^-$ and β$^+$ decay? Why do β-particles have a range of energies?\n\nState · 11.1.9",
+      "back": "1. **β$^-$ decay**: an (electron) **antineutrino** is produced.\n2. **β$^+$ decay**: an (electron) **neutrino** is produced.\n3. α-particles have **discrete** energies, but β-particles have a **continuous range** of energies, because the energy released is **shared** between the β-particle and the **(anti)neutrino** (11.1.10)."
+    },
+    {
+      "id": "phd-0073",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "What is a **quark**? State the six flavours and their charges.\n\nDefine · 11.2.1",
+      "back": "1. A quark is a **fundamental particle**.\n2. Six **flavours**: **up, down, strange, charm, top, bottom**.\n3. Charges: **u, c, t**: $+\\tfrac{2}{3}e$. **d, s, b**: $-\\tfrac{1}{3}e$.\n4. Each **antiquark** has the **opposite charge**.\n\nHook: the \"up-type\" ones (u, c, t) are $+\\tfrac{2}{3}$."
+    },
+    {
+      "id": "phd-0074",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "State the quark composition of a **proton** and a **neutron**.\n\nState · 11.2.3",
+      "back": "1. Protons and neutrons are **not fundamental**: they're made of quarks.\n2. **Proton**: **uud** (charge $+\\tfrac{2}{3}+\\tfrac{2}{3}-\\tfrac{1}{3}=+1$)\n3. **Neutron**: **udd** (charge $+\\tfrac{2}{3}-\\tfrac{1}{3}-\\tfrac{1}{3}=0$)"
+    },
+    {
+      "id": "phd-0075",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "Define **hadron**, **baryon** and **meson**.\n\nDefine · 11.2.4",
+      "back": "1. **Hadron**: a particle **made of quarks**.\n2. **Baryon**: a hadron of **three quarks** (or three antiquarks). e.g. proton, neutron.\n3. **Meson**: a hadron of **one quark and one antiquark**."
+    },
+    {
+      "id": "phd-0076",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "State the **quark changes** in β$^-$ and β$^+$ decay.\n\nState · 11.2.5",
+      "back": "1. **β$^-$**: a **down** quark changes to an **up** quark: $d\\to u+e^-+\\bar{\\nu}$ (neutron → proton)\n2. **β$^+$**: an **up** quark changes to a **down** quark: $u\\to d+e^++\\nu$ (proton → neutron)"
+    },
+    {
+      "id": "phd-0077",
+      "topic": "Particle physics",
+      "kind": "definition",
+      "front": "What is a **lepton**?\n\nDefine · 11.2.6",
+      "back": "A **fundamental particle** that is **not made of quarks**.\n**Electrons** and **neutrinos** (and their antiparticles) are **leptons**."
+    },
+    {
+      "id": "phd-0078",
+      "topic": "Motion in a circle",
+      "kind": "definition",
+      "front": "Define the **radian**.\n\nDefine · A Level 12.1.1",
+      "back": "The **angle subtended at the centre** of a circle by an **arc equal in length to the radius**.\n\n$$\\theta=\\dfrac{s}{r}$$ $2\\pi$ rad $=360^\\circ$."
+    },
+    {
+      "id": "phd-0079",
+      "topic": "Motion in a circle",
+      "kind": "definition",
+      "front": "Define **angular speed**.\n\nDefine · A Level 12.1.2",
+      "back": "The **rate of change of angular displacement** (angle swept out per unit time).\n\n$$\\omega=\\dfrac{\\Delta\\theta}{\\Delta t}=\\dfrac{2\\pi}{T}$$ Units: rad s$^{-1}$. Linked to speed by $v=r\\omega$."
+    },
+    {
+      "id": "phd-0080",
+      "topic": "Motion in a circle",
+      "kind": "definition",
+      "front": "What causes **circular motion**? State the direction of **centripetal acceleration**.\n\nState · A Level 12.2.1",
+      "back": "1. A force of **constant magnitude** that is **always perpendicular** to the direction of motion\n2. causes a **centripetal acceleration** directed **towards the centre** of the circle,\n3. giving circular motion at **constant speed (angular speed)**.\n\n$a=r\\omega^2=\\dfrac{v^2}{r}$\nTrap: centripetal force is **not** an extra force: it's the **resultant** (e.g. tension, gravity, friction)."
+    },
+    {
+      "id": "phd-0081",
+      "topic": "Gravitational fields",
+      "kind": "definition",
+      "front": "What is a **gravitational field**? Define **gravitational field strength**.\n\nDefine · A Level 13.1.1",
+      "back": "1. A **gravitational field** is a **region** where a **mass** experiences a **force** (a field of force).\n2. **Gravitational field strength**: the **force per unit mass**.\n$$g=\\dfrac{F}{m}$$ Units: N kg$^{-1}$. **Vector**."
+    },
+    {
+      "id": "phd-0082",
+      "topic": "Gravitational fields",
+      "kind": "definition",
+      "front": "For a point outside a uniform sphere, how can its mass be treated?\n\nState · A Level 13.2.1",
+      "back": "As a **point mass at its centre**.\n\nSo $r$ is measured from the **centre**: $r=R+h$."
+    },
+    {
+      "id": "phd-0083",
+      "topic": "Gravitational fields",
+      "kind": "definition",
+      "front": "State **Newton's law of gravitation**.\n\nState · A Level 13.2.2",
+      "back": "The (attractive) force between two **point masses** is **proportional to the product of their masses**\nand **inversely proportional to the square of their separation**.\n\n$$F=\\dfrac{Gm_1m_2}{r^2}$$"
+    },
+    {
+      "id": "phd-0084",
+      "topic": "Gravitational fields",
+      "kind": "definition",
+      "front": "State the properties of a **geostationary orbit**.\n\nState · A Level 13.2.4",
+      "back": "1. **Period = 24 hours**.\n2. **Directly above the Equator** (equatorial orbit).\n3. Moves **west to east** (same direction as the Earth's rotation).\n4. So it **remains above the same point** on the Earth's surface."
+    },
+    {
+      "id": "phd-0085",
+      "topic": "Gravitational fields",
+      "kind": "definition",
+      "front": "Define **gravitational potential** at a point.\n\nDefine · A Level 13.4.1",
+      "back": "The **work done per unit mass** in bringing a **small test mass** **from infinity** to that point.\n\n$$\\phi=-\\dfrac{GM}{r}$$ Units: J kg$^{-1}$. **Scalar**, always **negative**."
+    },
+    {
+      "id": "phd-0086",
+      "topic": "Gravitational fields",
+      "kind": "definition",
+      "front": "Define the **gravitational potential energy** of a mass at a point.\n\nDefine · A Level 13.4.3",
+      "back": "The **work done** in bringing the mass **from infinity** to that point.\n\n$$E_p=-\\dfrac{GMm}{r}$$ Units: J. **Scalar**."
+    },
+    {
+      "id": "phd-0087",
+      "topic": "Temperature",
+      "kind": "definition",
+      "front": "Which way does thermal energy flow? Define **thermal equilibrium**.\n\nState · A Level 14.1.1",
+      "back": "1. (Thermal) energy is transferred from a region of **higher temperature** to a region of **lower temperature**.\n2. **Thermal equilibrium**: regions at the **same temperature**, so there is **no net transfer of thermal energy** between them."
+    },
+    {
+      "id": "phd-0088",
+      "topic": "Temperature",
+      "kind": "definition",
+      "front": "What is a **thermometric property**? How is the **thermodynamic scale** different?\n\nState · A Level 14.2.1",
+      "back": "1. A **physical property that varies with temperature** can be used to measure temperature. e.g. volume of a liquid, resistance of a metal, e.m.f. of a thermocouple.\n2. The **thermodynamic (kelvin) scale** does **not depend on the property of any particular substance** (14.2.2)."
+    },
+    {
+      "id": "phd-0089",
+      "topic": "Temperature",
+      "kind": "definition",
+      "front": "What is **absolute zero**? How do you convert between °C and K?\n\nDefine · A Level 14.2.4",
+      "back": "1. The **lowest possible temperature**: **zero kelvin** on the thermodynamic scale.\n2. At absolute zero a substance has **minimum internal energy**.\n3. $$T/\\text{K}=\\theta/^\\circ\\text{C}+273.15$$\n\nTrap: a temperature **difference** of 1 K equals a difference of 1 °C."
+    },
+    {
+      "id": "phd-0090",
+      "topic": "Temperature",
+      "kind": "definition",
+      "front": "Define **specific heat capacity**.\n\nDefine · A Level 14.3.1",
+      "back": "The **energy required per unit mass** to **raise the temperature by one degree** (1 K).\n\n$$c=\\dfrac{E}{m\\Delta\\theta}$$ Units: J kg$^{-1}$ K$^{-1}$."
+    },
+    {
+      "id": "phd-0091",
+      "topic": "Temperature",
+      "kind": "definition",
+      "front": "Define **specific latent heat**. Distinguish fusion and vaporisation.\n\nDefine · A Level 14.3.2",
+      "back": "1. **Specific latent heat**: the **energy required per unit mass** to **change the state** of a substance **without a change in temperature**.\n$$L=\\dfrac{E}{m}$$ Units: J kg$^{-1}$.\n2. **Fusion**: **solid ↔ liquid** (melting).\n3. **Vaporisation**: **liquid ↔ gas** (boiling).\n\nVaporisation is bigger: molecules must be separated **much further** and work is done **pushing back the atmosphere**."
+    },
+    {
+      "id": "phd-0092",
+      "topic": "Ideal gases",
+      "kind": "definition",
+      "front": "What is the **mole** and the **Avogadro constant**?\n\nDefine · A Level 15.1.1",
+      "back": "1. **Amount of substance** is an **SI base quantity** with base unit the **mole (mol)**.\n2. **One mole** contains $N_A$ particles.\n3. **Avogadro constant** $N_A=6.02\\times10^{23}$ mol$^{-1}$: the **number of particles per mole**."
+    },
+    {
+      "id": "phd-0093",
+      "topic": "Ideal gases",
+      "kind": "definition",
+      "front": "What is an **ideal gas**?\n\nDefine · A Level 15.2.1",
+      "back": "A gas that obeys $pV\\propto T$ (i.e. $pV=nRT$) at **all pressures, volumes and temperatures**,\nwhere $T$ is the **thermodynamic temperature**.\n\nTrap: $T$ must be in **kelvin**."
+    },
+    {
+      "id": "phd-0094",
+      "topic": "Ideal gases",
+      "kind": "definition",
+      "front": "State the **basic assumptions of the kinetic theory** of gases.\n\nState · A Level 15.3.1",
+      "back": "1. A gas has a **very large number** of molecules in **continuous random motion**.\n2. **Intermolecular forces are negligible** (except during collisions).\n3. The **volume of the molecules is negligible** compared with the **volume of the gas (container)**.\n4. **Collisions are elastic** (with each other and the walls).\n5. The **time of a collision is negligible** compared with the **time between collisions**.\n\nHook: tiny, fast, random, bouncy, no sticking."
+    },
+    {
+      "id": "phd-0095",
+      "topic": "Ideal gases",
+      "kind": "definition",
+      "front": "Define the **Boltzmann constant**. State the **mean kinetic energy** of a gas molecule.\n\nState · A Level 15.2.3",
+      "back": "1. $$k=\\dfrac{R}{N_A}=1.38\\times10^{-23}\\ \\text{J K}^{-1}$$\n2. Average translational **kinetic energy** of a molecule:\n$$\\tfrac{1}{2}m\\langle c^2\\rangle=\\tfrac{3}{2}kT$$\n3. So mean kinetic energy is **proportional to the thermodynamic temperature** (15.3.4)."
+    },
+    {
+      "id": "phd-0096",
+      "topic": "Thermodynamics",
+      "kind": "definition",
+      "front": "Define **internal energy**.\n\nDefine · A Level 16.1.1",
+      "back": "The **sum** of a **random distribution** of the **kinetic and potential energies** of the **molecules** in a system.\n\nIt's determined by the **state** of the system.\nA **rise in temperature** means an **increase in internal energy** (16.1.2).\nIdeal gas: **no potential energy**, so internal energy = total kinetic energy."
+    },
+    {
+      "id": "phd-0097",
+      "topic": "Thermodynamics",
+      "kind": "definition",
+      "front": "State the **first law of thermodynamics**.\n\nState · A Level 16.2.2",
+      "back": "The **increase in internal energy** of a system equals the **thermal energy supplied to** the system (heating) **plus** the **work done on** the system.\n\n$$\\Delta U=q+W$$\nTrap: $W$ is work done **on** the gas. If the gas **expands**, it does work, so $W$ is **negative**."
+    },
+    {
+      "id": "phd-0098",
+      "topic": "Oscillations",
+      "kind": "definition",
+      "front": "Define **displacement**, **amplitude**, **period** and **frequency** for an oscillation.\n\nDefine · A Level 17.1.1",
+      "back": "1. **Displacement**: distance from the **equilibrium position** (in a given direction).\n2. **Amplitude**: **maximum displacement** from the equilibrium position.\n3. **Period**: **time for one complete oscillation**.\n4. **Frequency**: **number of oscillations per unit time**."
+    },
+    {
+      "id": "phd-0099",
+      "topic": "Oscillations",
+      "kind": "definition",
+      "front": "Define **angular frequency** and **phase difference**.\n\nDefine · A Level 17.1.1",
+      "back": "1. **Angular frequency**: $\\omega=2\\pi f=\\dfrac{2\\pi}{T}$ (the rate of change of phase angle). Units: rad s$^{-1}$.\n2. **Phase difference**: the **fraction of a cycle** between two oscillations, in **degrees or radians**."
+    },
+    {
+      "id": "phd-0100",
+      "topic": "Oscillations",
+      "kind": "definition",
+      "front": "Define **simple harmonic motion**.\n\nDefine · A Level 17.1.2",
+      "back": "Motion in which the **acceleration** is **(directly) proportional to the displacement** from a **fixed point**\nand is **directed towards** that point (opposite to the displacement).\n\n$$a=-\\omega^2x$$"
+    },
+    {
+      "id": "phd-0101",
+      "topic": "Oscillations",
+      "kind": "definition",
+      "front": "What is **damping**?\n\nDefine · A Level 17.3.1",
+      "back": "The **loss of energy** (and decrease in **amplitude**) of an oscillating system\ncaused by a **resistive force** that **opposes the motion**."
+    },
+    {
+      "id": "phd-0102",
+      "topic": "Oscillations",
+      "kind": "definition",
+      "front": "Define **light**, **critical** and **heavy** damping.\n\nDefine · A Level 17.3.2",
+      "back": "1. **Light**: the system **oscillates** with **gradually decreasing amplitude**.\n2. **Critical**: returns to **equilibrium** in the **shortest possible time** **without oscillating**.\n3. **Heavy**: returns to equilibrium **without oscillating**, but **slowly** (longer than critical)."
+    },
+    {
+      "id": "phd-0103",
+      "topic": "Oscillations",
+      "kind": "definition",
+      "front": "Define **natural frequency**, **forced oscillation** and **resonance**.\n\nDefine · A Level 17.3.3",
+      "back": "1. **Natural frequency**: the frequency at which a system **oscillates freely** (no driving force).\n2. **Forced oscillation**: oscillation caused by an **external periodic driving force**.\n3. **Resonance**: **maximum amplitude** of oscillation, when the **driving frequency equals the natural frequency**."
+    },
+    {
+      "id": "phd-0104",
+      "topic": "Electric fields",
+      "kind": "definition",
+      "front": "What is an **electric field**? Define **electric field strength**.\n\nDefine · A Level 18.1.1",
+      "back": "1. An **electric field** is a **region** where a **charge** experiences a **force** (a field of force).\n2. **Electric field strength**: the **force per unit positive charge**.\n$$E=\\dfrac{F}{q}$$ Units: N C$^{-1}$ (= V m$^{-1}$). **Vector**."
+    },
+    {
+      "id": "phd-0105",
+      "topic": "Electric fields",
+      "kind": "definition",
+      "front": "For a point outside a spherical conductor, how can its charge be treated?\n\nState · A Level 18.3.1",
+      "back": "As a **point charge at its centre**.\n\nSo $r$ is measured from the **centre** of the sphere."
+    },
+    {
+      "id": "phd-0106",
+      "topic": "Electric fields",
+      "kind": "definition",
+      "front": "State **Coulomb's law**.\n\nState · A Level 18.3.2",
+      "back": "The force between two **point charges** is **proportional to the product of the charges**\nand **inversely proportional to the square of their separation**.\n\n$$F=\\dfrac{Q_1Q_2}{4\\pi\\varepsilon_0r^2}$$"
+    },
+    {
+      "id": "phd-0107",
+      "topic": "Electric fields",
+      "kind": "definition",
+      "front": "Define **electric potential** at a point.\n\nDefine · A Level 18.5.1",
+      "back": "The **work done per unit positive charge** in bringing a **small test charge** **from infinity** to that point.\n\n$$V=\\dfrac{Q}{4\\pi\\varepsilon_0r}$$ Units: V. **Scalar**."
+    },
+    {
+      "id": "phd-0108",
+      "topic": "Electric fields",
+      "kind": "definition",
+      "front": "State the relationship between **electric field strength** and **potential**.\n\nState · A Level 18.5.2",
+      "back": "The **electric field strength** at a point equals the **negative of the potential gradient** at that point.\n\n$$E=-\\dfrac{\\Delta V}{\\Delta x}$$"
+    },
+    {
+      "id": "phd-0109",
+      "topic": "Electric fields",
+      "kind": "definition",
+      "front": "Define the **electric potential energy** of a charge at a point.\n\nDefine · A Level 18.5.4",
+      "back": "The **work done** in bringing the charge **from infinity** to that point.\n\n$$E_p=\\dfrac{Qq}{4\\pi\\varepsilon_0r}$$ Units: J. **Scalar**."
+    },
+    {
+      "id": "phd-0110",
+      "topic": "Capacitance",
+      "kind": "definition",
+      "front": "Define **capacitance** (isolated sphere and parallel plates) and the **farad**.\n\nDefine · A Level 19.1.1",
+      "back": "1. **Capacitance**: the **charge stored per unit potential** (difference).\n$$C=\\dfrac{Q}{V}$$\n2. **Isolated sphere**: $Q$ = charge on the sphere, $V$ = **potential** of the sphere.\n3. **Parallel plates**: $Q$ = charge on **one plate**, $V$ = **p.d. between** the plates.\n4. **1 farad** = **1 coulomb per volt**."
+    },
+    {
+      "id": "phd-0111",
+      "topic": "Capacitance",
+      "kind": "definition",
+      "front": "What is the **time constant** of a capacitor discharging through a resistor?\n\nDefine · A Level 19.3.2",
+      "back": "1. $$\\tau=RC$$ Units: s.\n2. It is the **time taken** for the charge (or current, or p.d.) to fall to $\\dfrac{1}{e}$ (**≈ 37%**) of its **initial value**."
+    },
+    {
+      "id": "phd-0112",
+      "topic": "Magnetic fields",
+      "kind": "definition",
+      "front": "What is a **magnetic field**? What produces it?\n\nDefine · A Level 20.1.1",
+      "back": "1. A **region** where a **magnetic pole**, a **moving charge** or a **current-carrying conductor** experiences a **force** (a field of force).\n2. Produced by **moving charges** (currents) or **permanent magnets**.\n3. The field of a **solenoid** is **increased by a ferrous (iron) core** (20.4.2)."
+    },
+    {
+      "id": "phd-0113",
+      "topic": "Magnetic fields",
+      "kind": "definition",
+      "front": "Define **magnetic flux density** and the **tesla**.\n\nDefine · A Level 20.2.3",
+      "back": "1. **Magnetic flux density**: the **force per unit current per unit length** on a wire placed **at right angles** to the magnetic field.\n$$B=\\dfrac{F}{IL}$$\n2. **1 tesla**: the flux density that gives a **force of 1 N** on a wire of **length 1 m** carrying **1 A** **at right angles** to the field."
+    },
+    {
+      "id": "phd-0114",
+      "topic": "Magnetic fields",
+      "kind": "definition",
+      "front": "Define **magnetic flux** and the **weber**.\n\nDefine · A Level 20.5.1",
+      "back": "1. **Magnetic flux**: the **product** of the **magnetic flux density** and the **cross-sectional area perpendicular** to the field.\n$$\\Phi=BA$$\n2. **1 weber** = **1 T m$^2$**."
+    },
+    {
+      "id": "phd-0115",
+      "topic": "Magnetic fields",
+      "kind": "definition",
+      "front": "Define **magnetic flux linkage**.\n\nDefine · A Level 20.5.3",
+      "back": "The **product** of the **number of turns** of a coil and the **magnetic flux** through it.\n\n$$\\text{flux linkage}=N\\Phi$$ Units: Wb (or Wb-turns)."
+    },
+    {
+      "id": "phd-0116",
+      "topic": "Magnetic fields",
+      "kind": "definition",
+      "front": "State **Faraday's law** of electromagnetic induction.\n\nState · A Level 20.5.5",
+      "back": "The **induced e.m.f.** is **(directly) proportional to the rate of change of magnetic flux linkage**.\n\n$$E=-\\dfrac{\\Delta(N\\Phi)}{\\Delta t}$$"
+    },
+    {
+      "id": "phd-0117",
+      "topic": "Magnetic fields",
+      "kind": "definition",
+      "front": "State **Lenz's law**.\n\nState · A Level 20.5.5",
+      "back": "The **direction** of the **induced e.m.f.** (or current) is such that it **opposes the change** (in flux) that **produces** it.\n\nIt's a consequence of **conservation of energy**. It gives the **minus sign** in Faraday's law."
+    },
+    {
+      "id": "phd-0118",
+      "topic": "Alternating currents",
+      "kind": "definition",
+      "front": "Define **period**, **frequency** and **peak value** of an alternating current.\n\nDefine · A Level 21.1.1",
+      "back": "1. **Period**: the **time for one complete cycle**.\n2. **Frequency**: the **number of cycles per unit time**.\n3. **Peak value**: the **maximum** value of the current (or voltage) from zero."
+    },
+    {
+      "id": "phd-0119",
+      "topic": "Alternating currents",
+      "kind": "definition",
+      "front": "Define the **root-mean-square (r.m.s.)** value of an alternating current.\n\nDefine · A Level 21.1.4",
+      "back": "The value of the **direct current** that would **dissipate the same (mean) power** in a **resistor** as the alternating current.\n\nSinusoidal: $$I_{\\text{r.m.s.}}=\\dfrac{I_0}{\\sqrt2}$$\nMean power in a resistor = **half** the maximum power (21.1.3)."
+    },
+    {
+      "id": "phd-0120",
+      "topic": "Alternating currents",
+      "kind": "definition",
+      "front": "What is **rectification**? Distinguish half-wave and full-wave.\n\nDefine · A Level 21.2.1",
+      "back": "1. **Rectification**: converting **alternating current** into **direct current** (current in one direction only).\n2. **Half-wave**: only **one half** of each cycle passes; the other half is **zero**.\n3. **Full-wave**: **both halves** pass, with the negative half **flipped** to positive."
+    },
+    {
+      "id": "phd-0121",
+      "topic": "Quantum physics",
+      "kind": "definition",
+      "front": "What is a **photon**? State its energy and momentum.\n\nDefine · A Level 22.1.2",
+      "back": "1. A **photon** is a **quantum** (discrete packet) of **electromagnetic energy**.\n2. Energy: $E=hf$\n3. Momentum: $p=\\dfrac{E}{c}$ (22.1.5)"
+    },
+    {
+      "id": "phd-0122",
+      "topic": "Quantum physics",
+      "kind": "definition",
+      "front": "What is the **photoelectric effect**?\n\nDefine · A Level 22.2.1",
+      "back": "The **emission of electrons** from a **metal surface** when it is **illuminated by electromagnetic radiation** (of high enough frequency)."
+    },
+    {
+      "id": "phd-0123",
+      "topic": "Quantum physics",
+      "kind": "definition",
+      "front": "Define **threshold frequency**, **threshold wavelength** and **work function**.\n\nDefine · A Level 22.2.2",
+      "back": "1. **Threshold frequency**: the **minimum frequency** of EM radiation that causes **emission of electrons** from the surface.\n2. **Threshold wavelength**: the **maximum wavelength** that causes emission.\n3. **Work function**: the **minimum energy** needed to **remove an electron** from the **surface** of the metal (22.2.3).\n\n$$hf=\\Phi+\\tfrac{1}{2}mv_{\\max}^2$$"
+    },
+    {
+      "id": "phd-0124",
+      "topic": "Quantum physics",
+      "kind": "definition",
+      "front": "State the evidence for **wave–particle duality**.\n\nState · A Level 22.3.1",
+      "back": "1. **Photoelectric effect**: evidence for the **particle** nature of **EM radiation**.\n2. **Interference and diffraction**: evidence for the **wave** nature of **EM radiation**.\n3. **Electron diffraction**: evidence for the **wave** nature of **particles** (22.3.2)."
+    },
+    {
+      "id": "phd-0125",
+      "topic": "Quantum physics",
+      "kind": "definition",
+      "front": "What is the **de Broglie wavelength**?\n\nDefine · A Level 22.3.3",
+      "back": "The **wavelength associated with a moving particle**.\n\n$$\\lambda=\\dfrac{h}{p}=\\dfrac{h}{mv}$$"
+    },
+    {
+      "id": "phd-0126",
+      "topic": "Quantum physics",
+      "kind": "definition",
+      "front": "What are **energy levels**? Define **emission** and **absorption line spectra**.\n\nState · A Level 22.4.1",
+      "back": "1. Electrons in **isolated atoms** can only have certain **discrete energies** (energy levels).\n2. When an electron moves between levels, a **photon** is emitted or absorbed: $hf=E_1-E_2$.\n3. **Emission line spectrum**: **bright lines** on a dark background (electrons **dropping** down levels).\n4. **Absorption line spectrum**: **dark lines** on a continuous spectrum (photons **absorbed** as electrons move up)."
+    },
+    {
+      "id": "phd-0127",
+      "topic": "Nuclear physics",
+      "kind": "definition",
+      "front": "State the **mass–energy equivalence**.\n\nState · A Level 23.1.1",
+      "back": "**Mass and energy are equivalent**: a change in energy means a change in mass.\n\n$$E=mc^2$$ ($\\Delta E=c^2\\Delta m$)"
+    },
+    {
+      "id": "phd-0128",
+      "topic": "Nuclear physics",
+      "kind": "definition",
+      "front": "Define **mass defect** and **binding energy**.\n\nDefine · A Level 23.1.3",
+      "back": "1. **Mass defect**: the **difference** between the **total mass of the separate nucleons** and the **mass of the nucleus**.\n2. **Binding energy**: the **energy required to separate** a nucleus into its **individual nucleons** (to infinity).\n\nBinding energy $=\\Delta m\\,c^2$. Higher **binding energy per nucleon** = more **stable** (peak near iron-56)."
+    },
+    {
+      "id": "phd-0129",
+      "topic": "Nuclear physics",
+      "kind": "definition",
+      "front": "Explain what is meant by **nuclear fusion** and **nuclear fission**.\n\nDefine · A Level 23.1.5",
+      "back": "1. **Fusion**: **two light nuclei** **combine** to form a **heavier nucleus**, releasing energy.\n2. **Fission**: a **heavy nucleus** **splits** into **two lighter nuclei** of similar mass (plus neutrons), releasing energy.\n\nBoth release energy because **binding energy per nucleon increases**."
+    },
+    {
+      "id": "phd-0130",
+      "topic": "Nuclear physics",
+      "kind": "definition",
+      "front": "What is meant by radioactive decay being **spontaneous** and **random**?\n\nDefine · A Level 23.2.2",
+      "back": "1. **Spontaneous**: **not affected by external factors** (temperature, pressure, chemical state).\n2. **Random**: it **cannot be predicted** **which** nucleus will decay or **when**; each nucleus has a **constant probability** of decay per unit time.\n3. Evidence for randomness: **fluctuations in count rate** (23.2.1)."
+    },
+    {
+      "id": "phd-0131",
+      "topic": "Nuclear physics",
+      "kind": "definition",
+      "front": "Define **activity** and **decay constant**.\n\nDefine · A Level 23.2.3",
+      "back": "1. **Activity**: the **number of nuclear decays per unit time**. Units: Bq (1 Bq = 1 decay s$^{-1}$).\n2. **Decay constant**: the **probability** that a nucleus will **decay per unit time**. Units: s$^{-1}$.\n$$A=\\lambda N$$"
+    },
+    {
+      "id": "phd-0132",
+      "topic": "Nuclear physics",
+      "kind": "definition",
+      "front": "Define **half-life**.\n\nDefine · A Level 23.2.4",
+      "back": "The **time taken** for the **number of undecayed nuclei** (of a particular isotope) to **fall to half** its initial value.\n\n$$t_{1/2}=\\dfrac{\\ln2}{\\lambda}$$\nTrap: say \"**undecayed nuclei**\", not \"the mass\" or \"the substance\"."
+    },
+    {
+      "id": "phd-0133",
+      "topic": "Medical physics",
+      "kind": "definition",
+      "front": "What is the **piezo-electric effect**? What is **ultrasound**?\n\nDefine · A Level 24.1.1",
+      "back": "1. A **piezo-electric crystal** **changes shape** when a **p.d. is applied** across it,\n2. and **generates an e.m.f.** when its **shape changes**.\n3. **Ultrasound**: sound with a **frequency above 20 kHz** (above human hearing)."
+    },
+    {
+      "id": "phd-0134",
+      "topic": "Medical physics",
+      "kind": "definition",
+      "front": "Define **specific acoustic impedance**.\n\nDefine · A Level 24.1.4",
+      "back": "The **product** of the **density** of a medium and the **speed of sound** in it.\n\n$$Z=\\rho c$$ Units: kg m$^{-2}$ s$^{-1}$.\nA **big difference** in $Z$ at a boundary means **more reflection**."
+    },
+    {
+      "id": "phd-0135",
+      "topic": "Medical physics",
+      "kind": "definition",
+      "front": "What is **attenuation**?\n\nDefine · A Level 24.1.6",
+      "back": "The **decrease in intensity** of a beam (ultrasound or X-rays) as it passes through matter.\n\n$$I=I_0e^{-\\mu x}$$ $\\mu$: **(linear) attenuation (absorption) coefficient** (m$^{-1}$) · $x$: thickness (m)."
+    },
+    {
+      "id": "phd-0136",
+      "topic": "Medical physics",
+      "kind": "definition",
+      "front": "What is meant by **contrast** in X-ray imaging?\n\nDefine · A Level 24.2.2",
+      "back": "The **difference in the degree of blackening** between **different areas** (tissues) of the image.\n\nGood contrast: tissues with **very different attenuation** (e.g. bone and soft tissue). Improved with a **contrast medium** (e.g. barium)."
+    },
+    {
+      "id": "phd-0137",
+      "topic": "Medical physics",
+      "kind": "definition",
+      "front": "What is **CT scanning**?\n\nState · A Level 24.2.4",
+      "back": "**Computed tomography** produces a **3D image** of an internal structure\nby combining **many X-ray images** of **cross-sections (slices)** taken from **different angles**."
+    },
+    {
+      "id": "phd-0138",
+      "topic": "Medical physics",
+      "kind": "definition",
+      "front": "What is a **tracer**? What type is used in **PET scanning**?\n\nDefine · A Level 24.3.1",
+      "back": "1. A **tracer** is a substance containing **radioactive nuclei** that is **introduced into the body** and **absorbed by the tissue** being studied.\n2. **PET** uses a tracer that decays by **β$^+$ decay** (emits **positrons**) (24.3.2)."
+    },
+    {
+      "id": "phd-0139",
+      "topic": "Medical physics",
+      "kind": "definition",
+      "front": "What is **annihilation**?\n\nDefine · A Level 24.3.3",
+      "back": "1. When a **particle** interacts with its **antiparticle**, they **annihilate**.\n2. **Mass–energy is conserved**: their mass (and kinetic energy) becomes **energy** as **two γ-ray photons**.\n3. In PET the two photons travel in **opposite directions** (conserving momentum) and are detected **outside the body** (24.3.6)."
+    },
+    {
+      "id": "phd-0140",
+      "topic": "Astronomy and cosmology",
+      "kind": "definition",
+      "front": "Define **luminosity** of a star.\n\nDefine · A Level 25.1.1",
+      "back": "The **total power** of **radiation** emitted by a star.\n\nUnits: W."
+    },
+    {
+      "id": "phd-0141",
+      "topic": "Astronomy and cosmology",
+      "kind": "definition",
+      "front": "Define **radiant flux intensity**.\n\nDefine · A Level 25.1.2",
+      "back": "The **radiant power** passing **normally through unit area** (at a distance from the source).\n\n$$F=\\dfrac{L}{4\\pi d^2}$$ Units: W m$^{-2}$. Obeys an **inverse square law**."
+    },
+    {
+      "id": "phd-0142",
+      "topic": "Astronomy and cosmology",
+      "kind": "definition",
+      "front": "What is a **standard candle**?\n\nDefine · A Level 25.1.3",
+      "back": "An astronomical object of **known luminosity**.\n\nMeasure its radiant flux intensity, then use $F=\\dfrac{L}{4\\pi d^2}$ to find its **distance**.\ne.g. **Cepheid variable stars**, **type 1a supernovae**."
+    },
+    {
+      "id": "phd-0143",
+      "topic": "Astronomy and cosmology",
+      "kind": "definition",
+      "front": "State **Wien's displacement law** and the **Stefan–Boltzmann law**.\n\nState · A Level 25.2.1",
+      "back": "1. **Wien's law**: the wavelength of **peak** emission is **inversely proportional** to the **thermodynamic temperature** of the surface.\n$$\\lambda_{\\max}\\propto\\dfrac{1}{T}$$\n2. **Stefan–Boltzmann law**: luminosity is proportional to **surface area** × $T^4$.\n$$L=4\\pi\\sigma r^2T^4$$ (25.2.2)"
+    },
+    {
+      "id": "phd-0144",
+      "topic": "Astronomy and cosmology",
+      "kind": "definition",
+      "front": "What is **redshift**?\n\nDefine · A Level 25.3.1",
+      "back": "An **increase in the observed wavelength** (decrease in frequency) of EM radiation from a source **moving away** from the observer.\n\n$$\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{\\Delta f}{f}\\approx\\dfrac{v}{c}$$\nSpectral lines from distant galaxies are shifted to **longer** wavelengths."
+    },
+    {
+      "id": "phd-0145",
+      "topic": "Astronomy and cosmology",
+      "kind": "definition",
+      "front": "State **Hubble's law**. What does it lead to?\n\nState · A Level 25.3.4",
+      "back": "1. The **recession speed** of a galaxy is **(approximately) proportional** to its **distance** from the Earth.\n$$v\\approx H_0d$$\n2. So the **Universe is expanding**, which leads to the **Big Bang theory**: the Universe began from a **single point** (very hot and dense) and has been **expanding ever since**."
+    }
+  ]
+}
