@@ -1,0 +1,575 @@
+{
+  "deck": "chem-definitions",
+  "cards": [
+    {
+      "id": "chd-0001",
+      "topic": "Atomic structure",
+      "front": "Define **proton (atomic) number** and **nucleon (mass) number**.\n\nDefine · 1.1.3",
+      "back": "1. **Proton number**: the number of **protons** in the **nucleus** of an atom.\n2. **Nucleon number**: the **total number of protons and neutrons** in the **nucleus** of an atom.\n\nTrap: nucleon number is **not** the same as relative atomic mass."
+    },
+    {
+      "id": "chd-0002",
+      "topic": "Atomic structure",
+      "front": "Define **isotope**.\n\nDefine · 1.2.1",
+      "back": "Atoms of the **same element** with the **same number of protons** but **different numbers of neutrons**.\n\nTrap: say **atoms**, not 'elements'. Isotopes have the **same chemical properties** (same electron configuration) but **different physical properties** (mass, density)."
+    },
+    {
+      "id": "chd-0003",
+      "topic": "Atomic structure",
+      "front": "Define **orbital**.\n\nDefine · 1.3.1",
+      "back": "A **region of space** around the nucleus that can hold **up to two electrons**, with **opposite spins**.\n\nShapes: s = spherical, p = dumbbell."
+    },
+    {
+      "id": "chd-0004",
+      "topic": "Atomic structure",
+      "front": "Define **shell**, **sub-shell** and **principal quantum number, n**.\n\nDefine · 1.3.1",
+      "back": "1. **Principal quantum number, n**: the number of the **main energy level** (shell) an electron is in, $n = 1, 2, 3 \\dots$\n2. **Shell**: a group of orbitals with the **same principal quantum number**.\n3. **Sub-shell**: a group of orbitals of the **same type** (s, p or d) within a shell (s = 1 orbital, p = 3, d = 5)."
+    },
+    {
+      "id": "chd-0005",
+      "topic": "Atomic structure",
+      "front": "Define **ground state** electronic configuration.\n\nDefine · 1.3.1",
+      "back": "The electronic configuration of an atom or ion with its electrons in the **lowest available energy levels** (the **lowest energy** arrangement)."
+    },
+    {
+      "id": "chd-0006",
+      "topic": "Atomic structure",
+      "front": "Define **first ionisation energy**.\n\nDefine · 1.4.1",
+      "back": "The energy required to **remove one electron** from **each atom** in **one mole** of **gaseous atoms** to form **one mole of gaseous 1+ ions**.\n$$\\ce{Na(g) -> Na+(g) + e-}$$\nTrap: lose the mark if you leave out **gaseous**, **one mole** or the **state symbols** in the equation."
+    },
+    {
+      "id": "chd-0007",
+      "topic": "Atomic structure",
+      "front": "Define **second ionisation energy** (successive ionisation energies).\n\nDefine · 1.4.1",
+      "back": "The energy required to **remove one electron** from **each ion** in **one mole** of **gaseous 1+ ions** to form **one mole of gaseous 2+ ions**.\n$$\\ce{Na+(g) -> Na^2+(g) + e-}$$\nIn general, the $n$th IE starts from gaseous $(n-1)$+ ions and forms gaseous $n$+ ions.\n\nTrap: it is **not** the energy to remove two electrons from the atom."
+    },
+    {
+      "id": "chd-0008",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "Define the **unified atomic mass unit**.\n\nDefine · 2.1.1",
+      "back": "**One twelfth** of the **mass of a carbon-12 atom**.\n\n(Symbol u; $1\\,\\text{u} \\approx 1.66 \\times 10^{-27}$ kg.)"
+    },
+    {
+      "id": "chd-0009",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "Define **relative atomic mass, $A_r$**.\n\nDefine · 2.1.2",
+      "back": "The **weighted mean (average) mass** of an **atom** of an element compared with **one twelfth** of the **mass of an atom of carbon-12**.\n\nTrap: **weighted** mean, because it takes account of the abundance of each isotope."
+    },
+    {
+      "id": "chd-0010",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "Define **relative isotopic mass**.\n\nDefine · 2.1.2",
+      "back": "The **mass of an atom of an isotope** compared with **one twelfth** of the **mass of an atom of carbon-12**.\n\nTrap: no 'weighted mean' here, it is one isotope."
+    },
+    {
+      "id": "chd-0011",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "Define **relative molecular mass, $M_r$**.\n\nDefine · 2.1.2",
+      "back": "The **weighted mean (average) mass** of a **molecule** compared with **one twelfth** of the **mass of an atom of carbon-12**."
+    },
+    {
+      "id": "chd-0012",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "Define **relative formula mass**.\n\nDefine · 2.1.2",
+      "back": "The **weighted mean (average) mass** of one **formula unit** of a compound compared with **one twelfth** of the **mass of an atom of carbon-12**.\n\nUsed for **ionic compounds** (e.g. NaCl), which do not have molecules."
+    },
+    {
+      "id": "chd-0013",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "Define the **mole** (in terms of the Avogadro constant).\n\nDefine · 2.2.1",
+      "back": "1. **Mole**: the **amount of substance** that contains the **Avogadro constant** number of particles (atoms, molecules, ions or electrons), $6.02 \\times 10^{23}$.\n2. **Avogadro constant, L**: the number of particles in **one mole**, $6.02 \\times 10^{23}\\ \\text{mol}^{-1}$.\n\nMemory hook: 1 mol = 'chemist's dozen' of $6.02 \\times 10^{23}$."
+    },
+    {
+      "id": "chd-0014",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "Define **empirical formula** and **molecular formula**.\n\nDefine · 2.3.3",
+      "back": "1. **Empirical formula**: the **simplest whole-number ratio** of the **atoms of each element** in a compound.\n2. **Molecular formula**: the **actual number of atoms** of each element in **one molecule** of a compound.\n\nExample: ethane is $\\ce{C2H6}$ (molecular), $\\ce{CH3}$ (empirical)."
+    },
+    {
+      "id": "chd-0015",
+      "topic": "Atoms, molecules and stoichiometry",
+      "front": "Define **anhydrous**, **hydrated** and **water of crystallisation**.\n\nDefine · 2.3.4",
+      "back": "1. **Water of crystallisation**: water molecules that are **chemically bonded** into the **crystal lattice** of a salt in a **fixed ratio**.\n2. **Hydrated**: a substance that **contains water of crystallisation** (e.g. $\\ce{CuSO4.5H2O}$).\n3. **Anhydrous**: a substance that **contains no water** (of crystallisation) (e.g. $\\ce{CuSO4}$)."
+    },
+    {
+      "id": "chd-0016",
+      "topic": "Chemical bonding",
+      "front": "Define **electronegativity**.\n\nDefine · 3.1.1",
+      "back": "The **power of an atom** to **attract electrons to itself** (syllabus wording).\n\nMark schemes also accept: '…to attract the **bonding pair of electrons** in a **covalent bond**'.\nIncreases **across a period** and **up a group** (F is the most electronegative)."
+    },
+    {
+      "id": "chd-0017",
+      "topic": "Chemical bonding",
+      "front": "Define **ionic bonding**.\n\nDefine · 3.2.1",
+      "back": "The **electrostatic attraction** between **oppositely charged ions**."
+    },
+    {
+      "id": "chd-0018",
+      "topic": "Chemical bonding",
+      "front": "Define **metallic bonding**.\n\nDefine · 3.3.1",
+      "back": "The **electrostatic attraction** between **positive metal ions** and **delocalised electrons**.\n\nTrap: say **positive ions**, not 'nuclei' or 'atoms'."
+    },
+    {
+      "id": "chd-0019",
+      "topic": "Chemical bonding",
+      "front": "Define **covalent bonding**.\n\nDefine · 3.4.1",
+      "back": "The **electrostatic attraction** between the **nuclei of two atoms** and a **shared pair of electrons**."
+    },
+    {
+      "id": "chd-0020",
+      "topic": "Chemical bonding",
+      "front": "Define a **coordinate (dative covalent) bond**.\n\nDefine · 3.4",
+      "back": "A **covalent bond** in which **both electrons** in the shared pair are **provided by the same atom**.\n\nExample: $\\ce{NH3 + H+ -> NH4+}$ (N donates its **lone pair** to $\\ce{H+}$).\nShown with an arrow from donor to acceptor."
+    },
+    {
+      "id": "chd-0021",
+      "topic": "Chemical bonding",
+      "front": "Define **σ (sigma) bond** and **π (pi) bond**.\n\nDefine · 3.4.2",
+      "back": "1. **σ bond**: formed by the **direct (end-on / head-on) overlap** of orbitals **between the bonding atoms**.\n2. **π bond**: formed by the **sideways overlap** of adjacent **p orbitals**, giving electron density **above and below** the plane of the σ bond.\n\nSingle bond = 1σ. Double bond = 1σ + 1π. Triple bond = 1σ + 2π.\nTrap: π bonds are **weaker** than σ bonds (less overlap)."
+    },
+    {
+      "id": "chd-0022",
+      "topic": "Chemical bonding",
+      "front": "What is meant by **hybridisation** (sp, sp², sp³)?\n\nDefine · 3.4.2",
+      "back": "The **mixing** of atomic orbitals (s and p) on an atom to form **new hybrid orbitals** of **equal energy**.\n\n1. **sp³**: 4 orbitals, **109.5°** (e.g. $\\ce{CH4}$).\n2. **sp²**: 3 orbitals, **120°**, 1 unhybridised p left for a π bond (e.g. $\\ce{C2H4}$).\n3. **sp**: 2 orbitals, **180°**, 2 p left for 2 π bonds (e.g. $\\ce{C2H2}$)."
+    },
+    {
+      "id": "chd-0023",
+      "topic": "Chemical bonding",
+      "front": "Define **bond energy** and **bond length**.\n\nDefine · 3.4.3",
+      "back": "1. **Bond energy**: the energy **required to break one mole** of a **particular covalent bond** in the **gaseous state**.\n2. **Bond length**: the **internuclear distance** between **two covalently bonded atoms**.\n\nTrap: bond breaking is always **endothermic** (bond energy is positive). Some are **exact** (e.g. H–H), others are **average** values from many compounds (e.g. C–H)."
+    },
+    {
+      "id": "chd-0024",
+      "topic": "Chemical bonding",
+      "front": "Define **hydrogen bond**.\n\nDefine · 3.6",
+      "back": "The attraction between a **lone pair** on a **highly electronegative atom** (**N, O** or F) and a **δ+ hydrogen atom** that is **covalently bonded to N, O or F** on another molecule.\n\nIn a diagram show: **δ+ / δ− dipoles**, the **lone pair**, and the H bond as a **dashed line** in a **straight line** (about 180°) with the O–H / N–H bond.\nIt is a special, strong type of **pd–pd** attraction."
+    },
+    {
+      "id": "chd-0025",
+      "topic": "Chemical bonding",
+      "front": "Define **van der Waals' forces**.\n\nDefine · 3.6",
+      "back": "The **generic term** for **all intermolecular forces** (forces between molecules).\n\nIncludes:\n1. **id–id** (instantaneous dipole–induced dipole, London dispersion) forces: in **all** molecules; stronger with **more electrons**.\n2. **pd–pd** (permanent dipole–permanent dipole) forces: between **polar** molecules.\n(Hydrogen bonding is a special, stronger case of pd–pd.)\n\nTrap: these are **between** molecules, not the covalent bonds **within** them."
+    },
+    {
+      "id": "chd-0026",
+      "topic": "Chemical energetics",
+      "front": "Define **standard conditions**.\n\nDefine · 5.1.3",
+      "back": "1. Temperature **298 K** (25 °C).\n2. Pressure **101 kPa** (1 atm).\n3. Solutions at **1 mol dm⁻³**.\n4. All substances in their **standard states** (normal physical state under these conditions).\n\nShown by the symbol ⦵, e.g. $\\Delta H^\\ominus$."
+    },
+    {
+      "id": "chd-0027",
+      "topic": "Chemical energetics",
+      "front": "Define **exothermic** and **endothermic**.\n\nDefine · 5.1.1",
+      "back": "1. **Exothermic**: **heat energy is released** to the surroundings; $\\Delta H$ is **negative**.\n2. **Endothermic**: **heat energy is absorbed** from the surroundings; $\\Delta H$ is **positive**.\n\n(Enthalpy change, $\\Delta H$ = heat energy change at **constant pressure**.)"
+    },
+    {
+      "id": "chd-0028",
+      "topic": "Chemical energetics",
+      "front": "Define **standard enthalpy change of reaction, $\\Delta H_r$**.\n\nDefine · 5.1.3",
+      "back": "The **enthalpy change** when the **amounts of reactants shown in the equation** react to give products, under **standard conditions**, with all substances in their **standard states**."
+    },
+    {
+      "id": "chd-0029",
+      "topic": "Chemical energetics",
+      "front": "Define **standard enthalpy change of formation, $\\Delta H_f$**.\n\nDefine · 5.1.3",
+      "back": "The **enthalpy change** when **one mole** of a **compound** is **formed from its elements** in their **standard states**, under **standard conditions**.\n$$\\ce{C(s) + 2H2(g) -> CH4(g)}$$\nTrap: $\\Delta H_f$ of an **element** in its standard state is **zero**. Use **½ O₂** etc. so only 1 mol of product forms."
+    },
+    {
+      "id": "chd-0030",
+      "topic": "Chemical energetics",
+      "front": "Define **standard enthalpy change of combustion, $\\Delta H_c$**.\n\nDefine · 5.1.3",
+      "back": "The **enthalpy change** when **one mole** of a substance is **burned completely** in **excess oxygen**, under **standard conditions**.\n$$\\ce{CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)}$$\nTrap: water is **liquid** under standard conditions. Always **exothermic**."
+    },
+    {
+      "id": "chd-0031",
+      "topic": "Chemical energetics",
+      "front": "Define **standard enthalpy change of neutralisation, $\\Delta H_{neut}$**.\n\nDefine · 5.1.3",
+      "back": "The **enthalpy change** when **one mole of water** is **formed** by the reaction of an **acid** with an **alkali** (base), under **standard conditions**.\n$$\\ce{H+(aq) + OH-(aq) -> H2O(l)}$$\nTrap: **per mole of water**, not per mole of acid ($\\ce{H2SO4}$ gives 2 mol water). Weak acids give a **less exothermic** value (energy used to dissociate)."
+    },
+    {
+      "id": "chd-0032",
+      "topic": "Chemical energetics",
+      "front": "State **Hess's law**.\n\nDefine · 5.2",
+      "back": "The **total enthalpy change** for a reaction is **independent of the route** taken, provided the **initial and final conditions are the same**.\n\nUsed to build energy cycles for enthalpy changes that **can't be measured directly**."
+    },
+    {
+      "id": "chd-0033",
+      "topic": "Electrochemistry",
+      "front": "Define **oxidation**, **reduction** and **redox**.\n\nDefine · 6.1",
+      "back": "1. **Oxidation**: **loss of electrons** / **increase in oxidation number**.\n2. **Reduction**: **gain of electrons** / **decrease in oxidation number**.\n3. **Redox**: a reaction in which **oxidation and reduction occur at the same time**.\n\nMemory hook: **OIL RIG** (Oxidation Is Loss, Reduction Is Gain)."
+    },
+    {
+      "id": "chd-0034",
+      "topic": "Electrochemistry",
+      "front": "Define **disproportionation**.\n\nDefine · 6.1",
+      "back": "A redox reaction in which the **same element** is **simultaneously oxidised and reduced**.\n$$\\ce{Cl2 + 2NaOH -> NaCl + NaClO + H2O}$$\nCl: **0 → −1** (reduced) and **0 → +1** (oxidised).\nTrap: always show the **oxidation numbers** to earn the mark."
+    },
+    {
+      "id": "chd-0035",
+      "topic": "Electrochemistry",
+      "front": "Define **oxidising agent** and **reducing agent**.\n\nDefine · 6.1",
+      "back": "1. **Oxidising agent**: a species that **oxidises** another species by **accepting electrons**; it is **itself reduced**.\n2. **Reducing agent**: a species that **reduces** another species by **donating electrons**; it is **itself oxidised**."
+    },
+    {
+      "id": "chd-0036",
+      "topic": "Equilibria",
+      "front": "Define **reversible reaction**.\n\nDefine · 7.1.1",
+      "back": "A reaction in which the **products can react to re-form the reactants**: it can go in **both directions** ($\\rightleftharpoons$)."
+    },
+    {
+      "id": "chd-0037",
+      "topic": "Equilibria",
+      "front": "Define **dynamic equilibrium**.\n\nDefine · 7.1.1",
+      "back": "1. The **rate of the forward reaction** is **equal** to the **rate of the reverse reaction**.\n2. The **concentrations** of reactants and products **remain constant**.\n3. Only in a **closed system**.\n\nTrap: concentrations are **constant**, **not equal**. Both reactions are still **happening** (that's why it's 'dynamic')."
+    },
+    {
+      "id": "chd-0038",
+      "topic": "Equilibria",
+      "front": "State **Le Chatelier's principle**.\n\nDefine · 7.1.2",
+      "back": "If a **change is made** to a system at **dynamic equilibrium**, the **position of equilibrium moves** to **minimise (oppose) this change**.\n\nTrap: only a **temperature** change alters the value of $K_c$ / $K_p$. A **catalyst** does **not** move the position, it only helps equilibrium be reached faster."
+    },
+    {
+      "id": "chd-0039",
+      "topic": "Equilibria",
+      "front": "Define **mole fraction** and **partial pressure**.\n\nDefine · 7.1.5",
+      "back": "1. **Mole fraction** of a gas = $\\dfrac{\\text{moles of that gas}}{\\text{total moles of gas}}$\n2. **Partial pressure** = the pressure a gas in a mixture would exert if it **alone occupied the container**:\n$$p_A = \\text{mole fraction of A} \\times p_{total}$$\nThe partial pressures add up to the total pressure."
+    },
+    {
+      "id": "chd-0040",
+      "topic": "Equilibria",
+      "front": "Define a **Brønsted–Lowry acid** and **base**.\n\nDefine · 7.2.3",
+      "back": "1. **Acid**: a **proton ($\\ce{H+}$) donor**.\n2. **Base**: a **proton ($\\ce{H+}$) acceptor**."
+    },
+    {
+      "id": "chd-0041",
+      "topic": "Equilibria",
+      "front": "Define **strong acid / strong base** and **weak acid / weak base**.\n\nDefine · 7.2.4",
+      "back": "1. **Strong** acid/base: **fully (completely) dissociated** in **aqueous solution**.\n2. **Weak** acid/base: **partially dissociated** in **aqueous solution**.\n$$\\ce{HCl -> H+ + Cl-}\\qquad\\ce{CH3COOH <=> H+ + CH3COO-}$$\nTrap: **strong ≠ concentrated**. Strength is about **degree of dissociation**, concentration is about **amount per dm³**."
+    },
+    {
+      "id": "chd-0042",
+      "topic": "Reaction kinetics",
+      "front": "Define **rate of reaction**.\n\nDefine · 8.1.1",
+      "back": "The **change in concentration** of a **reactant or product** per **unit time**.\n\nUnits: $\\text{mol dm}^{-3}\\ \\text{s}^{-1}$."
+    },
+    {
+      "id": "chd-0043",
+      "topic": "Reaction kinetics",
+      "front": "What is meant by **effective** and **non-effective collisions**?\n\nDefine · 8.1.1",
+      "back": "1. **Effective collision**: a collision between particles with **energy ≥ activation energy** (and the **correct orientation**) that **leads to a reaction**.\n2. **Non-effective collision**: a collision that does **not** lead to a reaction (energy **< $E_A$** or wrong orientation); particles just bounce apart."
+    },
+    {
+      "id": "chd-0044",
+      "topic": "Reaction kinetics",
+      "front": "Define **activation energy, $E_A$**.\n\nDefine · 8.2.1",
+      "back": "The **minimum energy** required for a **collision to be effective** (syllabus wording).\n\ni.e. the minimum energy colliding particles need for a reaction to happen."
+    },
+    {
+      "id": "chd-0045",
+      "topic": "Reaction kinetics",
+      "front": "Define **catalyst** and **catalysis**.\n\nDefine · 8.3",
+      "back": "1. **Catalyst**: a substance that **increases the rate of a reaction** but is **chemically unchanged at the end**.\n2. It provides an **alternative pathway** (**different mechanism**) with a **lower activation energy**.\n3. **Catalysis**: the **increase in rate** of a reaction caused by a catalyst.\n\nExplain with the **Boltzmann distribution**: lower $E_A$ means **more particles** have energy **≥ $E_A$**, so **more effective collisions per unit time**."
+    },
+    {
+      "id": "chd-0046",
+      "topic": "Reaction kinetics",
+      "front": "What does the **Boltzmann distribution** show?\n\nDefine · 8.3",
+      "back": "The **distribution of molecular energies** (number of molecules with each energy) in a sample of **gas** at a **given temperature**.\n\n1. Curve starts at the **origin** (no molecules with zero energy).\n2. **Never touches** the energy axis at high energy.\n3. **Area under curve** = total number of molecules.\n4. Higher T: peak moves **right and lower**, **same area**, more molecules beyond $E_A$."
+    },
+    {
+      "id": "chd-0047",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **hydrocarbon**.\n\nDefine · 13.1.1",
+      "back": "A **compound** made up of **carbon and hydrogen atoms only**.\n\nTrap: 'only' is the mark."
+    },
+    {
+      "id": "chd-0048",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **homologous series**.\n\nDefine · 13.2",
+      "back": "A family of compounds with:\n1. the **same functional group**,\n2. the **same general formula**,\n3. each member differing by **$\\ce{CH2}$**,\n4. **similar chemical properties**,\n5. a **gradual trend** in **physical properties** (e.g. boiling point)."
+    },
+    {
+      "id": "chd-0049",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **functional group**.\n\nDefine · 13.2",
+      "back": "An **atom or group of atoms** in a molecule that is **responsible for the characteristic chemical reactions** of that compound.\n\nExamples: $\\ce{-OH}$, $\\ce{C=C}$, $\\ce{-COOH}$."
+    },
+    {
+      "id": "chd-0050",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **saturated** and **unsaturated**.\n\nDefine · 13.2",
+      "back": "1. **Saturated**: contains **only single C–C bonds** (no multiple bonds).\n2. **Unsaturated**: contains **one or more C=C double (or C≡C triple) bonds**.\n\nTest: unsaturated compounds **decolourise bromine water** (orange → colourless)."
+    },
+    {
+      "id": "chd-0051",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **homolytic fission** and **heterolytic fission**.\n\nDefine · 13.2",
+      "back": "1. **Homolytic fission**: a covalent bond breaks so that **each atom takes one electron** from the bonding pair, forming **two free radicals**.\n2. **Heterolytic fission**: a covalent bond breaks so that **one atom takes both electrons**, forming a **cation and an anion**.\n\nCurly arrows: **half** (fish-hook) arrows for homolytic, **full** arrows for heterolytic."
+    },
+    {
+      "id": "chd-0052",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **free radical**.\n\nDefine · 13.2",
+      "back": "A species with **one or more unpaired electrons**.\n\nShown with a dot, e.g. $\\ce{Cl^.}$, $\\ce{CH3^.}$. Very **reactive**."
+    },
+    {
+      "id": "chd-0053",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **initiation**, **propagation** and **termination** (free-radical substitution).\n\nDefine · 13.2",
+      "back": "1. **Initiation**: **free radicals are formed** by **homolytic fission** (UV light): $\\ce{Cl2 -> 2Cl^.}$\n2. **Propagation**: a **free radical reacts with a molecule** to form a product **and a new free radical**:\n$\\ce{CH4 + Cl^. -> CH3^. + HCl}$\n$\\ce{CH3^. + Cl2 -> CH3Cl + Cl^.}$\n3. **Termination**: **two free radicals combine** to form a **molecule**: $\\ce{CH3^. + Cl^. -> CH3Cl}$"
+    },
+    {
+      "id": "chd-0054",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **nucleophile** and **electrophile**.\n\nDefine · 13.2",
+      "back": "1. **Nucleophile**: a species that **donates a lone pair of electrons** (**electron-pair donor**) to form a new covalent bond; attacks a **δ+ carbon** (e.g. $\\ce{OH-}$, $\\ce{CN-}$, $\\ce{NH3}$).\n2. **Electrophile**: a species that **accepts a pair of electrons** (**electron-pair acceptor**); attracted to an **electron-rich** region such as a C=C (e.g. $\\ce{Br2}$, $\\ce{H+}$, $\\ce{NO2+}$)."
+    },
+    {
+      "id": "chd-0055",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **addition**, **substitution** and **elimination** reactions.\n\nDefine · 13.2",
+      "back": "1. **Addition**: **two molecules join** to form **one product** (e.g. across a C=C).\n2. **Substitution**: **one atom or group** is **replaced** by **another** atom or group.\n3. **Elimination**: a **small molecule** (e.g. $\\ce{H2O}$ or HX) is **removed** from a larger molecule, forming a **C=C** double bond."
+    },
+    {
+      "id": "chd-0056",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **hydrolysis** and **condensation** reactions.\n\nDefine · 13.2",
+      "back": "1. **Hydrolysis**: the **breaking of a bond** by **reaction with water** (often with acid or $\\ce{OH-}$ to speed it up).\n2. **Condensation**: **two molecules join together** with the **loss of a small molecule** such as **water** (or HCl)."
+    },
+    {
+      "id": "chd-0057",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **oxidation** and **reduction** in organic chemistry.\n\nDefine · 13.2",
+      "back": "1. **Oxidation**: **addition of oxygen** or **removal of hydrogen** (shown as [O]).\n2. **Reduction**: **addition of hydrogen** or **removal of oxygen** (shown as [H])."
+    },
+    {
+      "id": "chd-0058",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **structural isomers** and the three types.\n\nDefine · 13.4",
+      "back": "**Structural isomers**: compounds with the **same molecular formula** but **different structural formulae**.\n1. **Chain**: different **carbon skeleton** (straight vs branched).\n2. **Positional**: functional group in a **different position** on the same chain.\n3. **Functional group**: **different functional groups** (e.g. alcohol vs ether, aldehyde vs ketone)."
+    },
+    {
+      "id": "chd-0059",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **stereoisomers**.\n\nDefine · 13.4",
+      "back": "Compounds with the **same molecular formula** and the **same structural formula** but a **different arrangement of atoms in space**.\n\nTwo types: **geometrical (cis/trans)** and **optical**."
+    },
+    {
+      "id": "chd-0060",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "What is meant by **geometrical (cis/trans) isomerism**?\n\nDefine · 13.4",
+      "back": "Stereoisomerism caused by **restricted rotation about a C=C double bond** (the π bond), where **each carbon of the C=C** has **two different atoms or groups** attached.\n\n1. **cis**: same groups on the **same side**.\n2. **trans**: same groups on **opposite sides**.\nTrap: but-1-ene has **no** cis/trans isomers (one C has two H's)."
+    },
+    {
+      "id": "chd-0061",
+      "topic": "An introduction to AS Level organic chemistry",
+      "front": "Define **chiral centre** and **optical isomers**.\n\nDefine · 13.4",
+      "back": "1. **Chiral centre**: a **carbon atom** with **four different atoms or groups** attached.\n2. **Optical isomers** (enantiomers): **non-superimposable mirror images** of each other.\n\nTrap: draw them **3D** (wedge and dash) as **mirror images** to get the mark."
+    },
+    {
+      "id": "chd-0062",
+      "topic": "Hydrocarbons",
+      "front": "State **Markovnikov's rule** (and explain it).\n\nDefine · 14.2.5",
+      "back": "In **electrophilic addition** of HX to an **unsymmetrical alkene**, the **H atom adds to the carbon that already has more H atoms**, so X goes on the more substituted carbon.\n\nWhy: the **major product** comes from the **more stable carbocation**. Stability: **tertiary > secondary > primary**, because **alkyl groups** are **electron-donating** (**positive inductive effect**) and spread out the positive charge.\nExample: propene + HBr → mainly **2-bromopropane**."
+    },
+    {
+      "id": "chd-0063",
+      "topic": "Chemical energetics (A Level)",
+      "front": "Define **standard enthalpy change of atomisation, $\\Delta H_{at}$**.\n\nDefine · A Level 23.1.1",
+      "back": "The **enthalpy change** when **one mole of gaseous atoms** is **formed from the element** in its **standard state**, under **standard conditions**.\n$$\\tfrac{1}{2}\\ce{Cl2(g) -> Cl(g)}$$\nAlways **endothermic**.\nTrap: per mole of **atoms formed**, so for $\\ce{Cl2}$ it is **½ the bond energy**."
+    },
+    {
+      "id": "chd-0064",
+      "topic": "Chemical energetics (A Level)",
+      "front": "Define **lattice energy, $\\Delta H_{latt}$**.\n\nDefine · A Level 23.1.1",
+      "back": "The **enthalpy change** when **one mole** of an **ionic compound** is **formed from its gaseous ions** under **standard conditions**.\n$$\\ce{Na+(g) + Cl-(g) -> NaCl(s)}$$\nAlways **exothermic** (negative).\nMore exothermic with **smaller ions** and **higher charges**.\nTrap: Cambridge defines it as **formation** from gaseous ions, not breaking up the lattice."
+    },
+    {
+      "id": "chd-0065",
+      "topic": "Chemical energetics (A Level)",
+      "front": "Define **first electron affinity**.\n\nDefine · A Level 23.1.2",
+      "back": "The **enthalpy change** when **one electron is added** to **each atom** in **one mole of gaseous atoms** to form **one mole of gaseous 1− ions**.\n$$\\ce{Cl(g) + e- -> Cl-(g)}$$\nUsually **exothermic**."
+    },
+    {
+      "id": "chd-0066",
+      "topic": "Chemical energetics (A Level)",
+      "front": "Define **second electron affinity**.\n\nDefine · A Level 23.1.2",
+      "back": "The **enthalpy change** when **one electron is added** to **each ion** in **one mole of gaseous 1− ions** to form **one mole of gaseous 2− ions**.\n$$\\ce{O-(g) + e- -> O^2-(g)}$$\nAlways **endothermic**: the electron is added to a **negative ion**, so energy is needed to overcome the **repulsion**."
+    },
+    {
+      "id": "chd-0067",
+      "topic": "Chemical energetics (A Level)",
+      "front": "Define **standard enthalpy change of hydration, $\\Delta H_{hyd}$**.\n\nDefine · A Level 23.2.1",
+      "back": "The **enthalpy change** when **one mole** of **gaseous ions** **dissolves in sufficient water** to form an **infinitely dilute solution**, under **standard conditions**.\n$$\\ce{Na+(g) -> Na+(aq)}$$\nAlways **exothermic**. More exothermic for **smaller ions** with **higher charge** (higher charge density)."
+    },
+    {
+      "id": "chd-0068",
+      "topic": "Chemical energetics (A Level)",
+      "front": "Define **standard enthalpy change of solution, $\\Delta H_{sol}$**.\n\nDefine · A Level 23.2.1",
+      "back": "The **enthalpy change** when **one mole** of an **ionic solid** **dissolves in sufficient water** to form an **infinitely dilute solution**, under **standard conditions**.\n$$\\ce{NaCl(s) -> Na+(aq) + Cl-(aq)}$$\nCan be **exothermic or endothermic**.\n$$\\Delta H_{sol} = \\Sigma\\Delta H_{hyd} - \\Delta H_{latt}$$"
+    },
+    {
+      "id": "chd-0069",
+      "topic": "Chemical energetics (A Level)",
+      "front": "Define **entropy, S**.\n\nDefine · A Level 23.3.1",
+      "back": "The **number of possible arrangements** of the **particles and their energy** in a **given system** (syllabus wording).\n\ni.e. a measure of **disorder**. Entropy increases: **solid → liquid → gas**, more **moles of gas**, higher **temperature**, **dissolving**.\nUnits: $\\text{J K}^{-1}\\ \\text{mol}^{-1}$ (note **J**, not kJ)."
+    },
+    {
+      "id": "chd-0070",
+      "topic": "Chemical energetics (A Level)",
+      "front": "State the **Gibbs equation** and when a reaction is **feasible**.\n\nDefine · A Level 23.4.1",
+      "back": "$$\\Delta G^\\ominus = \\Delta H^\\ominus - T\\Delta S^\\ominus$$\n1. A reaction is **feasible** (spontaneous) when $\\Delta G^\\ominus$ is **negative** ($\\le 0$).\n2. $T$ in **kelvin**; convert $\\Delta S$ from J to **kJ** (÷ 1000).\n\nTrap: feasible does **not** mean fast. A high **activation energy** can make a feasible reaction too slow to see (**kinetics**)."
+    },
+    {
+      "id": "chd-0071",
+      "topic": "Electrochemistry (A Level)",
+      "front": "Define the **Faraday constant, F**, and state its link to L.\n\nDefine · A Level 24.1.2",
+      "back": "The **charge carried by one mole of electrons**: $F \\approx 96\\,500\\ \\text{C mol}^{-1}$.\n$$F = L \\times e$$\n$L$ = Avogadro constant, $e$ = charge on one electron ($1.60 \\times 10^{-19}$ C)."
+    },
+    {
+      "id": "chd-0072",
+      "topic": "Electrochemistry (A Level)",
+      "front": "Define **standard electrode (reduction) potential, $E^\\ominus$**.\n\nDefine · A Level 24.2.1",
+      "back": "The **potential difference (EMF)** of a **half-cell** compared with (connected to) a **standard hydrogen electrode**, under **standard conditions**:\n1. **298 K**\n2. **101 kPa** (for gases)\n3. **1.00 mol dm⁻³** solutions of ions.\n\nWritten as a **reduction**, e.g. $\\ce{Cu^2+ + 2e- <=> Cu}$, $E^\\ominus = +0.34$ V."
+    },
+    {
+      "id": "chd-0073",
+      "topic": "Electrochemistry (A Level)",
+      "front": "Define **standard cell potential, $E^\\ominus_{cell}$**.\n\nDefine · A Level 24.2.1",
+      "back": "The **potential difference (EMF)** between **two half-cells** connected together, under **standard conditions** (298 K, 101 kPa, 1.00 mol dm⁻³).\n$$E^\\ominus_{cell} = E^\\ominus_{\\text{positive}} - E^\\ominus_{\\text{negative}}$$\nA reaction is **feasible** if $E^\\ominus_{cell}$ is **positive**."
+    },
+    {
+      "id": "chd-0074",
+      "topic": "Equilibria (A Level)",
+      "front": "Define **conjugate acid** and **conjugate base**.\n\nDefine · A Level 25.1.1",
+      "back": "A **conjugate acid–base pair** is two species that **differ by one proton ($\\ce{H+}$)**.\n1. **Conjugate base**: what is left when an **acid donates a proton**.\n2. **Conjugate acid**: what forms when a **base accepts a proton**.\n$$\\ce{CH3COOH + H2O <=> CH3COO- + H3O+}$$\n$\\ce{CH3COOH}$/$\\ce{CH3COO-}$ and $\\ce{H3O+}$/$\\ce{H2O}$ are the pairs."
+    },
+    {
+      "id": "chd-0075",
+      "topic": "Equilibria (A Level)",
+      "front": "Define **pH**.\n\nDefine · A Level 25.1.3",
+      "back": "$$\\text{pH} = -\\log_{10}[\\ce{H+}]$$\nTrap: $[\\ce{H+}]$ in **mol dm⁻³**. pH has **no units**."
+    },
+    {
+      "id": "chd-0076",
+      "topic": "Equilibria (A Level)",
+      "front": "Define **$K_a$** and **$\\text{p}K_a$**.\n\nDefine · A Level 25.1.3",
+      "back": "For $\\ce{HA <=> H+ + A-}$:\n$$K_a = \\frac{[\\ce{H+}][\\ce{A-}]}{[\\ce{HA}]}$$\n$$\\text{p}K_a = -\\log_{10} K_a$$\nLarger $K_a$ (smaller $\\text{p}K_a$) = **stronger** weak acid.\nUnits of $K_a$: $\\text{mol dm}^{-3}$."
+    },
+    {
+      "id": "chd-0077",
+      "topic": "Equilibria (A Level)",
+      "front": "Define **$K_w$** (ionic product of water).\n\nDefine · A Level 25.1.3",
+      "back": "$$K_w = [\\ce{H+}][\\ce{OH-}]$$\n$= 1.00 \\times 10^{-14}\\ \\text{mol}^2\\ \\text{dm}^{-6}$ at **298 K**.\n\nTrap: the value **changes with temperature**. Pure water is always **neutral** ($[\\ce{H+}] = [\\ce{OH-}]$) even when its pH isn't 7."
+    },
+    {
+      "id": "chd-0078",
+      "topic": "Equilibria (A Level)",
+      "front": "Define a **buffer solution**.\n\nDefine · A Level 25.1.5",
+      "back": "A solution that **resists changes in pH** (pH stays almost constant) when **small amounts of acid or alkali** are added.\n\nMade from a **weak acid and its conjugate base** (e.g. $\\ce{CH3COOH}$ / $\\ce{CH3COONa}$), or a weak base and its conjugate acid.\nTrap: 'resists change', **not** 'pH doesn't change at all'."
+    },
+    {
+      "id": "chd-0079",
+      "topic": "Equilibria (A Level)",
+      "front": "Define **solubility product, $K_{sp}$**.\n\nDefine · A Level 25.1.7",
+      "back": "The **product of the concentrations of the ions** in a **saturated solution** of a **sparingly soluble salt**, each raised to the **power of its coefficient** in the equation, at a given temperature.\n$$\\ce{PbCl2(s) <=> Pb^2+(aq) + 2Cl-(aq)}$$\n$$K_{sp} = [\\ce{Pb^2+}][\\ce{Cl-}]^2$$\nTrap: the **solid is not** in the expression. Work out units each time."
+    },
+    {
+      "id": "chd-0080",
+      "topic": "Equilibria (A Level)",
+      "front": "What is the **common ion effect**?\n\nDefine · A Level 25.1",
+      "back": "The **reduction in the solubility** of a sparingly soluble salt when it is in a solution that **already contains one of its ions**.\n\nWhy: the added ion pushes the equilibrium $\\ce{AgCl(s) <=> Ag+(aq) + Cl-(aq)}$ to the **left**, so **more solid precipitates** ($K_{sp}$ stays the same)."
+    },
+    {
+      "id": "chd-0081",
+      "topic": "Equilibria (A Level)",
+      "front": "State what is meant by **partition coefficient, $K_{pc}$**.\n\nDefine · A Level 25.2.1",
+      "back": "The **ratio of the concentrations** of a **solute** in **two immiscible solvents** when the system is at **equilibrium** (at a given temperature).\n$$K_{pc} = \\frac{[\\text{X}]_{\\text{solvent 1}}}{[\\text{X}]_{\\text{solvent 2}}}$$\nTrap: say which solvent is on **top** of the fraction."
+    },
+    {
+      "id": "chd-0082",
+      "topic": "Reaction kinetics (A Level)",
+      "front": "Define **rate equation**, **rate constant** and **order of reaction**.\n\nDefine · A Level 26.1.1",
+      "back": "1. **Rate equation**: $\\text{rate} = k[\\text{A}]^m[\\text{B}]^n$, found by **experiment** (not from the balanced equation).\n2. **Rate constant, k**: the **proportionality constant** in the rate equation.\n3. **Order with respect to a reactant**: the **power** to which its **concentration** is raised in the rate equation ($m$ or $n$).\n4. **Overall order**: the **sum of the orders** ($m + n$).\n\nTrap: $k$ changes with **temperature** only (and a catalyst), not with concentration."
+    },
+    {
+      "id": "chd-0083",
+      "topic": "Reaction kinetics (A Level)",
+      "front": "Define **half-life**.\n\nDefine · A Level 26.1.1",
+      "back": "The **time taken** for the **concentration of a reactant** to **fall to half** of its **original (initial) value**.\n\nFor a **first-order** reaction, half-life is **constant**:\n$$k = \\frac{0.693}{t_{1/2}}$$"
+    },
+    {
+      "id": "chd-0084",
+      "topic": "Reaction kinetics (A Level)",
+      "front": "Define **rate-determining step** and **intermediate**.\n\nDefine · A Level 26.1.1",
+      "back": "1. **Rate-determining step**: the **slowest step** in a reaction mechanism. Species in the rate equation appear in (or before) this step.\n2. **Intermediate**: a species **formed in one step** of the mechanism and **used up in a later step**, so it does **not** appear in the overall equation.\n\nTrap: an intermediate is **not** the same as a transition state, and not a catalyst (a catalyst is used up first, then **regenerated**)."
+    },
+    {
+      "id": "chd-0085",
+      "topic": "Reaction kinetics (A Level)",
+      "front": "Define **homogeneous** and **heterogeneous catalyst**.\n\nDefine · A Level 26.3",
+      "back": "1. **Homogeneous**: catalyst in the **same phase** as the reactants (e.g. $\\ce{Fe^2+}$/$\\ce{Fe^3+}$ in $\\ce{I-}$ + $\\ce{S2O8^2-}$).\n2. **Heterogeneous**: catalyst in a **different phase** from the reactants (e.g. **Fe** in the Haber process; **Pt/Rh/Pd** in catalytic converters).\n\nHeterogeneous mechanism: **adsorption** → bonds weaken / react → **desorption**."
+    },
+    {
+      "id": "chd-0086",
+      "topic": "Chemistry of transition elements",
+      "front": "Define **transition element**.\n\nDefine · A Level 28.1.1",
+      "back": "A **d-block element** which forms **one or more stable ions** with **incomplete d orbitals** (syllabus wording).\n\nTrap: **Sc** and **Zn** are d-block but **not** transition elements ($\\ce{Sc^3+}$ is $3d^0$, $\\ce{Zn^2+}$ is $3d^{10}$)."
+    },
+    {
+      "id": "chd-0087",
+      "topic": "Chemistry of transition elements",
+      "front": "Define **ligand**.\n\nDefine · A Level 28.2.2",
+      "back": "A **species** that contains a **lone pair of electrons** that forms a **dative covalent bond** to a **central metal atom/ion**.\n\nExamples: $\\ce{H2O}$, $\\ce{NH3}$, $\\ce{Cl-}$, $\\ce{CN-}$."
+    },
+    {
+      "id": "chd-0088",
+      "topic": "Chemistry of transition elements",
+      "front": "Define **complex**.\n\nDefine · A Level 28.2.4",
+      "back": "A **molecule or ion** formed by a **central metal atom/ion** **surrounded by one or more ligands**.\n\nExample: $\\ce{[Cu(H2O)6]^2+}$."
+    },
+    {
+      "id": "chd-0089",
+      "topic": "Chemistry of transition elements",
+      "front": "Define **coordination number**.\n\nDefine · A Level 28.2.6",
+      "back": "The **number of dative (coordinate) bonds** formed between the **ligands** and the **central metal ion**.\n\nExample: $\\ce{[Cu(H2O)6]^2+}$ = 6, $\\ce{[CuCl4]^2-}$ = 4.\nTrap: it is **bonds**, not ligands. 3 bidentate en ligands → coordination number **6**."
+    },
+    {
+      "id": "chd-0090",
+      "topic": "Chemistry of transition elements",
+      "front": "Define **monodentate**, **bidentate** and **polydentate** ligands.\n\nDefine · A Level 28.2.3",
+      "back": "1. **Monodentate**: forms **one** dative bond to the central metal ion (e.g. $\\ce{H2O}$, $\\ce{NH3}$, $\\ce{Cl-}$).\n2. **Bidentate**: forms **two** dative bonds (e.g. **ethane-1,2-diamine** (en), **ethanedioate**).\n3. **Polydentate** (multidentate): forms **more than two** dative bonds (e.g. **EDTA⁴⁻**, 6 bonds)."
+    },
+    {
+      "id": "chd-0091",
+      "topic": "Chemistry of transition elements",
+      "front": "Define **degenerate** and **non-degenerate d orbitals**.\n\nDefine · A Level 28.3.1",
+      "back": "1. **Degenerate**: d orbitals with the **same energy** (all five in an **isolated** metal ion).\n2. **Non-degenerate**: d orbitals at **different energies**; the d orbitals **split** into two sets when **ligands** bond to the ion.\n\nOctahedral: 3 lower, 2 higher. Tetrahedral: 2 lower, 3 higher."
+    },
+    {
+      "id": "chd-0092",
+      "topic": "Chemistry of transition elements",
+      "front": "Define **stability constant, $K_{stab}$**.\n\nDefine · A Level 28.5.1",
+      "back": "The **equilibrium constant** for the **formation of the complex ion** in a **solvent** from its **constituent ions or molecules** (syllabus wording).\n$$\\ce{Cu^2+ + 4Cl- <=> [CuCl4]^2-}$$\n$$K_{stab} = \\frac{[\\ce{[CuCl4]^2-}]}{[\\ce{Cu^2+}][\\ce{Cl-}]^4}$$\nTrap: **water is left out** of the expression. Larger $K_{stab}$ = **more stable** complex."
+    },
+    {
+      "id": "chd-0093",
+      "topic": "An introduction to A Level organic chemistry",
+      "front": "Define **optically active** and **racemic mixture**.\n\nDefine · A Level 29.4.2",
+      "back": "1. **Optically active**: a substance that **rotates the plane of plane-polarised light**.\n2. **Racemic mixture**: an **equimolar (50:50) mixture** of the **two optical isomers** (enantiomers); it is **optically inactive** because the rotations **cancel out**."
+    },
+    {
+      "id": "chd-0094",
+      "topic": "Analytical techniques (A Level)",
+      "front": "Define **$R_f$ value** (thin-layer chromatography).\n\nDefine · A Level 37.1.1",
+      "back": "$$R_f = \\frac{\\text{distance moved by the spot}}{\\text{distance moved by the solvent front}}$$\nBoth measured from the **baseline**. Value is always **less than 1**, no units."
+    },
+    {
+      "id": "chd-0095",
+      "topic": "Analytical techniques (A Level)",
+      "front": "Define **retention time** (gas chromatography).\n\nDefine · A Level 37.2.1",
+      "back": "The **time taken** for a component to travel from **injection** of the sample to **detection** (the **peak**)."
+    }
+  ]
+}
